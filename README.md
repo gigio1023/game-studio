@@ -1,63 +1,66 @@
 # Game Studio
 
-A director-first operating system for AI-assisted game development.
+A director-first operating framework for AI-assisted game development.
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Agent Skills](https://img.shields.io/badge/agent%20skills-Codex%20%7C%20Claude%20Code-111827)](skills/)
+[![Review Model](https://img.shields.io/badge/review-role--led-7C3AED)](docs/substantive-review.md)
+[![Docs](https://img.shields.io/badge/docs-public--ready-059669)](docs/community/publication-readiness-review.md)
 
 Game Studio helps Codex, Claude Code, and similar agents work like a small game
 team: direction first, milestones second, implementation last.
 
-It is not a game generator. It is a project-local framework for roles, gates,
-milestones, evidence, and agent skills.
+It is not a game generator. It gives a target game repository project-local
+roles, gates, evidence contracts, review prompts, and agent skills.
 
 ![Game Studio maps a reusable framework into a target game repository and a production loop.](docs/assets/game-studio-system-map.drawio.png)
 
-## What You Get
+## Why It Exists
 
-- A stage model from direction lock to release candidate.
-- Gates for creative, technical, production, QA, and release review.
-- Role profiles that scale from solo indie to studio work.
-- Evidence contracts for playable proof.
-- Project-local skills for Codex and Claude Code.
-- Templates for direction, milestones, handoffs, reviews, and evidence.
-- Source-backed role playbooks for game design, production, narrative, QA, accessibility, and craft review.
+AI agents can draft, inspect, implement, and review fast. Games still need taste,
+constraints, player evidence, production judgment, and clear authority.
 
-## What This Is Not
-
-- Not an autonomous game creator.
-- Not a separate CLI product.
-- Not a replacement for a game director, producer, designer, engineer, artist, or QA lead.
-- Not a dumping ground for huge design documents that no one can execute.
-
-The framework keeps four questions visible:
+Game Studio keeps four questions visible:
 
 1. What game are we making?
-2. What milestone are we trying to prove?
-3. What evidence proves that the milestone is real?
-4. Which role is allowed to approve the next step?
+2. What proof is the current milestone pursuing?
+3. What evidence shows the player experience is real?
+4. Which role can approve, block, cut, or defer?
 
-## Install With Codex
+## What You Get
+
+- Stage model from direction lock to release candidate.
+- Gates for creative, technical, production, QA, accessibility, narrative, and release review.
+- Role playbooks for director, producer, QA, systems, narrative, UX, art, and audio judgment.
+- Evidence contracts for playable proof, playtests, bug triage, and public promises.
+- Project-local skills for Codex and Claude Code.
+- Templates for direction, milestones, handoffs, reviews, and release decisions.
+- Source-backed research reports for game design, production, narrative, QA, accessibility, and craft.
+
+## Quick Start With Codex
 
 From the target game repository, ask Codex:
 
 ```text
 Read /path/to/game-studio/adapters/codex/bootstrap.md and install
-this framework for my game project. Select the appropriate engine, scope, and
-genre profiles. Do not create a separate CLI.
+Game Studio for this game project. Select engine, scope, and genre profiles.
+Keep it project-local.
 ```
 
 Codex copies or adapts:
 
-- `core/` into your project's `.game-studio/core/`.
+- `core/` into `.game-studio/core/`.
+- `skills/` into `.codex/skills/`.
 - `core/templates/` into project-facing docs when useful.
-- `skills/` into project-local `.codex/skills/`.
-- `adapters/codex/AGENTS.md.snippet` into the project `AGENTS.md`.
+- `adapters/codex/AGENTS.md.snippet` into `AGENTS.md`.
 
-## Install With Claude Code
+## Quick Start With Claude Code
 
 From the target game repository, ask Claude Code:
 
 ```text
 Read /path/to/game-studio/adapters/claude/bootstrap.md and install
-this framework for my game project. Use the appropriate engine, scope, and genre
+Game Studio for this game project. Use the selected engine, scope, and genre
 profiles. Keep the framework project-local.
 ```
 
@@ -65,41 +68,49 @@ Claude Code copies or adapts:
 
 - `core/` into `.game-studio/core/`.
 - `skills/` into `.claude/skills/`.
+- `core/templates/` into project-facing docs when useful.
 - `adapters/claude/CLAUDE.md.snippet` into `CLAUDE.md`.
-- The selected stage, role, gate, and template files into the game repository.
-
-## Repository Map
-
-- `docs/`: operating model and documentation style.
-- `research/`: source-backed research reports that inform the framework.
-- `research/continuity/`: handoffs for continuing framework work across devices.
-- `core/references/`: compact craft and review references for agents.
-- `core/gates/`: gate prompts and verdict rules.
-- `core/roles/`: role packs and coordination rules.
-- `core/workflows/`: stage model and workflow catalog.
-- `core/templates/`: copyable project artifacts.
-- `profiles/`: engine, scope, and genre profiles.
-- `skills/`: project-local agent skills.
-- `examples/`: fictional sample artifacts.
 
 ## Milestone Order
 
 Do not start with "vertical slice" unless the core game is already proven.
 
-Use this order for most new projects:
-
 1. Direction Lock
 2. Protocol Proof
 3. Core Loop Prototype
 4. Pre-production Exit
-5. 3D or Presentation Value Gate
+5. Presentation Value Gate
 6. Vertical Slice
 7. Public Demo Candidate
 8. Small Release Candidate
 
+## Repository Map
+
+- `docs/`: operating model, review philosophy, and documentation style.
+- `core/references/`: compact craft and review references for agents.
+- `core/gates/`: gate prompts and verdict rules.
+- `core/roles/`: role packs, playbooks, and coordination rules.
+- `core/rubrics/`: review criteria for direction, production, QA, accessibility, and craft.
+- `core/templates/`: copyable project artifacts.
+- `profiles/`: engine, scope, and genre profiles.
+- `skills/`: project-local agent skills.
+- `research/`: source-backed research and continuity handoffs.
+- `examples/`: fictional sample artifacts.
+
 ## Start Here
 
 - Read `docs/operating-model.md` for the production model.
-- Read `docs/substantive-review.md` before asking Codex to judge quality.
-- Read `docs/documentation-style.md` before editing docs.
-- Use `core/references/codex-review-practice.md` for role-led review.
+- Read `docs/substantive-review.md` before asking an agent to judge quality.
+- Read `core/references/codex-review-practice.md` for role-led review.
+- Read `research/continuity/2026-05-04-substantive-review-handoff.md` to continue the current research thread.
+
+## Community
+
+- Use `CONTRIBUTING.md` before proposing changes.
+- Use `.github/ISSUE_TEMPLATE/` to report focused problems.
+- Use `SECURITY.md` for security reporting.
+- Follow `CODE_OF_CONDUCT.md` in all project spaces.
+
+## License
+
+Game Studio is released under the MIT License. See `LICENSE` and `NOTICE.md`.

@@ -1,86 +1,89 @@
 <mxfile host="app.diagrams.net" modified="2026-05-04T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
   <diagram id="game-studio-system-map" name="Game Studio system map">
-    <mxGraphModel dx="1180" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1180" pageHeight="680" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="1240" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="720" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" value="Game Studio maps reusable production rules into a target game project" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#172033;" vertex="1" parent="1">
-          <mxGeometry x="110" y="28" width="960" height="36" as="geometry" />
+        <mxCell id="title" value="Game Studio turns agent work into role-reviewed game evidence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="120" y="28" width="1000" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" value="Agents keep direction, milestones, evidence, and review gates visible while they work." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#4B5563;" vertex="1" parent="1">
-          <mxGeometry x="250" y="66" width="680" height="24" as="geometry" />
+        <mxCell id="subtitle" value="Install reusable guidance into a game repo, then keep direction, milestones, playable evidence, and role verdicts visible." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#475569;" vertex="1" parent="1">
+          <mxGeometry x="220" y="68" width="800" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="zone-source" value="Game Studio repo" style="swimlane;html=1;rounded=1;startSize=38;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#F8FAFC;strokeColor=#94A3B8;fontStyle=1;fontSize=15;fontColor=#172033;" vertex="1" parent="1">
-          <mxGeometry x="70" y="135" width="295" height="315" as="geometry" />
+        <mxCell id="source-zone" value="Game Studio package" style="swimlane;html=1;rounded=1;startSize=40;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontStyle=1;fontSize=15;fontColor=#0F172A;" vertex="1" parent="1">
+          <mxGeometry x="70" y="135" width="300" height="322" as="geometry" />
         </mxCell>
-        <mxCell id="source-core" value="Core rules&#xa;gates, roles, workflows" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontColor=#0C4A6E;fontSize=13;" vertex="1" parent="zone-source">
-          <mxGeometry x="34" y="62" width="225" height="52" as="geometry" />
+        <mxCell id="source-skills" value="Agent skills&#xa;Codex and Claude Code entry points" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=13;" vertex="1" parent="source-zone">
+          <mxGeometry x="34" y="62" width="232" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="source-skills" value="Agent skills&#xa;director, studio, execution, review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#059669;fontColor=#064E3B;fontSize=13;" vertex="1" parent="zone-source">
-          <mxGeometry x="34" y="128" width="225" height="52" as="geometry" />
+        <mxCell id="source-roles" value="Roles and gates&#xa;authority, review, verdicts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#7C3AED;fontColor=#4C1D95;fontSize=13;" vertex="1" parent="source-zone">
+          <mxGeometry x="34" y="130" width="232" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="source-adapters" value="Adapters&#xa;Codex and Claude Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#78350F;fontSize=13;" vertex="1" parent="zone-source">
-          <mxGeometry x="34" y="194" width="225" height="52" as="geometry" />
+        <mxCell id="source-templates" value="Templates and rubrics&#xa;direction, evidence, QA, release" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#059669;fontColor=#064E3B;fontSize=13;" vertex="1" parent="source-zone">
+          <mxGeometry x="34" y="198" width="232" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="source-tools" value="Checks&#xa;repository and project validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#7C3AED;fontColor=#4C1D95;fontSize=13;" vertex="1" parent="zone-source">
-          <mxGeometry x="34" y="260" width="225" height="38" as="geometry" />
+        <mxCell id="source-research" value="Research references&#xa;source-backed craft guidance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#D97706;fontColor=#78350F;fontSize=13;" vertex="1" parent="source-zone">
+          <mxGeometry x="34" y="266" width="232" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zone-project" value="Target game repo" style="swimlane;html=1;rounded=1;startSize=38;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#FFFFFF;strokeColor=#94A3B8;fontStyle=1;fontSize=15;fontColor=#172033;" vertex="1" parent="1">
-          <mxGeometry x="445" y="135" width="295" height="315" as="geometry" />
+        <mxCell id="project-zone" value="Target game repo" style="swimlane;html=1;rounded=1;startSize=40;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontStyle=1;fontSize=15;fontColor=#0F172A;" vertex="1" parent="1">
+          <mxGeometry x="470" y="135" width="300" height="322" as="geometry" />
         </mxCell>
-        <mxCell id="project-state" value=".game-studio/core&#xa;project-local source of truth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontColor=#0C4A6E;fontSize=13;" vertex="1" parent="zone-project">
-          <mxGeometry x="34" y="62" width="225" height="52" as="geometry" />
+        <mxCell id="project-state" value=".game-studio/core&#xa;project-local source of truth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=13;" vertex="1" parent="project-zone">
+          <mxGeometry x="34" y="62" width="232" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="project-docs" value="docs/direction&#xa;thesis, pillars, release shape" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#059669;fontColor=#064E3B;fontSize=13;" vertex="1" parent="zone-project">
-          <mxGeometry x="34" y="128" width="225" height="52" as="geometry" />
+        <mxCell id="project-direction" value="docs/direction&#xa;thesis, pillars, release shape" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#059669;fontColor=#064E3B;fontSize=13;" vertex="1" parent="project-zone">
+          <mxGeometry x="34" y="130" width="232" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="project-agent" value="project-local skills&#xa;.codex or .claude" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#78350F;fontSize=13;" vertex="1" parent="zone-project">
-          <mxGeometry x="34" y="194" width="225" height="52" as="geometry" />
+        <mxCell id="project-skills" value=".codex or .claude skills&#xa;project-local agent behavior" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#7C3AED;fontColor=#4C1D95;fontSize=13;" vertex="1" parent="project-zone">
+          <mxGeometry x="34" y="198" width="232" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="project-policy" value="AGENTS.md or CLAUDE.md&#xa;agent operating rules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#7C3AED;fontColor=#4C1D95;fontSize=13;" vertex="1" parent="zone-project">
-          <mxGeometry x="34" y="260" width="225" height="38" as="geometry" />
+        <mxCell id="project-policy" value="AGENTS.md or CLAUDE.md&#xa;operating rules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#D97706;fontColor=#78350F;fontSize=13;" vertex="1" parent="project-zone">
+          <mxGeometry x="34" y="266" width="232" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zone-loop" value="Production loop" style="swimlane;html=1;rounded=1;startSize=38;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#F8FAFC;strokeColor=#94A3B8;fontStyle=1;fontSize=15;fontColor=#172033;" vertex="1" parent="1">
-          <mxGeometry x="815" y="135" width="295" height="315" as="geometry" />
+        <mxCell id="loop-zone" value="Production loop" style="swimlane;html=1;rounded=1;startSize=40;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontStyle=1;fontSize=15;fontColor=#0F172A;" vertex="1" parent="1">
+          <mxGeometry x="870" y="135" width="300" height="322" as="geometry" />
         </mxCell>
-        <mxCell id="loop-direction" value="Direction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontColor=#0C4A6E;fontSize=13;fontStyle=1;" vertex="1" parent="zone-loop">
-          <mxGeometry x="88" y="58" width="118" height="40" as="geometry" />
+        <mxCell id="loop-direction" value="Direction&#xa;what game" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=13;fontStyle=1;" vertex="1" parent="loop-zone">
+          <mxGeometry x="92" y="58" width="116" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="loop-milestone" value="Milestone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#059669;fontColor=#064E3B;fontSize=13;fontStyle=1;" vertex="1" parent="zone-loop">
-          <mxGeometry x="160" y="124" width="105" height="40" as="geometry" />
+        <mxCell id="loop-milestone" value="Milestone&#xa;what proof" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#059669;fontColor=#064E3B;fontSize=13;fontStyle=1;" vertex="1" parent="loop-zone">
+          <mxGeometry x="176" y="125" width="104" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="loop-execution" value="Execution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#78350F;fontSize=13;fontStyle=1;" vertex="1" parent="zone-loop">
-          <mxGeometry x="145" y="211" width="115" height="40" as="geometry" />
+        <mxCell id="loop-work" value="Work&#xa;bounded changes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#D97706;fontColor=#78350F;fontSize=13;fontStyle=1;" vertex="1" parent="loop-zone">
+          <mxGeometry x="166" y="224" width="112" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="loop-evidence" value="Evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#7C3AED;fontColor=#4C1D95;fontSize=13;fontStyle=1;" vertex="1" parent="zone-loop">
-          <mxGeometry x="35" y="211" width="105" height="40" as="geometry" />
+        <mxCell id="loop-evidence" value="Evidence&#xa;playable proof" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#7C3AED;fontColor=#4C1D95;fontSize=13;fontStyle=1;" vertex="1" parent="loop-zone">
+          <mxGeometry x="34" y="224" width="114" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="loop-review" value="Review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;fontColor=#7F1D1D;fontSize=13;fontStyle=1;" vertex="1" parent="zone-loop">
-          <mxGeometry x="30" y="124" width="105" height="40" as="geometry" />
+        <mxCell id="loop-review" value="Role review&#xa;approve, block, cut" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1F2;strokeColor=#E11D48;fontColor=#881337;fontSize=13;fontStyle=1;" vertex="1" parent="loop-zone">
+          <mxGeometry x="22" y="125" width="124" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="install-arrow" value="install" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;" edge="1" parent="1" source="zone-source" target="zone-project">
+        <mxCell id="install-arrow" value="install" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;" edge="1" parent="1" source="source-zone" target="project-zone">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="operate-arrow" value="operate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;" edge="1" parent="1" source="zone-project" target="zone-loop">
+        <mxCell id="operate-arrow" value="operate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;" edge="1" parent="1" source="project-zone" target="loop-zone">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-direction-milestone" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="zone-loop" source="loop-direction" target="loop-milestone">
+        <mxCell id="edge-direction-milestone" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="loop-zone" source="loop-direction" target="loop-milestone">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-milestone-execution" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="zone-loop" source="loop-milestone" target="loop-execution">
+        <mxCell id="edge-milestone-work" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="loop-zone" source="loop-milestone" target="loop-work">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-execution-evidence" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="zone-loop" source="loop-execution" target="loop-evidence">
+        <mxCell id="edge-work-evidence" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="loop-zone" source="loop-work" target="loop-evidence">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-evidence-review" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="zone-loop" source="loop-evidence" target="loop-review">
+        <mxCell id="edge-evidence-review" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="loop-zone" source="loop-evidence" target="loop-review">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-review-direction" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="zone-loop" source="loop-review" target="loop-direction">
+        <mxCell id="edge-review-direction" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="loop-zone" source="loop-review" target="loop-direction">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bottom-strip" value="Not a game generator. A project-local operating model for AI-assisted game development." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#111827;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="210" y="505" width="760" height="54" as="geometry" />
+        <mxCell id="bottom-strip" value="Scripts check repository health. Roles judge game quality." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#111827;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="512" width="720" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="Readable in README, editable in draw.io, and intentionally sparse: one install path, one operating loop, one quality rule." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#64748B;" vertex="1" parent="1">
+          <mxGeometry x="255" y="582" width="730" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
