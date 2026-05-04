@@ -1,0 +1,11 @@
+genre: puzzle-adventure
+required_questions:
+  - "What rule does the player learn first?"
+  - "How does the environment communicate cause and effect?"
+  - "What makes failure informative instead of opaque?"
+  - "What is the smallest complete puzzle arc?"
+recommended_roles:
+  - systems-designer
+  - level-designer
+  - ux-designer
+  - qa-lead

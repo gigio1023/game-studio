@@ -1,0 +1,7 @@
+engine: generic
+default_roles:
+  - gameplay-programmer
+  - qa-lead
+notes:
+  - "Use this profile when the engine is undecided."
+  - "Run a presentation value gate before committing to engine-specific production."

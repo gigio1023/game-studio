@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Milestone Contract",
+  "type": "object",
+  "required": ["id", "name", "stage", "goal", "requiredEvidence", "gates"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "stage": { "type": "string", "minLength": 1 },
+    "goal": { "type": "string", "minLength": 1 },
+    "nonGoals": { "type": "array", "items": { "type": "string" } },
+    "requiredEvidence": { "type": "array", "items": { "type": "string" } },
+    "gates": { "type": "array", "items": { "type": "string" } },
+    "risks": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

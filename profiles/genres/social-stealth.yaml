@@ -1,0 +1,11 @@
+genre: social-stealth
+required_questions:
+  - "Who is watching the player?"
+  - "What action or speech creates exposure?"
+  - "What surfaces make suspicion visible?"
+  - "Who owns verdicts and end states?"
+recommended_roles:
+  - narrative-director
+  - systems-designer
+  - ux-designer
+  - qa-lead

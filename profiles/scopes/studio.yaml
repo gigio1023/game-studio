@@ -1,0 +1,13 @@
+scope: studio
+default_review_mode: full
+decision_mode: consultative
+active_roles:
+  - game-director
+  - creative-director
+  - technical-director
+  - producer
+  - qa-lead
+  - release-manager
+guidance:
+  - "Use full gates for phase transitions."
+  - "Keep department-level approvals explicit."

@@ -1,0 +1,53 @@
+version: 1
+name: game-studio-workflow
+default_review_mode: lean
+stages:
+  - id: direction-lock
+    name: Direction Lock
+    purpose: Define the game worth building.
+    required_artifacts:
+      - docs/direction/game-thesis.md
+      - docs/direction/creative-pillars.md
+      - docs/direction/player-experience-targets.md
+      - docs/direction/release-strategy.md
+    gates:
+      - GPH-THESIS
+      - GPH-PILLARS
+      - GPH-PLAYER-EXPERIENCE
+  - id: protocol-proof
+    name: Protocol Proof
+    purpose: Prove the central rule loop before broad production.
+    required_artifacts:
+      - .game-studio/milestones/current.md
+      - .game-studio/evidence-contract.md
+      - .game-studio/verification-ledger.md
+    gates:
+      - GPH-PROTOCOL-PROOF
+      - GPH-AI-AUTHORITY
+  - id: core-loop-prototype
+    name: Core Loop Prototype
+    purpose: Make the player repeat the core loop with readable feedback.
+    gates:
+      - GPH-PILLARS
+      - GPH-PLAYER-EXPERIENCE
+  - id: presentation-value-gate
+    name: Presentation Value Gate
+    purpose: Prove that the chosen presentation format is worth its cost.
+    gates:
+      - GPH-PRESENTATION-VALUE
+  - id: vertical-slice
+    name: Vertical Slice
+    purpose: Deliver a short, production-representative play session.
+    gates:
+      - GPH-VERTICAL-SLICE
+  - id: demo-candidate
+    name: Public Demo Candidate
+    purpose: Prepare an externally playable build with honest limitations.
+    gates:
+      - GPH-RELEASE-PROMISE
+      - GPH-VERTICAL-SLICE
+  - id: release-candidate
+    name: Small Release Candidate
+    purpose: Ship a small but coherent game.
+    gates:
+      - GPH-RELEASE-PROMISE

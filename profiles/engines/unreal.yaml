@@ -1,0 +1,8 @@
+engine: unreal
+default_roles:
+  - unreal-specialist
+  - gameplay-programmer
+  - technical-artist
+notes:
+  - "Separate Blueprint, C++, asset, and build pipeline ownership."
+  - "Require packaged-build evidence before public promises."

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gate Verdict",
+  "type": "object",
+  "required": ["gate", "verdict", "reviewer", "findings"],
+  "properties": {
+    "gate": { "type": "string" },
+    "verdict": { "enum": ["READY", "CONCERNS", "NOT_READY"] },
+    "reviewer": { "type": "string" },
+    "findings": { "type": "array", "items": { "type": "string" } },
+    "evidence": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

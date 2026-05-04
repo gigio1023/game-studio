@@ -1,0 +1,124 @@
+version: 1
+roles:
+  game-director:
+    tier: director
+    always_on: true
+    authority:
+      - thesis
+      - creative pillars
+      - player experience
+      - identity changes
+  creative-director:
+    tier: director
+    always_on: true
+    authority:
+      - tone
+      - fantasy
+      - creative coherence
+  technical-director:
+    tier: director
+    always_on: true
+    authority:
+      - architecture
+      - engine constraints
+      - technical risk
+  producer:
+    tier: director
+    always_on: true
+    authority:
+      - scope
+      - milestones
+      - dependencies
+      - release readiness
+  qa-lead:
+    tier: lead
+    always_on: true
+    authority:
+      - validation plan
+      - evidence quality
+      - bug triage
+  narrative-director:
+    tier: lead
+    activate_when:
+      - narrative
+      - dialogue
+      - worldbuilding
+      - authored content
+  systems-designer:
+    tier: lead
+    activate_when:
+      - rules
+      - economy
+      - combat
+      - progression
+      - AI authority
+  level-designer:
+    tier: lead
+    activate_when:
+      - spatial gameplay
+      - mission flow
+      - traversal
+  ux-designer:
+    tier: lead
+    activate_when:
+      - onboarding
+      - UI
+      - input
+      - accessibility
+  art-director:
+    tier: lead
+    activate_when:
+      - visual target
+      - asset pipeline
+      - style guide
+  audio-director:
+    tier: lead
+    activate_when:
+      - music
+      - sound effects
+      - ambience
+      - mix
+  localization-lead:
+    tier: lead
+    activate_when:
+      - multi-language
+      - font
+      - text layout
+  release-manager:
+    tier: lead
+    activate_when:
+      - demo
+      - store page
+      - build pipeline
+      - public promise
+  godot-specialist:
+    tier: specialist
+    profile: godot
+  unity-specialist:
+    tier: specialist
+    profile: unity
+  unreal-specialist:
+    tier: specialist
+    profile: unreal
+  gameplay-programmer:
+    tier: specialist
+    activate_when:
+      - gameplay code
+  tools-programmer:
+    tier: specialist
+    activate_when:
+      - editor tools
+      - validation tooling
+  backend-runtime-engineer:
+    tier: specialist
+    activate_when:
+      - server authority
+      - deterministic rules
+      - generated content boundaries
+  ai-integration-specialist:
+    tier: specialist
+    activate_when:
+      - LLM
+      - local AI
+      - agent bridge
+      - prompt/runtime boundary

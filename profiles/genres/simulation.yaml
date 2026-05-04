@@ -1,0 +1,11 @@
+genre: simulation
+required_questions:
+  - "What system is being simulated?"
+  - "Which variables are visible to the player?"
+  - "Which outcomes are deterministic, stochastic, or authored?"
+  - "How does the player form and test hypotheses?"
+recommended_roles:
+  - systems-designer
+  - technical-director
+  - gameplay-programmer
+  - qa-lead

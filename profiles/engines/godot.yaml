@@ -1,0 +1,13 @@
+engine: godot
+default_roles:
+  - godot-specialist
+  - gameplay-programmer
+  - tools-programmer
+required_checks:
+  - "Run the project import check."
+  - "Run scene smoke checks."
+  - "Capture at least one playable visual artifact before claiming game feel."
+notes:
+  - "Use scenes and resources as authoring units."
+  - "Do not claim deterministic physics outcomes; bound and observe them."
+  - "Keep gameplay authority separate from presentation when the design requires it."

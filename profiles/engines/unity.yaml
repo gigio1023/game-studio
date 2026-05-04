@@ -1,0 +1,8 @@
+engine: unity
+default_roles:
+  - unity-specialist
+  - gameplay-programmer
+  - tools-programmer
+notes:
+  - "Use prefabs, scenes, ScriptableObjects, and tests deliberately."
+  - "Define what can be controlled by agents and what requires editor validation."

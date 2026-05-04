@@ -1,0 +1,11 @@
+genre: action-adventure
+required_questions:
+  - "What is the primary verb?"
+  - "What is the moment-to-moment risk?"
+  - "How do traversal, combat, and reward reinforce each other?"
+  - "What must feel responsive in the first minute?"
+recommended_roles:
+  - systems-designer
+  - level-designer
+  - gameplay-programmer
+  - qa-lead

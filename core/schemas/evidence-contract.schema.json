@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence Contract",
+  "type": "object",
+  "required": ["milestone", "evidence"],
+  "properties": {
+    "milestone": { "type": "string", "minLength": 1 },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "owner", "path", "passCriteria"],
+        "properties": {
+          "name": { "type": "string" },
+          "owner": { "type": "string" },
+          "path": { "type": "string" },
+          "passCriteria": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
