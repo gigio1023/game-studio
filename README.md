@@ -18,6 +18,7 @@ milestones, evidence, and agent skills.
 - Evidence contracts for playable proof.
 - Project-local skills for Codex and Claude Code.
 - Templates for direction, milestones, handoffs, reviews, and evidence.
+- Source-backed role playbooks for game design, production, narrative, QA, accessibility, and craft review.
 
 ## What This Is Not
 
@@ -70,6 +71,9 @@ Claude Code copies or adapts:
 ## Repository Map
 
 - `docs/`: operating model and documentation style.
+- `research/`: source-backed research reports that inform the framework.
+- `research/continuity/`: handoffs for continuing framework work across devices.
+- `core/references/`: compact craft and review references for agents.
 - `core/gates/`: gate prompts and verdict rules.
 - `core/roles/`: role packs and coordination rules.
 - `core/workflows/`: stage model and workflow catalog.
@@ -87,14 +91,15 @@ Use this order for most new projects:
 1. Direction Lock
 2. Protocol Proof
 3. Core Loop Prototype
-4. 3D or Presentation Value Gate
-5. Vertical Slice
-6. Public Demo Candidate
-7. Small Release Candidate
+4. Pre-production Exit
+5. 3D or Presentation Value Gate
+6. Vertical Slice
+7. Public Demo Candidate
+8. Small Release Candidate
 
 ## Start Here
 
 - Read `docs/operating-model.md` for the production model.
+- Read `docs/substantive-review.md` before asking Codex to judge quality.
 - Read `docs/documentation-style.md` before editing docs.
-- Use `tools/check-project.mjs` to inspect an adopted game project.
-- Use `tools/check-repository.mjs` before publishing this repository.
+- Use `core/references/codex-review-practice.md` for role-led review.

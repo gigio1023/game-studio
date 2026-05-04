@@ -1,0 +1,24 @@
+# Release Promise Audit
+
+Use this before public demo, store page, trailer, press kit, or release copy changes.
+
+| Public claim | Surface | Build evidence | Limitation | Decision |
+| --- | --- | --- | --- | --- |
+| | README | | | |
+| | Store page | | | |
+| | Trailer | | | |
+| | Demo page | | | |
+| | Accessibility claim | | | |
+| | Localization claim | | | |
+
+## Claims To Remove
+
+-
+
+## Claims To Reword
+
+-
+
+## Claims Ready To Publish
+
+-

@@ -79,3 +79,9 @@ Primary roles:
 - `full`: Run all relevant directors and leads.
 - `lean`: Run the strictest required roles.
 - `solo`: Run a lightweight self-check for low-risk internal work.
+
+## Script Boundary
+
+Use scripts for cheap invariants and repository health. Use Codex role reviews
+for direction, design, production judgment, game feel, QA severity, accessibility
+barriers, and release promise decisions.

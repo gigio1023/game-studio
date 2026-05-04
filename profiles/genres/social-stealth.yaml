@@ -4,6 +4,7 @@ required_questions:
   - "What action or speech creates exposure?"
   - "What surfaces make suspicion visible?"
   - "Who owns verdicts and end states?"
+  - "What evidence proves players understand suspicion before punishment?"
 recommended_roles:
   - narrative-director
   - systems-designer

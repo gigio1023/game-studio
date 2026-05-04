@@ -73,7 +73,7 @@ Follow the local `skill-builder` pattern:
 - `SKILL.md` stays under 500 lines.
 - `SKILL.md` explains when to trigger and what to do first.
 - `references/` holds detailed playbooks.
-- Scripts handle deterministic checks.
+- Scripts handle cheap invariants only.
 - Gotchas stay close to the entry point.
 
 ## Review Checklist

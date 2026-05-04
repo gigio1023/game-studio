@@ -16,10 +16,11 @@ tags:
 ## Quick Start
 
 1. Read `references/milestone-planning.md`.
-2. Read `.game-studio/core/workflows/workflow-catalog.yaml`.
-3. Identify the current stage.
-4. Check whether the milestone has a contract.
-5. Require evidence before stage advancement.
+2. Read `references/production-judgment.md`.
+3. Read `.game-studio/core/workflows/workflow-catalog.yaml`.
+4. Identify the current stage.
+5. Check whether the milestone has a contract.
+6. Require evidence before stage advancement.
 
 ## Gotchas
 
@@ -32,6 +33,7 @@ tags:
 | File | When to read | Content |
 | --- | --- | --- |
 | `references/milestone-planning.md` | Every milestone or roadmap task | Stage and milestone flow |
+| `references/production-judgment.md` | Milestone approval | Producer-level proof and cut review |
 | `.game-studio/core/workflows/stage-model.md` | Stage classification | Stage definitions |
 | `.game-studio/core/templates/production/milestone-contract.md` | Creating a milestone | Contract template |
 | `.game-studio/core/rubrics/milestone-readiness-rubric.md` | Reviewing a milestone | Readiness rubric |

@@ -20,6 +20,18 @@
 
 -
 
+## Experience Hypothesis
+
+-
+
+## Research Questions
+
+-
+
+## Timebox Or Capacity Assumption
+
+-
+
 ## Non-goals
 
 -
@@ -31,6 +43,26 @@ In:
 Out:
 
 ## Required Evidence
+
+-
+
+## Playtest Or Review Scenario
+
+-
+
+## Accessibility Scope
+
+-
+
+## Must Keep
+
+-
+
+## Cut Candidates
+
+-
+
+## Fallback Proof
 
 -
 
@@ -47,6 +79,14 @@ Out:
 -
 
 ## Risks
+
+-
+
+## Dependency Risk
+
+-
+
+## Public Promise Impact
 
 -
 

@@ -17,10 +17,12 @@ tags:
 ## Quick Start
 
 1. Read `references/council-review.md`.
-2. Determine review mode: `full`, `lean`, or `solo`.
-3. Activate roles from profile, files, and gates.
-4. Review evidence before opinions.
-5. Apply the strictest verdict.
+2. Read `references/qualitative-review.md` when reviewing playtests, feel, narrative, or release readiness.
+3. Determine review mode: `full`, `lean`, or `solo`.
+4. Activate roles from profile, files, and gates.
+5. Load relevant role playbooks from `.game-studio/core/roles/playbooks/`.
+6. Review evidence before opinions.
+7. Apply the strictest verdict.
 
 ## Gotchas
 
@@ -33,6 +35,7 @@ tags:
 | File | When to read | Content |
 | --- | --- | --- |
 | `references/council-review.md` | Every role review | Role activation and output |
+| `references/qualitative-review.md` | Qualitative findings | Observation, severity, priority, confidence |
 | `.game-studio/core/roles/README.md` | Role selection | Role file index |
 | `.game-studio/core/roles/coordination-rules.md` | Multi-role work | Review and conflict rules |
 | `.game-studio/core/templates/review/council-review.md` | Writing a review artifact | Review template |

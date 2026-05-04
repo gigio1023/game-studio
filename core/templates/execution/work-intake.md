@@ -8,6 +8,21 @@
 
 -
 
+## Experience Intent
+
+- Player action:
+- Expected feedback:
+- Target feeling:
+- Required evidence:
+
+## Proposed Approach
+
+-
+
+## Alternatives Rejected
+
+-
+
 ## Files In Scope
 
 -
@@ -21,6 +36,14 @@
 -
 
 ## Verification
+
+-
+
+## Manual Review
+
+-
+
+## Player-facing Risk
 
 -
 

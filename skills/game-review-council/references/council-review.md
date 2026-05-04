@@ -21,7 +21,9 @@ Use the council when one role cannot safely decide readiness.
 Review mode:
 Roles activated:
 Evidence checked:
+Playbooks used:
 Role verdicts:
+Dissent:
 Final verdict:
 Required fixes:
 ```

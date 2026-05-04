@@ -7,6 +7,9 @@ roles:
       - dialogue
       - worldbuilding
       - authored content
+      - quests
+      - scenario flow
+      - narrative AI
   systems-designer:
     tier: lead
     activate_when:
@@ -15,6 +18,8 @@ roles:
       - combat
       - progression
       - AI authority
+      - feedback loops
+      - tuning
   level-designer:
     tier: lead
     activate_when:
@@ -28,6 +33,8 @@ roles:
       - UI
       - input
       - accessibility
+      - player comprehension
+      - camera comfort
   art-director:
     tier: lead
     activate_when:
@@ -54,3 +61,23 @@ roles:
       - store page
       - build pipeline
       - public promise
+      - credits
+      - support plan
+  accessibility-lead:
+    tier: lead
+    activate_when:
+      - remapping
+      - subtitles
+      - captions
+      - readable text
+      - motion comfort
+      - color alternatives
+      - difficulty assists
+  community-marketing-lead:
+    tier: lead
+    activate_when:
+      - press kit
+      - trailer
+      - public demo feedback
+      - audience messaging
+      - launch communication

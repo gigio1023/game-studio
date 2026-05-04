@@ -9,7 +9,27 @@ under pressure from `[core force]`, must `[primary action]` before `[consequence
 
 -
 
+## Target Player
+
+-
+
+## Core Decision
+
+-
+
+## Core Feedback
+
+-
+
 ## Core Pressure
+
+-
+
+## Intended Experience
+
+-
+
+## First Thing The Player Learns
 
 -
 
@@ -25,10 +45,14 @@ under pressure from `[core force]`, must `[primary action]` before `[consequence
 
 -
 
+## AI Authority Boundary
+
+-
+
 ## What This Game Must Not Become
 
 -
 
 ## Gate
 
-Required gate: `GPH-THESIS`
+Required gate: `GS-THESIS`

@@ -22,3 +22,18 @@ roles:
       - local AI
       - agent bridge
       - prompt/runtime boundary
+  technical-artist:
+    tier: specialist
+    activate_when:
+      - shaders
+      - materials
+      - animation pipeline
+      - VFX
+      - asset optimization
+  qa-engineer:
+    tier: specialist
+    activate_when:
+      - bug reproduction
+      - regression testing
+      - compatibility testing
+      - test plans

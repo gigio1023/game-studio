@@ -8,6 +8,7 @@ Each package needs:
 
 - Goal
 - Owner role
+- Experience intent
 - Files in scope
 - Files out of scope
 - Required evidence
@@ -24,7 +25,9 @@ editing cannot.
 ```text
 Work packages:
 File ownership:
+Experience intent:
 Verification:
+Manual review:
 Evidence:
 Drift risks:
 Handoff path:

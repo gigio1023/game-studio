@@ -8,6 +8,16 @@ The player feels:
 
 The player does:
 
+Mechanics:
+
+Dynamics:
+
+Experience:
+
+Learning:
+
+Failure:
+
 Evidence:
 
 ## First 10 Minutes
@@ -17,6 +27,16 @@ The player understands:
 The player feels:
 
 The player does:
+
+Mechanics:
+
+Dynamics:
+
+Experience:
+
+Learning:
+
+Failure:
 
 Evidence:
 
@@ -28,6 +48,16 @@ The player feels:
 
 The player does:
 
+Mechanics:
+
+Dynamics:
+
+Experience:
+
+Learning:
+
+Failure:
+
 Evidence:
 
 ## Confusion Boundaries
@@ -38,4 +68,4 @@ Unacceptable confusion:
 
 ## Gate
 
-Required gate: `GPH-PLAYER-EXPERIENCE`
+Required gate: `GS-PLAYER-EXPERIENCE`

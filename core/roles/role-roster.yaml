@@ -4,6 +4,7 @@ files:
   - leads.yaml
   - specialists.yaml
   - engine-specialists.yaml
+  - playbooks/
 default_lean_council:
   - game-director
   - producer

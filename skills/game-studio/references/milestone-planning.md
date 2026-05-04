@@ -7,9 +7,11 @@ Milestones prove product hypotheses.
 1. Name the current stage.
 2. State the product hypothesis.
 3. Define non-goals.
-4. List required evidence.
-5. Assign gate reviewers.
-6. Define the exit decision.
+4. State the smallest useful proof.
+5. List required evidence.
+6. Name cut candidates and fallback proof.
+7. Assign gate reviewers.
+8. Define the exit decision.
 
 ## Output
 
@@ -17,8 +19,11 @@ Milestones prove product hypotheses.
 Current stage:
 Recommended milestone:
 Product hypothesis:
+Smallest useful proof:
 Required artifacts:
 Required evidence:
+Cut candidates:
+Fallback proof:
 Gate reviewers:
 Risks:
 ```

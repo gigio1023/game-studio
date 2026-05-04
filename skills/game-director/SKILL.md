@@ -18,9 +18,10 @@ tags:
 
 1. Read the target project's direction docs.
 2. Read `references/director-review.md`.
-3. Select the relevant gate from `core/gates/`.
-4. Return `READY`, `CONCERNS`, or `NOT_READY`.
-5. Record assumptions and required evidence.
+3. Read `references/design-foundations.md` when player experience, pillars, or presentation are in scope.
+4. Select the relevant gate from `core/gates/`.
+5. Return `READY`, `CONCERNS`, or `NOT_READY`.
+6. Record assumptions and required evidence.
 
 ## Gotchas
 
@@ -33,6 +34,7 @@ tags:
 | File | When to read | Content |
 | --- | --- | --- |
 | `references/director-review.md` | Every director review | Review flow and output shape |
+| `references/design-foundations.md` | Direction or player-experience review | Source-backed design questions |
 | `.game-studio/core/gates/direction.md` | Thesis, pillars, player experience, AI authority | Direction gates |
 | `.game-studio/core/gates/production.md` | Protocol proof, presentation value, vertical slice | Production gates |
 | `.game-studio/core/gates/release.md` | Public promise checks | Release gates |

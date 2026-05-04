@@ -23,11 +23,18 @@ Recommended order:
 1. Direction Lock
 2. Protocol Proof
 3. Core Loop Prototype
-4. Presentation Value Gate
-5. Vertical Slice
-6. Demo Candidate
-7. Release Candidate
-8. Post-release Learning
+4. Pre-production Exit
+5. Presentation Value Gate
+6. Vertical Slice
+7. Demo Candidate
+8. Release Candidate
+9. Post-release Learning
+
+## Pre-production Exit Rule
+
+Do not enter production while the project still depends on open-ended discovery.
+The project needs playable evidence, cut candidates, role ownership, content
+scope, QA strategy, accessibility scope, and release-risk notes.
 
 ## Vertical Slice Rule
 

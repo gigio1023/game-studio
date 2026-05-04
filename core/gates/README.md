@@ -13,5 +13,6 @@ Use the strictest verdict when multiple reviewers participate.
 ## Gate Files
 
 - `direction.md`: game identity, pillars, player experience, and AI authority.
-- `production.md`: protocol proof, presentation value, and vertical slice.
+- `production.md`: protocol proof, pre-production exit, presentation value, and vertical slice.
+- `narrative.md`: story, scenario, dialogue, lore, and narrative AI boundaries.
 - `release.md`: public promise and release readiness.

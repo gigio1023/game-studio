@@ -12,6 +12,18 @@
 
 -
 
+## Design Intent Preserved
+
+-
+
+## Behavior Changed
+
+-
+
+## Tradeoffs Made
+
+-
+
 ## Evidence
 
 -
@@ -21,6 +33,14 @@
 -
 
 ## Risks
+
+-
+
+## Follow-up Cuts
+
+-
+
+## Role Review Notes
 
 -
 

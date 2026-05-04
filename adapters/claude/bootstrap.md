@@ -14,8 +14,9 @@ command-line product.
 3. Copy `skills/` into `.claude/skills/`.
 4. Merge `adapters/claude/CLAUDE.md.snippet` into the target `CLAUDE.md`.
 5. Copy `docs/evidence-gates.md` into `docs/framework/evidence-gates.md`.
-6. Copy or adapt `core/templates/` into project-facing docs.
-7. Keep source methodology in this framework repository; copy only project-local
+6. Copy `docs/substantive-review.md` into `docs/framework/substantive-review.md`.
+7. Copy or adapt `core/templates/` into project-facing docs.
+8. Keep source methodology in this framework repository; copy only project-local
    state and reusable skills into the target project.
 
 ## Review Modes

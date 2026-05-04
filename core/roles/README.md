@@ -9,6 +9,7 @@ stage, files, and risk.
 - `leads.yaml`: discipline leads activated by content or risk.
 - `specialists.yaml`: implementation specialists.
 - `engine-specialists.yaml`: engine-specific specialists.
+- `playbooks/`: role behavior and review prompts.
 
 ## Default Lean Council
 
@@ -16,3 +17,8 @@ stage, files, and risk.
 - `producer`
 - `technical-director`
 - `qa-lead`
+
+## Playbook Rule
+
+Selecting a role is not enough. A review must use the relevant playbook and
+produce role-specific findings, evidence, and verdicts.

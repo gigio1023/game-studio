@@ -22,4 +22,4 @@
 
 ## Gate
 
-Required gate: `GPH-RELEASE-PROMISE`
+Required gate: `GS-RELEASE-PROMISE`

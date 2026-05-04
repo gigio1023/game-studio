@@ -11,9 +11,9 @@ stages:
       - docs/direction/player-experience-targets.md
       - docs/direction/release-strategy.md
     gates:
-      - GPH-THESIS
-      - GPH-PILLARS
-      - GPH-PLAYER-EXPERIENCE
+      - GS-THESIS
+      - GS-PILLARS
+      - GS-PLAYER-EXPERIENCE
   - id: protocol-proof
     name: Protocol Proof
     purpose: Prove the central rule loop before broad production.
@@ -22,32 +22,38 @@ stages:
       - .game-studio/evidence-contract.md
       - .game-studio/verification-ledger.md
     gates:
-      - GPH-PROTOCOL-PROOF
-      - GPH-AI-AUTHORITY
+      - GS-PROTOCOL-PROOF
+      - GS-AI-AUTHORITY
   - id: core-loop-prototype
     name: Core Loop Prototype
     purpose: Make the player repeat the core loop with readable feedback.
     gates:
-      - GPH-PILLARS
-      - GPH-PLAYER-EXPERIENCE
+      - GS-PILLARS
+      - GS-PLAYER-EXPERIENCE
+  - id: pre-production-exit
+    name: Pre-production Exit
+    purpose: Bound production scope after core risks have playable evidence.
+    gates:
+      - GS-PREPRODUCTION-EXIT
+      - GS-PLAYER-EXPERIENCE
   - id: presentation-value-gate
     name: Presentation Value Gate
     purpose: Prove that the chosen presentation format is worth its cost.
     gates:
-      - GPH-PRESENTATION-VALUE
+      - GS-PRESENTATION-VALUE
   - id: vertical-slice
     name: Vertical Slice
     purpose: Deliver a short, production-representative play session.
     gates:
-      - GPH-VERTICAL-SLICE
+      - GS-VERTICAL-SLICE
   - id: demo-candidate
     name: Public Demo Candidate
     purpose: Prepare an externally playable build with honest limitations.
     gates:
-      - GPH-RELEASE-PROMISE
-      - GPH-VERTICAL-SLICE
+      - GS-RELEASE-PROMISE
+      - GS-VERTICAL-SLICE
   - id: release-candidate
     name: Small Release Candidate
     purpose: Ship a small but coherent game.
     gates:
-      - GPH-RELEASE-PROMISE
+      - GS-RELEASE-PROMISE

@@ -18,6 +18,12 @@ game direction.
 Progress is not a claim. Progress is a playable build, a captured artifact, a
 passing validation gate, a playtest note, or a signed decision record.
 
+### Play is the final evidence
+
+Repository health, schemas, and commands can prove that artifacts are present.
+They cannot prove that the game is readable, tense, expressive, accessible, or
+worth continuing. Role reviews must judge playable evidence.
+
 ### Milestones are proofs
 
 A milestone is not a folder of tasks. It is a product hypothesis with acceptance

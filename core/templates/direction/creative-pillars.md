@@ -4,31 +4,43 @@
 
 Statement:
 
+Design lens question:
+
 What it approves:
 
 What it rejects:
 
 Evidence in play:
+
+Mechanic proof:
 
 ## Pillar 2
 
 Statement:
 
+Design lens question:
+
 What it approves:
 
 What it rejects:
 
 Evidence in play:
+
+Mechanic proof:
 
 ## Pillar 3
 
 Statement:
 
+Design lens question:
+
 What it approves:
 
 What it rejects:
 
 Evidence in play:
+
+Mechanic proof:
 
 ## Anti-pillars
 
@@ -36,4 +48,4 @@ Evidence in play:
 
 ## Gate
 
-Required gate: `GPH-PILLARS`
+Required gate: `GS-PILLARS`

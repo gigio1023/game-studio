@@ -39,3 +39,14 @@ The smallest public promise the project can keep.
 
 When a proposal changes identity, fantasy, camera, genre, audience, platform,
 AI usage, monetization, or release promise, run a director gate before execution.
+
+## Design Foundations
+
+Director review should use source-backed craft questions:
+
+- What mechanic creates the target dynamic?
+- What player experience should that dynamic produce?
+- What meaningful choice does the player make?
+- What does the player learn in the first session?
+- What evidence shows the target experience happened?
+- What wrong direction does this decision reject?

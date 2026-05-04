@@ -7,9 +7,21 @@ presentation, or release promise.
 
 1. State the current thesis in one sentence.
 2. Name the gate IDs under review.
-3. Check the available evidence.
-4. Separate missing evidence from failed evidence.
-5. Return a verdict.
+3. Run the design foundation pass.
+4. Check the available evidence.
+5. Separate missing evidence from failed evidence.
+6. Make the director call.
+7. Return a verdict.
+
+## Judgment Pass
+
+- Player promise:
+- Core action:
+- Meaningful choice:
+- Mechanic-dynamic-experience chain:
+- First-session learning:
+- Wrong direction rejected:
+- Evidence that proves play:
 
 ## Output
 
@@ -18,6 +30,7 @@ Verdict: READY | CONCERNS | NOT_READY
 Gate IDs:
 Evidence checked:
 Findings:
+Tradeoff accepted:
 Required next actions:
 Assumptions:
 ```

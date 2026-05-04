@@ -7,12 +7,18 @@ This rubric checks whether a design document can guide production.
 - Player role
 - Core fantasy
 - Core loop
+- Target player
+- Core decision
+- Mechanic-dynamic-experience chain
 - Success and failure states
 - Inputs and outputs
 - Progression or session structure
 - Feedback surfaces
+- First-session learning
 - Edge cases
 - Tuning knobs
+- Playtest question
+- Rejected alternatives
 - Acceptance criteria
 
 ## Must avoid
@@ -21,7 +27,9 @@ This rubric checks whether a design document can guide production.
 - Lore that does not affect play.
 - Systems with no owner.
 - AI behavior with no deterministic boundary.
-- "Polish later" as a substitute for an experience target.
+- Aesthetic goals with no evidence plan.
+- "Fun" as a verdict without observed player behavior.
+- "Polish later" as a substitute for readability, feel, or access.
 
 ## Verdicts
 

@@ -4,9 +4,11 @@ required_questions:
   - "What information does the player lack?"
   - "How does audio or spatial design create pressure?"
   - "Where is fear supported by mechanics instead of only atmosphere?"
+  - "What capture proves the player can read danger and recover from failure?"
 recommended_roles:
   - creative-director
   - narrative-director
   - audio-director
   - level-designer
+  - ux-designer
   - qa-lead

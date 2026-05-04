@@ -27,6 +27,11 @@ to continue.
 
 The project proves that its chosen presentation format is justified.
 
+## Pre-production Exit
+
+The project has retired enough design, technical, content, QA, accessibility,
+and release risk to enter production with a bounded scope.
+
 ## Vertical Slice
 
 A short section reaches the intended shipped quality bar.

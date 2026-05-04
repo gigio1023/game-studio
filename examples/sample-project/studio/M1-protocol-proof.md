@@ -17,5 +17,5 @@ Player action -> rule response -> visible consequence -> next choice
 
 ## Gates
 
-- `GPH-PROTOCOL-PROOF`
-- `GPH-PLAYER-EXPERIENCE`
+- `GS-PROTOCOL-PROOF`
+- `GS-PLAYER-EXPERIENCE`
