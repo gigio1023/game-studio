@@ -4,7 +4,7 @@ Write docs as small surfaces with one job.
 
 ## Structure
 
-Use [Diátaxis](https://diataxis.fr/) as the information architecture:
+Use [Diataxis](https://diataxis.fr/) as the information architecture:
 
 - Tutorials teach a path.
 - How-to guides solve a task.
@@ -28,6 +28,20 @@ This repository maps those forms to project files:
 - Use tables only when rows share the same shape.
 - Prefer active voice.
 - Use U.S. English.
+- Keep public-facing product copy ASCII-only.
+
+## Public Product Language
+
+- Use `proof`, `playable proof`, `proof target`, `proof budget`,
+  `proof-gated`, `validation`, and `claim-to-proof` for public positioning.
+- Use `evidence` only when naming internal ledgers, contracts, schemas,
+  captures, QA results, playtest notes, or release claim checks.
+- Make both entry paths visible: existing direction and taste-to-game
+  discovery.
+- Do not imply a one-prompt finished game or that scripts can judge game
+  quality.
+- Keep contributor checks in contributor docs, not the README or primary
+  product narrative.
 
 ## Procedure Rules
 

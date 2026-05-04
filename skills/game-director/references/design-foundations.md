@@ -11,7 +11,7 @@ Use this before a director verdict when the work affects game identity or player
 - **Learning**: What pattern does the player learn first?
 - **MDA chain**: Which mechanic creates which dynamic and intended experience?
 - **Anti-pillar**: Which tempting feature or tone should be rejected?
-- **Evidence**: What playable proof shows this is happening?
+- **Proof**: What playable proof shows this is happening?
 
 ## Reject When
 
@@ -19,3 +19,4 @@ Use this before a director verdict when the work affects game identity or player
 - The answer is only a feature list.
 - The answer uses "fun" without naming observed player behavior.
 - The answer cannot identify the first proof.
+- The answer treats AI preference as the creator's taste or Direction Lock.

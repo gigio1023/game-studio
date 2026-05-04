@@ -35,5 +35,6 @@ roles:
     always_on: true
     authority:
       - validation plan
-      - evidence quality
+      - proof quality
+      - internal evidence quality
       - bug triage

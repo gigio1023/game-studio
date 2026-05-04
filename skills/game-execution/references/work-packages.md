@@ -11,7 +11,8 @@ Each package needs:
 - Experience intent
 - Files in scope
 - Files out of scope
-- Required evidence
+- Required proof
+- Internal evidence records
 - Verification command or manual check
 - Handoff path
 
@@ -28,7 +29,8 @@ File ownership:
 Experience intent:
 Verification:
 Manual review:
-Evidence:
+Required proof:
+Internal evidence records:
 Drift risks:
 Handoff path:
 ```

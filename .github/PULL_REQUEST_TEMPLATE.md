@@ -10,7 +10,7 @@ Explain the problem or gap this pull request addresses.
 
 List the main files or surfaces changed.
 
-## Evidence
+## Proof And Checks
 
 Name the checks, review methods, examples, or source material used.
 

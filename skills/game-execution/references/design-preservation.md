@@ -10,7 +10,8 @@ Use this before claiming implementation work is complete.
 - Which direction pillar did the implementation preserve?
 - Which alternative was rejected?
 - Which manual review is still needed?
-- Which evidence proves the intended behavior?
+- Which playable proof shows the intended behavior?
+- Which internal evidence records preserve that proof?
 
 ## Handoff Rule
 

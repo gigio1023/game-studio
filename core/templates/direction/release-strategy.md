@@ -20,6 +20,9 @@
 
 -
 
-## Gate
+## Direction Gate
 
-Required gate: `GS-RELEASE-PROMISE`
+Required for Direction Lock: `GS-PLAYER-EXPERIENCE`
+
+Run `GS-RELEASE-PROMISE` only before changing public release surfaces such as
+store copy, trailers, screenshots, demo pages, or support promises.

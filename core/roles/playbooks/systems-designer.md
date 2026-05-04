@@ -21,7 +21,7 @@ simulation, AI authority, balancing, or systemic consequence.
 - Tuning knobs are hidden in implementation details.
 - Failure does not teach or change future play.
 - AI or procedural output changes consequences without validation.
-- Balance is described as "fun" without player behavior evidence.
+- Balance is described as "fun" without player behavior proof.
 
 ## Output
 

@@ -13,7 +13,8 @@
 - Player action:
 - Expected feedback:
 - Target feeling:
-- Required evidence:
+- Required proof:
+- Required internal evidence:
 
 ## Proposed Approach
 

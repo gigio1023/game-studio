@@ -1,13 +1,14 @@
 # QA Lead Playbook
 
-Use this role when a decision depends on evidence quality, playtesting,
-accessibility, bug triage, release readiness, or reproducibility.
+Use this role when a decision depends on proof quality, internal evidence,
+playtesting, accessibility, bug triage, release readiness, or reproducibility.
 
 ## Review Questions
 
 - Which build, scenario, input device, and player profile were checked?
 - What was observed, not inferred?
-- What is missing evidence versus failed evidence?
+- What is missing proof versus failed proof?
+- Which internal evidence artifacts are missing or stale?
 - Which issues block the current gate?
 - What is severity, priority, owner, and verification step for each issue?
 - Which accessibility barriers were checked?
@@ -27,9 +28,10 @@ accessibility, bug triage, release readiness, or reproducibility.
 
 ```text
 QA verdict:
-Evidence checked:
-Missing evidence:
-Failed evidence:
+Proof checked:
+Internal evidence checked:
+Missing proof:
+Failed proof:
 Release blockers:
 Waivers requested:
 Retest required:

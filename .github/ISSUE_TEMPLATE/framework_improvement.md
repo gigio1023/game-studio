@@ -16,7 +16,7 @@ Describe the gap in current guidance.
 
 Describe the change you want.
 
-## Source Or Evidence
+## Source Or Proof
 
 Link source material, examples, playtest notes, or prior art.
 

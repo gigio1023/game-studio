@@ -2,8 +2,10 @@
 name: game-studio
 description: >
   Use when planning game milestones, production stages, release scope, demo
-  readiness, vertical slice gates, or operating cadence. Trigger on "milestone",
-  "production plan", "roadmap", "demo candidate", and "release candidate".
+  readiness, vertical slice gates, proof-gated production, or operating cadence.
+  Trigger on "milestone", "production plan", "roadmap", "demo candidate", and
+  "release candidate". If direction is missing or ambiguous, use
+  game-onboarding first.
 version: 0.1.0
 tags:
   - game-development
@@ -15,18 +17,23 @@ tags:
 
 ## Quick Start
 
-1. Read `references/milestone-planning.md`.
-2. Read `references/production-judgment.md`.
-3. Read `.game-studio/core/workflows/workflow-catalog.yaml`.
-4. Identify the current stage.
-5. Check whether the milestone has a contract.
-6. Require evidence before stage advancement.
+1. If direction is missing or ambiguous, route through `game-onboarding` before
+   milestone planning.
+2. Read `references/milestone-planning.md`.
+3. Read `references/production-judgment.md`.
+4. Read `.game-studio/core/workflows/workflow-catalog.yaml`.
+5. Identify the current stage.
+6. Check whether the milestone has a contract.
+7. Require playable proof before stage advancement and record internal evidence
+   artifacts for that proof.
 
 ## Gotchas
 
 - A milestone is a proof, not a task list.
 - Public promises must match the current build.
 - Do not call a prototype a vertical slice.
+- AI can recommend the next proof, but the human owns Direction Lock, stage
+  movement, and public promises.
 
 ## Reference Files
 
@@ -34,6 +41,7 @@ tags:
 | --- | --- | --- |
 | `references/milestone-planning.md` | Every milestone or roadmap task | Stage and milestone flow |
 | `references/production-judgment.md` | Milestone approval | Producer-level proof and cut review |
+| `skills/game-onboarding/SKILL.md` | Missing or ambiguous direction | Entry routing before Direction Lock |
 | `.game-studio/core/workflows/stage-model.md` | Stage classification | Stage definitions |
 | `.game-studio/core/templates/production/milestone-contract.md` | Creating a milestone | Contract template |
 | `.game-studio/core/rubrics/milestone-readiness-rubric.md` | Reviewing a milestone | Readiness rubric |

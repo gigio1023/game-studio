@@ -7,8 +7,16 @@
     "gate": { "type": "string" },
     "verdict": { "enum": ["READY", "CONCERNS", "NOT_READY"] },
     "reviewer": { "type": "string" },
+    "confidence": { "type": ["number", "string"] },
     "findings": { "type": "array", "items": { "type": "string" } },
-    "evidence": { "type": "array", "items": { "type": "string" } }
+    "proofChecked": { "type": "array", "items": { "type": "string" } },
+    "missingEvidence": { "type": "array", "items": { "type": "string" } },
+    "requiredDecision": { "type": ["string", "null"] },
+    "nextProof": { "type": ["string", "null"] },
+    "nextSkillOrGate": { "type": ["string", "null"] },
+    "stageStateChanged": { "type": "boolean" },
+    "evidence": { "type": "array", "items": { "type": "string" } },
+    "internalEvidence": { "type": "array", "items": { "type": "string" } }
   },
   "additionalProperties": false
 }

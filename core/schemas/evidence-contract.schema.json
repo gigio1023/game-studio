@@ -5,6 +5,8 @@
   "required": ["milestone", "evidence"],
   "properties": {
     "milestone": { "type": "string", "minLength": 1 },
+    "proofTarget": { "type": "string" },
+    "claim": { "type": "string" },
     "evidence": {
       "type": "array",
       "items": {
@@ -12,10 +14,20 @@
         "required": ["name", "owner", "path", "passCriteria"],
         "properties": {
           "name": { "type": "string" },
+          "artifactType": { "type": "string" },
           "owner": { "type": "string" },
           "path": { "type": "string" },
-          "passCriteria": { "type": "string" }
+          "passCriteria": { "type": "string" },
+          "proofRole": { "type": "string" },
+          "staleAfter": { "type": "string" }
         },
+        "additionalProperties": true
+      }
+    },
+    "internalEvidence": {
+      "type": "array",
+      "items": {
+        "type": ["object", "string"],
         "additionalProperties": true
       }
     }

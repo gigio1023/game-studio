@@ -1,16 +1,25 @@
 # Evidence Contract
 
+This is an internal artifact ledger. Use it to connect proof claims to concrete
+captures, builds, QA results, playtest notes, telemetry samples, decision
+records, and release checks. Do not use evidence terminology as public product
+copy.
+
 ## Milestone
+
+-
+
+## Proof Target
 
 -
 
 ## Evidence Required
 
-| Evidence | Owner | Path or URL | Pass Criteria |
-| --- | --- | --- | --- |
-| | | | |
+| Evidence Artifact | Owner | Path or URL | Artifact Type | Pass Criteria |
+| --- | --- | --- | --- | --- |
+| | | | build or capture or note or check | |
 
-## Evidence Categories
+## Evidence Classes
 
 - Implementation evidence:
 - Design evidence:
@@ -30,6 +39,12 @@
 
 -
 
+## Capture Requirements
+
+| Capture | Required Format | Path or URL | What it must show |
+| --- | --- | --- | --- |
+| | | | |
+
 ## Retest Status
 
 -
@@ -45,5 +60,13 @@
 -
 
 ## Rejection Criteria
+
+-
+
+## Review Gate
+
+-
+
+## Next Proof
 
 -

@@ -10,7 +10,7 @@ dependencies, release work, public promise, or team coordination.
 - What is in scope, out of scope, and explicitly cut?
 - What is the timebox or capacity assumption?
 - Which dependencies can block the milestone?
-- What evidence is required before the next stage?
+- What playable proof and internal evidence are required before the next stage?
 - What fallback proof is acceptable if scope slips?
 - What public promise changes if this fails?
 

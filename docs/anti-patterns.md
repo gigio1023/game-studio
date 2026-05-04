@@ -10,7 +10,35 @@ Symptoms:
 
 Correction:
 
-- Return to thesis, pillars, and player experience targets.
+- Return to the entry route, game thesis, pillars, and player experience
+  targets.
+
+## Taste interview as thesis exam
+
+Symptoms:
+
+- A novice creator is asked for genre, core loop, monetization, or engine before
+  taste has been translated.
+- The agent turns references into a single genre label.
+- Contradictory likes and dislikes are smoothed away too early.
+
+Correction:
+
+- Elicit remembered moments, desired emotions, disliked friction, session shape,
+  and hard noes before asking production questions.
+
+## One-prompt finished game promise
+
+Symptoms:
+
+- The plan implies the agent can generate a complete game from one request.
+- Scope expands before the first playable proof exists.
+- Public copy promises outcomes that no build has shown.
+
+Correction:
+
+- Reframe the work as a bounded proof loop: concept, playable proof, role review,
+  gate verdict, and next proof.
 
 ## Premature vertical slice
 
@@ -30,11 +58,12 @@ Symptoms:
 
 - Agents add systems that were not requested.
 - Documents become larger but less executable.
-- Reviews discuss style instead of evidence.
+- Reviews discuss style instead of playable proof.
 
 Correction:
 
-- Require a milestone contract and evidence contract before implementation.
+- Require a milestone contract and claim-to-proof contract before
+  implementation.
 
 ## Role theater
 
@@ -55,7 +84,7 @@ Symptoms:
 
 Correction:
 
-- Run release-promise gates against the actual build and evidence ledger.
+- Run release-promise gates against the actual build and proof ledger.
 
 ## Mechanic without dynamic
 
@@ -85,9 +114,9 @@ Correction:
 Symptoms:
 
 - A review lists many roles.
-- No role cites evidence or a discipline-specific concern.
+- No role cites playable proof or a discipline-specific concern.
 
 Correction:
 
-- Load the relevant role playbook and write a verdict with evidence checked,
+- Load the relevant role playbook and write a verdict with proof checked,
   player impact, production impact, and required change.

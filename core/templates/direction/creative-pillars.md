@@ -10,7 +10,7 @@ What it approves:
 
 What it rejects:
 
-Evidence in play:
+Proof in play:
 
 Mechanic proof:
 
@@ -24,7 +24,7 @@ What it approves:
 
 What it rejects:
 
-Evidence in play:
+Proof in play:
 
 Mechanic proof:
 
@@ -38,7 +38,7 @@ What it approves:
 
 What it rejects:
 
-Evidence in play:
+Proof in play:
 
 Mechanic proof:
 

@@ -17,7 +17,7 @@ Use this rubric when adding or changing framework skills.
 
 - The skill maps to a specific framework layer.
 - It can be tested with realistic prompts.
-- It produces file-backed state or evidence.
+- It produces file-backed state, proof, or internal evidence.
 - It composes with other skills without circular instructions.
 - It has 2-3 realistic trigger prompts for manual testing.
 

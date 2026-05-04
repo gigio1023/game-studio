@@ -18,6 +18,8 @@ This rubric checks whether a design document can guide production.
 - Edge cases
 - Tuning knobs
 - Playtest question
+- First playable proof
+- Proof budget
 - Rejected alternatives
 - Acceptance criteria
 
@@ -27,9 +29,10 @@ This rubric checks whether a design document can guide production.
 - Lore that does not affect play.
 - Systems with no owner.
 - AI behavior with no deterministic boundary.
-- Aesthetic goals with no evidence plan.
+- Aesthetic goals with no proof plan.
 - "Fun" as a verdict without observed player behavior.
 - "Polish later" as a substitute for readability, feel, or access.
+- A confident concept claim with no first playable proof.
 
 ## Verdicts
 

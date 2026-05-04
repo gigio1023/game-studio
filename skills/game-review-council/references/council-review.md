@@ -20,7 +20,8 @@ Use the council when one role cannot safely decide readiness.
 ```text
 Review mode:
 Roles activated:
-Evidence checked:
+Proof checked:
+Internal evidence checked:
 Playbooks used:
 Role verdicts:
 Dissent:
@@ -31,3 +32,6 @@ Required fixes:
 ## Verdict Rule
 
 The strictest role verdict is the final verdict.
+
+Return `USER_DECISION_NEEDED` when the next step requires concept selection,
+Direction Lock, stage movement, or a public promise from the human.

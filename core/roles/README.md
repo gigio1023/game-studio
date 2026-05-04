@@ -18,7 +18,15 @@ stage, files, and risk.
 - `technical-director`
 - `qa-lead`
 
+## Authority Boundary
+
+Roles may advise, block readiness, and name the next proof. They do not own the
+human's taste, selected concept, Direction Lock, stage movement, or public
+promises. When any of those decisions is required, return
+`USER_DECISION_NEEDED`.
+
 ## Playbook Rule
 
 Selecting a role is not enough. A review must use the relevant playbook and
-produce role-specific findings, evidence, and verdicts.
+produce role-specific findings, proof checked, internal evidence checked, and
+verdicts.

@@ -11,11 +11,14 @@ Use this rubric before implementation starts or when a direction document change
 - The presentation format earns its production cost.
 - AI authority, if present, has a deterministic boundary.
 - The plan names the first playable proof.
+- The concept can pass a concept playability review.
+- The first proof has a budget and rejection trigger.
 
 ## CONCERNS
 
 - The thesis is playable but weakly differentiated.
-- The target emotion exists, but evidence is not yet defined.
+- The target emotion exists, but proof is not yet defined.
+- The first proof exists but needs a sharper review question.
 - Pillars overlap but still guide some decisions.
 - Presentation value is plausible but unproven.
 - Risks are named but not assigned to a proof.
@@ -35,6 +38,6 @@ What game are we making?
 What does the player do?
 Why does it matter?
 What should the player feel and understand?
-What evidence would prove that?
+What playable proof would prove that?
 What must this game not become?
 ```

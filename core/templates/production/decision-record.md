@@ -22,7 +22,18 @@
 
 -
 
-## Evidence
+## Proof Basis
+
+-
+
+## Proof Reviewed
+
+-
+
+## Internal Evidence Artifacts
+
+List only concrete internal artifacts such as captures, playtest notes, QA
+results, build IDs, telemetry samples, release checks, or prior decision records.
 
 -
 
@@ -31,5 +42,9 @@
 -
 
 ## Review Gate
+
+-
+
+## Next Proof
 
 -

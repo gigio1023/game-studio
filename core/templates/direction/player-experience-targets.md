@@ -18,7 +18,7 @@ Learning:
 
 Failure:
 
-Evidence:
+Proof to capture:
 
 ## First 10 Minutes
 
@@ -38,7 +38,7 @@ Learning:
 
 Failure:
 
-Evidence:
+Proof to capture:
 
 ## First 20 Minutes
 
@@ -58,7 +58,7 @@ Learning:
 
 Failure:
 
-Evidence:
+Proof to capture:
 
 ## Confusion Boundaries
 

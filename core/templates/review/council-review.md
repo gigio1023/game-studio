@@ -4,6 +4,14 @@
 
 -
 
+## Claim Under Review
+
+-
+
+## Proof Target
+
+-
+
 ## Review Mode
 
 `full | lean | solo`
@@ -11,6 +19,12 @@
 ## Gates
 
 -
+
+## Internal Evidence Artifacts Checked
+
+| Artifact | Path or URL | What it proves |
+| --- | --- | --- |
+| | | |
 
 ## Findings
 
@@ -21,10 +35,11 @@
 - What worked in play:
 - What failed in play:
 - What remains only a claim:
+- What must be proven next:
 
 ## Role Verdicts
 
-| Role | Verdict | Evidence checked | Player impact | Production impact | Required change |
+| Role | Verdict | Proof checked | Player impact | Production impact | Required change |
 | --- | --- | --- | --- | --- | --- |
 | Game Director | | | | | |
 | Producer | | | | | |
@@ -44,5 +59,9 @@
 -
 
 ## Required Follow-up
+
+-
+
+## Next Proof
 
 -

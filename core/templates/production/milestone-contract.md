@@ -1,5 +1,9 @@
 # Milestone Contract
 
+Use this for a bounded production milestone. A milestone must retire a named
+uncertainty through playable proof, review, and an exit decision. It is not a
+task list.
+
 ## ID
 
 `M0`
@@ -12,11 +16,36 @@
 
 -
 
+## Direction Source
+
+`direction-carry-in | taste-to-game | brownfield-unknown`
+
+## Selected Concept
+
+-
+
 ## Goal
 
 -
 
-## Product Hypothesis
+## Proof Target
+
+What must be proven by the end of this milestone:
+
+-
+
+## Proof Budget
+
+| Constraint | Budget | Notes |
+| --- | --- | --- |
+| Calendar time | | |
+| People | | |
+| Build surface | | |
+| Mechanics | | |
+| Content | | |
+| Capture and review | | |
+
+## Research Question
 
 -
 
@@ -24,13 +53,17 @@
 
 -
 
-## Research Questions
+## Deliverables
 
--
+| Deliverable | Owner | Done means |
+| --- | --- | --- |
+| | | |
 
-## Timebox Or Capacity Assumption
+## Quality Criteria
 
--
+| Claim | Playable proof required | Pass condition |
+| --- | --- | --- |
+| | | |
 
 ## Non-goals
 
@@ -42,15 +75,48 @@ In:
 
 Out:
 
-## Required Evidence
+## Constraint Ladder Level
 
--
+`L0 capacity | L1 taste | L2 experience | L3 mechanic | L4 content | L5 release`
+
+## Required Internal Evidence Artifacts
+
+Evidence here means concrete internal artifacts only: build IDs, captures,
+playtest notes, QA results, telemetry samples, decision records, or release
+claim checks.
+
+| Artifact | Owner | Path or URL | What it proves |
+| --- | --- | --- | --- |
+| | | | |
 
 ## Playtest Or Review Scenario
 
 -
 
+## QA Walkthrough
+
+-
+
 ## Accessibility Scope
+
+-
+
+## Review Roles
+
+-
+
+## Gate Reviewers
+
+-
+
+## Expected Media
+
+List required screenshots, video captures, GIFs, replay files, logs, or store
+surface checks.
+
+-
+
+## Required Gates
 
 -
 
@@ -70,14 +136,6 @@ Out:
 
 -
 
-## Review Roles
-
--
-
-## Required Gates
-
--
-
 ## Risks
 
 -
@@ -93,3 +151,8 @@ Out:
 ## Exit Decision
 
 `READY | CONCERNS | NOT_READY`
+
+## Exit Decision Record
+
+Record the user or owner decision that accepts, repeats, narrows, parks, or
+rejects the proof.

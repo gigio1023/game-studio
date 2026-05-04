@@ -1,9 +1,9 @@
-# Playable Evidence Review
+# Playable Proof Review
 
 Use this when a milestone claims game quality, player comprehension, game feel,
 accessibility, or release readiness.
 
-## Evidence Categories
+## Internal Evidence Categories
 
 - **Mechanical evidence**: The build runs, loads, imports, saves, or produces expected data.
 - **Playable evidence**: The player can perform the intended action and see the result.
@@ -14,4 +14,4 @@ accessibility, or release readiness.
 
 ## Rule
 
-Do not let mechanical evidence stand in for playable evidence.
+Do not let mechanical evidence stand in for playable proof.

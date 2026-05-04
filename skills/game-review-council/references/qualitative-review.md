@@ -10,12 +10,12 @@ Use this when reviewing playtests, role opinions, game feel, narrative, or relea
 - Severity: how much it hurts the current goal.
 - Priority: when to act.
 - Recommendation: the smallest useful decision.
-- Confidence: how strong the evidence is.
+- Confidence: how strongly the proof and internal evidence support the finding.
 
 ## Deliberation Rule
 
 Do not average role opinions. Preserve dissent, then apply the strictest verdict
-when a blocker is supported by evidence.
+when a blocker is supported by proof.
 
 ## Output
 

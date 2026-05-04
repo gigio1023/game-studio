@@ -2,6 +2,23 @@ version: 1
 name: game-studio-workflow
 default_review_mode: lean
 stages:
+  - id: creative-discovery
+    name: Creative Discovery
+    purpose: Route before Direction Lock and shape taste or carried direction into the first proof.
+    required_artifacts:
+      - .game-studio/project-state.md
+      - .game-studio/project-intake.md
+      - .game-studio/concept-slate.md
+      - .game-studio/creative-brief.md
+      - .game-studio/constraint-ladder.md
+      - .game-studio/milestones/first-prototype-contract.md
+    gates:
+      - GS-ENTRY-ROUTE
+      - GS-TASTE-CLARITY
+      - GS-CONCEPT-SLATE
+      - GS-CREATIVE-BRIEF
+      - GS-CONSTRAINT-LADDER
+      - GS-PROTOTYPE-QUESTION
   - id: direction-lock
     name: Direction Lock
     purpose: Define the game worth building.
@@ -28,11 +45,10 @@ stages:
     name: Core Loop Prototype
     purpose: Make the player repeat the core loop with readable feedback.
     gates:
-      - GS-PILLARS
-      - GS-PLAYER-EXPERIENCE
+      - GS-CORE-LOOP
   - id: pre-production-exit
     name: Pre-production Exit
-    purpose: Bound production scope after core risks have playable evidence.
+    purpose: Bound production scope after core risks have playable proof.
     gates:
       - GS-PREPRODUCTION-EXIT
       - GS-PLAYER-EXPERIENCE

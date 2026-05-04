@@ -6,6 +6,10 @@ Use this log to make cuts explicit instead of letting them disappear.
 | --- | --- | --- | --- | --- |
 | | | | | |
 
+## Constraint Ladder Link
+
+-
+
 ## Must Keep
 
 -
@@ -17,3 +21,9 @@ Use this log to make cuts explicit instead of letting them disappear.
 ## Deferred With Promise Change
 
 -
+
+## Parked Ambition
+
+| Item | Original appeal | Proof that would reopen it |
+| --- | --- | --- |
+| | | |

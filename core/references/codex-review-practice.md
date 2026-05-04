@@ -29,10 +29,11 @@ Codex reviews the substance:
 
 ## Review Order
 
-1. Read the current stage, milestone contract, and player experience target.
-2. Inspect the playable evidence before implementation notes when possible.
+1. Read the entry mode, current stage, milestone contract, and player experience
+   target.
+2. Inspect the playable proof before implementation notes when possible.
 3. Name the central claim being reviewed.
-4. Separate missing evidence from failed evidence.
+4. Separate missing proof from missing internal evidence.
 5. Apply active role playbooks.
 6. Record tradeoffs, accepted risks, and reversal cost.
 7. Return `READY`, `CONCERNS`, or `NOT_READY`.
@@ -42,7 +43,8 @@ Codex reviews the substance:
 ```text
 Verdict:
 Central claim:
-Evidence checked:
+Proof checked:
+Internal evidence checked:
 What works:
 Blocking concerns:
 Advisory concerns:

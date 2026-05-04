@@ -43,7 +43,7 @@ A good pull request explains:
 - What problem it solves.
 - Which users or agent workflows it helps.
 - Which files should be read first.
-- What evidence or source material supports the change.
+- What proof, checks, or source material supports the change.
 - What remains intentionally out of scope.
 
 ## Review Standard

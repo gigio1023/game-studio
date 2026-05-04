@@ -5,13 +5,15 @@ presentation, or release promise.
 
 ## Flow
 
-1. State the current thesis in one sentence.
-2. Name the gate IDs under review.
-3. Run the design foundation pass.
-4. Check the available evidence.
-5. Separate missing evidence from failed evidence.
-6. Make the director call.
-7. Return a verdict.
+1. If no accepted thesis exists, route to `game-onboarding` instead of forcing
+   Direction Lock.
+2. State the current thesis or candidate brief in one sentence.
+3. Name the gate IDs under review.
+4. Run the design foundation pass.
+5. Check the available proof and internal evidence artifacts.
+6. Separate missing proof from failed proof.
+7. Make the director call.
+8. Return a verdict.
 
 ## Judgment Pass
 
@@ -21,14 +23,16 @@ presentation, or release promise.
 - Mechanic-dynamic-experience chain:
 - First-session learning:
 - Wrong direction rejected:
-- Evidence that proves play:
+- Playable proof:
+- Internal evidence artifacts:
 
 ## Output
 
 ```text
 Verdict: READY | CONCERNS | NOT_READY
 Gate IDs:
-Evidence checked:
+Proof checked:
+Internal evidence checked:
 Findings:
 Tradeoff accepted:
 Required next actions:
@@ -41,3 +45,6 @@ Use `CONCERNS` when the work can continue with accepted risk.
 
 Use `NOT_READY` when the next stage would create false confidence, expand the
 public promise, or hide a missing core loop.
+
+Return `USER_DECISION_NEEDED` instead of approving when concept selection,
+Direction Lock, stage movement, or a public promise requires human authority.

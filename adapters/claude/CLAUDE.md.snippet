@@ -2,21 +2,44 @@
 
 Read the project-local `.game-studio/` state before planning game work.
 
+## Entry Routing
+
+Start Game Studio work by asking:
+
+```text
+Are we adopting an existing game direction, turning taste/references into a game
+direction, or auditing an ambiguous existing project?
+```
+
+- Read `.game-studio/project-state.md` and `entryMode` when present.
+- Use `game-onboarding` when direction is missing, weak, or ambiguous.
+- `direction-carry-in`: preserve existing direction before improving it.
+- `taste-to-game`: elicit taste and propose a small, comparable concept slate.
+- `brownfield-unknown`: audit repo state and authority before writing new
+  direction docs.
+- Preserve concept slate, creative brief, and stop conditions across compaction.
+- AI may propose and compare concepts, but the human owns taste, selected
+  concept, Direction Lock, stage movement, and public promises.
+
 ## Rules
 
 - Do not call a milestone a vertical slice unless the core loop and target
-  quality are represented in playable evidence.
+  quality are represented in playable proof.
 - Use gate verdicts: `READY`, `CONCERNS`, `NOT_READY`.
 - Preserve decision records when making assumptions.
 - Keep generated design documents executable by developers, designers, artists,
   and QA.
-- Separate repository checks from game-quality judgment.
+- Separate repository checks from game-quality judgment; checks are not proof
+  gates.
 - Use role playbooks for player-facing decisions.
+- Use `proof` in user-facing instructions and reserve `evidence` for internal
+  artifact records.
 
 ## Project Skills
 
 Install these as project-local skills when supported:
 
+- `game-onboarding`
 - `game-director`
 - `game-studio`
 - `game-execution`

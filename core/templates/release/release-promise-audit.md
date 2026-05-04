@@ -2,7 +2,7 @@
 
 Use this before public demo, store page, trailer, press kit, or release copy changes.
 
-| Public claim | Surface | Build evidence | Limitation | Decision |
+| Public claim | Surface | Internal evidence artifact | Limitation | Decision |
 | --- | --- | --- | --- | --- |
 | | README | | | |
 | | Store page | | | |
@@ -22,3 +22,16 @@ Use this before public demo, store page, trailer, press kit, or release copy cha
 ## Claims Ready To Publish
 
 -
+
+## Required Captures
+
+| Surface | Capture or check | Path or URL | Owner |
+| --- | --- | --- | --- |
+| Store page | | | |
+| Trailer | | | |
+| Demo page | | | |
+| Accessibility features | | | |
+
+## Release Validation Verdict
+
+`READY | CONCERNS | NOT_READY`

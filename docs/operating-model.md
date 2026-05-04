@@ -1,6 +1,20 @@
 # Operating Model
 
-The framework has three layers.
+Game Studio installs a project-local production system into a target game repo.
+It starts by choosing an entry route, then runs direction, production, and
+execution through playable proof gates.
+
+## Entry Routing
+
+| Mode | User state | First action | Output |
+| --- | --- | --- | --- |
+| `direction-carry-in` | Existing direction, mandate, prototype, pitch, or task | Preserve authority and audit missing proof | Direction audit, stage inference, next proof |
+| `taste-to-game` | Taste exists but the game direction is not stable | Elicit taste and compare a small concept slate | Taste profile, concept slate, creative brief |
+| `brownfield-unknown` | Repo, notes, or prototype exist but authority is unclear | Audit current state before adding direction | State classification and stop condition |
+
+Routing keeps the system from rewriting a real direction by accident, and keeps
+novice creators from needing game-design vocabulary before their taste has been
+translated into constraints.
 
 ## 1. Direction Layer
 
@@ -8,6 +22,8 @@ Owns the question: what game are we making?
 
 Artifacts:
 
+- Taste profile or direction audit
+- Concept slate
 - Game thesis
 - Creative pillars
 - Player experience targets
@@ -26,12 +42,13 @@ Primary roles:
 
 ## 2. Production Layer
 
-Owns the question: what proof are we pursuing now?
+Owns the question: what playable proof are we pursuing now?
 
 Artifacts:
 
 - Stage file
 - Milestone contract
+- Proof budget
 - Gate verdicts
 - Risk register
 - Scope list
@@ -54,7 +71,8 @@ Artifacts:
 - Work intake
 - Implementation handoff
 - File ownership
-- Evidence contract
+- Claim-to-proof contract
+- Internal evidence contract
 - Verification ledger
 - Drift log
 
@@ -82,6 +100,6 @@ Primary roles:
 
 ## Script Boundary
 
-Use scripts for cheap invariants and repository health. Use Codex role reviews
-for direction, design, production judgment, game feel, QA severity, accessibility
-barriers, and release promise decisions.
+Use scripts for cheap invariants and repository health. Use role reviews for
+direction, design, production judgment, game feel, QA severity, accessibility
+barriers, release promise decisions, and whether a proof is worth advancing.

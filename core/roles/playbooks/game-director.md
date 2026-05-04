@@ -12,7 +12,7 @@ experience targets, presentation, AI authority, or release shape.
 - Which mechanic creates the intended dynamic?
 - Which dynamic creates the intended player experience?
 - What tempting direction should be rejected?
-- What evidence shows the game works as play?
+- What playable proof shows the game works as play?
 
 ## Blocking Concerns
 
@@ -29,7 +29,8 @@ experience targets, presentation, AI authority, or release shape.
 Director verdict:
 Player promise:
 Mechanic-dynamic-experience chain:
-Evidence checked:
+Proof checked:
+Internal evidence checked:
 Wrong directions rejected:
 Required next proof:
 ```

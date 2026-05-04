@@ -1,8 +1,8 @@
 # Risk Register
 
-| Risk | Area | Impact | Likelihood | Owner | Mitigation | Next review |
-| --- | --- | --- | --- | --- | --- | --- |
-| | | | | | | |
+| Risk | Area | Player impact | Production impact | Likelihood | Owner | Mitigation | Proof or review trigger |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | | |
 
 ## Current Top Risks
 
@@ -13,5 +13,9 @@
 -
 
 ## Risks Closed
+
+-
+
+## Risks Blocking Playable Proof
 
 -

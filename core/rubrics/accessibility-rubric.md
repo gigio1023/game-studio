@@ -20,7 +20,7 @@ audio, text, motion, difficulty, or public feature claims.
 - `CONCERNS`: Access barriers exist but are documented, bounded, and assigned.
 - `NOT_READY`: A core path blocks players without disclosure, workaround, or plan.
 
-## Evidence
+## Internal Evidence Artifacts
 
 - Settings screenshot or capture.
 - Input-device notes.
@@ -29,3 +29,9 @@ audio, text, motion, difficulty, or public feature claims.
 - Motion comfort notes.
 - Player or expert accessibility feedback.
 - Release claim mapping.
+
+## Release Claim Impact
+
+If an accessibility feature is public-facing, the review must map the claim to a
+concrete internal evidence artifact. If the support is partial, unavailable, or
+out of scope for the current stage, disclose the limitation or remove the claim.

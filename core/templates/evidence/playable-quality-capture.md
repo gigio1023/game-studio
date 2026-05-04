@@ -1,6 +1,13 @@
 # Playable Quality Capture
 
+Use this for concrete capture review of a playable moment. This is an internal
+evidence artifact, not a substitute for a role verdict.
+
 ## Build
+
+-
+
+## Proof Target
 
 -
 
@@ -20,14 +27,16 @@
 
 | Field | Finding |
 | --- | --- |
-| Intent | |
+| Verb | |
 | Read | |
-| Input | |
-| Feedback | |
+| Risk | |
+| Response | |
+| Learning | |
 | Camera | |
 | Visual | |
 | Audio | |
 | Recovery | |
+| Evidence artifact | |
 
 ## Role Verdicts
 
@@ -37,3 +46,11 @@
 | Art Director | | |
 | Audio Director | | |
 | QA Lead | | |
+
+## Missing Capture
+
+-
+
+## Next Proof
+
+-

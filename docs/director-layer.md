@@ -4,13 +4,31 @@ The director layer prevents implementation from outrunning the game.
 
 It answers:
 
+- Are we carrying in direction, discovering from taste, or auditing ambiguous
+  state?
 - What is the one-sentence identity of the game?
 - What emotion should the player feel in the first 5, 10, and 20 minutes?
 - What mechanics make this game distinct?
 - What would make the game fail even if the code works?
 - What must be proven before a vertical slice?
 
+## Before Direction Lock
+
+When direction is missing or weak, the director layer should not demand a full
+thesis first. It should route the project through entry mode, taste profile,
+concept slate, creative brief, and first proof target.
+
 ## Required Direction Artifacts
+
+### Entry route
+
+An explicit classification of `direction-carry-in`, `taste-to-game`, or
+`brownfield-unknown`.
+
+### Concept slate
+
+A small set of comparable, rejectable, proofable concepts when the project is
+still discovering direction.
 
 ### Game thesis
 
@@ -48,5 +66,5 @@ Director review should use source-backed craft questions:
 - What player experience should that dynamic produce?
 - What meaningful choice does the player make?
 - What does the player learn in the first session?
-- What evidence shows the target experience happened?
+- What playable proof shows the target experience happened?
 - What wrong direction does this decision reject?
