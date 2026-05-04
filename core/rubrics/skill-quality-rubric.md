@@ -5,7 +5,8 @@ Use this rubric when adding or changing framework skills.
 ## Required
 
 - The skill has clear trigger language in frontmatter.
-- The body stays focused on what the agent must do differently.
+- `SKILL.md` stays under 500 lines.
+- The body focuses on what the agent must do differently.
 - Gotchas are included.
 - Reference files are named and loaded only when needed.
 - The skill does not duplicate the entire methodology.
@@ -18,6 +19,7 @@ Use this rubric when adding or changing framework skills.
 - It can be tested with realistic prompts.
 - It produces file-backed state or evidence.
 - It composes with other skills without circular instructions.
+- It has 2-3 realistic trigger prompts for manual testing.
 
 ## Reject
 

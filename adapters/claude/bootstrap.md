@@ -4,16 +4,18 @@ Use this file from a target game repository.
 
 ## Goal
 
-Install Game Studio as project-local Claude Code guidance without
-requiring a separate command-line product.
+Install Game Studio as project-local Claude Code guidance without a separate
+command-line product.
 
 ## Steps
 
 1. Select engine, scope, and genre profiles.
-2. Copy `skills/` into `.claude/skills/`.
-3. Merge `adapters/claude/CLAUDE.md.snippet` into the target `CLAUDE.md`.
-4. Copy or adapt `core/templates/` into `.game-studio/` and `docs/direction/`.
-5. Keep source methodology in this framework repository; copy only project-local
+2. Copy `core/` into `.game-studio/core/`.
+3. Copy `skills/` into `.claude/skills/`.
+4. Merge `adapters/claude/CLAUDE.md.snippet` into the target `CLAUDE.md`.
+5. Copy `docs/evidence-gates.md` into `docs/framework/evidence-gates.md`.
+6. Copy or adapt `core/templates/` into project-facing docs.
+7. Keep source methodology in this framework repository; copy only project-local
    state and reusable skills into the target project.
 
 ## Review Modes

@@ -1,0 +1,56 @@
+version: 1
+roles:
+  narrative-director:
+    tier: lead
+    activate_when:
+      - narrative
+      - dialogue
+      - worldbuilding
+      - authored content
+  systems-designer:
+    tier: lead
+    activate_when:
+      - rules
+      - economy
+      - combat
+      - progression
+      - AI authority
+  level-designer:
+    tier: lead
+    activate_when:
+      - spatial gameplay
+      - mission flow
+      - traversal
+  ux-designer:
+    tier: lead
+    activate_when:
+      - onboarding
+      - UI
+      - input
+      - accessibility
+  art-director:
+    tier: lead
+    activate_when:
+      - visual target
+      - asset pipeline
+      - style guide
+  audio-director:
+    tier: lead
+    activate_when:
+      - music
+      - sound effects
+      - ambience
+      - mix
+  localization-lead:
+    tier: lead
+    activate_when:
+      - multi-language
+      - font
+      - text layout
+  release-manager:
+    tier: lead
+    activate_when:
+      - demo
+      - store page
+      - build pipeline
+      - public promise

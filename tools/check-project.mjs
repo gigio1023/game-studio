@@ -6,7 +6,9 @@ const root = process.argv[2] ? path.resolve(process.argv[2]) : process.cwd();
 
 const required = [
   "docs/direction",
+  "docs/framework/evidence-gates.md",
   ".game-studio",
+  ".game-studio/core",
   ".game-studio/milestones",
 ];
 
@@ -22,7 +24,7 @@ for (const rel of required) {
   }
 }
 
-const todoTargets = ["docs/direction", ".game-studio"];
+const todoTargets = ["docs/direction", "docs/framework", ".game-studio"];
 for (const rel of todoTargets) {
   const full = path.join(root, rel);
   if (!fs.existsSync(full)) continue;

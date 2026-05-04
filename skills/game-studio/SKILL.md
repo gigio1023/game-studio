@@ -2,9 +2,8 @@
 name: game-studio
 description: >
   Use when planning game milestones, production stages, release scope, demo
-  readiness, vertical slice gates, or project operating cadence. Trigger on
-  "milestone", "production plan", "roadmap", "demo candidate", "release
-  candidate", and Korean equivalents.
+  readiness, vertical slice gates, or operating cadence. Trigger on "milestone",
+  "production plan", "roadmap", "demo candidate", and "release candidate".
 version: 0.1.0
 tags:
   - game-development
@@ -16,33 +15,23 @@ tags:
 
 ## Quick Start
 
-1. Read `core/workflows/workflow-catalog.yaml`.
-2. Determine the current project stage.
-3. Check whether the requested milestone has a contract.
-4. Require evidence before advancing stages.
-5. Keep the plan smaller than the team's ability to verify.
+1. Read `references/milestone-planning.md`.
+2. Read `.game-studio/core/workflows/workflow-catalog.yaml`.
+3. Identify the current stage.
+4. Check whether the milestone has a contract.
+5. Require evidence before stage advancement.
 
-## Milestone Rules
+## Gotchas
 
-- A milestone is a proof, not a task pile.
-- Non-goals are mandatory.
-- The exit decision must name gates and evidence.
-- Public promises must be checked against build truth.
+- A milestone is a proof, not a task list.
+- Public promises must match the current build.
+- Do not call a prototype a vertical slice.
 
 ## Reference Files
 
-- `core/workflows/stage-model.md`
-- `core/templates/production/milestone-contract.md`
-- `core/rubrics/milestone-readiness-rubric.md`
-
-## Output Shape
-
-```text
-Current stage:
-Recommended milestone:
-Why this stage:
-Required artifacts:
-Required evidence:
-Gate reviewers:
-Risks:
-```
+| File | When to read | Content |
+| --- | --- | --- |
+| `references/milestone-planning.md` | Every milestone or roadmap task | Stage and milestone flow |
+| `.game-studio/core/workflows/stage-model.md` | Stage classification | Stage definitions |
+| `.game-studio/core/templates/production/milestone-contract.md` | Creating a milestone | Contract template |
+| `.game-studio/core/rubrics/milestone-readiness-rubric.md` | Reviewing a milestone | Readiness rubric |

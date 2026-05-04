@@ -1,10 +1,10 @@
 ---
 name: game-execution
 description: >
-  Use when turning an approved game milestone into implementation work for
-  Codex or Claude Code. Handles work intake, file ownership, handoff artifacts,
+  Use when turning an approved game milestone into implementation work for Codex
+  or Claude Code. Handles work intake, file ownership, handoff artifacts,
   verification ledgers, and drift logs. Trigger on "implement this milestone",
-  "execution plan", "handoff", "parallel agents", and Korean equivalents.
+  "execution plan", "handoff", and "parallel agents".
 version: 0.1.0
 tags:
   - game-development
@@ -12,40 +12,27 @@ tags:
   - agents
 ---
 
-# Game Execution Framework
+# Game Execution
 
 ## Quick Start
 
-1. Read the active milestone contract.
-2. Read the evidence contract.
-3. Split work by file ownership and role.
-4. Make implementation assumptions explicit.
+1. Read `references/work-packages.md`.
+2. Read the active milestone contract.
+3. Read the evidence contract.
+4. Split work by file ownership.
 5. Verify and write a handoff before claiming completion.
-
-## Parallel Work
-
-Parallel agents need disjoint write scopes and the same milestone contract. Each
-agent should return changed files, evidence, verification, and risks.
 
 ## Gotchas
 
-- Do not let implementation expand the release promise.
-- Do not let a visual pass hide a missing gameplay proof.
-- Do not edit unrelated legacy systems unless the work intake allows it.
+- Do not expand the release promise during implementation.
+- Do not assign overlapping write scopes to parallel agents.
+- Do not claim completion without evidence or an explicit blocker.
 
 ## Reference Files
 
-- `core/templates/execution/work-intake.md`
-- `core/templates/execution/implementation-handoff.md`
-- `core/roles/coordination-rules.md`
-
-## Output Shape
-
-```text
-Work packages:
-File ownership:
-Verification:
-Evidence:
-Drift risks:
-Handoff path:
-```
+| File | When to read | Content |
+| --- | --- | --- |
+| `references/work-packages.md` | Every implementation split | Work package rules |
+| `.game-studio/core/templates/execution/work-intake.md` | Starting work | Intake template |
+| `.game-studio/core/templates/execution/implementation-handoff.md` | Ending work | Handoff template |
+| `.game-studio/core/roles/coordination-rules.md` | Parallel or multi-role work | Coordination rules |

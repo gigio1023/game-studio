@@ -2,31 +2,31 @@
 
 ## First 5 Minutes
 
-The player should understand:
+The player understands:
 
-The player should feel:
+The player feels:
 
-The player should do:
+The player does:
 
 Evidence:
 
 ## First 10 Minutes
 
-The player should understand:
+The player understands:
 
-The player should feel:
+The player feels:
 
-The player should do:
+The player does:
 
 Evidence:
 
 ## First 20 Minutes
 
-The player should understand:
+The player understands:
 
-The player should feel:
+The player feels:
 
-The player should do:
+The player does:
 
 Evidence:
 

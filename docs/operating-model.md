@@ -70,32 +70,12 @@ Primary roles:
 
 ## Decision Modes
 
-### consultative
-
-The agent asks for approval before important creative or strategic decisions.
-
-### agentic
-
-The agent may make reasonable assumptions, but must record them in a decision
-ledger and preserve evidence for review.
-
-### audit
-
-The agent reads and reviews only. It does not write project files.
+- `consultative`: Ask before important creative or strategic decisions.
+- `agentic`: Make reasonable assumptions and record them for review.
+- `audit`: Read and review only.
 
 ## Review Modes
 
-### full
-
-All relevant directors and leads are consulted. Use before phase transitions,
-publisher-facing demos, public releases, and major identity changes.
-
-### lean
-
-Only the strictest required roles review. This is the default for solo indie
-and early prototypes.
-
-### solo
-
-The agent performs a lightweight self-check and writes risks clearly. Use only
-for low-risk internal iteration.
+- `full`: Run all relevant directors and leads.
+- `lean`: Run the strictest required roles.
+- `solo`: Run a lightweight self-check for low-risk internal work.

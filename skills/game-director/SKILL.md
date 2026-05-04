@@ -1,10 +1,10 @@
 ---
 name: game-director
 description: >
-  Use when defining or reviewing a game's identity, thesis, pillars, player
-  experience targets, AI premise, presentation choice, or release promise.
-  Trigger on "game direction", "creative pillars", "is this game worth making",
-  "director review", "vertical slice readiness", and Korean equivalents.
+  Use when defining or reviewing a game's thesis, pillars, player experience,
+  AI premise, presentation choice, or release promise. Trigger on "game
+  direction", "creative pillars", "is this game worth making", "director
+  review", and "vertical slice readiness".
 version: 0.1.0
 tags:
   - game-development
@@ -12,45 +12,27 @@ tags:
   - production
 ---
 
-# Game Director Framework
+# Game Director
 
 ## Quick Start
 
-1. Read the target project's direction docs if they exist.
-2. Read `core/gates/director-gates.md` from this framework.
-3. Identify the current stage from the project's `.game-studio/` or docs.
-4. Produce a verdict using `READY`, `CONCERNS`, or `NOT_READY`.
+1. Read the target project's direction docs.
+2. Read `references/director-review.md`.
+3. Select the relevant gate from `core/gates/`.
+4. Return `READY`, `CONCERNS`, or `NOT_READY`.
 5. Record assumptions and required evidence.
 
-## Use This For
+## Gotchas
 
-- Game thesis review.
-- Creative pillar stress tests.
-- AI authority review.
-- 2D/3D/presentation decisions.
-- Vertical slice readiness.
-- Public release promise review.
-
-## Do Not
-
-- Replace playable evidence with confident prose.
-- Approve a vertical slice before the core loop is proven.
-- Let AI-generated content own deterministic game consequences unless the design
-  explicitly defines that authority.
+- Do not approve a vertical slice before the core loop is proven.
+- Do not let presentation quality replace player experience evidence.
+- Do not let AI-generated content own final game truth without a deterministic boundary.
 
 ## Reference Files
 
-- `core/gates/director-gates.md`
-- `core/templates/direction/`
-- `core/rubrics/game-design-doc-rubric.md`
-
-## Output Shape
-
-```text
-Verdict: READY | CONCERNS | NOT_READY
-Gate IDs:
-Evidence checked:
-Findings:
-Required next actions:
-Assumptions:
-```
+| File | When to read | Content |
+| --- | --- | --- |
+| `references/director-review.md` | Every director review | Review flow and output shape |
+| `.game-studio/core/gates/direction.md` | Thesis, pillars, player experience, AI authority | Direction gates |
+| `.game-studio/core/gates/production.md` | Protocol proof, presentation value, vertical slice | Production gates |
+| `.game-studio/core/gates/release.md` | Public promise checks | Release gates |

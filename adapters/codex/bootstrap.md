@@ -15,17 +15,18 @@ creating a separate CLI dependency.
    - genres: `profiles/genres/*.yaml`
 2. Create project directories if missing:
    - `.game-studio/`
+   - `.game-studio/core/`
    - `.game-studio/milestones/`
    - `.game-studio/council/`
    - `docs/direction/`
    - `docs/framework/`
-3. Copy or adapt templates from `core/templates/`.
-4. Copy `skills/` into project-local `.codex/skills/` when the target Codex
-   setup supports project skills.
-5. Merge `adapters/codex/AGENTS.md.snippet` into the target project's
+3. Copy `core/` into `.game-studio/core/`.
+4. Copy `docs/evidence-gates.md` into `docs/framework/evidence-gates.md`.
+5. Copy or adapt templates from `core/templates/` into project-facing docs.
+6. Copy `skills/` into project-local `.codex/skills/` when the target Codex setup supports project skills.
+7. Merge `adapters/codex/AGENTS.md.snippet` into the target project's
    `AGENTS.md`.
-6. Write `.game-studio/director-state.md` with current stage, profiles, review
-   mode, and decision mode.
+8. Write `.game-studio/director-state.md` with current stage, profiles, review mode, and decision mode.
 
 ## Default Install Choices
 

@@ -4,7 +4,7 @@ The execution layer makes agent work bounded and reviewable.
 
 ## Work Intake
 
-Before implementation, the agent should know:
+Before implementation, the agent needs:
 
 - Current milestone
 - Files in scope
@@ -17,17 +17,17 @@ Before implementation, the agent should know:
 ## File Ownership
 
 Parallel agents must receive disjoint write scopes. A role can review outside
-its scope, but should not edit another role's files unless assigned.
+its scope. Assigned owners edit.
 
 ## Evidence Ledger
 
-Each implementation task should append:
+Each implementation task appends:
 
 - What changed
 - What was verified
 - What artifact proves it
 - What remains risky
-- Which gate should review it next
+- Which gate reviews it next
 
 ## Drift Log
 

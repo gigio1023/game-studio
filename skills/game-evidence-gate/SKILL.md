@@ -3,8 +3,8 @@ name: game-evidence-gate
 description: >
   Use when verifying whether a game milestone, prototype, vertical slice, demo,
   or release claim is backed by concrete evidence. Trigger on "evidence",
-  "validation gate", "prove this works", "playable artifact", "release gate",
-  and Korean equivalents.
+  "validation gate", "prove this works", "playable artifact", and "release
+  gate".
 version: 0.1.0
 tags:
   - game-development
@@ -16,15 +16,11 @@ tags:
 
 ## Quick Start
 
-1. Read the evidence contract.
-2. Check each required artifact.
-3. Run listed verification commands when available.
-4. Distinguish missing evidence from failed evidence.
+1. Read `references/evidence-review.md`.
+2. Read the evidence contract.
+3. Check each required artifact.
+4. Run listed verification commands when available.
 5. Return `READY`, `CONCERNS`, or `NOT_READY`.
-
-## Evidence Standard
-
-Good evidence is observable, reproducible, and linked to a milestone claim.
 
 ## Gotchas
 
@@ -34,17 +30,9 @@ Good evidence is observable, reproducible, and linked to a milestone claim.
 
 ## Reference Files
 
-- `docs/evidence-gates.md`
-- `core/templates/evidence/evidence-contract.md`
-- `core/rubrics/playtest-rubric.md`
-
-## Output Shape
-
-```text
-Verdict:
-Evidence checked:
-Missing evidence:
-Failed evidence:
-Residual risk:
-Next gate:
-```
+| File | When to read | Content |
+| --- | --- | --- |
+| `references/evidence-review.md` | Every evidence review | Evidence decision flow |
+| `.game-studio/core/templates/evidence/evidence-contract.md` | Writing evidence contracts | Contract template |
+| `.game-studio/core/rubrics/playtest-rubric.md` | Reviewing playtests | Playtest rubric |
+| `docs/framework/evidence-gates.md` | Stage evidence | Project-facing evidence guide |

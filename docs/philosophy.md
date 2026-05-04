@@ -2,9 +2,8 @@
 
 Game Studio treats agentic development as production work, not magic.
 
-An agent can draft, implement, inspect, and review at high speed, but a game still
-needs direction, constraints, taste, and evidence. The framework exists to keep
-those things visible.
+An agent can draft, implement, inspect, and review at high speed. A game still
+needs direction, constraints, taste, and evidence.
 
 ## Principles
 
@@ -26,13 +25,13 @@ criteria and evidence.
 
 ### Agents propose and execute; gates decide
 
-Agents may make assumptions in agentic mode, but assumptions must be written into
-decision records. Gates decide whether the work can advance.
+Agents can make assumptions in agentic mode. Decision records make those
+assumptions reviewable. Gates decide whether the work can advance.
 
 ### Small teams need fewer meetings, not fewer standards
 
-Solo and small-team projects should run lean gates, not no gates. Ceremony should
-scale down, but direction and evidence should stay.
+Solo and small-team projects run lean gates, not no gates. Ceremony scales down.
+Direction and evidence stay.
 
 ## Default Bias
 
