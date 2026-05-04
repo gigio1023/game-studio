@@ -10,7 +10,7 @@ const bannedText = [
   new RegExp(`game-production-${"har"}${"ness"}`, "i"),
   new RegExp(`\\b${"har"}${"ness"}\\b`, "i"),
 ];
-const textExtensions = new Set([".md", ".yaml", ".yml", ".json", ".mjs", ".snippet"]);
+const textExtensions = new Set([".md", ".yaml", ".yml", ".json", ".mjs", ".snippet", ".drawio", ".svg"]);
 
 let failed = false;
 

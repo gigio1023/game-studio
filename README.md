@@ -8,6 +8,8 @@ team: direction first, milestones second, implementation last.
 It is not a game generator. It is a project-local framework for roles, gates,
 milestones, evidence, and agent skills.
 
+![Game Studio maps a reusable framework into a target game repository and a production loop.](docs/assets/game-studio-system-map.drawio.png)
+
 ## What You Get
 
 - A stage model from direction lock to release candidate.
