@@ -62,6 +62,10 @@ Recommended order:
   visible.
 - Do not make contributor scripts the center of the visual story.
 - Do not imply one-prompt finished games.
+- Prefer SVG in the README so the diagram stays crisp at GitHub width; keep
+  PNG as a fallback export.
+- Keep diagram quality tied to comprehension: one dominant path, stable arrow
+  grammar, readable labels, meaningful color, and no overlapping elements.
 
 ## Copy Rules
 
