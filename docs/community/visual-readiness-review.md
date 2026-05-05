@@ -39,7 +39,8 @@ This review records the visual standard used for the public README.
 - Keep one overview diagram near the top.
 - Keep the diagram sparse enough to read on GitHub without zooming.
 - Use the `.drawio` source as the editable artifact.
-- Export SVG for README sharpness and PNG for fallback inspection.
+- Use a high-resolution PNG in the README for dependable rendering and keep SVG
+  as the sharp review/export artifact.
 - Avoid decorative product screenshots because the project is a framework, not an app UI.
 - Avoid a logo until the project has a stable public brand.
 
@@ -68,8 +69,8 @@ A README diagram is ready only if it passes these checks:
 - Color stays restrained. Blue is the only accent for active routing and proof;
   white, parchment, near-black, hairlines, and muted gray carry structure.
 - Text remains readable at normal GitHub README width without zooming.
-- The diagram has an editable `.drawio` source plus exported SVG for README
-  sharpness and PNG for fallback inspection.
+- The diagram has an editable `.drawio` source plus exported PNG for README
+  rendering and SVG for sharp review.
 - The alt text states the same mental model as the diagram.
 - It does not imply that scripts judge game quality or that agents can replace
   human taste and stage decisions.
