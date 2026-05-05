@@ -11,7 +11,15 @@ or a player's taste profile into playable proofs, reviews, gates, and production
 decisions. Agents can propose, plan, implement, and review; human authorship and
 playable proof decide what advances.
 
-![Game Studio routes entry paths into repo context, proof loops, and human approval gates.](docs/assets/game-studio-system-map.drawio.png)
+<p align="center">
+  <a href="docs/assets/game-studio-system-map.drawio.svg">
+    <img
+      src="docs/assets/game-studio-system-map.drawio.png"
+      alt="Game Studio routes entry paths into repo context, proof loops, and human approval gates."
+      width="100%"
+    />
+  </a>
+</p>
 
 ## Operating Loop
 
