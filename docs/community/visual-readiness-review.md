@@ -31,7 +31,7 @@ This review records the visual standard used for the public README.
 | [Stripe subscriptions overview](https://docs.stripe.com/billing/subscriptions/overview) | Make state transitions explicit and avoid hiding lifecycle decisions in prose. |
 | [Google developer image style](https://developers.google.com/style/images) | Require useful alt text, crisp exports, and images that add information. |
 | [Cloudflare diagram style](https://developers.cloudflare.com/style-guide/documentation-content-strategy/component-attributes/diagrams/) | Use diagrams only when they reduce cognitive load and keep labels concise. |
-| [Apple-inspired DESIGN.md](https://getdesign.md/apple/design-md) | Use low-density tiles, near-invisible chrome, a single blue accent, and crisp typography. |
+| [Linear-inspired DESIGN.md](https://getdesign.md/linear.app/design-md) | Use a dark product panel, surface ladder, hairline borders, straight routing, and one lavender accent. |
 
 ## Visual Decisions
 
@@ -66,8 +66,8 @@ A README diagram is ready only if it passes these checks:
   question: input, route, target repo, proof loop, and human authority.
 - Arrow grammar is stable: solid arrows show the production path and the return
   arrow inside the proof loop shows iteration.
-- Color stays restrained. Blue is the only accent for active routing and proof;
-  white, parchment, near-black, hairlines, and muted gray carry structure.
+- Color stays restrained. Lavender is the only accent for routing and active
+  proof; near-black surfaces, hairlines, and muted gray carry structure.
 - Text remains readable at normal GitHub README width without zooming.
 - The diagram has an editable `.drawio` source plus exported PNG for README
   rendering and SVG for sharp review.

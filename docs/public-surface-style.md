@@ -68,9 +68,9 @@ Recommended order:
   grammar, readable labels, meaningful color, and no overlapping elements.
 - Avoid bottom legends or footer explanation inside the diagram; the layout
   should carry the meaning.
-- For the README hero map, use a low-density tile treatment: parchment canvas,
-  white utility cards, one near-black repo tile, hairline borders, and a single
-  blue accent.
+- For the README hero map, use a Linear-inspired product panel: near-black
+  canvas, stepped dark surfaces, 1px hairlines, straight routing, and one
+  lavender accent.
 
 ## Copy Rules
 
