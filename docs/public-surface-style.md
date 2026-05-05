@@ -66,6 +66,8 @@ Recommended order:
   PNG as a fallback export.
 - Keep diagram quality tied to comprehension: one dominant path, stable arrow
   grammar, readable labels, meaningful color, and no overlapping elements.
+- Avoid bottom legends or footer explanation inside the diagram; the layout
+  should carry the meaning.
 
 ## Copy Rules
 

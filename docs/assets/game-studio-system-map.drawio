@@ -1,116 +1,89 @@
 <mxfile host="app.diagrams.net" modified="2026-05-05T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
   <diagram id="game-studio-system-map" name="Game Studio system map">
-    <mxGraphModel dx="1240" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="690" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="1240" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="520" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title" value="Game Studio routes creator input into a playable proof loop" style="text;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
           <mxGeometry x="80" y="24" width="1080" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" value="The framework installs guidance into a target game repo; playable proof, review, gates, and human decisions decide what advances." style="text;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#475569;" vertex="1" parent="1">
+        <mxCell id="subtitle" value="A single entry route creates repo context; playable proof, review, gates, and human decisions decide what advances." style="text;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#475569;" vertex="1" parent="1">
           <mxGeometry x="190" y="62" width="860" height="28" as="geometry" />
         </mxCell>
         <mxCell id="entry-zone" value="Entry state" style="swimlane;html=1;fontFamily=Inter,Helvetica,Arial;rounded=1;absoluteArcSize=1;arcSize=12;spacing=8;startSize=34;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontStyle=1;fontSize=18;fontColor=#111827;" vertex="1" parent="1">
-          <mxGeometry x="45" y="145" width="205" height="300" as="geometry" />
+          <mxGeometry x="45" y="130" width="215" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="entry-direction" value="Existing direction" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=15;fontStyle=1;" vertex="1" parent="entry-zone">
-          <mxGeometry x="24" y="58" width="157" height="42" as="geometry" />
+        <mxCell id="entry-direction" value="Existing direction" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=15;fontStyle=1;html=1;" vertex="1" parent="entry-zone">
+          <mxGeometry x="26" y="58" width="163" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="entry-taste" value="Taste-to-game" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#F0FDFA;strokeColor=#0F766E;fontColor=#134E4A;fontSize=15;fontStyle=1;" vertex="1" parent="entry-zone">
-          <mxGeometry x="24" y="118" width="157" height="42" as="geometry" />
+        <mxCell id="entry-taste" value="Taste-to-game" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#F0FDFA;strokeColor=#0F766E;fontColor=#134E4A;fontSize=15;fontStyle=1;html=1;" vertex="1" parent="entry-zone">
+          <mxGeometry x="26" y="122" width="163" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="entry-brownfield" value="Brownfield unknown" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontSize=15;fontStyle=1;" vertex="1" parent="entry-zone">
-          <mxGeometry x="24" y="178" width="157" height="42" as="geometry" />
+        <mxCell id="entry-brownfield" value="Brownfield unknown" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontSize=15;fontStyle=1;html=1;" vertex="1" parent="entry-zone">
+          <mxGeometry x="26" y="186" width="163" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="entry-note" value="One route&#xa;one first proof" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="entry-zone">
-          <mxGeometry x="24" y="244" width="157" height="38" as="geometry" />
+        <mxCell id="entry-note" value="One route&#xa;one first proof" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="entry-zone">
+          <mxGeometry x="26" y="254" width="163" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="route-card" value="Route output&#xa;mode&#xa;owner&#xa;first proof&#xa;next gate" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=10;fillColor=#FFFFFF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="290" y="220" width="155" height="130" as="geometry" />
+        <mxCell id="route-card" value="Route output&#xa;mode&#xa;owner&#xa;first proof&#xa;next gate" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=10;fillColor=#FFFFFF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="225" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="repo-zone" value="Target game repo" style="swimlane;html=1;fontFamily=Inter,Helvetica,Arial;rounded=1;absoluteArcSize=1;arcSize=12;spacing=8;startSize=36;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#FFFFFF;strokeColor=#94A3B8;fontStyle=1;fontSize=18;fontColor=#111827;" vertex="1" parent="1">
-          <mxGeometry x="485" y="115" width="505" height="370" as="geometry" />
+          <mxGeometry x="525" y="115" width="435" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="context-card" value="Repo context&#xa;&#xa;state&#xa;brief&#xa;proof&#xa;reviews" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=12;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontColor=#334155;fontSize=15;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="repo-zone">
-          <mxGeometry x="28" y="52" width="190" height="302" as="geometry" />
+        <mxCell id="context-card" value="Repo context&#xa;&#xa;state&#xa;brief&#xa;proof&#xa;reviews" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=12;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontColor=#334155;fontSize=15;align=left;verticalAlign=middle;fontStyle=1;html=1;" vertex="1" parent="repo-zone">
+          <mxGeometry x="28" y="54" width="155" height="230" as="geometry" />
         </mxCell>
         <mxCell id="loop-zone" value="Playable proof loop" style="swimlane;html=1;fontFamily=Inter,Helvetica,Arial;rounded=1;absoluteArcSize=1;arcSize=12;spacing=8;startSize=32;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontStyle=1;fontSize=17;fontColor=#111827;" vertex="1" parent="repo-zone">
-          <mxGeometry x="250" y="52" width="225" height="302" as="geometry" />
+          <mxGeometry x="220" y="54" width="185" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="loop-target" value="Proof target" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#ECFDF5;strokeColor=#16A34A;fontColor=#14532D;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="loop-zone">
-          <mxGeometry x="42" y="52" width="142" height="38" as="geometry" />
+        <mxCell id="loop-target" value="Proof target" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#ECFDF5;strokeColor=#16A34A;fontColor=#14532D;fontSize=15;fontStyle=1;align=center;html=1;" vertex="1" parent="loop-zone">
+          <mxGeometry x="24" y="50" width="125" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="loop-work" value="Bounded work" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="loop-zone">
-          <mxGeometry x="42" y="105" width="142" height="38" as="geometry" />
+        <mxCell id="loop-work" value="Bounded work" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=15;fontStyle=1;align=center;html=1;" vertex="1" parent="loop-zone">
+          <mxGeometry x="24" y="90" width="125" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="loop-proof" value="Playable proof" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#14532D;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="loop-zone">
-          <mxGeometry x="42" y="158" width="142" height="38" as="geometry" />
+        <mxCell id="loop-proof" value="Playable proof" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#14532D;fontSize=15;fontStyle=1;align=center;html=1;" vertex="1" parent="loop-zone">
+          <mxGeometry x="24" y="132" width="125" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="loop-review" value="Review&#xa;+ gate" style="rhombus;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFF7ED;strokeColor=#D97706;fontColor=#78350F;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="loop-zone">
-          <mxGeometry x="62" y="205" width="102" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="loop-caption" value="Result: repeat, narrow, advance, or park" style="text;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#64748B;" vertex="1" parent="loop-zone">
-          <mxGeometry x="26" y="266" width="174" height="18" as="geometry" />
+        <mxCell id="loop-review" value="Review&#xa;+ gate" style="rhombus;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFF7ED;strokeColor=#D97706;fontColor=#78350F;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="loop-zone">
+          <mxGeometry x="43" y="176" width="88" height="50" as="geometry" />
         </mxCell>
         <mxCell id="human-zone" value="Human authority" style="swimlane;html=1;fontFamily=Inter,Helvetica,Arial;rounded=1;absoluteArcSize=1;arcSize=12;spacing=8;startSize=34;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#FFFBEB;strokeColor=#D97706;fontStyle=1;fontSize=18;fontColor=#78350F;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="145" width="165" height="300" as="geometry" />
+          <mxGeometry x="1015" y="155" width="180" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="human-owns" value="Owns&#xa;taste&#xa;concept choice&#xa;public promises" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#78350F;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="human-zone">
-          <mxGeometry x="24" y="62" width="117" height="98" as="geometry" />
+        <mxCell id="human-owns" value="Owns&#xa;taste&#xa;concept choice&#xa;public promises" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#78350F;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="human-zone">
+          <mxGeometry x="24" y="60" width="132" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="human-stage" value="Approves&#xa;Direction Lock&#xa;stage movement" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#78350F;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="human-zone">
-          <mxGeometry x="24" y="184" width="117" height="70" as="geometry" />
+        <mxCell id="human-stage" value="Approves&#xa;Direction Lock&#xa;stage movement" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#78350F;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="human-zone">
+          <mxGeometry x="24" y="174" width="132" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="framework-zone" value="Game Studio framework supplies project-local guidance" style="swimlane;html=1;fontFamily=Inter,Helvetica,Arial;rounded=1;absoluteArcSize=1;arcSize=12;spacing=8;startSize=34;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontStyle=1;fontSize=16;fontColor=#111827;" vertex="1" parent="1">
-          <mxGeometry x="110" y="535" width="1020" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="framework-workflows" value="core workflows" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="framework-zone">
-          <mxGeometry x="24" y="50" width="160" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="framework-gates" value="gates" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#ECFDF5;strokeColor=#16A34A;fontColor=#14532D;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="framework-zone">
-          <mxGeometry x="220" y="50" width="160" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="framework-roles" value="roles + rubrics" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#F5F3FF;strokeColor=#7C3AED;fontColor=#4C1D95;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="framework-zone">
-          <mxGeometry x="416" y="50" width="160" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="framework-templates" value="templates" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="framework-zone">
-          <mxGeometry x="612" y="50" width="160" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="framework-skills" value="Codex / Claude skills" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#334155;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="framework-zone">
-          <mxGeometry x="808" y="50" width="188" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="legend" value="Solid arrows show the production path. Dashed arrows show installed support. Warm accents mark human-owned decisions." style="text;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#64748B;" vertex="1" parent="1">
-          <mxGeometry x="235" y="646" width="770" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="entry-to-route" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;" edge="1" parent="1" source="entry-zone" target="route-card">
+        <mxCell id="entry-to-route" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" edge="1" parent="1" source="entry-zone" target="route-card">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="route-to-context" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;" edge="1" parent="1" source="route-card" target="context-card">
+        <mxCell id="route-to-context" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" edge="1" parent="1" source="route-card" target="context-card">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="context-to-loop" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;" edge="1" parent="repo-zone" source="context-card" target="loop-zone">
+        <mxCell id="context-to-loop" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" edge="1" parent="repo-zone" source="context-card" target="loop-zone">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="loop-to-human" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=#D97706;strokeWidth=3;fontColor=#92400E;fontSize=13;endArrow=block;endFill=1;" edge="1" parent="1" source="loop-zone" target="human-zone">
+        <mxCell id="loop-to-human" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#D97706;strokeWidth=3;fontColor=#92400E;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" edge="1" parent="1" source="loop-zone" target="human-zone">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="framework-to-context" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=#64748B;strokeWidth=2;fontColor=#475569;fontSize=11;endArrow=block;endFill=1;dashed=1;" edge="1" parent="1" source="framework-zone" target="context-card">
+        <mxCell id="edge-loop-target-work" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" edge="1" parent="loop-zone" source="loop-target" target="loop-work">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-loop-target-work" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="loop-zone" source="loop-target" target="loop-work">
+        <mxCell id="edge-loop-work-proof" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" edge="1" parent="loop-zone" source="loop-work" target="loop-proof">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-loop-work-proof" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="loop-zone" source="loop-work" target="loop-proof">
+        <mxCell id="edge-loop-proof-review" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" edge="1" parent="loop-zone" source="loop-proof" target="loop-review">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-loop-proof-review" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="loop-zone" source="loop-proof" target="loop-review">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-loop-review-target" value="next" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;fontColor=#475569;fontSize=12;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="loop-zone" source="loop-review" target="loop-target">
+        <mxCell id="edge-loop-review-target" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;fontColor=#475569;fontSize=12;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=1;entryY=0.5;html=1;" edge="1" parent="loop-zone" source="loop-review" target="loop-target">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="205" y="232" />
-              <mxPoint x="205" y="71" />
+              <mxPoint x="166" y="201" />
+              <mxPoint x="166" y="67" />
             </Array>
           </mxGeometry>
         </mxCell>
