@@ -118,6 +118,14 @@
         <mxCell id="playable-to-review" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;strokeColor=#5E6AD2;strokeWidth=1.8;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" edge="1" parent="1" source="proof-playable" target="proof-review">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="review-to-target" value="next proof" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;fontSize=11;fontColor=#8A8F98;strokeColor=#5E6AD2;strokeWidth=1.2;dashed=1;dashPattern=4 3;endArrow=block;endFill=1;endSize=6;exitX=0;exitY=0.5;entryX=0;entryY=0.5;html=1;labelBackgroundColor=#18191A;" edge="1" parent="1" source="proof-review" target="proof-target">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="724" y="470" />
+              <mxPoint x="724" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

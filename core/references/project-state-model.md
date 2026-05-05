@@ -73,15 +73,20 @@ Every project state file should expose:
 
 ## Stage Values
 
-- `DISCOVERY`
-- `DIRECTION_LOCK`
-- `PROTOCOL_PROOF`
-- `CORE_LOOP_PROTOTYPE`
-- `PRE_PRODUCTION_EXIT`
-- `PRESENTATION_VALUE_GATE`
-- `VERTICAL_SLICE`
-- `PUBLIC_DEMO_CANDIDATE`
-- `SMALL_RELEASE_CANDIDATE`
+Project state uses SCREAMING_SNAKE values; the workflow catalog uses
+kebab-case stage IDs. The two map as follows:
+
+| Project state (`currentStage`) | Workflow catalog (`stages[].id`) |
+| --- | --- |
+| `DISCOVERY` | `creative-discovery` |
+| `DIRECTION_LOCK` | `direction-lock` |
+| `PROTOCOL_PROOF` | `protocol-proof` |
+| `CORE_LOOP_PROTOTYPE` | `core-loop-prototype` |
+| `PRE_PRODUCTION_EXIT` | `pre-production-exit` |
+| `PRESENTATION_VALUE_GATE` | `presentation-value-gate` |
+| `VERTICAL_SLICE` | `vertical-slice` |
+| `PUBLIC_DEMO_CANDIDATE` | `demo-candidate` |
+| `SMALL_RELEASE_CANDIDATE` | `release-candidate` |
 
 ## Ledger Rules
 

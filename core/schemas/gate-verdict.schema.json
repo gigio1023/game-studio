@@ -6,8 +6,18 @@
   "properties": {
     "gate": { "type": "string" },
     "verdict": { "enum": ["READY", "CONCERNS", "NOT_READY"] },
+    "terminalOutcome": {
+      "enum": [
+        "DONE",
+        "DONE_WITH_CONCERNS",
+        "BLOCKED",
+        "NEEDS_CONTEXT",
+        "FAILED",
+        "USER_DECISION_NEEDED"
+      ]
+    },
     "reviewer": { "type": "string" },
-    "confidence": { "type": ["number", "string"] },
+    "confidence": { "enum": ["low", "medium", "high"] },
     "findings": { "type": "array", "items": { "type": "string" } },
     "proofChecked": { "type": "array", "items": { "type": "string" } },
     "missingEvidence": { "type": "array", "items": { "type": "string" } },

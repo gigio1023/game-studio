@@ -10,7 +10,7 @@
 
 ## Creator Fluency
 
-`novice` / `intermediate` / `experienced` / `unknown`
+`novice` / `intermediate` / `expert` / `unknown`
 
 ## Authority Owner
 

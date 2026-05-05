@@ -12,10 +12,10 @@ decisions. Agents can propose, plan, implement, and review; human authorship and
 playable proof decide what advances.
 
 <p align="center">
-  <a href="docs/assets/game-studio-system-map.drawio.svg">
+  <a href="docs/assets/readme-system-map-linear-v2.drawio.svg">
     <img
-      src="docs/assets/game-studio-system-map.drawio.png"
-      alt="Game Studio routes entry paths into repo context, proof loops, and human approval gates."
+      src="docs/assets/readme-system-map-linear-v2.drawio.png"
+      alt="Game Studio routes creator entry paths into repo context, a proof loop, and human authority."
       width="100%"
     />
   </a>
@@ -60,33 +60,24 @@ promise one-prompt finished games.
 
 ## Quick Start
 
-From the target game repository, ask Codex:
+From the target game repository, ask Codex or Claude Code:
 
 ```text
-Read /path/to/game-studio/adapters/codex/bootstrap.md and install Game Studio
-for this game project. Preserve any existing direction first. If no stable
-direction exists, route me through taste-to-game discovery. Keep it project-local.
+Read /path/to/game-studio/adapters/<codex|claude>/bootstrap.md and install
+Game Studio for this game project. Preserve any existing direction first. If
+no stable direction exists, route me through taste-to-game discovery. Keep it
+project-local.
 ```
 
-Or ask Claude Code:
+The adapter copies `core/`, installs project-local skills, and merges the
+agent instruction snippet. See [adapters/](adapters/) for what each step does.
 
-```text
-Read /path/to/game-studio/adapters/claude/bootstrap.md and install Game Studio
-for this game project. Preserve any existing direction first. If no stable
-direction exists, route me through taste-to-game discovery. Keep it project-local.
-```
+## Stage Order
 
-The adapter copies or adapts:
+Discovery routes the project before stage 1. Do not call a milestone "vertical
+slice" unless the core loop is already proven.
 
-- `core/` into `.game-studio/core/`.
-- `skills/` into `.codex/skills/` or `.claude/skills/`.
-- `core/templates/` into project-facing docs when useful.
-- `adapters/*/*.snippet` into the target agent instruction file.
-
-## Milestone Order
-
-Do not start with "vertical slice" unless the core game is already proven.
-
+0. Creative Discovery (taste-to-game or direction audit)
 1. Direction Lock
 2. Protocol Proof
 3. Core Loop Prototype
