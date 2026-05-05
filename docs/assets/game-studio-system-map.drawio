@@ -1,89 +1,113 @@
 <mxfile host="app.diagrams.net" modified="2026-05-05T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
   <diagram id="game-studio-system-map" name="Game Studio system map">
-    <mxGraphModel dx="1240" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="520" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="1240" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="620" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" value="Game Studio routes creator input into a playable proof loop" style="text;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
-          <mxGeometry x="80" y="24" width="1080" height="34" as="geometry" />
+        <mxCell id="canvas" value="" style="rounded=0;whiteSpace=wrap;fillColor=#F5F5F7;strokeColor=none;container=1;pointerEvents=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1240" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" value="A single entry route creates repo context; playable proof, review, gates, and human decisions decide what advances." style="text;html=1;fontFamily=Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#475569;" vertex="1" parent="1">
-          <mxGeometry x="190" y="62" width="860" height="28" as="geometry" />
+        <mxCell id="title" value="Game Studio routes creator input into a playable proof loop" style="text;fontFamily=SF Pro Display,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;fontStyle=1;fontColor=#1D1D1F;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="980" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="entry-zone" value="Entry state" style="swimlane;html=1;fontFamily=Inter,Helvetica,Arial;rounded=1;absoluteArcSize=1;arcSize=12;spacing=8;startSize=34;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontStyle=1;fontSize=18;fontColor=#111827;" vertex="1" parent="1">
-          <mxGeometry x="45" y="130" width="215" height="310" as="geometry" />
+        <mxCell id="subtitle" value="One route creates repo context. Proof, review, gates, and human decisions decide what advances." style="text;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=#333333;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="92" width="800" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="entry-direction" value="Existing direction" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=15;fontStyle=1;html=1;" vertex="1" parent="entry-zone">
-          <mxGeometry x="26" y="58" width="163" height="42" as="geometry" />
+        <mxCell id="entry-card" value="" style="rounded=1;absoluteArcSize=1;arcSize=18;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#E0E0E0;container=1;pointerEvents=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="64" y="160" width="238" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="entry-taste" value="Taste-to-game" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#F0FDFA;strokeColor=#0F766E;fontColor=#134E4A;fontSize=15;fontStyle=1;html=1;" vertex="1" parent="entry-zone">
-          <mxGeometry x="26" y="122" width="163" height="42" as="geometry" />
+        <mxCell id="entry-heading" value="Entry state" style="text;fontFamily=SF Pro Display,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=#1D1D1F;html=1;" vertex="1" parent="1">
+          <mxGeometry x="92" y="192" width="182" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="entry-brownfield" value="Brownfield unknown" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontSize=15;fontStyle=1;html=1;" vertex="1" parent="entry-zone">
-          <mxGeometry x="26" y="186" width="163" height="42" as="geometry" />
+        <mxCell id="entry-direction" value="Existing direction" style="rounded=1;absoluteArcSize=1;arcSize=999;whiteSpace=wrap;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;spacing=8;fillColor=#FFFFFF;strokeColor=#E0E0E0;fontColor=#1D1D1F;fontSize=17;fontStyle=1;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="92" y="254" width="182" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="entry-note" value="One route&#xa;one first proof" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="entry-zone">
-          <mxGeometry x="26" y="254" width="163" height="38" as="geometry" />
+        <mxCell id="entry-taste" value="Taste-to-game" style="rounded=1;absoluteArcSize=1;arcSize=999;whiteSpace=wrap;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;spacing=8;fillColor=#FFFFFF;strokeColor=#E0E0E0;fontColor=#1D1D1F;fontSize=17;fontStyle=1;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="92" y="314" width="182" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="route-card" value="Route output&#xa;mode&#xa;owner&#xa;first proof&#xa;next gate" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=10;fillColor=#FFFFFF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;html=1;" vertex="1" parent="1">
-          <mxGeometry x="315" y="225" width="160" height="120" as="geometry" />
+        <mxCell id="entry-brownfield" value="Brownfield unknown" style="rounded=1;absoluteArcSize=1;arcSize=999;whiteSpace=wrap;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;spacing=8;fillColor=#FFFFFF;strokeColor=#E0E0E0;fontColor=#1D1D1F;fontSize=17;fontStyle=1;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="92" y="374" width="182" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="repo-zone" value="Target game repo" style="swimlane;html=1;fontFamily=Inter,Helvetica,Arial;rounded=1;absoluteArcSize=1;arcSize=12;spacing=8;startSize=36;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#FFFFFF;strokeColor=#94A3B8;fontStyle=1;fontSize=18;fontColor=#111827;" vertex="1" parent="1">
-          <mxGeometry x="525" y="115" width="435" height="320" as="geometry" />
+        <mxCell id="entry-first-proof" value="one first proof" style="rounded=1;absoluteArcSize=1;arcSize=999;whiteSpace=wrap;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;spacing=8;fillColor=#0066CC;strokeColor=#0066CC;fontColor=#FFFFFF;fontSize=14;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="438" width="158" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="context-card" value="Repo context&#xa;&#xa;state&#xa;brief&#xa;proof&#xa;reviews" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=12;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontColor=#334155;fontSize=15;align=left;verticalAlign=middle;fontStyle=1;html=1;" vertex="1" parent="repo-zone">
-          <mxGeometry x="28" y="54" width="155" height="230" as="geometry" />
+        <mxCell id="route-card" value="" style="rounded=1;absoluteArcSize=1;arcSize=18;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#E0E0E0;container=1;pointerEvents=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="230" width="184" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="loop-zone" value="Playable proof loop" style="swimlane;html=1;fontFamily=Inter,Helvetica,Arial;rounded=1;absoluteArcSize=1;arcSize=12;spacing=8;startSize=32;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontStyle=1;fontSize=17;fontColor=#111827;" vertex="1" parent="repo-zone">
-          <mxGeometry x="220" y="54" width="185" height="250" as="geometry" />
+        <mxCell id="route-title" value="Route output" style="text;fontFamily=SF Pro Display,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1D1D1F;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="260" width="128" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="loop-target" value="Proof target" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#ECFDF5;strokeColor=#16A34A;fontColor=#14532D;fontSize=15;fontStyle=1;align=center;html=1;" vertex="1" parent="loop-zone">
-          <mxGeometry x="24" y="50" width="125" height="34" as="geometry" />
+        <mxCell id="route-list" value="mode&#xa;owner&#xa;first proof&#xa;next gate" style="text;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#333333;html=1;" vertex="1" parent="1">
+          <mxGeometry x="384" y="314" width="104" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="loop-work" value="Bounded work" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=15;fontStyle=1;align=center;html=1;" vertex="1" parent="loop-zone">
-          <mxGeometry x="24" y="90" width="125" height="34" as="geometry" />
+        <mxCell id="repo-tile" value="" style="rounded=0;whiteSpace=wrap;fillColor=#272729;strokeColor=none;container=1;pointerEvents=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="150" width="420" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="loop-proof" value="Playable proof" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#14532D;fontSize=15;fontStyle=1;align=center;html=1;" vertex="1" parent="loop-zone">
-          <mxGeometry x="24" y="132" width="125" height="34" as="geometry" />
+        <mxCell id="repo-title" value="Target game repo" style="text;fontFamily=SF Pro Display,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=34;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="184" width="344" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="loop-review" value="Review&#xa;+ gate" style="rhombus;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFF7ED;strokeColor=#D97706;fontColor=#78350F;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="loop-zone">
-          <mxGeometry x="43" y="176" width="88" height="50" as="geometry" />
+        <mxCell id="context-title" value="Repo context" style="text;fontFamily=SF Pro Display,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="264" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="human-zone" value="Human authority" style="swimlane;html=1;fontFamily=Inter,Helvetica,Arial;rounded=1;absoluteArcSize=1;arcSize=12;spacing=8;startSize=34;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;fillColor=#FFFBEB;strokeColor=#D97706;fontStyle=1;fontSize=18;fontColor=#78350F;" vertex="1" parent="1">
-          <mxGeometry x="1015" y="155" width="180" height="260" as="geometry" />
+        <mxCell id="context-list" value="state&#xa;brief&#xa;proof&#xa;reviews" style="text;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#CCCCCC;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="318" width="116" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="human-owns" value="Owns&#xa;taste&#xa;concept choice&#xa;public promises" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#78350F;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="human-zone">
-          <mxGeometry x="24" y="60" width="132" height="88" as="geometry" />
+        <mxCell id="proof-card" value="" style="rounded=1;absoluteArcSize=1;arcSize=18;whiteSpace=wrap;fillColor=#FAFAFC;strokeColor=#E0E0E0;container=1;pointerEvents=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="774" y="234" width="178" height="218" as="geometry" />
         </mxCell>
-        <mxCell id="human-stage" value="Approves&#xa;Direction Lock&#xa;stage movement" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,Helvetica,Arial;spacing=8;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#78350F;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="human-zone">
-          <mxGeometry x="24" y="174" width="132" height="64" as="geometry" />
+        <mxCell id="proof-title" value="Playable proof loop" style="text;fontFamily=SF Pro Display,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1;fontColor=#1D1D1F;html=1;" vertex="1" parent="1">
+          <mxGeometry x="796" y="258" width="134" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="entry-to-route" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" edge="1" parent="1" source="entry-zone" target="route-card">
+        <mxCell id="proof-target" value="Proof target" style="rounded=1;absoluteArcSize=1;arcSize=999;whiteSpace=wrap;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;spacing=6;fillColor=#FFFFFF;strokeColor=#E0E0E0;fontColor=#1D1D1F;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="797" y="306" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="proof-work" value="Bounded work" style="rounded=1;absoluteArcSize=1;arcSize=999;whiteSpace=wrap;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;spacing=6;fillColor=#FFFFFF;strokeColor=#E0E0E0;fontColor=#1D1D1F;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="797" y="348" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="proof-playable" value="Playable proof" style="rounded=1;absoluteArcSize=1;arcSize=999;whiteSpace=wrap;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;spacing=6;fillColor=#0066CC;strokeColor=#0066CC;fontColor=#FFFFFF;fontSize=14;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="797" y="390" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="proof-review" value="Review + gate" style="rounded=1;absoluteArcSize=1;arcSize=999;whiteSpace=wrap;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;spacing=6;fillColor=#FFFFFF;strokeColor=#E0E0E0;fontColor=#1D1D1F;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="809" y="432" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="human-card" value="" style="rounded=1;absoluteArcSize=1;arcSize=18;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#E0E0E0;container=1;pointerEvents=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="205" width="160" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="human-title" value="Human&#xa;authority" style="text;fontFamily=SF Pro Display,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1D1D1F;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="238" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="human-owns" value="Owns&#xa;taste&#xa;concept&#xa;promises" style="rounded=1;absoluteArcSize=1;arcSize=18;whiteSpace=wrap;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;spacing=8;fillColor=#FAFAFC;strokeColor=#E0E0E0;fontColor=#1D1D1F;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="322" width="116" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="human-approves" value="Approves&#xa;Direction Lock&#xa;movement" style="rounded=1;absoluteArcSize=1;arcSize=18;whiteSpace=wrap;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;spacing=8;fillColor=#FAFAFC;strokeColor=#E0E0E0;fontColor=#1D1D1F;fontSize=14;fontStyle=1;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="410" width="116" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="entry-to-route" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=#0066CC;strokeWidth=2.5;fontColor=#0066CC;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" edge="1" parent="1" source="entry-card" target="route-card">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="route-to-context" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" edge="1" parent="1" source="route-card" target="context-card">
+        <mxCell id="route-to-repo" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=#0066CC;strokeWidth=2.5;fontColor=#0066CC;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" edge="1" parent="1" source="route-card" target="repo-tile">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="context-to-loop" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#2563EB;strokeWidth=3;fontColor=#1D4ED8;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" edge="1" parent="repo-zone" source="context-card" target="loop-zone">
+        <mxCell id="context-to-proof" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=#2997FF;strokeWidth=2;fontColor=#2997FF;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" edge="1" parent="1" source="context-list" target="proof-card">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="loop-to-human" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#D97706;strokeWidth=3;fontColor=#92400E;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" edge="1" parent="1" source="loop-zone" target="human-zone">
+        <mxCell id="repo-to-human" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=#0066CC;strokeWidth=2.5;fontColor=#0066CC;fontSize=13;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.42;html=1;" edge="1" parent="1" source="repo-tile" target="human-card">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-loop-target-work" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" edge="1" parent="loop-zone" source="loop-target" target="loop-work">
+        <mxCell id="edge-proof-target-work" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=#0066CC;strokeWidth=1.8;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" edge="1" parent="1" source="proof-target" target="proof-work">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-loop-work-proof" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" edge="1" parent="loop-zone" source="loop-work" target="loop-proof">
+        <mxCell id="edge-proof-work-playable" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=#0066CC;strokeWidth=1.8;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" edge="1" parent="1" source="proof-work" target="proof-playable">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-loop-proof-review" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" edge="1" parent="loop-zone" source="loop-proof" target="loop-review">
+        <mxCell id="edge-proof-playable-review" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=#0066CC;strokeWidth=1.8;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" edge="1" parent="1" source="proof-playable" target="proof-review">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-loop-review-target" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Inter,Helvetica,Arial;strokeColor=#475569;strokeWidth=2;fontColor=#475569;fontSize=12;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=1;entryY=0.5;html=1;" edge="1" parent="loop-zone" source="loop-review" target="loop-target">
+        <mxCell id="edge-proof-review-target" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SF Pro Text,-apple-system,BlinkMacSystemFont,Inter,Helvetica,Arial;strokeColor=#7A7A7A;strokeWidth=1.5;fontColor=#7A7A7A;fontSize=12;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=1;entryY=0.5;html=1;" edge="1" parent="1" source="proof-review" target="proof-target">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="166" y="201" />
-              <mxPoint x="166" y="67" />
+              <mxPoint x="940" y="447" />
+              <mxPoint x="940" y="321" />
             </Array>
           </mxGeometry>
         </mxCell>
