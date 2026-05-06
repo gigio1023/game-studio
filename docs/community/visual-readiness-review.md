@@ -48,8 +48,8 @@ This review records the visual standard used for the public README.
 
 The README diagram should show:
 
-- How creator input becomes one route and one first proof.
-- How repo context feeds the playable proof loop.
+- How creator input becomes one route and one first playable prototype.
+- How repo context feeds the playable validation loop.
 - Where review, gates, and human decisions affect the next step.
 
 It should not show every file, every role, every template, or a bottom legend.
@@ -59,15 +59,15 @@ It should not show every file, every role, every template, or a bottom legend.
 A README diagram is ready only if it passes these checks:
 
 - A new reader can explain the diagram as entry, route, repo context, playable
-  proof loop, and human authority after a short scan.
+  validation loop, and human authority after a short scan.
 - There is one dominant path. Secondary support uses weaker visual weight and
   never competes with the production path.
 - Boundaries are semantic, not organizational. The diagram groups by reader
-  question: input, route, target repo, proof loop, and human authority.
+  question: input, route, target repo, validation loop, and human authority.
 - Arrow grammar is stable: solid arrows show the production path and the return
-  arrow inside the proof loop shows iteration.
-- Color stays restrained. Lavender is the only accent for routing and active
-  proof; near-black surfaces, hairlines, and muted gray carry structure.
+  arrow shows iteration.
+- Color stays restrained. Responsibility colors separate direction, production,
+  execution, playable prototype, and human decisions without decoration.
 - Text remains readable at normal GitHub README width without zooming.
 - The diagram has an editable `.drawio` source plus exported PNG for README
   rendering and SVG for sharp review.

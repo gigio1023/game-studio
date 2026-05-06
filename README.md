@@ -1,21 +1,21 @@
 # Game Studio
 
-Discovery-driven, proof-gated AI game production system.
+Discovery-driven AI game production system for playable validation.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/agent%20skills-Codex%20%7C%20Claude%20Code-111827)](skills/)
 [![Review Model](https://img.shields.io/badge/review-role--led-7C3AED)](docs/substantive-review.md)
 
 Game Studio helps Codex and Claude Code turn either an existing game direction
-or a player's taste profile into playable proofs, reviews, gates, and production
-decisions. Agents can propose, plan, implement, and review; human authorship and
-playable proof decide what advances.
+or a player's taste profile into playable prototypes, reviews, gates, and
+production decisions. Agents can propose, plan, implement, and review; human
+authorship and playable validation decide what advances.
 
 <p align="center">
-  <a href="docs/assets/readme-system-map-linear-v2.drawio.svg">
+  <a href="docs/assets/readme-playable-validation.drawio.svg">
     <img
-      src="docs/assets/readme-system-map-linear-v2.drawio.png"
-      alt="Game Studio routes creator entry paths into repo context, a proof loop, and human authority."
+      src="docs/assets/readme-playable-validation.drawio.png"
+      alt="Game Studio installs a .game-studio layer in a target game repo. Direction, taste, or brownfield entry feeds project-local state; that state drives playable prototypes, role review, gate verdicts, and human decision records."
       width="100%"
     />
   </a>
@@ -24,17 +24,17 @@ playable proof decide what advances.
 ## Operating Loop
 
 ```text
-Taste or Direction -> Concept -> Proof -> Review -> Gate -> Next Proof
+Taste or Direction -> Concept -> Playable Prototype -> Review -> Gate -> Next Prototype
 ```
 
 A concept earns more scope by becoming playable, surviving role-led review, and
-passing a gate with a clear next step.
+passing a gate with a clear next prototype.
 
 ## Entry Paths
 
 | Path | Use when | First output |
 | --- | --- | --- |
-| Existing direction | A mandate, pitch, prototype, task, or known game idea exists | Direction audit and next proof |
+| Existing direction | A mandate, pitch, prototype, task, or known game idea exists | Direction audit and next prototype |
 | Taste-to-game | References, emotions, scenes, constraints, or curiosity exist | Taste profile, concept slate, creative brief |
 | Brownfield unknown | A repo or notes exist but authority is unclear | Adoption audit and stop condition |
 
@@ -46,14 +46,14 @@ See [docs/entry-model.md](docs/entry-model.md) and
 | Layer | What it gives a game repo |
 | --- | --- |
 | Entry routing | Existing direction, taste-to-game, or brownfield route |
-| Creative discovery | Taste profile, concept slate, proof budget, and brief |
-| Project state | Durable `.game-studio/` context for direction, proof, review, and decisions |
+| Creative discovery | Taste profile, concept slate, prototype budget, and brief |
+| Project state | Durable `.game-studio/` context for direction, validation, review, and decisions |
 | Stage model | Direction lock through release candidate |
-| Claim validation | Feature, quality, and public promises mapped to proof |
-| Role reviews | Verdict, severity, confidence, and next proof |
+| Claim validation | Feature, quality, and public promises mapped to playable validation |
+| Role reviews | Verdict, severity, confidence, and next prototype |
 | Adapters | Codex and Claude Code project-local instructions |
 
-Game Studio can propose concepts, plan bounded playable proofs, route reviews,
+Game Studio can propose concepts, plan bounded playable prototypes, route reviews,
 and help move a prototype toward release when gates keep passing. It does not
 own the user's taste, replace playtesting, let scripts judge game quality, or
 promise one-prompt finished games.
@@ -108,7 +108,7 @@ slice" unless the core loop is already proven.
 | Understand the product boundary | [docs/product-boundary.md](docs/product-boundary.md) |
 | Start from taste | [docs/beginner-taste-to-game.md](docs/beginner-taste-to-game.md) |
 | Run the production loop | [docs/operating-model.md](docs/operating-model.md) |
-| Review a playable proof | [docs/substantive-review.md](docs/substantive-review.md) |
+| Review a playable prototype | [docs/substantive-review.md](docs/substantive-review.md) |
 | Contribute | [CONTRIBUTING.md](CONTRIBUTING.md) |
 
 ## License

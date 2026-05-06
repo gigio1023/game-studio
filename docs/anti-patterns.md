@@ -32,13 +32,13 @@ Correction:
 Symptoms:
 
 - The plan implies the agent can generate a complete game from one request.
-- Scope expands before the first playable proof exists.
+- Scope expands before the first playable prototype exists.
 - Public copy promises outcomes that no build has shown.
 
 Correction:
 
-- Reframe the work as a bounded proof loop: concept, playable proof, role review,
-  gate verdict, and next proof.
+- Reframe the work as a bounded validation loop: concept, playable prototype,
+  role review, gate verdict, and next prototype.
 
 ## Premature vertical slice
 
@@ -58,7 +58,7 @@ Symptoms:
 
 - Agents add systems that were not requested.
 - Documents become larger but less executable.
-- Reviews discuss style instead of playable proof.
+- Reviews discuss style instead of playable prototypes.
 
 Correction:
 
@@ -114,7 +114,7 @@ Correction:
 Symptoms:
 
 - A review lists many roles.
-- No role cites playable proof or a discipline-specific concern.
+- No role cites a playable prototype or a discipline-specific concern.
 
 Correction:
 
