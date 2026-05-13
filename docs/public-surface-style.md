@@ -7,12 +7,12 @@ tooling, internal schemas, or research scaffolding feel like the main value.
 
 Use:
 
-> Discovery-driven, proof-gated AI game production system.
+> Discovery-driven AI game production system for playable validation.
 
 Then explain:
 
 > Game Studio helps Codex and Claude Code turn either an existing game
-> direction or a player's taste profile into playable proofs, reviews, gates,
+> direction or a player's taste profile into playable prototypes, reviews, gates,
 > and production decisions.
 
 ## First Screen Rules
@@ -29,14 +29,17 @@ The first screen should answer:
 
 Prefer:
 
-- proof
-- playable proof
+- playable prototype
+- first playable
+- vertical slice
+- playable validation
+- role-led review
+
+Use internal gate terms only when naming framework mechanics:
+
 - proof target
 - proof budget
-- proof-gated
-- validation
 - claim-to-proof
-- role-led review
 
 Use `evidence` only for internal artifacts such as evidence contracts,
 captures, playtest notes, QA results, schemas, and release claim checks.
@@ -58,7 +61,7 @@ Recommended order:
 ## Visual Rules
 
 - Show the actual operating loop, not abstract decoration.
-- Make entry mode, target repo, playable proof, review, gate, and next proof
+- Make entry mode, target repo, playable prototype, review, gate, and next prototype
   visible.
 - Do not make contributor scripts the center of the visual story.
 - Do not imply one-prompt finished games.
@@ -68,14 +71,14 @@ Recommended order:
   grammar, readable labels, meaningful color, and no overlapping elements.
 - Avoid bottom legends or footer explanation inside the diagram; the layout
   should carry the meaning.
-- For the README hero map, use a Linear-inspired product panel: near-black
-  canvas, stepped dark surfaces, 1px hairlines, straight routing, and one
-  lavender accent.
+- For the README hero map, use a compact product map: light canvas, restrained
+  color by responsibility, straight routing, and one strongly emphasized
+  playable prototype.
 
 ## Copy Rules
 
 - Be specific about artifacts and decisions.
-- Keep claims tied to proof or review.
+- Keep claims tied to playable validation or review.
 - Avoid defensive disclaimers unless they clarify the supported path.
 - Avoid inflated role lists when authority is not clear.
 - Prefer short tables for routes, surfaces, and responsibilities.

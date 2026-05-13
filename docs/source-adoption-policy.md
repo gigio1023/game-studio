@@ -78,7 +78,7 @@ Before moving any external idea into the framework, answer:
 
 Reject ideas when they:
 
-- promise automatic finished games without playable proof
+- promise automatic finished games without playable validation
 - replace user taste with AI taste
 - add roles without authority or decision value
 - make scripts the main game-quality story

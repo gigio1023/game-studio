@@ -32,8 +32,10 @@ This repository maps those forms to project files:
 
 ## Public Product Language
 
-- Use `proof`, `playable proof`, `proof target`, `proof budget`,
-  `proof-gated`, `validation`, and `claim-to-proof` for public positioning.
+- Use `playable prototype`, `first playable`, `vertical slice`, and `playable
+  validation` for public positioning.
+- Use `proof target`, `proof budget`, and `claim-to-proof` only when naming
+  internal gate mechanics.
 - Use `evidence` only when naming internal ledgers, contracts, schemas,
   captures, QA results, playtest notes, or release claim checks.
 - Make both entry paths visible: existing direction and taste-to-game

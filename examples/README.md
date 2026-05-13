@@ -11,7 +11,7 @@ for one particular game.
 
 Good examples show at least one of these paths:
 
-- An existing direction carried into a proof-gated milestone.
+- An existing direction carried into a playable-validation milestone.
 - Taste-to-game discovery that produces a small concept slate.
 - A brownfield project audit that stops before rewriting direction.
 

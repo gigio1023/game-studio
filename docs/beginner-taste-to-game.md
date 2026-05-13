@@ -92,7 +92,7 @@ Each concept should include:
 - one surprising constraint
 - why it fits the taste profile
 - why it might fail
-- first playable proof
+- first playable prototype
 - proof budget
 - rejection signal
 

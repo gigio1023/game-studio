@@ -84,7 +84,7 @@ Rules:
 
 - Preserve the carried direction before improving it.
 - Record the direction source and authority owner.
-- Identify which claims still need playable proof.
+- Identify which claims still need playable validation.
 - Do not rewrite direction just because the artifact is incomplete.
 - Route to `GS-CREATIVE-BRIEF`, `GS-PROTOTYPE-QUESTION`, or `GS-THESIS` based
   on what is actually missing.
@@ -121,7 +121,7 @@ Rules:
 - Separate playable truth from claims in notes.
 - Identify project-owned files, source-of-truth artifacts, and stale promises.
 - Classify the current concept status before proposing new concepts.
-- Recommend the smallest next proof that clarifies the project.
+- Recommend the smallest next prototype that clarifies the project.
 
 Stop with `USER_DECISION_NEEDED` when the audit finds conflicting authority,
 unclear ownership, or a change that would replace the active direction.
@@ -129,7 +129,7 @@ unclear ownership, or a change that would replace the active direction.
 ## AI Authorship Boundary
 
 AI may ask questions, propose concepts, compare tradeoffs, recommend a first
-proof, draft a brief, and implement bounded playable proofs.
+playable prototype, draft a brief, and implement bounded playable prototypes.
 
 AI must not claim the user's taste, silently select the final concept, lock
 direction, change stage, turn parked ideas into active scope, or make public

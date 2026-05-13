@@ -66,5 +66,5 @@ Director review should use source-backed craft questions:
 - What player experience should that dynamic produce?
 - What meaningful choice does the player make?
 - What does the player learn in the first session?
-- What playable proof shows the target experience happened?
+- What playable prototype shows the target experience happened?
 - What wrong direction does this decision reject?

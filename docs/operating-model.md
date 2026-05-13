@@ -2,13 +2,13 @@
 
 Game Studio installs a project-local production system into a target game repo.
 It starts by choosing an entry route, then runs direction, production, and
-execution through playable proof gates.
+execution through playable validation gates.
 
 ## Entry Routing
 
 | Mode | User state | First action | Output |
 | --- | --- | --- | --- |
-| `direction-carry-in` | Existing direction, mandate, prototype, pitch, or task | Preserve authority and audit missing proof | Direction audit, stage inference, next proof |
+| `direction-carry-in` | Existing direction, mandate, prototype, pitch, or task | Preserve authority and audit missing validation | Direction audit, stage inference, next prototype |
 | `taste-to-game` | Taste exists but the game direction is not stable | Elicit taste and compare a small concept slate | Taste profile, concept slate, creative brief |
 | `brownfield-unknown` | Repo, notes, or prototype exist but authority is unclear | Audit current state before adding direction | State classification and stop condition |
 
@@ -42,13 +42,13 @@ Primary roles:
 
 ## 2. Production Layer
 
-Owns the question: what playable proof are we pursuing now?
+Owns the question: what playable prototype are we pursuing now?
 
 Artifacts:
 
 - Stage file
 - Milestone contract
-- Proof budget
+- Prototype budget
 - Gate verdicts
 - Risk register
 - Scope list
@@ -102,4 +102,5 @@ Primary roles:
 
 Use scripts for cheap invariants and repository health. Use role reviews for
 direction, design, production judgment, game feel, QA severity, accessibility
-barriers, release promise decisions, and whether a proof is worth advancing.
+barriers, release promise decisions, and whether a prototype is worth
+advancing.

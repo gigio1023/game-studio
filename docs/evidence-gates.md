@@ -1,12 +1,13 @@
 # Evidence Gates
 
 Evidence gates are internal validation points. They convert game-development
-claims into observable proof by requiring concrete artifacts such as captures,
-build IDs, playtest notes, QA results, release checks, and decision records.
+claims into observable validation by requiring concrete artifacts such as
+captures, build IDs, playtest notes, QA results, release checks, and decision
+records.
 
-Public-facing product language should use proof, playable proof, proof target,
-proof budget, and validation. Use evidence only for internal artifact ledgers
-and concrete captures.
+Public-facing product language should use playable prototype, first playable,
+vertical slice, and playable validation. Use evidence only for internal artifact
+ledgers and concrete captures.
 
 ## Evidence Types
 
@@ -57,7 +58,7 @@ accessibility support, localization, credits, and support expectations.
 ### Concept Slate
 
 - 3 to 5 comparable concepts
-- First playable proof for each candidate
+- First playable prototype for each candidate
 - Proof budget for each candidate
 - Rejection reason for each candidate
 
@@ -66,7 +67,7 @@ accessibility support, localization, credits, and support expectations.
 - Selected concept
 - Player promise
 - Core verb
-- First playable proof
+- First playable prototype
 - Proof budget
 - Decision record or candidate status
 
@@ -94,7 +95,7 @@ accessibility support, localization, credits, and support expectations.
 - Release strategy
 - Concept playability review verdict
 
-### First Playable Proof
+### First Playable Prototype
 
 - Executable build or playable runtime
 - Player action, system response, visible consequence, and next choice
@@ -116,15 +117,15 @@ accessibility support, localization, credits, and support expectations.
 - Failure state exists
 - Feedback exists
 - Loop can be repeated
-- Core loop proof gate verdict
+- Core loop gate verdict
 
 ### Pre-production Exit
 
-- Core loop has playable proof
+- Core loop has playable validation
 - Scope, cut candidates, dependencies, and capacity assumptions are named
 - Technical, content, QA, accessibility, localization, and release risks are
   assigned
-- Next milestone has quality criteria and fallback proof
+- Next milestone has quality criteria and fallback prototype
 
 ### Presentation Value Gate
 
@@ -156,5 +157,6 @@ accessibility support, localization, credits, and support expectations.
   fix depending on severity.
 
 Source types are observation, metric, and interview. Before a playable build
-exists, walkthroughs, paper prototypes, and reference analysis are weak proof.
-After first playable proof exists, observed player behavior outranks opinion.
+exists, walkthroughs, paper prototypes, and reference analysis are weak
+validation. After first playable exists, observed player behavior outranks
+opinion.

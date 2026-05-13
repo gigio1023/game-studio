@@ -1,6 +1,6 @@
 # Production Layer
 
-The production layer turns direction into staged playable proof.
+The production layer turns direction into staged playable validation.
 
 ## Milestone Contract
 
@@ -13,13 +13,13 @@ Every milestone must define:
 - Research question
 - Experience hypothesis
 - Deliverables
-- Quality criteria tied to playable proof
+- Quality criteria tied to playable validation
 - Non-goals and cut candidates
 - Internal evidence artifacts, such as captures, build IDs, playtest notes, QA
   results, release checks, and decision records
 - QA walkthrough
 - Review roles and gate reviewers
-- Risks and fallback proof
+- Risks and fallback prototype
 - Exit decision
 
 Milestones should not ask for vague confidence. They should say what a player
@@ -35,7 +35,7 @@ Recommended order:
 4. Creative Brief
 5. Constraint Ladder
 6. First Prototype Question
-7. First Playable Proof
+7. First Playable Prototype
 8. Direction Lock
 9. Protocol Proof
 10. Core Loop Prototype
@@ -46,7 +46,7 @@ Recommended order:
 15. Release Candidate
 16. Post-release Learning
 
-## Discovery To Proof Rule
+## Discovery To Prototype Rule
 
 Creative discovery can produce taste profiles, concept cards, and briefs, but it
 does not approve production by itself. Before implementation expands, the
@@ -55,13 +55,13 @@ project needs:
 - a selected concept or explicit candidate concept
 - a concept playability review
 - a constraint ladder
-- a proof budget
-- a first prototype contract or first playable proof contract
+- a prototype budget
+- a first prototype contract or first playable contract
 - a review gate that can say `READY`, `CONCERNS`, or `NOT_READY`
 
 The constraint ladder clears through `GS-CONSTRAINT-LADDER`. A Core Loop
 Prototype clears through `GS-CORE-LOOP`; direction gates can support the review,
-but playable proof carries the stage.
+but playable validation carries the stage.
 
 ## First Prototype Rule
 
@@ -69,18 +69,19 @@ A first prototype answers one prototype question. It can be rough, simulated,
 paper-based, or digital, but it must name the player moment, what to ignore,
 what to capture, and what would change the direction.
 
-## First Playable Proof Rule
+## First Playable Prototype Rule
 
-A first playable proof is executable. A player must be able to control a moment,
-see a response, experience failure or recovery, and generate concrete captures
-for review. If the project only has persuasive prose, reference images, or a
-task list, it has not reached first playable proof.
+A first playable prototype is executable. A player must be able to control a
+moment, see a response, experience failure or recovery, and generate concrete
+captures for review. If the project only has persuasive prose, reference
+images, or a task list, it has not reached first playable.
 
 ## Pre-production Exit Rule
 
 Do not enter production while the project still depends on open-ended discovery.
-The project needs playable proof, cut candidates, role ownership, content scope,
-QA strategy, accessibility scope, release-risk notes, and a review verdict.
+The project needs playable validation, cut candidates, role ownership, content
+scope, QA strategy, accessibility scope, release-risk notes, and a review
+verdict.
 
 ## Vertical Slice Rule
 
@@ -88,7 +89,7 @@ A vertical slice is not a fancy prototype. It is a small section of the game at
 target quality across gameplay, content, UI, audio, visuals, technical stability,
 and release promise.
 
-If the project cannot yet prove the core loop, do not call the milestone a
+If the project cannot yet validate the core loop, do not call the milestone a
 vertical slice.
 
 ## Release Validation Rule

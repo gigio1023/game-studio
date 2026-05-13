@@ -6,7 +6,7 @@ game substance.
 ## Principle
 
 Automated checks are useful, but they are not game direction. A project advances
-when the right roles can defend the playable proof and the internal artifacts
+when the right roles can defend the playable prototype and the internal artifacts
 that support it.
 
 ## Codex-Led Review Surfaces
@@ -25,19 +25,19 @@ that support it.
 
 Before Direction Lock, review whether the concept has a player fantasy, first
 verb, player-caused change, first-minute learning, failure condition, smallest
-playable proof, and rejection trigger. Do not approve a concept because it
+playable prototype, and rejection trigger. Do not approve a concept because it
 sounds exciting.
 
 ### First Playable Review
 
-After the first executable proof exists, review the loop:
+After the first executable prototype exists, review the loop:
 
 ```text
 Verb -> read -> risk -> response -> learning -> next choice
 ```
 
 The review should cite captures, QA notes, playtest notes, or bug triage entries
-and then decide whether to advance, repeat the proof, narrow scope, park the
+and then decide whether to advance, repeat the prototype, narrow scope, park the
 concept, or reject it.
 
 ### Release Validation Review
@@ -59,4 +59,4 @@ artifact. Claims without build truth should be revised, removed, or blocked.
 
 Use scripts only for cheap invariants. For game quality, require a written role
 review that names the proof target, proof checked, internal artifacts checked,
-concerns, tradeoffs, and the next proof.
+concerns, tradeoffs, and the next prototype.
