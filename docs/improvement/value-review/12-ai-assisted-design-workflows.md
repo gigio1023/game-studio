@@ -97,7 +97,7 @@ framework. Generated output is candidate material, not a verdict.
 
 ## Proof Of Improvement
 
-Re-run the [Stress Scenarios](10-stress-scenarios.md). After adding these
+Re-run the [Stress Scenarios](09-value-judgment-method.md#stress-scenarios). After adding these
 moves, S4 (total beginner) should improve from 40 to 50 percent helpfulness to
 above 70 percent because reference-moment translation finally has generative
 support, and S2 (mixed demo reactions) should improve because counterfactual

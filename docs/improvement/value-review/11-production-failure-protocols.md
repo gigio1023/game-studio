@@ -114,6 +114,6 @@ A scenario passes the dark-rituals test when the framework can:
 - run two prototypes in parallel without confusing reviewers
 - compress the gate set under deadline without skipping core proof
 
-S3 in [Stress Scenarios](10-stress-scenarios.md) should improve from about 55
+S3 in [Stress Scenarios](09-value-judgment-method.md#stress-scenarios) should improve from about 55
 percent to above 75 percent helpfulness once deadline mode and scope crisis
 ritual exist.

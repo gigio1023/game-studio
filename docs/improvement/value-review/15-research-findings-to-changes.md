@@ -30,7 +30,7 @@ Adopt as a new template at
 `core/templates/intake/reference-constraint-sheet.md` with columns:
 moment / why / components / forces / constraints / contradiction notes.
 
-This sharpens [Craft Reference Curriculum](13-craft-reference-curriculum.md):
+This sharpens [Craft Curriculum And Beginner Pedagogy](13-craft-curriculum-and-beginner-pedagogy.md):
 the cross-field translation move set is itself an operational guide and
 should be linked there.
 
@@ -138,7 +138,7 @@ three-component version. Do not invent attribution.
 
 ### Add MDA Critique Alongside MDA Citation
 
-[Craft Reference Curriculum](13-craft-reference-curriculum.md) lists
+[Craft Curriculum And Beginner Pedagogy](13-craft-curriculum-and-beginner-pedagogy.md) lists
 MDA as the priority source for taste-to-design translation. The
 Walk / Lantz / Duarte critique documents that MDA's aesthetics list is
 opinion-shaped, not exhaustive. Horror, Awe, Disgust, and Confusion are
@@ -294,7 +294,7 @@ When this plan is executed, expect changes in:
   (verified triggers, scope to concept validation)
 - `docs/improvement/value-review/12-ai-assisted-design-workflows.md` (Park
   implementation, scaffolding hedge)
-- `docs/improvement/value-review/13-craft-reference-curriculum.md`
+- `docs/improvement/value-review/13-craft-curriculum-and-beginner-pedagogy.md`
   (MDA critique)
 
 ## Open Questions For The Maintainer

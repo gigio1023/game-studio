@@ -28,15 +28,13 @@ reviews, and learns from playable builds.
 | [Role Review Depth](05-role-review-depth.md) | Make role playbooks produce real judgment, not role-shaped notes. |
 | [Proof Artifacts And Evals](06-proof-artifacts-and-evals.md) | Define the artifacts and eval prompts that show the system works. |
 | [Adapters And Distribution](07-adapters-and-distribution.md) | Package the framework cleanly for Codex and Claude Code projects. |
-| [Judgment Rubric](09-judgment-rubric.md) | Score the framework by judgment dimensions, not only by area. |
-| [Stress Scenarios](10-stress-scenarios.md) | Test framework fit against four canonical user states. |
+| [Value Judgment Method](09-value-judgment-method.md) | Score the framework by judgment dimensions and stress-test it against canonical user states. |
 | [Production Failure Protocols](11-production-failure-protocols.md) | Add concept death, scope crisis, parallel risk, and deadline mode. |
 | [AI-Assisted Design Workflows](12-ai-assisted-design-workflows.md) | Use AI for what AI is uniquely good at, not only as a disciplined producer. |
-| [Craft Reference Curriculum](13-craft-reference-curriculum.md) | Convert the canon into operational guides with worked examples. |
+| [Craft Curriculum And Beginner Pedagogy](13-craft-curriculum-and-beginner-pedagogy.md) | Convert the canon and beginner teaching path into operational guides with worked examples. |
 | [Anti-Additions](14-anti-additions.md) | Refuse plausible additions that lower value-per-effort. |
 | [Research Findings To Changes](15-research-findings-to-changes.md) | Apply external research findings: verified adoptions, hedged adoptions, dropped misattributions, strategic positioning. |
 | [Playable Validation Positioning](16-playable-validation-positioning.md) | Position Game Studio as an AI-assisted game production framework for playable validation. |
-| [Beginner Craft Pedagogy](17-beginner-craft-pedagogy.md) | Turn beginner taste into exercises, artifacts, and playable proof questions. |
 | [Player Operations And Public Proof](18-player-operations-public-proof.md) | Add public exposure, feedback, support, accessibility, localization, and release-promise planning. |
 | [Anti-Slop Quality And Provenance](19-anti-slop-quality-provenance.md) | Define quality, provenance, false precision, and generated-material proof rules. |
 | [Implementation Map From Rounds 4-5](20-implementation-map-round4-5.md) | Sequence the new research into small repo implementation waves. |

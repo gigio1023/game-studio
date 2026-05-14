@@ -21,7 +21,7 @@ This plan is intentionally split across focused files. The old single long plan 
 | [02-review-routing-evidence.md](02-review-routing-evidence.md) | Review protocol, completion statuses, stage navigation, and diff-scope routing. |
 | [03-game-craft-production-release.md](03-game-craft-production-release.md) | Game craft, QA, accessibility, production, release, credits, and post-release artifacts. |
 | [04-adapters-install-contribution.md](04-adapters-install-contribution.md) | Adapter hooks, install/upgrade areas, manifest checks, and contributor-only hygiene. |
-| [05-readme-public-area.md](05-readme-public-area.md) | README, diagrams, public visual presentation, and OSS reference patterns from major repositories. |
+| [05-readme-public-docs.md](05-readme-public-docs.md) | README, diagrams, public visual presentation, and OSS reference patterns from major repositories. |
 | [06-implementation-roadmap.md](06-implementation-roadmap.md) | Ordered tasks, commit slices, verification expectations, and risk controls. |
 | [07-deep-source-notes.md](07-deep-source-notes.md) | Deeper source sweep across local reference projects, cloned OSS repos, and game-production methods. |
 | [08-creative-discovery-novice-authorship.md](08-creative-discovery-novice-authorship.md) | Entry routing, taste-to-game discovery, concept slates, proof budgets, and novice authorship control. |

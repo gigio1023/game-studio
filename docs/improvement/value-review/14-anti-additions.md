@@ -12,7 +12,7 @@ appears useful in isolation. Together they dilute the framework into a
 checklist with no center. The single highest-value moves listed in
 [Production Failure Protocols](11-production-failure-protocols.md),
 [AI-Assisted Design Workflows](12-ai-assisted-design-workflows.md), and
-[Craft Reference Curriculum](13-craft-reference-curriculum.md) should run
+[Craft Curriculum And Beginner Pedagogy](13-craft-curriculum-and-beginner-pedagogy.md) should run
 first.
 
 ## Anti-Addition List

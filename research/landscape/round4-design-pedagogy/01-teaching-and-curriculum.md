@@ -116,7 +116,7 @@ teach the designer to see?"
 - `research/landscape/textbook-canon/01-additional-canon.md`
 - `research/landscape/philosophy/01-design-philosophy-survey.md`
 - `research/landscape/synthesis.md`
-- `docs/improvement/value-review/13-craft-reference-curriculum.md`
+- `docs/improvement/value-review/13-craft-curriculum-and-beginner-pedagogy.md`
 
 ## Canonical Concepts
 
@@ -516,7 +516,7 @@ Artifact: `beginner-design-portfolio.md`
 - Good recognition that playtest evidence matters in
   `research/foundations/qa-playtesting-and-accessibility.md`.
 - A useful next-step insight in
-  `docs/improvement/value-review/13-craft-reference-curriculum.md`: syllabus is
+  `docs/improvement/value-review/13-craft-curriculum-and-beginner-pedagogy.md`: syllabus is
   not curriculum, and operational guides need worked examples.
 - Prior research already names MDA's limits and the need for DDE/Sicart/Lantz
   critique in `research/landscape/synthesis.md`.
