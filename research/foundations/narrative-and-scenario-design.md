@@ -225,7 +225,7 @@ This report maps public narrative design, quest design, interactive storytelling
 - **Content QA matrix**: There is no template for testing dialogue conditions, branch reachability, repeated lines, missing speaker metadata, sequence breaks, localization overflow, subtitle behavior, or lore contradictions.
 - **Scenario production metrics**: Milestone templates do not yet capture word count, branch count, string count, VO minutes, cinematic minutes, content dependencies, or scenario map count.
 - **Accessibility and localization hooks**: Lead roles exist, but narrative-heavy workflows do not yet force early checks for subtitles, text sizing, non-audio equivalents, variable text, context metadata, or translation expansion.
-- **Research index**: The repo has philosophy and operating model docs, but no source-backed foundation page for narrative and scenario design until this report.
+- **Research index**: The repo has philosophy and operating model docs, but no from the craft reference index foundation page for narrative and scenario design until this report.
 
 ## Recommended Next Changes
 

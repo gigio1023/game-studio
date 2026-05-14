@@ -22,7 +22,11 @@ tags:
 4. Read the proof target and internal evidence contract.
 5. Split work by file ownership.
 6. Read `references/design-preservation.md` for player-facing work.
-7. Verify and write a handoff before claiming completion.
+7. If the target project uses Godot, read
+   `.game-studio/core/references/operational/godot-playable-build.md`.
+8. If the Godot task resembles a known engine pattern, read
+   `.game-studio/core/references/operational/godot-reference-patterns.md`.
+9. Verify and write a handoff before claiming completion.
 
 ## Entry Check
 
@@ -49,6 +53,11 @@ instead of choosing for the human.
 - Do not claim completion without playable proof, internal evidence records, or
   an explicit blocker.
 - Do not use implementation progress to silently change direction.
+- For Godot work, do not claim a playable build from file presence alone. Record
+  the import, script, scene-load, smoke, capture, or playtest check that supports
+  the claim.
+- For Godot work, do not copy a starter kit blindly. Name the reference pattern,
+  adaptation, license risk, and runtime check.
 
 ## Reference Files
 
@@ -58,4 +67,7 @@ instead of choosing for the human.
 | `references/design-preservation.md` | Player-facing implementation | Preserve design intent |
 | `.game-studio/core/templates/execution/work-intake.md` | Starting work | Intake template |
 | `.game-studio/core/templates/execution/implementation-handoff.md` | Ending work | Handoff template |
+| `.game-studio/core/templates/production/godot-reference-adoption-note.md` | Borrowing from a Godot demo or starter kit | Reference pattern, license decision, adaptation, and runtime check |
+| `.game-studio/core/references/operational/godot-playable-build.md` | Godot milestone or prototype work | Godot scene, script, runtime, and capture checks |
+| `.game-studio/core/references/operational/godot-reference-patterns.md` | Godot work that matches known demos or starter kits | Reference selector and pattern cards |
 | `.game-studio/core/roles/coordination-rules.md` | Parallel or multi-role work | Coordination rules |

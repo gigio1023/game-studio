@@ -2,17 +2,17 @@
 
 Value reviews tend to recommend additions. This file lists improvements that
 look attractive but lower value-per-effort or pull the framework off its
-strong shape. Recording them protects the ceiling moves from being crowded out
-by plausible but lower-leverage work.
+strong shape. Recording them protects the highest-value changes from being crowded out
+by plausible but lower-value work.
 
 ## Why Explicit Anti-Additions
 
 Adding more roles, profiles, anti-patterns, or templates is easy. Each one
 appears useful in isolation. Together they dilute the framework into a
-checklist with no center. The single highest-leverage moves listed in
-[Production Dark Rituals](11-production-dark-rituals.md),
-[LLM-Native Leverage](12-llm-native-leverage.md), and
-[Curriculum From Source Map](13-curriculum-from-source-map.md) should run
+checklist with no center. The single highest-value moves listed in
+[Production Failure Protocols](11-production-failure-protocols.md),
+[AI-Assisted Design Workflows](12-ai-assisted-design-workflows.md), and
+[Craft Reference Curriculum](13-craft-reference-curriculum.md) should run
 first.
 
 ## Anti-Addition List
@@ -39,13 +39,13 @@ anti-patterns into retrospectives instead.
 
 Solo and small-team work does not need community-marketing-lead,
 localization-lead, level-designer, or every empty role. Add only when a real
-review surface needs the playbook. Release manager and accessibility lead
+review workflow needs the playbook. Release manager and accessibility lead
 remain priorities because they touch active gates.
 
 ### Adding A Standalone CLI
 
 A standalone CLI would imply Game Studio is a tool to install globally. The
-framework should remain project-local. Add CLI surface only when project-local
+framework should remain project-local. Add CLI area only when project-local
 operation has obvious friction that scripts cannot solve.
 
 ### Building A Formal Eval Framework Before The Eval Set Stabilizes
@@ -58,15 +58,15 @@ reviews.
 
 Any added review, gate, or template that does not change a verdict, a stop
 condition, or a proof target should be rejected. Process without authority is
-the role-theater anti-pattern wearing a different hat.
+the role-empty process anti-pattern wearing a different hat.
 
 ## When An Anti-Addition Becomes An Addition
 
 Each item above can graduate to an addition when:
 
 - a real recurring failure proves it is needed
-- the highest-leverage moves from the roadmap are complete
-- removing the addition would reduce value, not only ceremony
+- the highest-value moves from the roadmap are complete
+- removing the addition would reduce value, not only process overhead
 
 ## Proof Of Improvement
 

@@ -6,7 +6,7 @@ This backlog sequences repository preparation for plugin-first distribution.
 
 - Add distribution docs under `docs/distribution/`.
 - Update `docs/README.md` to link the distribution docs.
-- Replace stale public `proof-gated` wording in adapter-facing docs.
+- Replace stale public `milestone-gated playable validation` wording in adapter-facing docs.
 - Define the five public plugin skills.
 - Define workflow pack manifest and target repo manifest.
 

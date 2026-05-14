@@ -55,7 +55,7 @@ The plugin shell must not:
 - install global dependencies
 - require a standalone `game-studio` command
 
-## Public Skill Surface
+## Public Skill Package
 
 The public plugin should expose five skills.
 
@@ -68,5 +68,4 @@ The public plugin should expose five skills.
 | `doctor` | Diagnose stale state, missing files, and broken setup. |
 
 Existing internal skills can remain in the framework repo while the public
-plugin presents a smaller surface.
-
+plugin exposes a smaller installed package.

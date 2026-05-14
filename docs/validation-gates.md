@@ -1,6 +1,6 @@
-# Evidence Gates
+# Validation Gates
 
-Evidence gates are internal validation points. They convert game-development
+Validation gates are internal review points. They convert game-development
 claims into observable validation by requiring concrete artifacts such as
 captures, build IDs, playtest notes, QA results, release checks, and decision
 records.

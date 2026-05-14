@@ -1,10 +1,10 @@
-# Curriculum From Source Map
+# Craft Reference Curriculum
 
-[Game Craft Source Map](../../../core/references/game-craft-source-map.md) is
+[Game Craft Reference Index](../../../core/references/game-craft-reference-index.md) is
 one of the strongest assets in the repository. It cites the right canon: MDA,
 Game Feel, Rules of Play, Game Mechanics, A Playful Production Process,
 storylets, Game Sound, Valve Level Flow. The next step is to convert the most
-load-bearing sources from a reading list into operational guides.
+decision-critical sources from a reading list into operational guides.
 
 ## Why Syllabus Is Not Curriculum
 
@@ -15,13 +15,13 @@ Worked examples turn rules into cases, and cases into recognizable patterns.
 
 This is the highest value-per-effort move in the value review. Each
 operational guide costs roughly the same and unlocks a different review
-surface.
+area.
 
 ## Priority Sources To Convert
 
 Convert four sources first.
 
-| Source | Surface It Strengthens |
+| Source | Review Area It Strengthens |
 | --- | --- |
 | MDA | Director and systems review, mechanic-dynamic-experience chain. |
 | Game Feel (Swink) | Moment-to-moment review, primary verb feel. |
@@ -90,10 +90,18 @@ The guide should show:
 - `core/references/operational/storylets.md`
 - `core/references/operational/level-flow.md`
 
-Update [Game Craft Source Map](../../../core/references/game-craft-source-map.md)
+Update [Game Craft Reference Index](../../../core/references/game-craft-reference-index.md)
 to link operational guides next to source citations. Update relevant role
 playbooks and review references to point to operational guides when the
-review surface matches.
+review workflow matches.
+
+## Baseline Added
+
+The repository now has the four baseline operational guides above, and the
+game director, systems designer, narrative director, UX/art/audio playbook, and
+review-council references point to them. The next improvement should add eval
+prompts that compare an agent using only a rubric against an agent using the
+operational guide.
 
 ## Proof Of Improvement
 

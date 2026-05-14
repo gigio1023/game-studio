@@ -51,7 +51,7 @@ marketplace catalogs at repository-level discovery paths.
 ## Why Not Use The Repository Root As The Plugin
 
 A root plugin would expose too much of the framework repository as installable
-surface. A package under `plugins/game-studio/` keeps the public plugin small
+content. A package under `plugins/game-studio/` keeps the public plugin small
 and prevents internal planning, research, examples, and old adapter files from
 becoming runtime dependencies.
 
@@ -77,4 +77,3 @@ contains runtime-specific manifests for Claude Code and Codex.
 The first implementation can duplicate selected files into the plugin package.
 A later implementation can add a packaging script that builds the plugin
 package from framework source files.
-

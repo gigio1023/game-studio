@@ -1,4 +1,4 @@
-# Substantive Review Handoff
+# Role-Led Game Review Handoff
 
 This handoff explains how to continue the research and integration work from a
 fresh device or a new agent session.
@@ -8,7 +8,7 @@ fresh device or a new agent session.
 Game Studio should stay a project-local operating framework for AI-assisted game
 development. The center of gravity is no longer structural checking. Scripts
 only guard cheap invariants. Codex and Claude Code should use role playbooks,
-rubrics, templates, and source-backed research to judge game substance.
+rubrics, templates, and the craft reference index to judge game quality.
 
 ## Research Added
 
@@ -23,19 +23,19 @@ Read these reports when expanding the framework:
 
 ## Integration Already Done
 
-- Added source-backed craft references in `core/references/`.
+- Added craft references from the craft reference index in `core/references/`.
 - Added role playbooks under `core/roles/playbooks/`.
 - Added rubrics for direction, production, accessibility, council review, and moment-to-moment quality.
 - Added narrative, QA, release, evidence, production, and playable-quality templates.
 - Added `skills/narrative-director/`.
-- Expanded existing skills so they load design, production, qualitative review, playable evidence, and design-preservation references.
-- Added `docs/substantive-review.md` to separate repository checks from game-quality judgment.
+- Expanded existing skills so they load design, production, qualitative review, playable validation, and design-preservation references.
+- Added `docs/role-led-game-review.md` to separate repository checks from game-quality judgment.
 
 ## How To Continue
 
-1. Start from `docs/substantive-review.md`.
+1. Start from `docs/role-led-game-review.md`.
 2. Read `core/references/codex-review-practice.md`.
-3. Use `core/references/game-craft-source-map.md` to trace a rule back to source material.
+3. Use `core/references/game-craft-reference-index.md` to trace a rule back to source material.
 4. Load only the role playbooks required by the current milestone.
 5. Treat `research/` as background, not active workflow text.
 6. Add new rules to skills only when they change agent behavior.

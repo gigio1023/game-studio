@@ -1,21 +1,20 @@
-# Craft Coach Positioning
+# Playable Validation Positioning
 
 This page updates the product thesis after Rounds 4 and 5 of research. Read it
 with [Product Thesis](02-product-thesis.md) and
-[Research-Grounded Improvements](15-research-grounded-improvements.md).
+[Research Findings To Changes](15-research-findings-to-changes.md).
 
 ## Decision
 
 Game Studio should be positioned as:
 
 ```text
-A proof-gated craft coach for AI-assisted game development,
-with production-system rails.
+An AI-assisted game production framework for playable validation.
 ```
 
-The front door is craft coaching. The rails are production contracts. The
-distribution format is agent skills. The learning path is curriculum. Only the
-first phrase should carry the public category.
+The public category is production framework. The game-development promise is
+playable validation. The agent packaging is a delivery mechanism, not the
+identity of the product.
 
 Source:
 [Positioning And Market Gap](../../../research/landscape/round5-positioning/01-positioning-and-market-gap.md).
@@ -33,26 +32,27 @@ The market already has many artifact accelerators:
 - market or trend tools
 
 They optimize for speed, output volume, execution context, or learning content.
-They do not reliably own craft judgment under AI abundance.
+They do not reliably own craft judgment under too much generated material.
 
 Game Studio's defensible value is the chain:
 
 ```text
-human taste -> playable question -> smallest proof -> role review ->
-gate decision -> next proof or stop condition
+human taste -> playable question -> smallest proof -> role-led game review ->
+milestone decision -> next build, retest, or stop condition
 ```
 
 ## Public Language
 
 Use:
 
-- proof-gated craft coach
+- AI-assisted game production framework
+- playable validation
 - AI-assisted game development
 - human creative authority
 - playable proof
 - claim-to-proof
 - proof budget
-- role-led craft review
+- role-led game review
 - generated material is not proof
 - make less, prove more
 
@@ -88,7 +88,7 @@ The system must not:
 ## Files To Change
 
 - `README.md`: add the short public positioning phrase.
-- `docs/product-boundary.md`: add "craft coach" as the product category.
+- `docs/product-boundary.md`: keep production framework as the product category.
 - `docs/philosophy.md`: add the anti-volume principle: make less, prove more.
 - `docs/source-adoption-policy.md`: explain that external tools are subordinate
   to proof targets.

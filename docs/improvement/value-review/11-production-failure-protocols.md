@@ -1,10 +1,10 @@
-# Production Dark Rituals
+# Production Failure Protocols
 
 The current operating model in [Production Layer](../../production-layer.md)
 describes clean stage progression. Real production includes harder moments
 that the framework does not yet name. Add three rituals plus a deadline mode.
 
-## Why Dark Rituals Matter
+## Why Production Failure Protocols Matter
 
 Production frameworks succeed when they help with the moments people would
 rather avoid: killing a six-month prototype, cutting half a design under
@@ -12,7 +12,7 @@ deadline pressure, running parallel risk experiments without losing thesis,
 compressing review when there is no time. Without these rituals, agents follow
 a happy-path model and creators improvise alone in the hardest hours.
 
-Each ritual below is small. The value comes from naming them as first-class
+Each ritual below is small. The value comes from naming them as explicit
 moves so the agent and the human have shared vocabulary when production turns
 hard.
 
@@ -90,7 +90,7 @@ Compressed gate rules:
 - Lock public promise to current build truth.
 
 Deadline mode is not the default and should not be used to skip core loop or
-presentation value gates that have not yet passed. It compresses ceremony, not
+presentation value gates that have not yet passed. It compresses process overhead, not
 proof.
 
 ## Files To Change

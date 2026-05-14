@@ -48,7 +48,12 @@ tags:
 | `references/player-walkthrough-review.md` | Player-centered walkthrough | Walkthrough review |
 | `references/design-intent-survival.md` | Implementation drift risk | Design preservation |
 | `references/accessibility-review.md` | Accessibility barriers and claims | Accessibility review |
-| `references/release-review.md` | Public release surfaces | Release review |
+| `references/release-review.md` | Public release materials | Release review |
+| `.game-studio/core/references/game-craft-reference-index.md` | Craft claim needs source vocabulary | Craft reference index and operational guide links |
+| `.game-studio/core/references/operational/mda.md` | Mechanic, dynamic, or player-experience claim | MDA review moves |
+| `.game-studio/core/references/operational/game-feel.md` | Input, camera, feedback, audio, or recovery claim | Game feel review moves |
+| `.game-studio/core/references/operational/storylets.md` | Branching narrative or state-dependent story claim | Storylet review moves |
+| `.game-studio/core/references/operational/level-flow.md` | Room, route, tutorial, or encounter flow claim | Level-flow review moves |
 | `.game-studio/core/roles/README.md` | Role selection | Role file index |
 | `.game-studio/core/roles/coordination-rules.md` | Multi-role work | Review and conflict rules |
 | `.game-studio/core/templates/review/council-review.md` | Writing a review artifact | Review template |

@@ -1,9 +1,9 @@
-# Research-Grounded Improvements
+# Research Findings To Changes
 
 This page records what changes about the value-review plan after three
 rounds of external research. It updates or qualifies several earlier plan
 documents based on primary-source verification and contrarian critique
-surfaced in [Synthesis](../../../research/landscape/synthesis.md).
+identified in [Synthesis](../../../research/landscape/synthesis.md).
 
 Read this alongside the existing plan; do not replace earlier files until
 implementation work begins.
@@ -30,7 +30,7 @@ Adopt as a new template at
 `core/templates/intake/reference-constraint-sheet.md` with columns:
 moment / why / components / forces / constraints / contradiction notes.
 
-This sharpens [Curriculum From Source Map](13-curriculum-from-source-map.md):
+This sharpens [Craft Reference Curriculum](13-craft-reference-curriculum.md):
 the cross-field translation move set is itself an operational guide and
 should be linked there.
 
@@ -38,8 +38,8 @@ Source: [r2-04-cross-field-translation.md](../../../research/landscape/deep-dive
 
 ### Concept Death Protocol Gains Verified Triggers
 
-[Production Dark Rituals](11-production-dark-rituals.md) defined the
-concept-death protocol abstractly. Round 2 surfaced four verified triggers:
+[Production Failure Protocols](11-production-failure-protocols.md) defined the
+concept-death protocol abstractly. Round 2 identified four verified triggers:
 
 - Pre-committed metric targets set before the proof phase. Binary
   pass/fail. The framework currently has no pre-committed quantitative
@@ -51,7 +51,7 @@ concept-death protocol abstractly. Round 2 surfaced four verified triggers:
 
 Update the concept-death-record template (when created) to require:
 proof failures, pre-committed targets, kill trigger taxonomy entry, kill
-ceremony record, carry-forward candidates.
+process overhead record, carry-forward candidates.
 
 Drop any framing that attributes the "three-gate kill model" to Supercell
 as a named framework — the verification round flagged this as analyst
@@ -83,9 +83,9 @@ instinct.
 
 Source: [r2-02-gate-templates.md](../../../research/landscape/deep-dives/r2-02-gate-templates.md).
 
-### LLM-Native Leverage Has Concrete Park-Style Implementations
+### AI-Assisted Design Workflows Has Concrete Park-Style Implementations
 
-[LLM-Native Leverage](12-llm-native-leverage.md) Move 5 (cross-session
+[AI-Assisted Design Workflows](12-ai-assisted-design-workflows.md) Move 5 (cross-session
 concept memory probing) gains a specific implementation. The full set of
 three Park-style moves the framework should adopt:
 
@@ -109,7 +109,7 @@ Sources: [r2-05-reflection-and-memory.md](../../../research/landscape/deep-dives
 
 ### Source Map Gains Seven Targeted Additions
 
-Update [Game Craft Source Map](../../../core/references/game-craft-source-map.md):
+Update [Game Craft Reference Index](../../../core/references/game-craft-reference-index.md):
 
 - Koster, *A Theory Of Fun* — gap (a) cognitive learning curve.
 - Caillois, *Man Play And Games* — gap (a) play-type taxonomy.
@@ -138,7 +138,7 @@ three-component version. Do not invent attribution.
 
 ### Add MDA Critique Alongside MDA Citation
 
-[Curriculum From Source Map](13-curriculum-from-source-map.md) lists
+[Craft Reference Curriculum](13-craft-reference-curriculum.md) lists
 MDA as the priority source for taste-to-design translation. The
 Walk / Lantz / Duarte critique documents that MDA's aesthetics list is
 opinion-shaped, not exhaustive. Horror, Awe, Disgust, and Confusion are
@@ -174,13 +174,13 @@ trap and the formalist alternative.
 
 ### Scrum Ceremony Distinguished From Agile Principles
 
-Round 3 critique found scrum ceremony is documented as harmful for
+Round 3 critique found scrum process overhead is documented as harmful for
 art-heavy and narrative production.
 
 Action: when the framework references agile patterns, distinguish
 principles (continuous iteration, working software / playable proof,
-playtester collaboration) from ceremony (sprints, velocity, daily
-standups). Apply principles broadly; apply ceremony selectively.
+playtester collaboration) from process overhead (sprints, velocity, daily
+standups). Apply principles broadly; apply process overhead selectively.
 
 ### Frame LLM Moves As Scaffolding, Not Oracle
 
@@ -188,7 +188,7 @@ Round 3 critical perspectives document AI co-creative claims are
 empirically contested. LLMs are statistical center of mass — biased
 against novelty.
 
-Action: update [LLM-Native Leverage](12-llm-native-leverage.md)
+Action: update [AI-Assisted Design Workflows](12-ai-assisted-design-workflows.md)
 prelude to acknowledge LLM limits explicitly. The five generative moves
 are candidate generation and reflection scaffolding, not design
 judgment.
@@ -198,7 +198,7 @@ judgment.
 The "fail fast" framing is documented as toxic for solo long-form craft
 work.
 
-Action: update [Production Dark Rituals](11-production-dark-rituals.md)
+Action: update [Production Failure Protocols](11-production-failure-protocols.md)
 Ritual 1 (Concept Death Protocol) prelude to state: "This protocol
 applies during concept validation. Sustained craft iteration on a
 proven concept is not the failure mode this ritual addresses. Killing a
@@ -217,7 +217,7 @@ supports both.
 
 ## What The Research Says About Strategic Positioning
 
-### Position As Craft Coach With Documented Authority Boundaries
+### Position As Game Design Review Workflow With Documented Authority Boundaries
 
 The "AI game production system" framing is now occupied by competitors
 (Claude Code Game Studios, April 2026) using the same SKILL.md pattern.
@@ -228,7 +228,7 @@ optimize for task completion, not practitioner skill development. Game
 Studio's offensive opening: design explicitly for practitioner growth.
 
 Action: update [Product Thesis](02-product-thesis.md) to include
-"craft coach" language alongside "production system." Document
+"game design review workflow" language alongside "production system." Document
 explicitly what the AI coaches the human toward — which skills,
 heuristics, and failure modes.
 
@@ -266,8 +266,8 @@ Slot into [Roadmap](08-roadmap.md) waves:
 - New wave: implement Park-style memory moves (review-role personality
   injection, reflection-before-verdict, cross-session ledger probing).
   This is the largest gap (c) ceiling work.
-- New wave: source map updates with critique annotations.
-- New wave: strategic positioning documentation (craft coach,
+- New wave: craft reference index updates with critique annotations.
+- New wave: strategic positioning documentation (game design review workflow,
   distributable skills).
 
 ## Files Touched By This Plan
@@ -282,19 +282,19 @@ When this plan is executed, expect changes in:
   `experienceHypothesis`)
 - `core/schemas/gate-verdict.schema.json` (`reasoning` field,
   decision-context object)
-- `core/references/game-craft-source-map.md` (seven additions, MDA
+- `core/references/game-craft-reference-index.md` (seven additions, MDA
   critique annotation)
 - `core/gates/production.md` (vertical slice invisible-deliverables,
   velocity baseline)
 - `docs/director-layer.md` (pillars optional for solo)
 - `docs/beginner-taste-to-game.md` (6-step move set, formalist variant)
-- `docs/improvement/value-review/02-product-thesis.md` (craft-coach
+- `docs/improvement/value-review/02-product-thesis.md` (game-design-review
   positioning)
-- `docs/improvement/value-review/11-production-dark-rituals.md`
+- `docs/improvement/value-review/11-production-failure-protocols.md`
   (verified triggers, scope to concept validation)
-- `docs/improvement/value-review/12-llm-native-leverage.md` (Park
+- `docs/improvement/value-review/12-ai-assisted-design-workflows.md` (Park
   implementation, scaffolding hedge)
-- `docs/improvement/value-review/13-curriculum-from-source-map.md`
+- `docs/improvement/value-review/13-craft-reference-curriculum.md`
   (MDA critique)
 
 ## Open Questions For The Maintainer

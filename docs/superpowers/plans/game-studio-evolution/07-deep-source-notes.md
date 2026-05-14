@@ -8,12 +8,12 @@ shape instead of only adding more knowledge files.
 
 Terminology update:
 
-- Use `proof-gated`, `playable proof`, `proof target`, and `validation` for the
+- Use `milestone-gated playable validation`, `playable proof`, `proof target`, and `validation` for the
   public product story.
 - Use `evidence` only for internal artifact classes, schemas, ledgers, captures,
   playtest notes, QA results, and release claim checks.
 - `Evidence-locked` is not an industry term and should not become the product
-  phrase. The better public phrase is `discovery-driven, proof-gated`.
+  phrase. The better public phrase is `AI-assisted, playable-validation`.
 
 ## Local Reference Sweep
 
@@ -128,7 +128,7 @@ Plan landing:
 
 - `01-product-boundary-state.md`: local state model and privacy rule.
 - `02-review-routing-evidence.md`: review readiness and routing.
-- `05-readme-public-surface.md`: public explanation of what is core versus
+- `05-readme-public-area.md`: public explanation of what is core versus
   optional.
 
 ### everything-claude-code
@@ -200,7 +200,7 @@ Useful adoption:
   coordination, dirty-work preservation, and visible worker state.
 - Verification depth should scale with risk, file count, architecture impact,
   security impact, and user-facing change.
-- Hooks are adapter examples and guardrails, not quality judges.
+- Hooks are adapter examples and guidelines, not quality judges.
 
 Reject:
 
@@ -259,7 +259,7 @@ Reject:
 Plan landing:
 
 - `04-adapters-install-contribution.md`: ownership matrix and safe upgrade.
-- `05-readme-public-surface.md`: public surface should show product flow, not
+- `05-readme-public-area.md`: public docs should show product flow, not
   internal script mechanics.
 
 ### ouroboros
@@ -319,7 +319,7 @@ Plan landing:
 - `04-adapters-install-contribution.md`: optional loop safety pack.
 - `06-implementation-roadmap.md`: risk control for agent automation.
 
-## OSS Public Surface Sweep
+## OSS Public Docs Sweep
 
 Cloned references:
 
@@ -353,7 +353,7 @@ Adopt these patterns:
 - Show concrete examples when the value is operational. uv and FastAPI make
   usage concrete with commands and small examples.
 - Avoid making `evidence` the public product word. It reads like an internal
-  audit term. Use `proof-gated` and reserve evidence for internal artifact
+  audit term. Use `milestone-gated playable validation` and reserve evidence for internal artifact
   records.
 - Distinguish repo from product distribution. VS Code's README is useful for
   explaining open-source repo boundaries without muddying product identity.
@@ -371,7 +371,7 @@ Avoid:
 
 Plan landing:
 
-- `05-readme-public-surface.md`: first-screen structure, hero map, docs routing,
+- `05-readme-public-area.md`: first-screen structure, hero map, docs routing,
   contribution separation, visual acceptance checks.
 - `04-adapters-install-contribution.md`: contributor and maintainer lanes.
 
@@ -391,7 +391,7 @@ The deeper research strengthens these product rules:
   Observation, metric, and interview data should be separated before synthesis.
 - Accessibility must be a design constraint early. Waiting until release turns
   barriers into expensive rework.
-- Public release readiness includes store promises, demo surface, support,
+- Public release readiness includes store promises, demo area, support,
   credits, and post-release learning.
 - Technical implementation review must preserve player experience, not only
   code shape.

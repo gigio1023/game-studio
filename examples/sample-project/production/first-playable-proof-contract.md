@@ -25,7 +25,7 @@ paths can be recovered from by observing the changed layout.
 Verb -> read -> risk -> response -> learning -> next choice
 ```
 
-## Build Surface
+## Build Target
 
 - engine or runtime: generic 2D browser runtime
 - platform: local browser

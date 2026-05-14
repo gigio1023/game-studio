@@ -2,7 +2,7 @@
 
 This page turns the expanded pedagogy research into a repo plan. It supports
 [Entry Mode Proofs](04-entry-mode-proofs.md) and
-[Curriculum From Source Map](13-curriculum-from-source-map.md).
+[Craft Reference Curriculum](13-craft-reference-curriculum.md).
 
 Source:
 [Teaching And Curriculum](../../../research/landscape/round4-design-pedagogy/01-teaching-and-curriculum.md).
@@ -64,7 +64,7 @@ Update:
 - `core/templates/intake/beginner-taste-interview.md`
 - `docs/beginner-taste-to-game.md`
 - `docs/anti-patterns.md`
-- `core/references/game-craft-source-map.md`
+- `core/references/game-craft-reference-index.md`
 
 ## Skill Changes
 

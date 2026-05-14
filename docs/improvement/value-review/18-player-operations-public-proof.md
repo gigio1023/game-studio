@@ -24,7 +24,7 @@ Public exposure includes:
 
 ## Operating Principle
 
-Every public surface is a promise surface.
+Every public docs is a promise area.
 
 Steam language metadata, accessibility tags, patch notes, Discord statements,
 roadmaps, store pages, demo descriptions, and Early Access Q&A text must match

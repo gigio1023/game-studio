@@ -46,7 +46,7 @@ execution produces a playable artifact that can be reviewed by the right roles.
 | Presentation proof | Evidence that the chosen format earns its cost. | Does the look, camera, input, audio, or UI add player value? |
 | Vertical slice | A short, production-representative section at intended quality. | Does this prove the shipped quality bar? |
 | Public demo | A public or semi-public build with clear promise boundaries. | Can outside players understand and judge the game? |
-| Release candidate | A build and public surface ready for final release review. | Can the team ship this honestly? |
+| Release candidate | A build and public docs ready for final release review. | Can the team ship this honestly? |
 
 ## Agent Operating Model Changes
 
@@ -54,7 +54,7 @@ execution produces a playable artifact that can be reviewed by the right roles.
 - **Record the hypothesis first**: Every plan should state what the next artifact must prove before listing implementation tasks.
 - **Separate discovery from production**: Discovery tasks can be rough and disposable. Production tasks need scope control, quality targets, verification, and rollback plans.
 - **Attach evidence to every milestone**: The agent should ask for build evidence, playtest notes, screenshots or video, verification output, and known missing scope.
-- **Activate roles by risk**: Direction changes need director review. Release surface changes need release review. Systems, UX, art, audio, localization, accessibility, and QA activate when their area is touched.
+- **Activate roles by risk**: Direction changes need director review. Release material changes need release review. Systems, UX, art, audio, localization, accessibility, and QA activate when their area is touched.
 - **Track public promise drift**: Any change to screenshots, store text, trailer claims, demo copy, platform support, or release scope should trigger a promise check.
 - **Treat playtests as scheduled work**: The agent should plan who plays, what question is being tested, what data is captured, and what decision follows.
 - **Close the loop after release**: The agent should preserve source, assets, build notes, known issues, credits, support expectations, and post-release measurement.
@@ -67,7 +67,7 @@ execution produces a playable artifact that can be reviewed by the right roles.
 | Producer | Scope, schedule, milestone contracts, dependencies, communication, and release workback. | Milestone readiness, production start, release readiness. |
 | Technical Director | Architecture, engine constraints, build pipeline, technical feasibility, and risk retirement. | Protocol proof, production technical gates, release build risk. |
 | Systems Designer | Rules, progression, economy, combat, simulation, and feedback loops. | Core loop prototype and balancing evidence. |
-| UX Designer | Onboarding, input, UI clarity, accessibility surfaces, and player comprehension. | First playable, demo candidate, public release surfaces. |
+| UX Designer | Onboarding, input, UI clarity, accessibility areas, and player comprehension. | First playable, demo candidate, public release materials. |
 | Art Director | Visual target, asset pipeline, style guide, and production value. | Presentation proof and vertical slice. |
 | Audio Director | Music, sound effects, ambience, mix, and implementation standards. | Presentation proof and vertical slice. |
 | QA Lead | Test plan, defect triage, acceptance checks, playtest protocol, and evidence quality. | All evidence gates and release candidate. |
@@ -90,7 +90,7 @@ execution produces a playable artifact that can be reviewed by the right roles.
 
 ## Current Repo Gaps
 
-- **No production-direction foundation**: The repository lacked a research surface that maps its stage model to external production references for production, milestones, and release.
+- **No production-direction foundation**: The repository lacked a research scope that maps its stage model to external production references for production, milestones, and release.
 - **Missing formal glossary**: Prototype, proof of concept, first playable, demo, vertical slice, alpha, beta, and release candidate need stable definitions.
 - **Pre-production exit is implicit**: The stage model jumps from early proof toward presentation and vertical slice without a named pre-production exit gate.
 - **Milestone contracts are thin**: Current templates do not require due date, deliverable-level acceptance, dependency inputs, QA walkthroughs, expected media, or quality criteria.

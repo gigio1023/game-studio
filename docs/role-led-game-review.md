@@ -1,7 +1,7 @@
-# Substantive Review
+# Role-Led Game Review
 
 Game Studio treats scripts as repository hygiene and Codex as the reviewer of
-game substance.
+game quality.
 
 ## Principle
 
@@ -9,9 +9,9 @@ Automated checks are useful, but they are not game direction. A project advances
 when the right roles can defend the playable prototype and the internal artifacts
 that support it.
 
-## Codex-Led Review Surfaces
+## Codex-Led Review Inputs
 
-- `core/references/game-craft-source-map.md`: source-backed craft vocabulary.
+- `core/references/game-craft-reference-index.md`: craft vocabulary and source questions.
 - `core/references/codex-review-practice.md`: review method and verdict shape.
 - `core/roles/playbooks/`: discipline-specific review behavior.
 - `core/rubrics/`: readiness criteria for direction, production, playtest, accessibility, and moment-to-moment quality.
@@ -42,7 +42,7 @@ concept, or reject it.
 
 ### Release Validation Review
 
-Before public surfaces change, map every public claim to a concrete internal
+Before release materials or public docs change, map every public claim to a concrete internal
 artifact. Claims without build truth should be revised, removed, or blocked.
 
 ## What To Avoid
@@ -59,4 +59,4 @@ artifact. Claims without build truth should be revised, removed, or blocked.
 
 Use scripts only for cheap invariants. For game quality, require a written role
 review that names the proof target, proof checked, internal artifacts checked,
-concerns, tradeoffs, and the next prototype.
+concerns, tradeoffs, and the next build or retest.

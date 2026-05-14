@@ -1,6 +1,6 @@
 # Documentation Style
 
-Write docs as small surfaces with one job.
+Write docs as small pages with one job.
 
 ## Structure
 
@@ -69,7 +69,7 @@ Follow the Kubernetes docs pattern for commands:
 node tools/check-project.mjs /path/to/game
 ```
 
-The output lists missing project surfaces.
+The output lists missing project files.
 
 ## Example Rules
 

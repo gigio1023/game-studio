@@ -2,7 +2,7 @@
 name: game-studio
 description: >
   Use when planning game milestones, production stages, release scope, demo
-  readiness, vertical slice gates, proof-gated production, or operating cadence.
+  readiness, vertical slice gates, playable validation, or operating cadence.
   Trigger on "milestone", "production plan", "roadmap", "demo candidate", and
   "release candidate". If direction is missing or ambiguous, use
   game-onboarding first.

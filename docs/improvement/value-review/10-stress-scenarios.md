@@ -1,7 +1,7 @@
 # Stress Scenarios
 
 Rubrics test rules. Scenarios test fit. Use four canonical user states to
-stress-test Game Studio in any value review. Each scenario surfaces a different
+stress-test Game Studio in any value review. Each scenario areas a different
 weakness when the framework is incomplete.
 
 ## Why Four
@@ -24,7 +24,7 @@ references only.
 What this tests:
 
 - Whether taste-to-game compresses to a real one-week proof.
-- Whether the narrative-design surface helps with content authoring time.
+- Whether the narrative-design workflow helps with content authoring time.
 - Whether constraint ladder predicts content-volume risk.
 
 ### S2: Two-Person Team, Mixed Demo Reactions
@@ -84,7 +84,7 @@ framework as of the first value review and are estimates, not measurements.
 
 | Scenario | Current Helpfulness | Strongest Move | Shortfall |
 | --- | --- | --- | --- |
-| S1 | About 60 percent | Constraint ladder compresses scope to one week. | Narrative-design surface lacks content-time math. |
+| S1 | About 60 percent | Constraint ladder compresses scope to one week. | Narrative-design area lacks content-time math. |
 | S2 | About 50 percent | Premature-vertical-slice trap is well prevented. | Brownfield audit names symptoms but not diagnosis. |
 | S3 | About 55 percent | Director review resists thesis drift. | No deadline-mode compressed gate set. |
 | S4 | About 40 to 50 percent | Intake meets the user where they are. | Reference-moment translation lacks worked method. |
@@ -98,7 +98,7 @@ framework as of the first value review and are estimates, not measurements.
 
 Three of the four shortfalls cluster around the same root cause: the framework
 is structurally complete but lacks the move set that turns templates into
-guided expert behavior. See [Curriculum From Source Map](13-curriculum-from-source-map.md).
+guided expert behavior. See [Craft Reference Curriculum](13-craft-reference-curriculum.md).
 
 ## Proof Of Improvement
 

@@ -1,8 +1,8 @@
-# 05 README And Public Visual Surface
+# 05 README And Public Visual Design
 
 ## Objective
 
-Improve Game Studio's public-facing surface so it communicates the system quickly, visually, and credibly, while staying honest about what the framework can automate, what must be proven in play, and what remains under human authorship.
+Improve Game Studio's public-facing docs so it communicates the system quickly, visually, and credibly, while staying honest about what the framework can automate, what must be proven in play, and what remains under human authorship.
 
 ## Files
 
@@ -11,14 +11,14 @@ Improve Game Studio's public-facing surface so it communicates the system quickl
 - Modify: `docs/assets/game-studio-system-map.drawio.png`
 - Create: `docs/assets/readme-hero-system-map.drawio`
 - Create: `docs/assets/readme-hero-system-map.drawio.png`
-- Create: `docs/public-surface-style.md`
+- Create: `docs/public-docs-and-release-copy.md`
 - Modify: `docs/community/visual-readiness-review.md`
 - Modify: `docs/community/publication-readiness-review.md`
 - Modify: `examples/README.md`
 
 ## OSS README References
 
-Use these repositories as public-surface references. Do not copy their visual identity. Extract patterns.
+Use these repositories as public-area references. Do not copy their visual identity. Extract patterns.
 
 | Repo | Useful pattern |
 | --- | --- |
@@ -31,7 +31,7 @@ Use these repositories as public-surface references. Do not copy their visual id
 | [FastAPI](https://github.com/fastapi/fastapi) | Strong feature bullets, docs/source split, credibility through concrete benefits. |
 | [LangChain](https://github.com/langchain-ai/langchain) | Ecosystem map that separates core library, adjacent products, and advanced paths. |
 | [Godot](https://github.com/godotengine/godot) | Project identity, engine scope, community ownership, docs/demo routing. |
-| [Vue](https://github.com/vuejs/core) | Sponsors, questions, issues, contribution routing, and lightweight community surface. |
+| [Vue](https://github.com/vuejs/core) | Sponsors, questions, issues, contribution routing, and lightweight community area. |
 | [Svelte](https://github.com/sveltejs/svelte) | Short identity and website-first learning path. |
 | [uv](https://github.com/astral-sh/uv) | High-signal command examples and performance positioning. |
 | [Deno](https://github.com/denoland/deno) | Simple brand promise and runtime scope. |
@@ -61,17 +61,17 @@ It should not lead with:
 - defensive claims that it is not a game generator without explaining the
   supported automation path
 
-## Deeper OSS Surface Patterns
+## Deeper OSS README Patterns
 
 The cloned README sweep changes the README plan in concrete ways:
 
 - React, Deno, Godot, Vite, and uv all answer identity immediately. Game Studio
-  should lead with "discovery-driven, proof-gated AI game production system"
+  should lead with "AI-assisted game production framework for playable validation"
   and one sentence that says it can start from either existing direction or
   taste-to-game discovery.
 - Godot and Supabase use one meaningful visual to explain the object. Game
   Studio should use one hero system map showing entry mode, target repo state,
-  playable proof, role review, gate verdict, and next proof.
+  playable validation, role review, gate verdict, and next proof.
 - VS Code separates open-source repo identity from product distribution. Game
   Studio should separate framework repo development from target game adoption.
 - Kubernetes, Supabase, Vue, and VS Code route support, community, security, and
@@ -115,7 +115,7 @@ Target Game Repo
 Suggested text diagram:
 
 ```text
-Taste or Direction -> Concept -> Proof -> Review -> Gate -> Next Proof
+Taste or Direction -> Concept Brief -> First Playable -> Role-Led Game Review -> Milestone Decision -> Next Build
 ```
 
 - [ ] Add a "what you get" table with five rows.
@@ -135,7 +135,7 @@ Suggested table:
 | Layer | What it gives a game repo | Primary proof |
 | --- | --- | --- |
 | Entry | Existing direction, taste-to-game, or ambiguous brownfield route | selected entry mode |
-| Discovery | Taste profile, concept slate, creative brief, proof budget | first playable proof contract |
+| Discovery | Taste profile, concept slate, creative brief, proof budget | first playable validation contract |
 | State | Direction, milestone, proof, review, and drift ledgers | durable project context |
 | Stages | Direction lock through release candidate | current stage and next gate |
 | Evidence | claim-to-proof contracts | playable capture or structured observation |
@@ -146,7 +146,7 @@ Suggested table:
 
 Required distinction:
 
-| Surface | Purpose | Owned by |
+| Area | Purpose | Owned by |
 | --- | --- | --- |
 | Source repository | Framework docs, templates, adapters, schemas, contributor checks | Game Studio maintainers |
 | Installed state | Direction, milestones, evidence, reviews, drift, waivers | Target game project |
@@ -175,7 +175,7 @@ Suggested table:
 | Concept shaping | compares, rejects, parks, and selects game seeds | concept slate and creative brief |
 | Project state | durable direction and evidence memory | `.game-studio/` |
 | Milestones | staged proof order | core docs and templates |
-| Evidence gates | playable proof before claims | gate docs |
+| Evidence gates | playable validation before claims | gate docs |
 | Role reviews | targeted critique, not all roles every time | role docs |
 | Adapters | agent-specific operating instructions | `adapters/` |
 
@@ -194,13 +194,13 @@ Also add a "what it can automate" table:
 
 - can propose concept candidates from taste and references
 - can turn a selected concept into a creative brief and first proof
-- can plan and implement bounded playable proofs in Codex or Claude Code
+- can plan and implement bounded playable builds and validation notes in Codex or Claude Code
 - can route reviews, missing proof, and next actions
 - can help move from prototype to release candidate when gates keep passing
 
-## Public Surface Style
+## Public Docs And Release Copy
 
-- [ ] Create `docs/public-surface-style.md`.
+- [ ] Create `docs/public-docs-and-release-copy.md`.
 
 Rules:
 
@@ -211,7 +211,7 @@ Rules:
 - Avoid a wall of role names.
 - Link out to docs for depth.
 - Put contributor commands in `CONTRIBUTING.md`, not the README.
-- Use `proof-gated`, `playable proof`, `validation`, and `claim-to-proof`
+- Use `milestone-gated playable validation`, `playable validation`, `validation`, and `claim-to-proof`
   language in public copy.
 - Use `evidence` only when naming internal schemas, ledgers, or artifact classes.
 
@@ -220,7 +220,7 @@ Rules:
 ```markdown
 # Game Studio
 
-Discovery-driven, proof-gated AI game production system.
+AI-assisted game production framework for playable validation.
 
 One supporting sentence that says Game Studio helps Codex and Claude Code turn
 either existing direction or a player's taste profile into playable, reviewed,
@@ -235,7 +235,7 @@ Hero image.
 ## What It Can Automate
 ## What It Does Not Do
 ## Quick Start
-## Install Surface
+## Install Path
 ## Milestone Order
 ## Repository Map
 ## Start Here
@@ -261,7 +261,7 @@ It should not require reading:
 - research bibliography
 - every template path
 
-README guardrails:
+README guidelines:
 
 - No contributor command block above Quick Start.
 - No schema or path inventory in the first screen.
@@ -269,7 +269,7 @@ README guardrails:
 - No unexplained "it is not a game generator" disclaimer.
 - No evidence-heavy product slogan.
 - One hero visual only.
-- Hero visual must show entry mode -> target repo -> state -> playable proof ->
+- Hero visual must show entry mode -> target repo -> state -> playable validation ->
   role review -> gate -> next proof.
 
 ## Visual Readiness Review
@@ -289,7 +289,7 @@ Add checks:
 - README communicates the product in under one screen.
 - Visuals show the operating loop, not abstract framework boxes.
 - User-facing verification is proof/gate based.
-- Public copy uses proof-gated language and keeps evidence as an internal
+- Public copy uses milestone-gated playable validation language and keeps evidence as an internal
   artifact term.
-- Contributor scripts are linked only from contributor/maintainer surfaces.
+- Contributor scripts are linked only from contributor/maintainer areas.
 - Public docs make Game Studio look like a serious OSS framework, not a prompt dump.

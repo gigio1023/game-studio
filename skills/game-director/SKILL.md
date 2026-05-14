@@ -40,7 +40,9 @@ tags:
 | File | When to read | Content |
 | --- | --- | --- |
 | `references/director-review.md` | Every director review | Review flow and output shape |
-| `references/design-foundations.md` | Direction or player-experience review | Source-backed design questions |
+| `references/design-foundations.md` | Direction or player-experience review | From the craft reference index design questions |
+| `.game-studio/core/references/operational/mda.md` | Mechanic-dynamic-experience claim | MDA review moves |
+| `.game-studio/core/references/operational/level-flow.md` | First-session route or teaching claim | Level-flow review moves |
 | `skills/game-onboarding/SKILL.md` | Missing or ambiguous direction | Entry routing before Direction Lock |
 | `.game-studio/core/gates/direction.md` | Thesis, pillars, player experience, AI authority | Direction gates |
 | `.game-studio/core/gates/production.md` | Protocol proof, presentation value, vertical slice | Production gates |

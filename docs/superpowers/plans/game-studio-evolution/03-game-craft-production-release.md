@@ -16,7 +16,7 @@ Translate game-development research into review references, templates, schemas, 
 - Create: `skills/game-review-council/references/concept-playability-review.md`
 - Create: `skills/game-review-council/references/accessibility-review.md`
 - Create: `skills/game-review-council/references/release-review.md`
-- Create: `core/references/release-surface-checks.md`
+- Create: `core/references/release-material-checks.md`
 - Create: `core/templates/release/demo-readiness.md`
 - Create: `core/templates/release/credits-record.md`
 - Create: `core/templates/release/support-plan.md`
@@ -31,7 +31,7 @@ Translate game-development research into review references, templates, schemas, 
 - Modify: `core/schemas/milestone.schema.json`
 - Modify: `core/gates/production.md`
 - Modify: `core/gates/release.md`
-- Modify: `docs/evidence-gates.md`
+- Modify: `docs/validation-gates.md`
 
 ## Game Craft Review Packs
 
@@ -324,9 +324,9 @@ Require enough fields to prevent task-list milestones:
 ["id", "name", "stage", "goal", "researchQuestion", "qualityCriteria", "requiredEvidence", "gates", "exitDecision"]
 ```
 
-## Release Surface
+## Release Material
 
-- [ ] Create `core/references/release-surface-checks.md`.
+- [ ] Create `core/references/release-material-checks.md`.
 
 Include:
 

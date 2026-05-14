@@ -3,6 +3,9 @@
 Use this when a room, route, encounter, puzzle space, arena, hub, or tutorial
 sequence affects player comprehension and pacing.
 
+Before writing the verdict, use
+`.game-studio/core/references/operational/level-flow.md` when available.
+
 ## Questions
 
 - What should the player see first?

@@ -9,13 +9,13 @@ Sequence the work so Game Studio improves coherently without turning into a gian
 - [ ] Keep [07-deep-source-notes.md](07-deep-source-notes.md) as the source
   synthesis for this plan.
 - [ ] Keep [08-creative-discovery-novice-authorship.md](08-creative-discovery-novice-authorship.md)
-  as the source for entry routing, taste-to-game, and proof-gated product
+  as the source for entry routing, taste-to-game, and playable-validation product
   language.
 - [ ] Add adopted and rejected concepts to `docs/source-adoption-policy.md` when
   Phase 2 creates that file.
 - [ ] Decide which ideas become core, profile, pack, adapter, contributor, or
   rejected concepts before implementation starts.
-- [ ] Adopt `discovery-driven, proof-gated` as the public product phrase.
+- [ ] Adopt `AI-assisted, playable-validation` as the public product phrase.
 - [ ] Keep `evidence` as an internal ledger/schema term only.
 
 Commit:
@@ -116,14 +116,14 @@ git commit -m "docs: deepen game craft and qa review"
 
 - [ ] Expand milestone contract and schema.
 - [ ] Add first prototype contract and proof budget fields.
-- [ ] Add release surface checks.
+- [ ] Add release material checks.
 - [ ] Add demo readiness, credits, support, and post-release templates.
 - [ ] Update production and release gates.
 
 Commit:
 
 ```bash
-git add core/templates/production/milestone-contract.md core/schemas/milestone.schema.json core/references/release-surface-checks.md core/templates/release core/gates/production.md core/gates/release.md docs/evidence-gates.md
+git add core/templates/production/milestone-contract.md core/schemas/milestone.schema.json core/references/release-material-checks.md core/templates/release core/gates/production.md core/gates/release.md docs/validation-gates.md
 git commit -m "docs: expand production and release proof"
 ```
 
@@ -150,18 +150,18 @@ git add adapters/claude/hooks adapters/codex/checks docs/install-and-upgrade.md 
 git commit -m "feat: add install manifest and contributor checks"
 ```
 
-## Phase 7: README And Public Visual Surface
+## Phase 7: README And Public Visual Design
 
 - [ ] Rewrite README around product identity and operating loop.
 - [ ] Create README hero system map.
-- [ ] Create public surface style guide.
-- [ ] Replace evidence-heavy public copy with proof-gated product language while
+- [ ] Create public docs and release copy guide.
+- [ ] Replace evidence-heavy public copy with playable-validation product language while
   keeping evidence as an internal artifact term.
 - [ ] Add taste-to-game and existing-direction entry paths to the first-screen
   explanation.
 - [ ] Apply OSS-inspired routing: product docs, adoption, contribution,
   community, support, and security must each have a clear lane.
-- [ ] Add repository/source, installed framework, and adapter-surface
+- [ ] Add repository/source, installed framework, and adapter
   distinctions to the README.
 - [ ] Update visual and publication readiness reviews.
 - [ ] Update examples README routing.
@@ -169,8 +169,8 @@ git commit -m "feat: add install manifest and contributor checks"
 Commit:
 
 ```bash
-git add README.md docs/assets docs/public-surface-style.md docs/community/visual-readiness-review.md docs/community/publication-readiness-review.md examples/README.md
-git commit -m "docs: improve readme and public visual surface"
+git add README.md docs/assets docs/public-docs-and-release-copy.md docs/community/visual-readiness-review.md docs/community/publication-readiness-review.md examples/README.md
+git commit -m "docs: improve readme and public visual presentation"
 ```
 
 ## Phase 8: Sample Project Full Loop

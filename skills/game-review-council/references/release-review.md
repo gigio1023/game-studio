@@ -9,7 +9,7 @@ credits, localization claims, accessibility claims, or support promises.
 - Which build or capture proves it?
 - What known limitation must be disclosed?
 - Are credits, licenses, support, localization, and accessibility claims true?
-- What store or demo surface must change if the proof is weak?
+- What store or demo area must change if the proof is weak?
 - What should be removed rather than promised?
 
 ## Blocking Concerns

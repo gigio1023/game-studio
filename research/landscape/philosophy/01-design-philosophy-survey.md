@@ -47,7 +47,7 @@ framework is currently shallow:
 
 - **Antonios Liapis, "Large Language Models and Games: A Survey and Roadmap" (2024)**:
   Peer-reviewed survey of LLM capabilities in game design and content generation. Most
-  current academic source on LLM-native design leverage. High authority on empirical claims.
+  current academic source on AI-assisted design workflows. High authority on empirical claims.
 
 - **Supercell, "Quality is Worth Killing For" (GDC 2016, gamedeveloper.com write-up)**:
   Studio documentation on game concept rejection rituals. Named studio with documented
@@ -156,7 +156,7 @@ The `GS-CONCEPT-SLATE` gate in the framework already requires a `reason to rejec
 each concept. This is ahead of published literature, which offers cultural principles
 rather than enumerated rejection categories.
 
-**What this means for dark rituals (gap b):** The concept-death ritual at Supercell combines
+**What this means for production failure protocols (gap b):** The concept-death ritual at Supercell combines
 symbolic ceremony with cultural clarity on quality bar. The framework lacks a corresponding
 ritual structure. Published literature does not provide one—it must be designed.
 
@@ -172,12 +172,12 @@ constraints—balance, pacing, narrative coherence, aesthetic consistency. The s
 explicitly that soft constraint representation is the central open problem and requires
 "innovative pre-processing or more advanced LLM technologies."
 
-For the Game Studio framework, this means the most valuable LLM-native leverage is at the
+For the Game Studio framework, this means the most valuable AI-assisted design workflows is at the
 *constraint formulation* stage, not the generation stage. An LLM guided by explicit MDA
 aesthetic targets, named pillars, and documented anti-pillars will produce better mechanic
 suggestions than an LLM given only a genre label or a vibe description.
 
-**What this means for LLM-native leverage (gap c):** The framework already structures input
+**What this means for AI-assisted design workflows (gap c):** The framework already structures input
 as taste, references, pillars, and anti-pillars—this is exactly the constraint context LLMs
 need. The gap is that no playbook currently instructs agents on how to *use* these structured
 inputs to improve generative leverage.
@@ -256,8 +256,8 @@ source provides this worked example.
 | MDA aesthetics taxonomy | (a) reference-to-constraint translation | Add MDA's 8 aesthetics as a structured vocabulary to `core/templates/direction/taste-profile.md` under Desired Emotions. Add backward-design chain note: desired aesthetic -> required dynamic -> enabling mechanic. |
 | Church FADT conflict analysis | (a) reference-to-constraint translation | Add a "pillar conflict" field to `core/templates/direction/creative-pillars.md`: when two pillars conflict, name the resolution (which phase of play prioritizes which pillar). |
 | Brier's adjective-first method | (a) + (b) | Add an adjective-generation step to the taste-to-game workflow. Before writing pillar statements, the creator names 5-8 adjectives describing desired experience. Pillars should be traceable to these adjectives. Document this in `core/workflows/stage-model.md` as an explicit step. |
-| Supercell pride test + Brier genre-default test | (b) dark rituals | Add `reason to reject` and `genre-default test` fields to `core/templates/direction/concept-portfolio.md`. Rejection criteria should include: (1) team cannot articulate pride in this, (2) feature exists because genre requires it not because pillars require it, (3) beta retention signal absent. |
-| Liapis LLM constraint-leverage finding | (c) LLM-native leverage | Add a playbook note to `core/roles/playbooks/creative-director.md` instructing agents: when generating mechanic suggestions, state which MDA aesthetic is being targeted and which pillar is being served. This gives LLMs constraint context. |
+| Supercell pride test + Brier genre-default test | (b) production failure protocols | Add `reason to reject` and `genre-default test` fields to `core/templates/direction/concept-portfolio.md`. Rejection criteria should include: (1) team cannot articulate pride in this, (2) feature exists because genre requires it not because pillars require it, (3) beta retention signal absent. |
+| Liapis LLM constraint-leverage finding | (c) AI-assisted design workflows | Add a playbook note to `core/roles/playbooks/creative-director.md` instructing agents: when generating mechanic suggestions, state which MDA aesthetic is being targeted and which pillar is being served. This gives LLMs constraint context. |
 | PMC authorship boundary findings | (c) AI-as-collaborator | Strengthen `GS-AI-AUTHORITY` gate with explicit vocabulary: "agent proposes, creator selects" is the required interaction mode for any decision touching pillars, reference moments, or direction. The gate already exists; the vocabulary for enforcing it does not. |
 | Pope's constraint-as-creativity method | (b) + (d) | Add a "constraint-as-fuel" worked example to `core/templates/direction/reference-games-map.md`: demonstrate extracting a constraint from a specific moment, not just labeling what a reference game does. |
 | Beginner entry path gap | (b) taste-to-game | Add a worked example showing the `taste-to-game` entry mode in full execution, from first message to first proof. Could live at `examples/` or as a walkthrough note in `core/templates/intake/project-intake.md`. |
@@ -287,11 +287,11 @@ source provides this worked example.
    Search query that failed:
    `game design formal model AI authorship boundary "creative director" human AI 2024`
 
-4. **Worked source-map guides.** No tradition of converting reference citations into
+4. **Worked craft-reference-index guides.** No tradition of converting reference citations into
    operational worked guides exists in published game design literature. This is a genuine
    contribution opportunity for this framework.
    Search query that confirmed gap:
-   `game design "worked example" "source map" "design citation" reference to constraint tutorial`
+   `game design "worked example" "craft reference index" "design citation" reference to constraint tutorial`
 
 ---
 

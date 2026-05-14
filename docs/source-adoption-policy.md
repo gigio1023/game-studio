@@ -1,7 +1,7 @@
 # Source Adoption Policy
 
 Game Studio is built from research, reference repositories, agent workflows, and
-game-production practice. Source material should improve the operating system,
+game-production practice. Source material should improve the production framework,
 not create a pile of copied advice.
 
 ## Adoption Levels
@@ -83,6 +83,7 @@ Reject ideas when they:
 - add roles without authority or decision value
 - make scripts the main game-quality story
 - copy engine-specific facts into platform-neutral core files
+- vendor third-party code or assets when a pattern note would be enough
 - make a public claim that the framework cannot validate
 
 ## Recording Decisions

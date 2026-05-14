@@ -1,4 +1,4 @@
-# Public Surface Style
+# Public Docs And Release Copy
 
 Public Game Studio docs should explain the product without making contributor
 tooling, internal schemas, or research scaffolding feel like the main value.
@@ -7,13 +7,13 @@ tooling, internal schemas, or research scaffolding feel like the main value.
 
 Use:
 
-> Discovery-driven AI game production system for playable validation.
+> AI-assisted game production framework for playable validation.
 
 Then explain:
 
 > Game Studio helps Codex and Claude Code turn either an existing game
-> direction or a player's taste profile into playable prototypes, reviews, gates,
-> and production decisions.
+> direction or a player's taste profile into playable builds, role-led game
+> reviews, milestone decisions, and release checks.
 
 ## First Screen Rules
 
@@ -30,10 +30,11 @@ The first screen should answer:
 Prefer:
 
 - playable prototype
+- playable build
 - first playable
 - vertical slice
 - playable validation
-- role-led review
+- role-led game review
 
 Use internal gate terms only when naming framework mechanics:
 
@@ -61,8 +62,8 @@ Recommended order:
 ## Visual Rules
 
 - Show the actual operating loop, not abstract decoration.
-- Make entry mode, target repo, playable prototype, review, gate, and next prototype
-  visible.
+- Make entry mode, target repo, first playable, review, milestone decision, and
+  next build visible.
 - Do not make contributor scripts the center of the visual story.
 - Do not imply one-prompt finished games.
 - Use a high-resolution PNG in the README for dependable rendering; keep SVG as
@@ -73,7 +74,7 @@ Recommended order:
   should carry the meaning.
 - For the README hero map, use a compact product map: light canvas, restrained
   color by responsibility, straight routing, and one strongly emphasized
-  playable prototype.
+  first playable.
 
 ## Copy Rules
 
@@ -81,4 +82,4 @@ Recommended order:
 - Keep claims tied to playable validation or review.
 - Avoid defensive disclaimers unless they clarify the supported path.
 - Avoid inflated role lists when authority is not clear.
-- Prefer short tables for routes, surfaces, and responsibilities.
+- Prefer short tables for routes, files, release materials, and responsibilities.

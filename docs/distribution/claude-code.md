@@ -11,7 +11,7 @@ The public Game Studio plugin should set:
 | Field | Value |
 | --- | --- |
 | `name` | `game-studio` |
-| `description` | Short install-surface description for AI-assisted game production. |
+| `description` | Short install-area description for AI-assisted game production. |
 | `author` | Repository owner or maintainer identity. |
 | `homepage` | Public repository or docs page. |
 | `repository` | Public GitHub repository. |

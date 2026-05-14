@@ -32,7 +32,7 @@ This research page turns durable game craft references into review criteria for 
 ### Game feel is evidence, not an adjective
 
 - **Control loop**: The player input, avatar response, camera, animation, sound, and result must complete a readable loop.
-- **Latency budget**: Button response, cursor response, animation startup, and confirmation must be measured or recorded in playable evidence.
+- **Latency budget**: Button response, cursor response, animation startup, and confirmation must be measured or recorded in playable validation.
 - **Legibility before intensity**: Screen shake, particles, hit stop, and camera motion are useful only when they make state clearer.
 - **Failure feel**: Misses, blocks, falls, reloads, and resets need feedback as carefully as successes.
 
@@ -56,8 +56,8 @@ This research page turns durable game craft references into review criteria for 
 
 - **Hierarchy**: The player, threat, objective, interactable, and background must not compete for the same visual priority.
 - **Shape language**: Silhouettes should communicate role, danger, affordance, and faction before detail is visible.
-- **Color role**: Color should separate gameplay state, mood, and navigation rather than decorate every surface equally.
-- **Material truth**: Surface treatment should tell the player what can be touched, damaged, climbed, collected, or ignored.
+- **Color role**: Color should separate gameplay state, mood, and navigation rather than decorate every area equally.
+- **Material truth**: Texture, collision, and animation treatment should tell the player what can be touched, damaged, climbed, collected, or ignored.
 - **Style constraint**: A smaller consistent style beats a large asset set with conflicting lighting, scale, or readability.
 
 ### Audio is part of the interface
@@ -119,7 +119,7 @@ Use this review shape for each critical moment:
 
 ### Existing skills to reuse
 
-- `skills/game-director/SKILL.md`: Add source-backed prompts for thesis, player experience, and presentation value review.
+- `skills/game-director/SKILL.md`: Add from the craft reference index prompts for thesis, player experience, and presentation value review.
 - `skills/game-review-council/SKILL.md`: Route visual, audio, UX, and level findings to the strictest relevant role.
 - `skills/game-evidence-gate/SKILL.md`: Require playable capture for feel, camera, UI, animation, VFX, and audio claims.
 - `skills/game-execution/SKILL.md`: Use work packages that define the target moment and evidence before implementation.
@@ -143,7 +143,7 @@ Use this review shape for each critical moment:
 - The evidence model warns that screenshots do not prove gameplay, but it does not yet define capture requirements for moment-to-moment quality.
 - Engine profiles mention visual artifacts and game feel, but the requirement is not connected to a reusable rubric.
 - Genre profiles ask strong first questions, but they do not map those questions to craft evidence.
-- No source-backed foundations page existed for game feel, level design, UX, art direction, or audio direction.
+- No from the craft reference index foundations page existed for game feel, level design, UX, art direction, or audio direction.
 - Accessibility appears in release and UX language, but it lacks early-stage checks for controls, readability, captions, motion, and color reliance.
 - There is no artifact template for comparing intended player reads against observed player behavior.
 - There is no discipline-specific skill reference for art direction, audio direction, UX, or level design reviews.

@@ -13,10 +13,12 @@ These reports capture external game-development references used to improve Game 
 ## Repo Review
 
 - `repo-review/content-model-gap-analysis.md`: local content gaps and integration priorities.
+- `repo-review/external-game-agent-repos/`: analysis of Claude Code Game Studios and gstack-game, plus adoption decisions for Game Studio.
+- `repo-review/godot-reference-repos/`: analysis of Godot engine, official demo projects, and Kenney starter kits, plus adoption decisions for Godot guidance.
 
 ## Continuity
 
-- `continuity/2026-05-04-substantive-review-handoff.md`: handoff for continuing this research and integration work from a new device or session.
+- `continuity/2026-05-04-role-led-game-review-handoff.md`: handoff for continuing this research and integration work from a new device or session.
 
 ## Use
 

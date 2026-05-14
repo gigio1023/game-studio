@@ -1,7 +1,7 @@
 # Implementation Map From Rounds 4-5
 
 This page sequences the Round 4-5 research into maintainable repository work.
-It is an index over work surfaces, not a single giant backlog.
+It is an index over work areas, not a single giant backlog.
 
 Detailed translation:
 [Template And Schema Translation](../../../research/landscape/round5-implementation/01-template-and-schema-translation.md).
@@ -22,15 +22,15 @@ Files:
 
 Work:
 
-- add proof-gated craft coach language
-- demote production OS, curriculum, and skill registry to supporting surfaces
+- add milestone-gated playable validation game design review workflow language
+- demote production OS, curriculum, and skill registry to supporting areas
 - state generated material is not proof
 - state make less, prove more
 
 Proof:
 
 - a first-time reader does not infer automatic game generation
-- the public promise names human authority and playable proof
+- the public promise names human authority and playable build
 
 ## Wave 9: Beginner Craft Path
 
@@ -59,7 +59,7 @@ Proof:
 
 ## Wave 10: Anti-Slop And Provenance
 
-Purpose: prevent AI abundance from becoming review burden.
+Purpose: prevent too much generated material from becoming review burden.
 
 Files:
 
@@ -81,7 +81,7 @@ Proof:
 
 - generated concepts or assets do not pass gates without claim-to-proof mapping
 
-## Wave 11: Production Dark Rituals
+## Wave 11: Production Failure Protocols
 
 Purpose: make cut, pivot, reboot, scope crisis, and parallel risk operational.
 
@@ -135,7 +135,7 @@ Proof:
 
 ## Wave 13: Skill Contracts
 
-Purpose: make skills behave like coaching protocols.
+Purpose: make skills behave like review protocols.
 
 Files:
 

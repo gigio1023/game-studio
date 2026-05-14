@@ -11,11 +11,11 @@ Codex users.
 
 | Decision | Status |
 | --- | --- |
-| Primary install surface | Plugin marketplaces |
-| Fallback install surface | Source checkout for maintainers only |
+| Primary install path | Plugin marketplaces |
+| Fallback install path | Source checkout for maintainers only |
 | Update model | Plugin shell plus remotely checked workflow pack |
 | Target repo state | `.game-studio/` stores project state, not framework logic |
-| Public skill surface | Five task skills instead of every internal role skill |
+| Public skill entry points | Five task skills instead of every internal role skill |
 
 ## Document Map
 
@@ -40,4 +40,3 @@ Codex users.
 - Do not depend on users enabling marketplace auto-update.
 - Do not let framework updates overwrite game direction, milestones, or human
   decision records.
-

@@ -3,6 +3,9 @@
 Use this when the project needs a player-centered pass before or after a
 playable proof. Before a build exists, treat this as weak proof.
 
+Use `.game-studio/core/references/operational/level-flow.md` when the
+walkthrough depends on route learning, teaching order, landmarks, or recovery.
+
 ## Method
 
 1. Select one target player and session context.

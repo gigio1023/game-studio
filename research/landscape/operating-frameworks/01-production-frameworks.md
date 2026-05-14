@@ -14,7 +14,7 @@
 ## Sources Surveyed
 
 - https://www.riotgames.com/en/r-and-d-office/incubation-exploration-with-a-plan — First-party documentation of Riot's R&D lifecycle. High authority; describes named phases with gate criteria.
-- https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-substance — First-party Riot documentation of prototype phase exit criteria. High authority; specific deliverables listed.
+- https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-game quality — First-party Riot documentation of prototype phase exit criteria. High authority; specific deliverables listed.
 - https://gameproductionalchemist.substack.com/p/scope-management-for-game-development — Practitioner substack on scope types. Moderate authority; part 1 of a series with detail deferred to part 2.
 - https://www.gamedeveloper.com/production/death-march-crunches-10-causes-and-solutions — Game Developer magazine. High authority; named causes and solutions taxonomy for crunch.
 - https://www.gamedeveloper.com/production/goodbye-postmortems-hello-critical-stage-analysis — Game Developer magazine. High authority; named methodology (CSA) with template structure.
@@ -22,7 +22,7 @@
 - https://ltpf.ramiismail.com/milestones/ — Rami Ismail's LTPF (Levelling the Playing Field). High authority for indie; four-phase milestone model with forced decisions.
 - https://tonogameconsultants.com/death-spiral/ — Tono Game Consultants. Moderate authority; death spiral stage model, Scrum-adjacent solutions.
 - https://www.gamedeveloper.com/production/organization-and-time-management-as-an-indie-studio — Game Developer magazine. Moderate authority; Multi-Level-Tasking framework for small studios.
-- https://clintonkeith.com/ — Clinton Keith's official site. Low detail at page level; points to book content not surfaced publicly.
+- https://clintonkeith.com/ — Clinton Keith's official site. Low detail at page level; points to book content not identified publicly.
 - https://www.routledge.com/The-Game-Production-Toolbox/Chandler/p/book/9781138341708 — Routledge product page for Heather Chandler's toolbox. Low detail; chapter structure confirmed, templates not publicly available.
 - https://amazon.com/Games-Design-Play-detailed-iterative/dp/0134392078 — Macklin/Sharp "Games, Design and Play." Book description only; methodology is Conceptualize-Prototype-Playtest-Evaluate loop. Not a production framework per se.
 
@@ -59,11 +59,11 @@
 
 6. **The Lean Startup methodology offers concept death logic ("pivot or persevere") but requires game-specific translation.** Eric Ries developed the method at a game company (IMVU), but practitioners surveyed report that the validated-learning loop works well for mobile/service games and poorly for single-purchase narrative games where the feedback loop is months long. The "MVP" concept maps awkwardly onto a vertical slice: a vertical slice proves pipeline capability, while an MVP proves a product-market hypothesis. These are different questions. The most honest practitioner assessment found was that Lean Startup provides useful vocabulary ("validated learning," "pivot") but no published game-native adaptation of its core loop exists. Source: https://www.gamedeveloper.com/production/do-lean-startup-methods-make-for-a-better-game-development-model-
 
-7. **Scope crisis literature identifies "Design Debt" as a distinct debt type** separate from technical debt and content debt. Design debt occurs when gameplay viability is only discovered after tech and assets are already committed — a sequencing failure that directly relates to the absence of a proof-gated pre-direction phase. The full taxonomy from the "Death March Crunches" article is: (1) technical debt from deferred bug fixes and optimization, (2) content debt from polished-asset demands after mechanics settle, (3) design debt from late gameplay validation. All three compound under fixed-scope/fixed-schedule constraints. The proposed solution — prioritized scope with a derived schedule, not a fixed schedule — is the clearest published statement of scope management philosophy in the surveyed literature. Source: https://www.gamedeveloper.com/production/death-march-crunches-10-causes-and-solutions
+7. **Scope crisis literature identifies "Design Debt" as a distinct debt type** separate from technical debt and content debt. Design debt occurs when gameplay viability is only discovered after tech and assets are already committed — a sequencing failure that directly relates to the absence of a milestone-gated playable validation pre-direction phase. The full taxonomy from the "Death March Crunches" article is: (1) technical debt from deferred bug fixes and optimization, (2) content debt from polished-asset demands after mechanics settle, (3) design debt from late gameplay validation. All three compound under fixed-scope/fixed-schedule constraints. The proposed solution — prioritized scope with a derived schedule, not a fixed schedule — is the clearest published statement of scope management philosophy in the surveyed literature. Source: https://www.gamedeveloper.com/production/death-march-crunches-10-causes-and-solutions
 
 8. **The Heather Chandler Game Production Toolbox and Bryan Cashman materials are behind paywalls** with no meaningful public template extraction possible. Chapter outlines confirm that Chandler covers prototyping as a distinct phase before requirements-setting, and the six-part structure (Overview, Creating the Prototype, Establishing Requirements, Assembling the Team, Making the Game, Launching the Game) reflects a pre-direction-lock model where prototype precedes schedule. But the actual process templates, gate checklists, and milestone contracts are proprietary to the book. No leaked or shared versions were found. Source: https://www.routledge.com/The-Game-Production-Toolbox/Chandler/p/book/9781138341708
 
-9. **No surveyed framework addresses LLM-native generative leverage or AI-agent production workflows.** All existing frameworks assume human-authored assets and human decision-makers. The closest structural analog is the Lean Startup MVP concept — proving the smallest generative loop before scaling it — but the operational mechanics of AI-assisted production are entirely unaddressed. The Supercell cell structure (5 people, full creative autonomy) is the closest organizational model for a Codex+Claude team, but Supercell's methodology beyond "small team with full control" is not publicly documented.
+9. **No surveyed framework addresses AI-assisted design workflows or AI-agent production workflows.** All existing frameworks assume human-authored assets and human decision-makers. The closest structural analog is the Lean Startup MVP concept — proving the smallest generative loop before scaling it — but the operational mechanics of AI-assisted production are entirely unaddressed. The Supercell cell structure (5 people, full creative autonomy) is the closest organizational model for a Codex+Claude team, but Supercell's methodology beyond "small team with full control" is not publicly documented.
 
 10. **"Vision Lock" exists in industry practice (department locks: Art Lock, Design Lock, Audio Lock) but has no published formal checklist.** These are described as late-production mechanisms to prevent scope expansion near launch, not as pre-direction discovery gates. They manage the tail of production, not the head. The distinction matters: the framework needs a Direction Lock at the beginning of production (before assets commit) as well as department locks at the end. Neither has a publicly available template.
 
@@ -83,7 +83,7 @@ This section applies the skepticism filter: frameworks are assessed on whether t
 - Critical Stage Analysis — specific template structure, time constraints, ownership requirements, replicable from article alone
 - Death March / Design Debt taxonomy (Clinton Keith + Game Developer) — specific named debt types, specific sequencing failures identified
 
-**Methodologically substantive but paywalled:**
+**Methodologically useful but paywalled:**
 - Heather Chandler Game Production Toolbox — chapter structure confirms methodology exists; templates proprietary
 - Clinton Keith Agile Game Development — critiques are specific; ceremonies and artifacts require book access
 
@@ -120,7 +120,7 @@ No publicly available milestone contract, gate verdict document, or scope-cut lo
 
 **Finding 6 (Lean Startup)** provides the translation grammar: "We believe [player type] experiences [specific friction/desire] when [situation]. Building [specific design element] will resolve it, which we will measure by [observable player behavior]." This is a design constraint, not a vision.
 
-### Gap (b): Production dark rituals (concept death, scope crisis, parallel risk, deadline mode)
+### Gap (b): Production failure protocols (concept death, scope crisis, parallel risk, deadline mode)
 
 **Concept death:** Finding 2 (Rami Ismail Fail Fast) provides a viable structure. The Research Phase has an explicit go/no-go before any production resource commitment. The framework should adopt a Concept Viability Gate at the end of the Intake phase, with explicit kill criteria: e.g., "the core mechanic hypothesis cannot be demonstrated playably within a fixed prototype budget." The gate must be hard — not a review that can result in "continue with reservations."
 
@@ -130,13 +130,13 @@ No publicly available milestone contract, gate verdict document, or scope-cut lo
 
 **Deadline mode:** Finding 7 (Design Debt taxonomy) provides the input signal. When all three debt types (technical, content, design) are simultaneously accumulating, deadline mode is active. The framework should define a Debt Audit as a named event triggered when any two debt types reach a threshold in the same sprint, with a mandated scope-cut decision before the next sprint begins.
 
-### Gap (c): LLM-native generative leverage
+### Gap (c): AI-assisted design workflows
 
 Finding 9 confirms no existing framework covers this territory. The framework occupies original ground. Structural inputs from adjacent frameworks: Lean Startup MVP logic (prove the smallest generative loop before scaling it), Riot's prototype exit criteria (audience definition, playable experience, shared team understanding — all directly applicable to LLM-assisted production), and Supercell's small-cell autonomy model (agents as cell members with full creative and kill authority). The key open question is how a human producer gate-checks LLM agent output at milestone cadence when agents operate at a faster cycle than human review can sustain.
 
-### Gap (d): Converting source-map citations into operational worked guides
+### Gap (d): Converting craft-reference-index citations into operational worked guides
 
-Findings 1 and 2 demonstrate the principle: operationally useful frameworks specify the forced decision at each gate, not just the phase name. The Riot Prototype exit criteria are a list of four specific deliverables with observable evidence requirements. The LTPF milestone model states explicitly what decision is forced at each checkpoint. Proposed change for the Game Studio framework: every source-map citation should resolve to a named forced decision. The citation format should be: [Source] → [Specific decision it forces] → [Evidence required to pass gate]. This is what converts a reference into an operational guide.
+Findings 1 and 2 demonstrate the principle: operationally useful frameworks specify the forced decision at each gate, not just the phase name. The Riot Prototype exit criteria are a list of four specific deliverables with observable evidence requirements. The LTPF milestone model states explicitly what decision is forced at each checkpoint. Proposed change for the Game Studio framework: every craft-reference-index citation should resolve to a named forced decision. The citation format should be: [Source] → [Specific decision it forces] → [Evidence required to pass gate]. This is what converts a reference into an operational guide.
 
 ---
 
@@ -144,7 +144,7 @@ Findings 1 and 2 demonstrate the principle: operationally useful frameworks spec
 
 This addresses research question 6 directly. The surveyed landscape shows three distinct expansions beyond the four-stage standard:
 
-**Riot's Five-Phase Model (Pitch/Incubation/Prototype/Pre-prod/Production)** inserts two stages before the standard "pre-production" — a lightweight pitch/sensemaking phase (Incubation) and a substantive proof-of-concept phase (Prototype) that both precede the team-staffing and roadmap work that most frameworks call pre-production. The practical effect is that direction is proven before headcount is committed, which changes the cost structure of early-stage risk.
+**Riot's Five-Phase Model (Pitch/Incubation/Prototype/Pre-prod/Production)** inserts two stages before the standard "pre-production" — a lightweight pitch/sensemaking phase (Incubation) and a meaningful proof-of-concept phase (Prototype) that both precede the team-staffing and roadmap work that most frameworks call pre-production. The practical effect is that direction is proven before headcount is committed, which changes the cost structure of early-stage risk.
 
 **Rami Ismail's Four-Phase Research Model** reframes the standard phases by naming the pre-production work "Research" and subdividing it into Ideation and Prototype sub-milestones. The Wrap-Up phase (Release Candidate through launch) is treated as a separate phase from Production, not as the tail end of production. This is an underappreciated distinction: release preparation has a different risk profile from feature production and deserves its own named phase.
 
@@ -163,18 +163,18 @@ This addresses research question 6 directly. The surveyed landscape shows three 
 3. The Supercell "cell" structure (5-person teams with full creative control) implies an implicit concept death mechanism: games are killed when the cell decides they are not fun. Is there a documented decision framework for this or is it purely subjective leadership judgment? If subjective, how is it calibrated across different cells?
 4. No framework surveyed addresses the specific challenge of LLM agents as production contributors rather than tools. How does a human producer gate-check output from an AI agent that operates faster than milestone cadence? Does gate cadence need to change, or does the gate need a different kind of evidence?
 5. The Macklin/Sharp Conceptualize-Prototype-Playtest-Evaluate loop is described as a design methodology, not a production framework. Is there a documented bridge between this design loop and production milestone planning? At what loop iteration does the team transition from design methodology to production framework?
-6. Narrative production at BioWare/Obsidian reportedly uses story-beat lock documents and narrative milestone gates separate from engineering milestones. No public documentation was found. This is a significant gap for narrative-heavy game frameworks. A targeted search for GDC presentations from BioWare/Obsidian narrative directors may surface this.
-7. DiGRA papers on production methodology were not retrieved in this sweep. A targeted academic database search (ACM Digital Library, DiGRA proceedings) may surface formalized models not present in practitioner literature, particularly around indie team studies and AI-assisted production.
+6. Narrative production at BioWare/Obsidian reportedly uses story-beat lock documents and narrative milestone gates separate from engineering milestones. No public documentation was found. This is a significant gap for narrative-heavy game frameworks. A targeted search for GDC presentations from BioWare/Obsidian narrative directors may area this.
+7. DiGRA papers on production methodology were not retrieved in this sweep. A targeted academic database search (ACM Digital Library, DiGRA proceedings) may area formalized models not present in practitioner literature, particularly around indie team studies and AI-assisted production.
 8. The scope management substack (Game Production Alchemist) explicitly deferred its process, ceremonies, and artefact detail to Part 2. That part was not available or not yet published at time of research. It may contain the most practically detailed scope crisis ritual in the surveyed landscape once published.
-9. The "deadline mode" dark ritual has no named framework analog in any surveyed source. It is distinct from scope crisis (which is a chronic drift) and from death spiral (which is a compounding failure). Deadline mode is an acute state where known scope cannot be completed in available time. No surveyed framework prescribes a specific response protocol for this state beyond generic "cut scope" advice.
-10. A Pugh-style concept selection matrix has been proposed for game design decisions in engineering-adjacent literature but was not found applied to game production gates in any surveyed source. A follow-up search targeting engineering design methodology applied to games may surface a decision-matrix template applicable to the Concept Viability Gate.
+9. The "deadline mode" production failure protocol has no named framework analog in any surveyed source. It is distinct from scope crisis (which is a chronic drift) and from death spiral (which is a compounding failure). Deadline mode is an acute state where known scope cannot be completed in available time. No surveyed framework prescribes a specific response protocol for this state beyond generic "cut scope" advice.
+10. A Pugh-style concept selection matrix has been proposed for game design decisions in engineering-adjacent literature but was not found applied to game production gates in any surveyed source. A follow-up search targeting engineering design methodology applied to games may area a decision-matrix template applicable to the Concept Viability Gate.
 
 ---
 
 ## Citations
 
 1. https://www.riotgames.com/en/r-and-d-office/incubation-exploration-with-a-plan
-2. https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-substance
+2. https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-game quality
 3. https://ltpf.ramiismail.com/milestones/
 4. https://www.gamedeveloper.com/production/goodbye-postmortems-hello-critical-stage-analysis
 5. https://www.gamedeveloper.com/production/death-march-crunches-10-causes-and-solutions

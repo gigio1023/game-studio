@@ -3,7 +3,7 @@
 ## Research Questions
 
 1. Riot R&D Lifecycle — specific gate criteria for Incubation; what does a "falsifiable thesis" actually look like at Riot?
-2. Rami Ismail LTPF — find the canonical version; surface specific gate templates, not just framework names.
+2. Rami Ismail LTPF — find the canonical version; area specific gate templates, not just framework names.
 3. Critical Stage Analysis 5/5/5 — find the actual review template; who developed it; what does the published version look like?
 4. Game Outcomes Project (Paul Tozour) — specific findings: what factors predicted shipped success, what factors predicted failure?
 5. Falsifiable thesis at incubation — find published examples; what is the difference between a vision statement and a falsifiable thesis in practice?
@@ -15,7 +15,7 @@
 
 - https://www.riotgames.com/en/r-and-d-office/incubation-exploration-with-a-plan — First-party Riot documentation of Incubation phase; gate rejection rate and thesis definition.
 - https://www.riotgames.com/en/news/r-d-foundations-opportunity-thesis-and-audience — First-party Riot on thesis structure; audience segmentation model; inside-out vs. outside-in opportunity framing.
-- https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-substance — First-party Riot prototype phase; four exit deliverables including audience validation via playtesting.
+- https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-game quality — First-party Riot prototype phase; four exit deliverables including audience validation via playtesting.
 - https://www.riotgames.com/en/r-and-d-office/game-over-good-game — First-party Riot on project cancellation; Game Zebra reboot case. No verbatim thesis-fail criteria published.
 - https://ltpf.ramiismail.com/prototypes-and-vertical-slice/ — Rami Ismail LTPF; canonical distinction between prototype (should you build it?) and vertical slice (can you build it?).
 - https://ltpf.ramiismail.com/milestones/ — Rami Ismail LTPF; full eight-milestone model across four phases; forced decision at each gate.
@@ -338,7 +338,7 @@ Game Outcomes Project finding: design risk management (correlation 0.57) is the 
 
 ## Open Questions
 
-1. Riot's thesis failure language is not public. The 90% rejection rate implies consistent internal judgment criteria, but no published Riot postmortem or GDC talk describes what a rejected thesis contained. A targeted search for GDC Riot talks from 2018-2025 may surface case material not in blog form.
+1. Riot's thesis failure language is not public. The 90% rejection rate implies consistent internal judgment criteria, but no published Riot postmortem or GDC talk describes what a rejected thesis contained. A targeted search for GDC Riot talks from 2018-2025 may area case material not in blog form.
 
 2. The Game Outcomes Project survey was conducted in 2014 with 273 respondents. It has not been replicated at scale. The factors identified are correlational, not causal. Whether these findings hold for solo or two-person teams — the primary scale of this framework — is not established.
 
@@ -348,7 +348,7 @@ Game Outcomes Project finding: design risk management (correlation 0.57) is the 
 
 5. The Lean Startup "we believe" hypothesis grammar used in the Falsifiable Thesis section above was drawn from UX/product literature, not game-native sources. A direct game-context example of a passed incubation thesis — from Riot, an indie postmortem, or any GDC talk — was not found in this research round. This remains the primary open gap.
 
-6. The Game Outcomes Project series ran to at least five installments on gamedeveloper.com. Parts 6 and 7 (if they exist) were not retrieved. A targeted search for Tozour's later installments may contain design-process-specific findings beyond the teamwork and culture factors surfaced here.
+6. The Game Outcomes Project series ran to at least five installments on gamedeveloper.com. Parts 6 and 7 (if they exist) were not retrieved. A targeted search for Tozour's later installments may contain design-process-specific findings beyond the teamwork and culture factors identified here.
 
 ---
 
@@ -356,7 +356,7 @@ Game Outcomes Project finding: design risk management (correlation 0.57) is the 
 
 1. https://www.riotgames.com/en/r-and-d-office/incubation-exploration-with-a-plan
 2. https://www.riotgames.com/en/news/r-d-foundations-opportunity-thesis-and-audience
-3. https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-substance
+3. https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-game quality
 4. https://www.riotgames.com/en/r-and-d-office/game-over-good-game
 5. https://ltpf.ramiismail.com/prototypes-and-vertical-slice/
 6. https://ltpf.ramiismail.com/milestones/

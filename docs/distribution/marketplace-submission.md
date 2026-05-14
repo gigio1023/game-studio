@@ -1,16 +1,16 @@
 # Marketplace Submission
 
 This page tracks what the repo must prepare before submitting Game Studio to
-public plugin surfaces.
+public plugin areas.
 
 ## Public Release Requirements
 
 | Requirement | Reason |
 | --- | --- |
 | Public plugin package | Users and reviewers can inspect exactly what installs. |
-| Small skill surface | Installers understand what the plugin adds. |
+| Small skill entry points | Installers understand what the plugin adds. |
 | Clear update policy | Users know plugin updates do not rewrite game state. |
-| Marketplace metadata | Install surfaces show trustworthy copy and assets. |
+| Marketplace metadata | Install instructions show trustworthy copy and assets. |
 | Validation output | Maintainers can prove package structure is loadable. |
 | Privacy and terms links | Public directories expect user-facing policy links. |
 | Changelog | Versioned releases need visible changes. |
@@ -53,17 +53,17 @@ set.
 
 ## Marketplace Copy
 
-Use concise install-surface copy.
+Use concise marketplace listing copy.
 
 ```text
 Game Studio helps AI coding agents turn game direction or creator taste into
-bounded playable prototypes, role review, gate verdicts, and human decision
+playable builds, role-led game reviews, milestone decisions, and human decision
 records.
 ```
 
 Avoid public copy that says:
 
-- `proof-gated`
+- the deprecated validation phrase listed in `docs/terminology.md`
 - `AI game generator`
 - `autonomous studio`
 - `one prompt to finished game`
@@ -74,6 +74,5 @@ Avoid public copy that says:
 - Runtime skills still depend on clone-and-copy adapter assumptions.
 - Public docs still imply every target repo should copy `core/`.
 - Public skill descriptions expose too many internal framework terms.
-- Plugin package has no icon, logo, or install-surface metadata.
+- Plugin package has no icon, logo, or marketplace listing metadata.
 - No validation transcript exists for Claude and Codex local installs.
-

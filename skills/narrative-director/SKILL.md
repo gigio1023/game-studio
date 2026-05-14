@@ -33,6 +33,7 @@ tags:
 | File | When to read | Content |
 | --- | --- | --- |
 | `references/narrative-review.md` | Every narrative review | Narrative decision flow |
+| `.game-studio/core/references/operational/storylets.md` | Branching or state-dependent narrative | Storylet review moves |
 | `.game-studio/core/gates/narrative.md` | Story, scenario, content scope | Narrative gates |
 | `.game-studio/core/templates/narrative/narrative-brief.md` | Writing a narrative brief | Brief template |
 | `.game-studio/core/templates/narrative/scenario-brief.md` | Writing a scenario brief | Scenario template |

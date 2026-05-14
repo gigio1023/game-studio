@@ -1,12 +1,12 @@
-# LLM-Native Leverage
+# AI-Assisted Design Workflows
 
-Game Studio currently uses Codex and Claude Code as disciplined producers. It
-prevents the worst AI failure modes well. The next ceiling lift is using the
-LLM for what the LLM is uniquely good at: generative breadth, cross-reference,
-naive-player simulation, and counterfactual reasoning.
+Game Studio currently uses Codex and Claude Code as disciplined production
+assistants. It prevents the worst AI failure modes well. The next improvement
+is to use AI for constrained concept variation, cross-reference checks,
+naive-player walkthroughs, and counterfactual next-build planning.
 
-This is the largest single ceiling move in the value review. It is also the
-largest body of net-new design work.
+This is the largest single improvement in the value review. It is also the
+largest body of new design work.
 
 ## Defensive Versus Offensive Use
 
@@ -22,7 +22,7 @@ largest body of net-new design work.
 | Offensive | Probe cross-session memory for contradictions. | Absent. |
 
 The framework does the defensive work well. The offensive work is the new
-surface.
+area.
 
 ## Five Generative Moves
 
@@ -38,8 +38,8 @@ selection.
 
 Given a creative brief or first prototype contract, generate a session
 transcript from the perspective of a naive player who only knows what the
-design doc shows. Surface the moments where the player would not understand
-goal, affordance, state, or recovery. Feed surfaced gaps into
+design doc shows. Identify the moments where the player would not understand
+goal, affordance, state, or recovery. Feed identified gaps into
 [Player Walkthrough Review](../../../skills/game-review-council/references/player-walkthrough-review.md).
 
 ### Move 3: Anti-Pillar Auto-Generation
@@ -65,12 +65,11 @@ a new decision record.
 
 ## Why This Lifts The Ceiling Most
 
-These moves change the framework from `disciplined producer` into `creative
-cognitive multiplier`. The defensive surface protects the floor of value.
-Offensive surface raises the ceiling because it uses the parts of LLMs no
-spreadsheet, checklist, or human alone can match: diverse generation under
-constraints, simulated alternative perspectives, large memory cross-reference,
-and rapid counterfactual reasoning.
+These moves change the framework from production discipline alone into stronger
+design diagnosis. The defensive workflow prevents bad advancement. The
+offensive workflow helps the human see alternatives, contradictions, and next
+tests faster: diverse generation under constraints, simulated alternative
+perspectives, large memory cross-reference, and rapid counterfactual reasoning.
 
 ## Risk: Each Move Must Preserve Human Authority
 
@@ -88,7 +87,7 @@ framework. Generated output is candidate material, not a verdict.
 
 ## Files To Change
 
-- Add `core/references/llm-native-moves.md`.
+- Add `core/references/ai-assisted-design-workflows.md`.
 - Update concept-slate template to include intentional failure variants.
 - Update player-walkthrough-review reference to include a generation prompt.
 - Update creative-pillars template to include an auto-generated anti-pillars

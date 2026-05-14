@@ -102,14 +102,14 @@ Review:
 - The installed target repo has project-local state, skills, snippets, and first
   route guidance without global dependencies.
 
-## Wave 7: Public Surface And Archive Cleanup
+## Wave 7: Public Docs And Archive Cleanup
 
 Purpose: keep the public repo focused on the product, not internal planning
 history.
 
 Work:
 
-- Keep README and diagram aligned with public surface style.
+- Keep README and diagram aligned with public docs and release copy.
 - Sanitize or archive internal plan docs that include personal paths or
   tool-specific instructions.
 - Keep contributor checks in contributor docs.

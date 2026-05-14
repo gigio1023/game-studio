@@ -352,7 +352,7 @@ Reports should include:
 - reproduction steps
 - affected version or commit
 - adapter
-- operating system
+- production framework
 - redacted logs
 - target-repo file shape when relevant
 

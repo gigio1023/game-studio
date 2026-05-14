@@ -1,18 +1,18 @@
 # Judgment Rubric
 
 This rubric complements [Value Assessment](01-value-assessment.md). The value
-assessment scores Game Studio by surface area: thesis, beginner usefulness,
+assessment scores Game Studio by area: thesis, beginner usefulness,
 existing-project usefulness, agent skill design, role judgment, proof
 discipline, adoption. The judgment rubric scores it by whether the framework
 carves at joints a working creator would recognize.
 
-Use both. Area scoring tells you which surface to improve. The judgment rubric
+Use both. Area scoring tells you which area to improve. The judgment rubric
 tells you whether the framework will actually change agent behavior in the
 hands of a senior reviewer.
 
 ## Six Judgment Dimensions
 
-Each dimension asks one question. The verdict is one of `load-bearing`,
+Each dimension asks one question. The verdict is one of `decision-critical`,
 `decorative`, or `harmful`.
 
 ### 1. Philosophy
@@ -20,7 +20,7 @@ Each dimension asks one question. The verdict is one of `load-bearing`,
 Does the philosophy carve at joints a working creator would recognize, or does
 it list "be careful and have taste"?
 
-Strong evidence the dimension is load-bearing:
+Strong evidence the dimension is decision-critical:
 
 - An agent could pattern-match the rule and still ship better work.
 - A senior reviewer would defend the rule under pressure.
@@ -29,18 +29,18 @@ Strong evidence the dimension is load-bearing:
 Weak evidence:
 
 - Rules read as principles without lived consequence.
-- No project, real or fictional, is named as a corpse for any rule.
+- No project, real or fictional, shows the failure case behind the rule.
 
 ### 2. Operating Model Fit
 
-Does the proof-gated loop reflect how good games actually get made, including
-the dark moments?
+Does the playable-validation loop reflect how good games actually get made,
+including the hard production moments?
 
 Strong evidence:
 
 - The stage order resists pressure to skip ahead.
 - Production crises (concept death, scope crisis, parallel risk, deadline
-  mode) have explicit rituals.
+  mode) have explicit response protocols.
 - Cut decisions have stated criteria, not only candidate lists.
 
 Weak evidence:
@@ -61,7 +61,7 @@ Strong evidence:
 
 Weak evidence:
 
-- Templates collect data but do not surface taste edges.
+- Templates collect data but do not identify taste edges.
 - "Translate references into constraints" is a step name without method.
 
 ### 4. Skill Weight
@@ -87,17 +87,17 @@ practitioner would respect?
 
 Strong evidence:
 
-- The source map cites the canon and the canon's lessons appear in operational
+- The craft reference index cites the canon and the canon's lessons appear in operational
   moves, not only in headers.
 - Production scope arithmetic exists.
 - Retrospective stories ground the rules in real failure.
 
 Weak evidence:
 
-- The source map is a reading list without operational guides.
+- The craft reference index is a reading list without operational guides.
 - No retrospective converts rules into recognizable patterns.
 
-### 6. LLM-Native Leverage
+### 6. AI-Assisted Design Workflows
 
 Is Game Studio using AI for what AI is uniquely good at, or only disciplining
 AI to act like a producer?
@@ -112,27 +112,27 @@ Strong evidence:
 Weak evidence:
 
 - The framework treats the LLM as a form-filler.
-- Generative moves are not first-class skill outputs.
+- Generative moves are not explicit skill outputs.
 
 ## Verdict Taxonomy
 
 | Verdict | Meaning |
 | --- | --- |
-| Load-bearing | The dimension materially changes outcomes. Strong source of value. |
+| Decision-critical | The dimension materially changes outcomes. Strong source of value. |
 | Decorative | The dimension is plausible but does not change agent or human behavior. |
-| Harmful | The dimension creates false confidence, ceremony without authority, or drift. |
+| Harmful | The dimension creates false confidence, process overhead without authority, or drift. |
 
 A dimension can change verdicts as the framework evolves. Re-score during each
 value review.
 
 ## Application
 
-1. Read the load-bearing files for each dimension: philosophy, operating
-   model, entry templates, every `SKILL.md` plus its references, source map,
+1. Read the decision-critical files for each dimension: philosophy, operating
+   model, entry templates, every `SKILL.md` plus its references, craft reference index,
    key rubrics, and recent skill outputs from a real project if available.
 2. Run at least two of the four [Stress Scenarios](10-stress-scenarios.md).
-3. Score each dimension as `load-bearing`, `decorative`, or `harmful`.
-4. Name one concrete move that would change each verdict toward `load-bearing`,
+3. Score each dimension as `decision-critical`, `decorative`, or `harmful`.
+4. Name one concrete move that would change each verdict toward `decision-critical`,
    plus the cost of that move.
 5. Record the result in this directory and link it from the index.
 
@@ -142,12 +142,12 @@ value review.
 Reviewer:
 Date:
 Dimensions:
-- Philosophy: <verdict>, ceiling move: <move>, cost: <effort>.
-- Operating model: <verdict>, ceiling move: <move>, cost: <effort>.
-- Onramps: <verdict>, ceiling move: <move>, cost: <effort>.
-- Skill weight: <verdict>, ceiling move: <move>, cost: <effort>.
-- Craft depth: <verdict>, ceiling move: <move>, cost: <effort>.
-- LLM-native leverage: <verdict>, ceiling move: <move>, cost: <effort>.
+- Philosophy: <verdict>, highest-value change: <move>, cost: <effort>.
+- Operating model: <verdict>, highest-value change: <move>, cost: <effort>.
+- Onramps: <verdict>, highest-value change: <move>, cost: <effort>.
+- Skill weight: <verdict>, highest-value change: <move>, cost: <effort>.
+- Craft depth: <verdict>, highest-value change: <move>, cost: <effort>.
+- AI-assisted design workflows: <verdict>, highest-value change: <move>, cost: <effort>.
 Highest value per effort: <one move>.
 Anti-additions to refuse: <list>.
 ```
@@ -155,5 +155,5 @@ Anti-additions to refuse: <list>.
 ## Proof Of Improvement
 
 After applying the rubric twice, at least one dimension verdict should change
-toward `load-bearing`. If no verdicts move, either the work between reviews did
+toward `decision-critical`. If no verdicts move, either the work between reviews did
 not change behavior or the rubric is being scored too generously.

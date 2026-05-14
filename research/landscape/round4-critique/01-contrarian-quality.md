@@ -46,13 +46,13 @@ Repo docs skimmed for fit: `research/landscape/README.md`, `research/landscape/s
 
 The software-development slop paper adds a second warning: AI slop externalizes costs. The person generating the output gets speed; reviewers, maintainers, players, and storefronts inherit the sorting burden. For Game Studio, that means every generated concept, doc, and proof must be treated as a cost imposed on future review unless it carries enough judgment to justify its existence.
 
-Steam data makes the game-specific risk concrete. Tom's Hardware reports a large increase in Steam titles disclosing generative AI use in 2025, including one in five 2025 releases. TechSpot documents player-facing backlash around AI-created Steam Next Fest games. The issue is not that every AI-assisted game is bad; the issue is that AI makes low-commitment, superficially plausible production cheap enough to flood discovery surfaces.
+Steam data makes the game-specific risk concrete. Tom's Hardware reports a large increase in Steam titles disclosing generative AI use in 2025, including one in five 2025 releases. TechSpot documents player-facing backlash around AI-created Steam Next Fest games. The issue is not that every AI-assisted game is bad; the issue is that AI makes low-commitment, superficially plausible production cheap enough to flood discovery pages.
 
-### 2. LLMs are strongest at the surface layer that games least need automated
+### 2. LLMs are strongest at the presentation layer that games least need automated
 
 The Bender/Gebru "stochastic parrots" critique is especially relevant to game ideation because LLMs are good at fluent recombination of existing patterns. That is useful for scaffolding, naming alternatives, and checking blind spots. It is dangerous when the output is mistaken for understanding, taste, or a design thesis.
 
-Game design sources repeatedly distinguish games from their surface language. Costikyan treats games as interactive structures, not story summaries. Koster frames game design around problem mastery and deep structure. Lantz argues that games uniquely contain objective truth through rules and systems. Blow's GDC Europe talk pushes designers to listen to the system and discover what it can show rather than dictating content from the top down. These are all hostile to "looks like a game pitch" quality.
+Game design sources repeatedly distinguish games from their presentation language. Costikyan treats games as interactive structures, not story summaries. Koster frames game design around problem mastery and deep structure. Lantz argues that games uniquely contain objective truth through rules and systems. Blow's GDC Europe talk pushes designers to listen to the system and discover what it can show rather than dictating content from the top down. These are all hostile to "looks like a game pitch" quality.
 
 AI can imitate the visual and verbal language of games faster than it can produce a coherent system worth playing. That asymmetry is the core AI-assisted game-quality problem.
 
@@ -74,7 +74,7 @@ The implication is uncomfortable: too much process can make a project easier to 
 
 Rami Ismail's LTPF is clear that ideation and prototyping should move quickly, and that vertical slice is about proving the production cycle. But long-form solo and auteur projects expose the limit of this advice. Some distinctive games require a long private search before they become legible. Pope spent four and a half years sorting out Obra Dinn after starting from a visual idea. Blow's account of Braid emphasizes discoveries that emerged from engaging with the system over time.
 
-The quality objection is not "never kill ideas." It is "do not use speed as a proxy for seriousness." A proof-gated framework must distinguish a cheap falsifiable design question from a slow craft search.
+The quality objection is not "never kill ideas." It is "do not use speed as a proxy for seriousness." A playable-validation framework must distinguish a cheap falsifiable design question from a slow craft search.
 
 ### 6. Innovation is risky, and process often launders that risk away
 
@@ -132,7 +132,7 @@ If the artifact could be reproduced by prompting "make a polished concept for a 
 
 ## Repo Implications
 
-Game Studio's proof-gated philosophy is directionally correct, but it needs sharper anti-slop language. "Proof" should not only mean evidence that work exists. It should mean evidence that the work escaped generic generation through human judgment and playable discovery.
+Game Studio's playable-validation approach is directionally correct, but it needs sharper anti-slop language. "Proof" should not only mean evidence that work exists. It should mean evidence that the work escaped generic generation through human judgment and playable discovery.
 
 The product boundary already says the system does not replace taste. That principle should become an operational test inside concept, proof, and review artifacts: what did the human decide that the AI was not allowed to decide?
 
@@ -184,4 +184,4 @@ The repo should treat "innovation risk" as a first-class risk category. A strang
 
 14. Add a **Play Before Explaining** rule to quality gates: when a playable artifact exists, reviewers must inspect the play experience before reading the explanatory design doc where practical.
 
-15. Add a **Subtraction Evidence** field: every concept or proof should name what was cut, rejected, or simplified. This distinguishes craft pressure from AI abundance.
+15. Add a **Subtraction Evidence** field: every concept or proof should name what was cut, rejected, or simplified. This distinguishes craft pressure from too much generated material.

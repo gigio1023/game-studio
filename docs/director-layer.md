@@ -60,7 +60,7 @@ AI usage, monetization, or release promise, run a director gate before execution
 
 ## Design Foundations
 
-Director review should use source-backed craft questions:
+Director review should use craft questions from the craft reference index:
 
 - What mechanic creates the target dynamic?
 - What player experience should that dynamic produce?

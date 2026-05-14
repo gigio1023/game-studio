@@ -107,7 +107,7 @@ The Model Context Protocol (MCP), open-sourced by Anthropic in late 2024, is now
 
 ---
 
-## Adjacent Operating Systems
+## Adjacent Multi-Agent Frameworks
 
 **AI-assisted product design systems (2025):**
 
@@ -117,13 +117,13 @@ The "AI OS for product teams" pattern — multiple specialized agents coordinate
 
 **BMAD Method** (covered in prior round): Software-development-lifecycle framework using role-led agents. v6.4 introduced TOML customization and sharded step files. Remains the strongest structural analog from the software domain.
 
-**Markovate Agentic Operating System** and similar enterprise frameworks: Multi-agent orchestration over shared state is the general pattern. Gartner projects 40% of enterprise applications will feature task-specific agents by 2026 (from <5% in 2025). The framework pattern Game Studio is building is ahead of the mainstream curve but not ahead of the practitioner frontier.
+**Markovate enterprise agent framework** and similar enterprise frameworks: Multi-agent orchestration over shared state is the general pattern. Gartner projects 40% of enterprise applications will feature task-specific agents by 2026 (from <5% in 2025). The framework pattern Game Studio is building is ahead of the mainstream curve but not ahead of the practitioner frontier.
 
 **AI-assisted research systems**: Multi-step research agents (WebSearch + WebFetch + synthesis) are now standard Claude Agent SDK patterns. The research pipeline used in this document is itself an example of the pattern.
 
 ---
 
-## AI-As-Craft-Coach Projects
+## AI-As-Game-Review Projects
 
 This niche remains underserved relative to AI-as-generator.
 
@@ -134,7 +134,7 @@ This niche remains underserved relative to AI-as-generator.
 - **HyperWrite Creative Writing Coach**: Feedback on narrative structure. No game-design domain knowledge documented.
 - **Claude Code Game Studios "Creative Director" agent**: The framework includes a creative director agent defined to coach and review, not just generate. Published April 2026. This is the closest analog to Game Studio's coaching role — but it is implemented as one agent among 49, not the framework's organizing principle.
 
-**The gap:** No tool in the public record takes craft coaching as its primary proposition — treating the human designer as a developing practitioner and AI as a structured Socratic interlocutor with documented skill models. The closest analog remains game design professors and experienced creative directors, whose operating patterns are not yet systematically encoded in any public AI framework.
+**The gap:** No tool in the public record takes game design review workflow as its primary proposition — treating the human designer as a developing practitioner and AI as a structured Socratic interlocutor with documented skill models. The closest analog remains game design professors and experienced creative directors, whose operating patterns are not yet systematically encoded in any public AI framework.
 
 ---
 
@@ -187,8 +187,8 @@ The framework's value is in the operational layer, not the model. Game Studio sh
 **3. Agent Skills as open standard is the correct distribution format.**
 The SKILL.md pattern is now the de facto standard. Game Studio's roles, playbooks, and gate logic should be expressed as distributable skills, not only as repo-internal markdown. This enables the framework to be pulled into other codebases and into the broader practitioner community.
 
-**4. The AI-as-craft-coach niche is genuinely unoccupied.**
-No tool in the public record takes craft coaching as its primary proposition with game-design domain specificity and authority boundary documentation. This is a real differentiation window, but it requires the framework to articulate what "coaching" means operationally — not just generating feedback, but scaffolding the designer's own thinking.
+**4. The AI-as-game design review niche is genuinely unoccupied.**
+No tool in the public record takes game design review workflow as its primary proposition with game-design domain specificity and authority boundary documentation. This is a real differentiation window, but it requires the framework to articulate what "coaching" means operationally — not just generating feedback, but scaffolding the designer's own thinking.
 
 **5. AI NPC infrastructure is stalling; design-layer tools are not.**
 Inworld's cost struggles and the Convai shutdown confirm that infrastructure-layer AI for games has not found sustainable economics. The design-layer (coaching, review, production planning) is less explored and has lower infrastructure costs. Game Studio is positioned correctly.
@@ -205,12 +205,12 @@ No marketplace exists. This is a distribution opportunity: a curated game-design
 
 1. Does the FDG 2025 proceedings contain any paper on AI-as-design-reviewer or formal human authority models in co-creative systems? Proceedings were not accessible during this research round.
 2. What is Google Jules's specific approach to human-in-the-loop creative work, if any? Jules shipped as an async coding agent but game-design-specific usage is undocumented.
-3. Has any academic group formalized "craft coaching" as an AI interaction pattern with a testable protocol? The CHI 2026 papers were not accessible; this feels like a probable topic.
+3. Has any academic group formalized "game design review workflow" as an AI interaction pattern with a testable protocol? The CHI 2026 papers were not accessible; this feels like a probable topic.
 4. What does the AIIDE 2025 proceedings contain on co-creative agent architectures? Matthew Guzdial's group at University of Alberta is the most likely source of relevant work.
 5. Is there a published comparison of authority-boundary models across agent frameworks (Claude Code permission modes vs. LangGraph interrupt() vs. BMAD gate-ask vs. Game Studio USER_DECISION_NEEDED)? No such comparative paper was found.
 6. Does any existing Substack or blog cluster cover AI + game design at the framework/operating-system level, not at the tool-tip level? No such cluster was identified.
 7. How sustainable is the Claude Code Game Studios architecture at scale? 49 agents with 72 skills represents significant context overhead per session. Whether the design survives multi-month production projects is not documented.
-8. What is the economic model for AI-craft-coach tools? Generative tools charge per token/seat; coaching tools require deeper engagement and possibly subscription or per-session pricing. No product in this space has published unit economics.
+8. What is the economic model for AI-game-design-review tools? Generative tools charge per token/seat; coaching tools require deeper engagement and possibly subscription or per-session pricing. No product in this space has published unit economics.
 
 ---
 

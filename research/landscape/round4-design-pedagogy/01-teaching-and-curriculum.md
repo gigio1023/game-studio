@@ -108,7 +108,7 @@ teach the designer to see?"
 
 ### Repo Sources Inspected
 
-- `core/references/game-craft-source-map.md`
+- `core/references/game-craft-reference-index.md`
 - `docs/beginner-taste-to-game.md`
 - `core/templates/intake/beginner-taste-interview.md`
 - `research/foundations/game-design-foundations.md`
@@ -116,7 +116,7 @@ teach the designer to see?"
 - `research/landscape/textbook-canon/01-additional-canon.md`
 - `research/landscape/philosophy/01-design-philosophy-survey.md`
 - `research/landscape/synthesis.md`
-- `docs/improvement/value-review/13-curriculum-from-source-map.md`
+- `docs/improvement/value-review/13-craft-reference-curriculum.md`
 
 ## Canonical Concepts
 
@@ -328,7 +328,7 @@ What part of the user's personal taste must not be normalized away?
 
 The agent should not silently replace the beginner's taste with its own design.
 Its first job is to make the user's taste more legible. Its second job is to
-surface consequences. Its third job is to propose testable next moves.
+visible consequences. Its third job is to propose testable next moves.
 
 Recommended response shape:
 
@@ -510,13 +510,13 @@ Artifact: `beginner-design-portfolio.md`
 
 ### What The Repo Already Has
 
-- A strong source map in `core/references/game-craft-source-map.md`.
+- A strong craft reference index in `core/references/game-craft-reference-index.md`.
 - A beginner entry route in `docs/beginner-taste-to-game.md`.
 - Taste intake fields in `core/templates/intake/beginner-taste-interview.md`.
 - Good recognition that playtest evidence matters in
   `research/foundations/qa-playtesting-and-accessibility.md`.
 - A useful next-step insight in
-  `docs/improvement/value-review/13-curriculum-from-source-map.md`: syllabus is
+  `docs/improvement/value-review/13-craft-reference-curriculum.md`: syllabus is
   not curriculum, and operational guides need worked examples.
 - Prior research already names MDA's limits and the need for DDE/Sicart/Lantz
   critique in `research/landscape/synthesis.md`.
@@ -528,7 +528,7 @@ Artifact: `beginner-design-portfolio.md`
 - The taste interview captures references, feelings, and boundaries, but it
   does not yet force reference decomposition into verbs, objects, resistance,
   feedback, and "what not to copy."
-- The existing source map lists *Game Design Workshop*, *Rules of Play*, MDA,
+- The existing craft reference index lists *Game Design Workshop*, *Rules of Play*, MDA,
   *Characteristics of Games*, and *Game Feel*, but it does not encode the
   classroom sequence: non-digital exercise, prototype, critique, playtest,
   revise, postmortem.
@@ -540,7 +540,7 @@ Artifact: `beginner-design-portfolio.md`
 - Anthropy/Sicart/Lantz are present as philosophical references, but their
   operational role should be clearer: protect authorial voice, player
   appropriation, and aesthetic meaning from overly procedural review.
-- Level design appears as a review surface, but not enough as a teaching
+- Level design appears as a review workflow, but not enough as a teaching
   module: level as lesson, path as argument, first room as tutorial, flow as
   player need.
 - Playtesting guidance exists, but beginner-facing templates should more
@@ -602,7 +602,7 @@ changes:
    Add a teaching subsection: "What does this level teach, where does it test,
    and where can the player recover?"
 
-10. Update `core/references/game-craft-source-map.md`.
+10. Update `core/references/game-craft-reference-index.md`.
     Add a "Pedagogy And Curriculum" section that points to MIT OCW, NYU Game
     Center course pages, Anthropy/Clark, Sicart, Lantz, Totten, and playtesting
     sources. Keep the existing design foundation section intact.

@@ -125,19 +125,19 @@ Finding 5 (Supergiant's alpha criteria: "interesting to play and worth playing")
 
 Proposed change: Add a "feel reproducibility check" between prototype and vertical-slice gates. Criteria: can a non-author trigger the reference feel in 3 out of 5 playtests using the system as built, without designer intervention?
 
-### Gap (b): Production dark rituals (concept death, scope crisis, parallel risk, deadline mode)
+### Gap (b): Production failure protocols (concept death, scope crisis, parallel risk, deadline mode)
 
 Finding 8 (Supercell kill ritual), Finding 9 (TOEM concept death), Finding 10 (Yu's tepid-response heuristic), and Finding 17 (Supercell consensus model) together form a usable dark-rituals playbook. The key insight: concept death is not a rational decision, it is a social event that requires ritual to be psychologically safe. Supercell's champagne toast operationalizes this. TOEM's "took a break and came back" operationalizes it differently for small teams. Deadline-mode scope cuts are best front-loaded (Ellenor) not crisis-managed.
 
 Proposed change: Add three named rituals to the framework: (1) "Company Playable" gate (all agents can play it, not just the producing agent) as a kill-or-continue trigger; (2) "Tepid Response Protocol" — if external playtest produces neutral response, start a scope-cut sprint not an extension sprint; (3) "Sauna Rule" — concept death requires a named social acknowledgment before declaring it official, not just a task deletion.
 
-### Gap (c): LLM-native generative leverage
+### Gap (c): AI-assisted design workflows
 
 Finding 2 (Supergiant's "game is the design document") and Finding 8 (Supercell's "company playable") both point to the value of running state over documented state. For LLM agents, the analog is: the running prototype output is more authoritative than any spec document. The framework could leverage this by treating agent-generated playtest logs as first-class production artifacts that override prior design documents when they conflict.
 
 Proposed change: Introduce a "live document" principle — playtest output from the running prototype supersedes the intake spec. When Codex or Claude Code generates a system, have the agent run a self-playtest and write findings as a new milestone artifact, not a changelog.
 
-### Gap (d): Converting source-map citations to operational worked guides
+### Gap (d): Converting craft-reference-index citations to operational worked guides
 
 Finding 14 (Lucas Pope dev logs), Finding 12 (Supergiant blog), and Finding 13 (Starcom postmortem) are all primary sources with operational detail that could be converted to worked guides. The gap is extraction: these sources describe what was done but not why the decision was the right call in retrospect. The framework needs a "retrospective extraction template" that pulls: (1) the decision made, (2) the signal that triggered it, (3) the outcome, (4) what would have happened with the alternative choice.
 

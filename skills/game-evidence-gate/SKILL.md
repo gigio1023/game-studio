@@ -42,4 +42,4 @@ tags:
 | `.game-studio/core/templates/evidence/playtest-report.md` | Playtest review | Playtest report template |
 | `.game-studio/core/templates/evidence/playable-quality-capture.md` | Feel and presentation review | Capture template |
 | `.game-studio/core/rubrics/playtest-rubric.md` | Reviewing playtests | Playtest rubric |
-| `docs/framework/evidence-gates.md` | Stage proof | Internal evidence artifact guide |
+| `docs/framework/validation-gates.md` | Stage proof | Internal evidence artifact guide |

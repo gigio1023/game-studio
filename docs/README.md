@@ -1,12 +1,13 @@
 # Documentation Index
 
-This index points to the main Game Studio documentation surfaces.
+This index points to the main Game Studio documentation pages.
 
 ## Product And Operating Model
 
 | Page | Use |
 | --- | --- |
 | [Product Boundary](product-boundary.md) | Understand what Game Studio owns and refuses to own. |
+| [Terminology](terminology.md) | Use concrete game-development and engineering terms. |
 | [Philosophy](philosophy.md) | Read the principles behind playable validation in AI game production. |
 | [Operating Model](operating-model.md) | See the direction, production, and execution layers. |
 | [Entry Model](entry-model.md) | Choose direction carry-in, taste-to-game, or brownfield unknown. |
@@ -19,15 +20,16 @@ This index points to the main Game Studio documentation surfaces.
 | [Director Layer](director-layer.md) | Review game identity before implementation outruns direction. |
 | [Production Layer](production-layer.md) | Plan milestones as playable validation budgets. |
 | [Execution Layer](execution-layer.md) | Bound agent implementation work and handoffs. |
-| [Substantive Review](substantive-review.md) | Separate game-quality judgment from repository checks. |
-| [Evidence Gates](evidence-gates.md) | Read internal artifact and gate guidance. |
+| [Role-Led Game Review](role-led-game-review.md) | Separate game-quality judgment from repository checks. |
+| [Validation Gates](validation-gates.md) | Read internal artifact and gate guidance. |
+| [Eval Fixtures](../evals/README.md) | Check whether agents apply the method instead of repeating rubrics. |
 
 ## Style And Adoption
 
 | Page | Use |
 | --- | --- |
 | [Documentation Style](documentation-style.md) | Write small, focused docs and skills. |
-| [Public Surface Style](public-surface-style.md) | Keep README, diagrams, and product copy aligned. |
+| [Public Docs And Release Copy](public-docs-and-release-copy.md) | Keep README, diagrams, and product copy aligned. |
 | [Source Adoption Policy](source-adoption-policy.md) | Decide where external ideas belong. |
 | [Anti-Patterns](anti-patterns.md) | Avoid common failure modes. |
 | [Plain-Language Glossary](plain-language-game-design-glossary.md) | Explain framework terms to non-specialists. |

@@ -13,6 +13,12 @@ Use this before a director verdict when the work affects game identity or player
 - **Anti-pillar**: Which tempting feature or tone should be rejected?
 - **Proof**: What playable proof shows this is happening?
 
+## Operational Guides
+
+- For the MDA chain, use `.game-studio/core/references/operational/mda.md`.
+- For first-session spatial learning or teaching order, use
+  `.game-studio/core/references/operational/level-flow.md`.
+
 ## Reject When
 
 - The answer is only a story premise.

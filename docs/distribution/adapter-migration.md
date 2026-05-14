@@ -49,7 +49,7 @@ Public and adapter-facing copy should use:
 
 Avoid:
 
-- `proof-gated`
+- the deprecated validation phrase listed in `docs/terminology.md`
 - `playable proof` in public install copy
 - `use proof-gate language in user-facing output`
 
@@ -66,4 +66,3 @@ That page should be clearly secondary:
 Manual source install is for framework development, local testing, and
 restricted environments. Public users should install the plugin.
 ```
-

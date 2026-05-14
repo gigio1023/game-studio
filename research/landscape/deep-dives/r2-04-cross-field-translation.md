@@ -152,7 +152,7 @@ Frost explicitly states the methodology is "a mental model, not a linear process
 
 **Stanford d.school.** The d.school's "How Might We" (HMW) method is adjacent. It converts an observation (reference moment) into a framing question broad enough to generate solutions but narrow enough to exclude irrelevant ones. The POV analogy move is directly relevant: given a reference moment, the designer asks "how might we create a situation where X feels like Y?" This is a structured reframe, not a solution.
 
-**IDEO design-by-analogy.** The WordTree method (academic lineage, not IDEO-proprietary) provides the closest formal analogy-to-design protocol found: (1) identify abstract structure of the reference (not surface features), (2) map abstract structure to problem domain vocabulary, (3) generate candidate solutions from the mapped structure. Few formal implementations exist; most practitioners acknowledge the translation requires domain expertise that cannot be fully proceduralized.
+**IDEO design-by-analogy.** The WordTree method (academic lineage, not IDEO-proprietary) provides the closest formal analogy-to-design protocol found: (1) identify abstract structure of the reference (not presentation features), (2) map abstract structure to problem domain vocabulary, (3) generate candidate solutions from the mapped structure. Few formal implementations exist; most practitioners acknowledge the translation requires domain expertise that cannot be fully proceduralized.
 
 ---
 
@@ -211,7 +211,7 @@ A 6-step procedure for "reference moment to design constraint" translation, synt
 ## Open Questions
 
 1. Is there a point in the fragmentation step where over-decomposition destroys the gestalt of the reference moment? Architecture practitioners warn against this but have no formal stop rule.
-2. The music protocol requires the creator to articulate "why" unprompted — but beginner creators often cannot. What question scaffolds should the AI use to surface implicit "why" reasoning?
+2. The music protocol requires the creator to articulate "why" unprompted — but beginner creators often cannot. What question scaffolds should the AI use to area implicit "why" reasoning?
 3. Alexander's patterns are validated empirically through use across many buildings. A single game project does not provide enough repetitions to validate a pattern. Does the Game Studio framework need a cross-project pattern library to accumulate this evidence?
 4. The ranking step (Step 6) handles pairwise contradiction between two references. What happens with three-way contradictions across complex reference sets?
 5. Design tokens work because UI has a structural hierarchy (subatomic → atomic → molecular). Game design has no equivalent agreed hierarchy. Is there a game-specific token model worth formalizing?

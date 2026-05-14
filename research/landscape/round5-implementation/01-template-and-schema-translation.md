@@ -240,7 +240,7 @@ Add these small release templates:
 - `Known risks`
 - `Feedback channels`
 - `Telemetry questions`
-- `Community surfaces`
+- `Community areas`
 - `Moderation owner`
 - `Support owner`
 - `Accessibility claims`
@@ -729,7 +729,7 @@ Add `docs/player-operations.md`.
 
 Keep it short. Link to release templates and explain Playtest, demo, Early
 Access, beta branch, default release, support, moderation, telemetry,
-accessibility, localization, and patch notes as distinct operating surfaces.
+accessibility, localization, and patch notes as distinct operating areas.
 
 Add `docs/beginner-craft-exercises.md`.
 
@@ -766,7 +766,7 @@ Add:
 - `auteur-systems-first` as a fourth entry route.
 - Stop conditions for human-owned concept, Direction Lock, and taste veto.
 
-Update `docs/evidence-gates.md`.
+Update `docs/validation-gates.md`.
 
 Add:
 
@@ -799,7 +799,7 @@ Update `docs/product-boundary.md`.
 Add public positioning:
 
 ```text
-Not a game generator: a craft-coaching layer that turns AI output into playable
+Not a game generator: a taste-to-prototype guidance layer that turns AI output into playable
 proofs, reviews, gates, and human decisions.
 ```
 

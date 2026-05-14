@@ -1,7 +1,7 @@
 # Anti-Slop Quality And Provenance
 
 This page turns contrarian quality research into operating rules. It supports
-[LLM-Native Leverage](12-llm-native-leverage.md) and
+[AI-Assisted Design Workflows](12-ai-assisted-design-workflows.md) and
 [Proof Artifacts And Evals](06-proof-artifacts-and-evals.md).
 
 Source:
@@ -49,7 +49,7 @@ is tied to:
 
 ### Reviews Must Split Claim Types
 
-Each substantive review should separate:
+Each role-led game review should separate:
 
 - observed facts
 - design inferences

@@ -1,6 +1,6 @@
 # Role Review Depth
 
-Role review is one of Game Studio's highest-value surfaces. It prevents fast
+Role review is one of Game Studio's highest-value areas. It prevents fast
 agents from converting every design problem into implementation work.
 
 ## Current Strength

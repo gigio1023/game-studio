@@ -3,7 +3,7 @@
 This synthesis consolidates three rounds of external research conducted on
 2026-05-05 to inform Game Studio improvement. Round 1 mapped the territory.
 Round 2 went deep on the most operational findings. Round 3 verified
-specific claims against primary sources and surfaced contrarian voices.
+specific claims against primary sources and identified contrarian voices.
 Read this for the conclusions; consult [the round files](README.md) for the
 source dives.
 
@@ -42,7 +42,7 @@ Source: [r2-04-cross-field-translation.md](deep-dives/r2-04-cross-field-translat
 
 ### Studios Document Concept Death With Concrete Triggers
 
-Round 2 surfaced four operational patterns for production "dark rituals":
+Round 2 identified four operational patterns for production "production failure protocols":
 
 - **Pre-committed metric targets** must be set before the proof phase
   begins. Binary pass/fail. Game Studio's gate verdicts have no
@@ -122,7 +122,7 @@ Sources: [r2-05-reflection-and-memory.md](deep-dives/r2-05-reflection-and-memory
 
 ### Agentic Patterns Worth Importing
 
-Five patterns surfaced from BMAD Method, DSPy, LangGraph, AutoGen, and the
+Five patterns identified from BMAD Method, DSPy, LangGraph, AutoGen, and the
 Anthropic Claude Agent SDK:
 
 1. **Typed verdict schemas** (DSPy + LangGraph): verdict as required enum,
@@ -148,7 +148,7 @@ Source: [r2-03-agentic-frameworks.md](deep-dives/r2-03-agentic-frameworks.md).
 ### Canon Additions With Documented Gap Mapping
 
 Top recommended additions to
-[Game Craft Source Map](../../core/references/game-craft-source-map.md):
+[Game Craft Reference Index](../../core/references/game-craft-reference-index.md):
 
 - **Koster, A Theory Of Fun** — first-principles cognitive rationale for
   why a mechanic is fun. Lets gate review ask "is the player still in
@@ -216,7 +216,7 @@ Bender, Hanna, and CHI 2024 work document that LLM outputs are the
 statistical center of mass of existing work — structurally biased toward
 the familiar and against the novel. Over 60% of surveyed designers
 believe generative AI reduces originality. Game Studio should be honest
-about LLM limits: the system is scaffolding for craft coaching, not an
+about LLM limits: the system is scaffolding for game design review workflow, not an
 oracle for design judgment.
 
 ### "Fail Fast" Is Toxic Outside Concept-Validation Contexts
@@ -273,7 +273,7 @@ itself.
   infrastructure-layer AI tools are failing on economics. The
   coaching/review layer has structurally lower infrastructure cost. Game
   Studio is positioned correctly.
-- **Craft-coach niche is empty** — no tool takes craft coaching with
+- **Game-design-review niche is empty** — no tool takes game design review workflow with
   game-design specificity as primary proposition. Sudowrite, HyperWrite,
   ChatGPT writing coach all treat coaching as conversation. Sharpest
   differentiation angle, but requires Game Studio to document what the
@@ -284,7 +284,7 @@ Source: [03-recent-adjacent-work.md](verification/03-recent-adjacent-work.md).
 ## What This Means For The Framework
 
 The full implementation plan is in
-[Research-Grounded Improvements](../../docs/improvement/value-review/15-research-grounded-improvements.md).
+[Research Findings To Changes](../../docs/improvement/value-review/15-research-findings-to-changes.md).
 
 Headlines:
 
@@ -304,10 +304,10 @@ Headlines:
    reflection-before-verdict, cross-session ledger probing) but frame
    them as scaffolding, not oracular reasoning.
 5. Add Koster, Caillois, Juul, Schreier, Short/Adams, Tharp, and
-   Alexander to the source map with explicit gap mapping. Add DDE /
+   Alexander to the craft reference index with explicit gap mapping. Add DDE /
    Walk-Lantz-Duarte critique alongside MDA. Add the formalist
    counter-position.
-6. Position Game Studio as "craft coach with documented authority
+6. Position Game Studio as "game design review workflow with documented authority
    boundaries." Document what the AI is coaching the human toward.
    Skills as a distributable open-standard bundle is a first-mover
    opportunity.
