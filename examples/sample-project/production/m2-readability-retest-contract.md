@@ -18,7 +18,7 @@ to the same three-room chain.
 
 - selected concept: `Shifting Rooms`
 - core verbs: move and shift
-- build surface: local browser sample
+- build target: local browser sample
 - proof scope: three rooms
 - no tutorial prose required to explain the shift
 

@@ -17,7 +17,7 @@ game-development judgment, not only more process.
 
 ## Before You Open A Pull Request
 
-1. Read `docs/substantive-review.md`.
+1. Read `docs/role-led-game-review.md`.
 2. Read `docs/documentation-style.md`.
 3. Keep each page focused on one job.
 4. Keep `SKILL.md` files short and move detail into `references/`.
@@ -34,7 +34,7 @@ node tools/check-repository.mjs
 - Prefer short pages over large documents.
 - Link to source material when adding research-based rules.
 - Explain how a rule changes agent behavior.
-- Do not add a script when a role playbook or rubric is the right surface.
+- Do not add a script when a role playbook or rubric is the right place.
 
 ## Pull Request Shape
 

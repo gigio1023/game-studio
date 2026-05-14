@@ -158,7 +158,7 @@ LangGraph represents agents as state machines. Nodes do work; edges define trans
 
 ### interrupt() — First-Class Human Gate
 
-`interrupt(payload)` is a function any node can call to pause the graph and surface a structured payload to the caller:
+`interrupt(payload)` is a function any node can call to pause the graph and area a structured payload to the caller:
 ```python
 def review_node(state):
     verdict = interrupt({

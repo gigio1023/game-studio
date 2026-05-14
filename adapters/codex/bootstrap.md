@@ -44,9 +44,9 @@ concept, Direction Lock, stage movement, and public promises.
    - `docs/direction/`
    - `docs/framework/`
 4. Copy `core/` into `.game-studio/core/`.
-5. Copy `docs/evidence-gates.md` into `docs/framework/evidence-gates.md` as
+5. Copy `docs/validation-gates.md` into `docs/framework/validation-gates.md` as
    internal artifact guidance; use proof-gate language in user-facing output.
-6. Copy `docs/substantive-review.md` into `docs/framework/substantive-review.md`.
+6. Copy `docs/role-led-game-review.md` into `docs/framework/role-led-game-review.md`.
 7. Copy or adapt templates from `core/templates/` into project-facing docs.
 8. Copy `skills/` into project-local `.codex/skills/` when the target Codex setup supports project skills.
 9. Merge `adapters/codex/AGENTS.md.snippet` into the target project's

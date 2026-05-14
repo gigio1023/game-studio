@@ -6,9 +6,9 @@ Research date: 2026-05-05
 
 Repo context checked only as needed:
 
-- `README.md` for the public thesis: "Discovery-driven, proof-gated AI game production system."
+- `README.md` for the public thesis: "AI-assisted game production framework for playable validation."
 - `docs/product-boundary.md` for authority boundaries, entry modes, and public language.
-- `docs/evidence-gates.md` for proof/evidence classes and stage-gate expectations.
+- `docs/validation-gates.md` for proof/evidence classes and stage-gate expectations.
 - `research/landscape/ai-game-dev/01-llm-game-dev-state.md` for prior repo research on LLM game development, Ghostwriter, BMAD, and agentic game-master literature.
 
 Web sources checked:
@@ -47,9 +47,9 @@ Web sources checked:
 
 ## What Exists
 
-Agentic coding tools have converged on a recognizable runtime pattern: repo context, filesystem access, shell/tool execution, background or parallel tasks, and persistent project instructions. Claude's Agent Skills package domain expertise as `SKILL.md` plus optional scripts/resources with progressive disclosure; Claude Code adds skill invocation controls and subagent execution. Codex similarly positions itself as a coding-agent command center for parallel work, worktrees, cloud environments, and team-specific skills. Cursor exposes comparable workflow surfaces through rules, memories, background agents, and MCP-style context plumbing.
+Agentic coding tools have converged on a recognizable runtime pattern: repo context, filesystem access, shell/tool execution, background or parallel tasks, and persistent project instructions. Claude's Agent Skills package domain expertise as `SKILL.md` plus optional scripts/resources with progressive disclosure; Claude Code adds skill invocation controls and subagent execution. Codex similarly positions itself as a coding-agent command center for parallel work, worktrees, cloud environments, and team-specific skills. Cursor exposes comparable workflow areas through rules, memories, background agents, and MCP-style context plumbing.
 
-BMAD-style methods show that agent workflows are becoming productized as role systems, not just prompts. BMAD presents specialized agents, workflows, skills, project context, document sharding, and agile-style stage movement as a general software-development operating method. Its close relevance is structural: role files plus workflow gates plus context management. Its limit for this repo is domain: it helps ship software, but it does not define game craft, playable proof, player experience authority, or taste-to-game discovery.
+BMAD-style methods show that agent workflows are becoming productized as role systems, not just prompts. BMAD presents specialized agents, workflows, skills, project context, document sharding, and agile-style stage movement as a general software-development operating method. Its close relevance is structural: role files plus workflow gates plus context management. Its limit for this repo is domain: it helps ship software, but it does not define game craft, playable build, player experience authority, or taste-to-game discovery.
 
 Recent coding-agent studies support the need for explicit guardrails and proof. The VILA Lab Claude Code study argues that the agent loop is simple, while the real system is the surrounding runtime: permissions, context compaction, extensibility, subagents, worktree isolation, and session storage. AIDev reports 932,791 agent-authored pull requests across Codex, Devin, Copilot, Cursor, and Claude Code. GitTaskBench finds real repository tasks still difficult even for strong agent stacks. Refactoring and logging studies show agent behavior tends toward localized changes and can miss non-functional requirements even when instructed, which strengthens the case for deterministic checks plus human review instead of natural-language policy alone.
 
@@ -65,7 +65,7 @@ Market adoption is no longer speculative. Google Cloud's 2025 games research rep
 
 The landscape has many generators and agent runtimes, but few systems that coach game craft. Tools can draft barks, make sprites, wire engine scenes, plan Roblox tasks, or run code agents. They rarely ask whether a mechanic creates the intended player decision, whether camera/audio/readability support the verb, whether a concept deserves more scope, or whether the player's observed behavior supports the promise.
 
-There is no clear prior art for a public, game-specific craft-coaching system that treats human taste as a protected authority and playable proof as the advancement mechanism. Ghostwriter preserves writer control at the line-variation level, and Roblox planning mode preserves creator intent before changes are made, but neither defines a full concept-to-proof-to-review-to-gate production loop.
+There is no clear prior art for a public, game-specific taste-to-prototype guidance system that treats human taste as a protected authority and playable build as the advancement mechanism. Ghostwriter preserves writer control at the line-variation level, and Roblox planning mode preserves creator intent before changes are made, but neither defines a full concept-to-proof-to-review-to-gate production loop.
 
 AI ideation tools often generate one more concept, score, asset, or prototype. What remains missing is a disciplined way to compare concepts against proof budgets, reject or park ideas, and escalate only when a playable artifact survives review. Ludo.ai's market scoring is useful for competitive context, but market fitness is not the same as craft validity.
 
@@ -77,17 +77,17 @@ Agent skills are becoming a standard distribution unit, but most skills encode p
 
 Game Studio should not position itself as another game generator, asset generator, NPC platform, or "vibe coding" wrapper. Those categories are crowded and are already covered by Unity, Roblox, Inworld, Convai, Ludo.ai, Rosebud, Scenario, Layer, and general coding agents.
 
-The differentiated position is: Game Studio is a craft-coaching and proof-gated production system for AI-assisted game development. It helps agents and humans decide what is worth building next, what must be proven, what should be cut, and what cannot advance without human authority or player-facing proof.
+The differentiated position is: Game Studio is a taste-to-prototype guidance and playable-validation production framework for AI-assisted game development. It helps agents and humans decide what is worth building next, what must be proven, what should be cut, and what cannot advance without human authority or player-facing proof.
 
-The strongest contrast is with speed-first tools. The market is optimizing for faster creation, larger output volume, and lower friction from prompt to artifact. Game Studio should optimize for better judgment under AI abundance: fewer unearned concepts, smaller proofs, clearer cut rules, stronger review, and less confusion between generated material and validated game quality.
+The strongest contrast is with speed-first tools. The market is optimizing for faster creation, larger output volume, and lower friction from prompt to artifact. Game Studio should optimize for better judgment under too much generated material: fewer unearned concepts, smaller proofs, clearer cut rules, stronger review, and less confusion between generated material and validated game quality.
 
-The current landscape also makes "proof-gated" more valuable, not less. As code agents and engine agents become capable of making larger edits, teams need sharper stage contracts, claim-to-proof mapping, and review roles that can block progress. Game Studio can become the layer that says: the agent may build, but the proof decides; the user owns taste; review names risk; gates control scope.
+The current landscape also makes "milestone-gated playable validation" more valuable, not less. As code agents and engine agents become capable of making larger edits, teams need sharper stage contracts, claim-to-proof mapping, and review roles that can block progress. Game Studio can become the layer that says: the agent may build, but the proof decides; the user owns taste; review names risk; gates control scope.
 
-Public language should lean into "playable proof," "proof budget," "claim-to-proof," "role-led review," and "human creative authority." Avoid implying that Game Studio autonomously designs good games. Its value is disciplined co-creation: it structures taste, craft, production risk, and proof so humans can make better decisions with AI help.
+Public language should lean into "playable build," "proof budget," "claim-to-proof," "role-led review," and "human creative authority." Avoid implying that Game Studio autonomously designs good games. Its value is disciplined co-creation: it structures taste, craft, production risk, and proof so humans can make better decisions with AI help.
 
 ## Skill Design Implications
 
-Skills should be designed as coaching protocols, not just task recipes. A good Game Studio skill should begin by identifying the entry mode, authority source, current stage, proof target, and stop condition. It should then constrain the agent's next action to the smallest artifact that can reduce uncertainty.
+Skills should be designed as review protocols, not just task recipes. A good Game Studio skill should begin by identifying the entry mode, authority source, current stage, proof target, and stop condition. It should then constrain the agent's next action to the smallest artifact that can reduce uncertainty.
 
 Every role skill should separate three outputs: observation, judgment, and next proof. This maps directly to the gap in current agent systems, where generated plans and confident prose can obscure uncertainty. Role verdicts should cite the artifact they inspected, state confidence, name missing proof, and avoid advancing stage without a decision record.
 
@@ -97,11 +97,11 @@ Deterministic helpers should support the skills where possible, but they should 
 
 The agent architecture research suggests adding explicit context-preservation patterns. Skills should summarize prior direction before issuing new recommendations, list any conflict with locked direction, and record parked ideas with revisit conditions. This turns "memory" into a production habit instead of relying on the model's context window.
 
-For game-specific AI tools, integration skills should treat external generators as subordinate production tools. A Ludo/Rosebud/Unity/Roblox/Inworld/Convai-oriented workflow should not ask "what can this generate?" first. It should ask: what proof target are we testing, what constraint must the generated material respect, what artifact will be reviewed, and what would cause rejection?
+For game-specific AI tools, integration skills should treat external generators as subordinate production tools. A Ludo/Rosebud/Unity/Roblox/Inworld/Convai-oriented workflow should not ask "what can this generate?" first. It should ask: what validation target are we testing, what constraint must the generated material respect, what artifact will be reviewed, and what would cause rejection?
 
 ## Concrete Changes To Propose
 
-Add a short public positioning phrase near the README thesis: "Not a game generator: a craft-coaching layer that turns AI output into playable proofs, reviews, gates, and human decisions."
+Add a short public positioning phrase near the README thesis: "Not a game generator: a taste-to-prototype guidance layer that turns AI output into playable builds, reviews, gates, and human decisions."
 
 Add a comparison table to the landscape or product docs with columns for "category," "examples," "what they optimize," "what they do not own," and "Game Studio boundary." Rows should include coding agents, agent skills, BMAD-style methods, engine assistants, NPC platforms, asset tools, ideation tools, and market scoring tools.
 

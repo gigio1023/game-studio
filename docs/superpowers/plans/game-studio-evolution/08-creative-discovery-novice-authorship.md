@@ -2,28 +2,28 @@
 
 ## Objective
 
-Add a first-class entry layer for users who do not already have a stable game
+Add a explicit entry layer for users who do not already have a stable game
 direction. Game Studio should support both existing team direction and
 taste-to-game discovery without becoming a one-click game vending machine.
 
 Public product phrase:
 
 ```text
-Discovery-driven, proof-gated AI game production system.
+AI-assisted game production framework for playable validation.
 ```
 
 Meaning:
 
 - discovery-driven: the system can start from taste, references, scenes,
   desired emotions, disliked friction, or an existing direction
-- proof-gated: ideas advance through playable proof, review, and explicit
+- milestone-gated playable validation: ideas advance through playable build, review, and explicit
   decisions rather than persuasive prose
 - AI game production: Codex and Claude Code can propose, plan, implement,
   review, and continue work within the user's authority boundaries
 
 Terminology:
 
-- Use `proof`, `playable proof`, `proof target`, `proof budget`, and
+- Use `proof`, `playable build`, `proof target`, `proof budget`, and
   `validation` in public-facing product language.
 - Use `evidence` for internal artifact classes: captures, builds, playtest
   notes, QA results, decision records, telemetry, screenshots, videos, and
@@ -33,8 +33,7 @@ Terminology:
 ## Files
 
 - Create: `docs/entry-model.md`
-- Create: `docs/beginner-taste-to-game.md`
-- Create: `docs/concept-development-method.md`
+- Create taste-to-game and concept-development sections in `docs/entry-model.md`
 - Create: `docs/plain-language-game-design-glossary.md`
 - Create: `skills/game-onboarding/SKILL.md`
 - Create: `skills/game-onboarding/references/entry-routing.md`
@@ -141,7 +140,7 @@ Routing rules:
 
 ## Taste-To-Game Discovery
 
-- [ ] Create `docs/beginner-taste-to-game.md`.
+- [ ] Create the taste-to-game section in `docs/entry-model.md`.
 
 Purpose:
 
@@ -234,7 +233,7 @@ The concept slate should usually contain 3 to 5 cards:
 
 - closest fit to stated taste
 - sharper identity
-- smallest playable proof
+- smallest playable build
 - risky original option
 - optional commercial-aware option
 
@@ -394,7 +393,7 @@ Gate meanings:
 
 Verdict rules:
 
-- `READY`: the project can plan the first playable proof.
+- `READY`: the project can plan the first playable build.
 - `CONCERNS`: the proof can start, but ambiguity must be carried into the
   contract.
 - `NOT_READY`: the agent should not proceed to implementation.
@@ -435,7 +434,7 @@ AI can:
 - recommend rejection
 - draft a creative brief
 - plan the first prototype
-- implement bounded playable proofs
+- implement bounded playable builds
 - review the result
 - recommend next proof
 
@@ -489,8 +488,8 @@ Claude behavior:
 - The framework can start from blank taste without forcing a thesis first.
 - The framework can also preserve an existing team direction without rewriting
   it.
-- Public copy says proof-gated, not audit-heavy.
+- Public copy says milestone-gated playable validation, not audit-heavy.
 - Concept generation outputs a small, comparable slate, not idea spam.
-- Every selected concept has a first playable proof.
+- Every selected concept has a first playable build.
 - AI authorship boundaries are explicit.
 - Direction Lock remains a gate, not a persuasive document.

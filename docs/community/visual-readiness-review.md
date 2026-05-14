@@ -7,7 +7,7 @@ This review records the visual standard used for the public README.
 | Source | Applied pattern |
 | --- | --- |
 | [Next.js README](https://github.com/vercel/next.js/) | Compact badge row, short product statement, then fast routing to docs and community. |
-| [Pydantic README](https://github.com/pydantic/pydantic) | Badges and concise links to documentation, contributing, and security surfaces. |
+| [Pydantic README](https://github.com/pydantic/pydantic) | Badges and concise links to documentation, contributing, and security areas. |
 | [LangChain README](https://github.com/langchain-ai/langchain) | Short value statement, quickstart, ecosystem links, and community routing. |
 | [LangGraph README](https://github.com/langchain-ai/langgraph) | Agent-oriented positioning with documentation and additional resources separated. |
 | [Langfuse README](https://github.com/langfuse/langfuse) | Product README with overview visuals, deployment routes, support, contributing, and license. |
@@ -31,7 +31,7 @@ This review records the visual standard used for the public README.
 | [Stripe subscriptions overview](https://docs.stripe.com/billing/subscriptions/overview) | Make state transitions explicit and avoid hiding lifecycle decisions in prose. |
 | [Google developer image style](https://developers.google.com/style/images) | Require useful alt text, crisp exports, and images that add information. |
 | [Cloudflare diagram style](https://developers.cloudflare.com/style-guide/documentation-content-strategy/component-attributes/diagrams/) | Use diagrams only when they reduce cognitive load and keep labels concise. |
-| [Linear-inspired DESIGN.md](https://getdesign.md/linear.app/design-md) | Use a dark product panel, surface ladder, hairline borders, straight routing, and one lavender accent. |
+| [Linear-inspired DESIGN.md](https://getdesign.md/linear.app/design-md) | Use a dark product panel, area ladder, hairline borders, straight routing, and one lavender accent. |
 
 ## Visual Decisions
 

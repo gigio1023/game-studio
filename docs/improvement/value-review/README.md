@@ -1,7 +1,7 @@
 # Value Review Improvement Plan
 
-This plan converts the value review into small, maintainable work surfaces.
-The goal is to make Game Studio more useful as a project-local operating system
+This plan converts the value review into small, maintainable work areas.
+The goal is to make Game Studio more useful as a project-local production framework
 for Codex, Claude Code, and human creators building games.
 
 ## Central Judgment
@@ -9,13 +9,13 @@ for Codex, Claude Code, and human creators building games.
 Game Studio already has a strong thesis:
 
 ```text
-Taste or Direction -> Concept -> Proof -> Review -> Gate -> Next Proof
+Taste or Direction -> Concept Brief -> First Playable -> Role-Led Game Review -> Milestone Decision -> Next Build
 ```
 
 The next improvement wave should prove that this thesis changes agent behavior
 in real projects. The repository should become less like a set of plausible
 documents and more like a repeatable production system that routes, constrains,
-reviews, and learns from playable proof.
+reviews, and learns from playable builds.
 
 ## Plan Map
 
@@ -28,18 +28,12 @@ reviews, and learns from playable proof.
 | [Role Review Depth](05-role-review-depth.md) | Make role playbooks produce real judgment, not role-shaped notes. |
 | [Proof Artifacts And Evals](06-proof-artifacts-and-evals.md) | Define the artifacts and eval prompts that show the system works. |
 | [Adapters And Distribution](07-adapters-and-distribution.md) | Package the framework cleanly for Codex and Claude Code projects. |
-| [Judgment Rubric](09-judgment-rubric.md) | Score the framework by judgment dimensions, not only by surface area. |
-| [Stress Scenarios](10-stress-scenarios.md) | Test framework fit against four canonical user states. |
-| [Production Dark Rituals](11-production-dark-rituals.md) | Add concept death, scope crisis, parallel risk, and deadline mode. |
-| [LLM-Native Leverage](12-llm-native-leverage.md) | Use AI for what AI is uniquely good at, not only as a disciplined producer. |
-| [Curriculum From Source Map](13-curriculum-from-source-map.md) | Convert the canon into operational guides with worked examples. |
+| [Value Judgment Method](09-value-judgment-method.md) | Score the framework by judgment dimensions and stress-test it against canonical user states. |
+| [Production Failure Protocols](11-production-failure-protocols.md) | Add concept death, scope crisis, parallel risk, and deadline mode. |
+| [AI-Assisted Design Workflows](12-ai-assisted-design-workflows.md) | Use AI for what AI is uniquely good at, not only as a disciplined producer. |
+| [Craft Curriculum And Beginner Pedagogy](13-craft-curriculum-and-beginner-pedagogy.md) | Convert the canon and beginner teaching path into operational guides with worked examples. |
 | [Anti-Additions](14-anti-additions.md) | Refuse plausible additions that lower value-per-effort. |
-| [Research-Grounded Improvements](15-research-grounded-improvements.md) | Apply external research findings: verified adoptions, hedged adoptions, dropped misattributions, strategic positioning. |
-| [Craft Coach Positioning](16-craft-coach-positioning.md) | Reposition Game Studio as a proof-gated craft coach with production rails. |
-| [Beginner Craft Pedagogy](17-beginner-craft-pedagogy.md) | Turn beginner taste into exercises, artifacts, and playable proof questions. |
-| [Player Operations And Public Proof](18-player-operations-public-proof.md) | Add public exposure, feedback, support, accessibility, localization, and release-promise planning. |
-| [Anti-Slop Quality And Provenance](19-anti-slop-quality-provenance.md) | Define quality, provenance, false precision, and generated-material proof rules. |
-| [Implementation Map From Rounds 4-5](20-implementation-map-round4-5.md) | Sequence the new research into small repo implementation waves. |
+| [Research Findings To Changes](15-research-findings-to-changes.md) | Apply research findings, positioning, player operations, quality rules, and implementation waves. |
 | [Roadmap](08-roadmap.md) | Sequence the work into reviewable implementation waves. |
 
 ## Non-Goals

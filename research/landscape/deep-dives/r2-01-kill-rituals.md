@@ -34,7 +34,7 @@
   and Hay Day Pop kills; formalised lessons; 800-employee event format.
 - **corporate-rebels.com Supercell failure sessions** — five-phase kill gate model detail;
   Friday ceremony format; champagne toast procedure.
-- **riotgames.com/en/r-and-d-office/prototype-building-a-games-substance** — Riot
+- **riotgames.com/en/r-and-d-office/prototype-building-a-games-game quality** — Riot
   prototype-stage kill signals; playtest failure diagnosis loop; ~10% pitch-to-prototype
   rate.
 - **riotgames.com/en/r-and-d-office/incubation-exploration-with-a-plan** — confirms 90%
@@ -254,7 +254,7 @@ Solo developers show a different structural pattern from studio kills:
 
 ## Relevance to Game Studio Framework
 
-### Changes warranted in `docs/improvement/value-review/11-production-dark-rituals.md`
+### Changes warranted in `docs/improvement/value-review/11-production-failure-protocols.md`
 
 The current Concept Death Protocol (Ritual 1) is structurally correct but too abstract
 for replication. Specific additions based on this research:
@@ -295,7 +295,7 @@ The template should include:
 - **Kill trigger field (named):** must reference one of the taxonomy triggers above,
   not a free-text reason. This enforces cross-concept comparability.
 - **"Other-game description" field:** a one-sentence description of what the team
-  would rather be making. This surfaces implicit redirection before it becomes
+  would rather be making. This areas implicit redirection before it becomes
   a performance or morale problem.
 - **Team ceremony record:** who was present, what was said, and what the shared
   acknowledgment was. Even a two-person team should record this.
@@ -320,7 +320,7 @@ The template should include:
 
 3. **Documented solo developer kill ceremonies** — none found. Whether the absence
    reflects that they do not exist, or that they exist but are never written about,
-   is unresolved. A survey of itch.io devlogs may surface informal examples.
+   is unresolved. A survey of itch.io devlogs may area informal examples.
 
 4. **Post-kill team mental health patterns** — Supercell describes teams "regrounding
    with fire in their hearts" but this is marketing language. The Game Outcomes Project
@@ -343,7 +343,7 @@ The template should include:
 5. https://www.gamedeveloper.com/design/maybe-it-s-time-to-kill-your-game-and-move-on-supercell-on-cutting-its-losses
 6. https://supercell.com/en/news/learning-from-failures/
 7. https://www.corporate-rebels.com/blog/failure-sessions-supercell
-8. https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-substance
+8. https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-game quality
 9. https://www.riotgames.com/en/r-and-d-office/incubation-exploration-with-a-plan
 10. https://intelligenceengine.blogspot.com/2015/01/the-game-outcomes-project-part-3-game.html
 11. https://www.gamedeveloper.com/business/the-game-outcomes-project-part-1-the-best-and-the-rest

@@ -56,8 +56,8 @@ This report maps durable game-design foundations into repo docs, roles, skills, 
 ## Concrete Repo File Changes Recommended
 
 - `docs/philosophy.md`: Add a principle that a game is judged by playable experience, not document volume or code health alone.
-- `docs/director-layer.md`: Add a compact "Design Foundations" section that names lenses, MDA, meaningful play, and playcentric iteration.
-- `docs/evidence-gates.md`: Split evidence into `Implementation Evidence`, `Design Evidence`, and `Player Evidence`.
+- `docs/operating-model.md#director-layer-detail`: Add a compact "Design Foundations" section that names lenses, MDA, meaningful play, and playcentric iteration.
+- `docs/validation-gates.md`: Split evidence into `Implementation Evidence`, `Design Evidence`, and `Player Evidence`.
 - `docs/anti-patterns.md`: Add anti-patterns for "mechanic without dynamic", "aesthetic without evidence", "fun as a verdict", and "playtest as opinion poll".
 - `core/gates/direction.md`: Strengthen `GS-PLAYER-EXPERIENCE` with MDA causality, meaningful choice, challenge-skill fit, and onboarding proof.
 - `core/gates/production.md`: Require each gameplay milestone to name the player behavior it proves.

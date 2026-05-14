@@ -11,7 +11,7 @@ This report turns external QA, playtesting, usability, accessibility, and releas
 | [Xbox Accessibility Guidelines](https://learn.microsoft.com/en-gb/gaming/accessibility/guidelines) | Platform-style guideline structure: goal, scoping questions, implementation guidance, examples, player impact, and resources. | Shape accessibility review templates around impact and evidence, not abstract compliance language. |
 | [Microsoft Gaming Accessibility Testing Service](https://learn.microsoft.com/en-us/gaming/accessibility/mgats) | Accessibility report structure: feature-tag testing, highlights, disabled-player feedback, concerns, reproduction steps, media examples, and resources. | Model Codex-led accessibility review artifacts after a test report, not a pass/fail script. |
 | [Accessible Games Initiative tags and criteria](https://accessiblegames.com/wp-content/uploads/2025/03/Accessible-Games-Initiative-Tags-and-Criteria-March-2025.pdf) | Public-facing feature language for audio, gameplay, input, and visual accessibility. | Align release claims and store-page promises with player-readable feature criteria. |
-| [WCAG 2.2](https://www.w3.org/TR/WCAG22/) | General accessibility principles: perceivable, operable, understandable, and robust. | Apply to launchers, menus, web pages, docs, and any UI-heavy game surface. |
+| [WCAG 2.2](https://www.w3.org/TR/WCAG22/) | General accessibility principles: perceivable, operable, understandable, and robust. | Apply to launchers, menus, web pages, docs, and any UI-heavy game area. |
 | [ISTQB Certified Tester Game Testing](https://istqb.org/certifications/certified-tester-game-testing-ct-game/) and [CT-GaMe syllabus](https://isqi.org/media/4d/7e/60/1710940922/ISTQB_CT_GaMe_Syllabus_v1.0.1_EN_.pdf) | Game-testing scope: mechanics, graphics, sound, levels, controllers, localization, tools, risk, and lifecycle alignment. | Expand QA Lead authority beyond smoke tests into risk-based test design. |
 | [Game Testing: All in One](https://www.degruyterbrill.com/document/doi/10.1515/9781683922858/html?lang=en) | QA role, test design, progress measurement, and practical game-test planning. | Add bug-report, test-plan, and quality-progress templates. |
 | [Games User Research](https://academic.oup.com/book/26677) | Playtesting as a production discipline: observation, interviews, think-aloud, RITE, heuristics, analytics, reporting, limited-resource studies, and accessibility participant inclusion. | Treat playtests as designed studies with research questions, scenarios, evidence, and recommendations. |
@@ -118,7 +118,7 @@ Codex should act as a disciplined reviewer and evidence clerk, not only as a scr
 
 The repository has a strong evidence-gate spine, but the QA layer is still thin.
 
-| Gap | Why it matters | Suggested next surface |
+| Gap | Why it matters | Suggested next area |
 | --- | --- | --- |
 | Playtest rubric is short and observational only. | It does not yet define research questions, participant fit, task success, severity, confidence, accessibility barriers, or retest expectations. | Expand `core/rubrics/playtest-rubric.md`. |
 | No dedicated accessibility rubric or gate exists. | Release gates mention accessibility promises, but there is no baseline for evaluating accessibility features or player barriers. | Add `core/rubrics/accessibility-rubric.md` or `core/gates/accessibility.md`. |

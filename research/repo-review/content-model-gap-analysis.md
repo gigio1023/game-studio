@@ -7,7 +7,7 @@ role authority, evidence, and project-local skills. The current repo structure
 supports adoption well, but the content model still leans toward form completion,
 gate verdicts, schema validation, and deterministic checks. That makes the
 framework easy to install, but it under-specifies how Codex should make
-substantive game-production judgments.
+game-production judgments.
 
 The stated goal is a shift from script-centered validation toward Codex-led
 judgment across game direction, design, production, implementation, QA, and
@@ -33,11 +33,11 @@ The repository is organized into clear layers:
 - `examples/` provides a fictional adopted-project shape.
 
 This is a coherent foundation. The gap is not structure. The gap is depth of
-judgment inside each surface.
+judgment inside each area.
 
 ## Gap Findings
 
-### 1. The philosophy promises judgment, but the operational surfaces mostly ask for verdicts
+### 1. The philosophy promises judgment, but the operational areas mostly ask for verdicts
 
 `docs/philosophy.md` says agents can draft, implement, inspect, and review while
 games still need direction, constraints, taste, and evidence. That is the right
@@ -140,7 +140,7 @@ Recommended changes:
 
 ### 5. Evidence is framed as proof, but QA needs more qualitative judgment
 
-`docs/evidence-gates.md` and `skills/game-evidence-gate/references/evidence-review.md`
+`docs/validation-gates.md` and `skills/game-evidence-gate/references/evidence-review.md`
 are strong on observable proof. They are weaker on QA judgment for feel,
 readability, comprehension, pacing, and player confusion.
 
@@ -161,7 +161,7 @@ Recommended changes:
   - Comprehension evidence
   - Feel evidence
   - Release evidence
-- Update `docs/evidence-gates.md` so manual checks are treated as structured
+- Update `docs/validation-gates.md` so manual checks are treated as structured
   observations, not weaker leftovers after command output.
 
 ### 6. Production planning lacks prioritization, cuts, and capacity judgment
@@ -236,7 +236,7 @@ Recommended changes:
 - Add richer Markdown templates for human-readable judgment.
 - Add `core/schemas/review-summary.schema.json` only for a compact summary of a
   review, not for the full review body.
-- Add guidance in `docs/evidence-gates.md` that scripts check invariants, while
+- Add guidance in `docs/validation-gates.md` that scripts check invariants, while
   role reviews decide readiness.
 
 ### 9. Skills are correctly short, but the reference playbooks need real methods
@@ -341,7 +341,7 @@ Acceptance criteria:
 - Direction-changing decisions have a standard file shape.
 - Adapter snippets tell agents where to record judgment.
 
-### P1: Make director and council reviews substantive
+### P1: Make director and council reviews game-quality reviews
 
 Files to add or edit:
 
@@ -403,7 +403,7 @@ Files to add or edit:
 - Add `core/templates/evidence/playtest-report.md`.
 - Add `core/templates/evidence/qa-finding.md`.
 - Edit `skills/game-evidence-gate/references/evidence-review.md`.
-- Edit `docs/evidence-gates.md`.
+- Edit `docs/validation-gates.md`.
 
 Acceptance criteria:
 

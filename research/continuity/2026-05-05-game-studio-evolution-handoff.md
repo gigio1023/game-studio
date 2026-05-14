@@ -4,17 +4,17 @@ Date: 2026-05-05
 
 ## Adopted Direction
 
-Game Studio now presents itself as a discovery-driven, proof-gated AI game
+Game Studio now presents itself as a discovery-driven, milestone-gated playable validation AI game
 production system.
 
 The core product loop is:
 
 ```text
-Taste or Direction -> Concept -> Proof -> Review -> Gate -> Next Proof
+Taste or Direction -> Concept Brief -> First Playable -> Role-Led Game Review -> Milestone Decision -> Next Build
 ```
 
-Public docs should use proof, playable proof, proof target, proof budget,
-proof-gated, validation, and claim-to-proof. Evidence remains an internal
+Public docs should use proof, playable validation, proof target, proof budget,
+milestone-gated playable validation, validation, and claim-to-proof. Evidence remains an internal
 artifact term for builds, captures, playtest notes, QA results, decision
 records, schemas, and release claim checks.
 
@@ -54,7 +54,7 @@ records, schemas, and release claim checks.
 - `README.md`
 - `docs/product-boundary.md`
 - `docs/entry-model.md`
-- `docs/beginner-taste-to-game.md`
+- `docs/entry-model.md#taste-to-game-workflow`
 - `docs/operating-model.md`
 - `core/workflows/stage-model.md`
 - `core/workflows/workflow-catalog.yaml`

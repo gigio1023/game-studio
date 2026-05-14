@@ -35,9 +35,9 @@ concept, Direction Lock, stage movement, and public promises.
 3. Copy `core/` into `.game-studio/core/`.
 4. Copy `skills/` into `.claude/skills/`.
 5. Merge `adapters/claude/CLAUDE.md.snippet` into the target `CLAUDE.md`.
-6. Copy `docs/evidence-gates.md` into `docs/framework/evidence-gates.md` as
+6. Copy `docs/validation-gates.md` into `docs/framework/validation-gates.md` as
    internal artifact guidance; use proof-gate language in user-facing output.
-7. Copy `docs/substantive-review.md` into `docs/framework/substantive-review.md`.
+7. Copy `docs/role-led-game-review.md` into `docs/framework/role-led-game-review.md`.
 8. Copy or adapt `core/templates/` into project-facing docs.
 9. Write `.game-studio/project-state.md` with entry mode, current stage,
    profiles, review mode, decision mode, and authority owner.

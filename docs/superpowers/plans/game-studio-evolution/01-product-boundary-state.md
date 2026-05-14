@@ -2,7 +2,7 @@
 
 ## Objective
 
-Define Game Studio's product boundary, source adoption rules, and project-local state model before adding more roles, skills, tools, or visual surface.
+Define Game Studio's product boundary, source adoption rules, and project-local state model before adding more roles, skills, tools, or visual presentation.
 
 ## Files
 
@@ -37,7 +37,7 @@ Required sections:
 ```markdown
 # Product Boundary
 
-Game Studio is a discovery-driven, proof-gated AI game production system.
+Game Studio is an AI-assisted game production framework for playable validation.
 
 ## Core
 ## Profiles
@@ -56,7 +56,7 @@ Key rules:
 - `packs/` add optional depth.
 - Runtime-specific behavior must not redefine core stage semantics.
 - Engine facts must live in profiles or packs, not in platform-neutral core.
-- Public-facing product language uses proof, playable proof, proof-gated, and
+- Public-facing product language uses proof, playable build, milestone-gated playable validation, and
   validation. Internal schemas may use evidence for concrete artifacts and
   observations.
 - Scope is an output of discovery and proof planning, not a prerequisite that
@@ -98,7 +98,7 @@ Required decision record:
 
 Default rejection criteria:
 
-- role theater
+- role-name review
 - hidden global state
 - command sprawl
 - platform lock-in
@@ -131,7 +131,7 @@ Rules:
   make public promises without a decision record.
 - Prose-only direction lock is not enough. At minimum, a selected concept must
   include target player, core verb, intended emotion, distinctive bet, main
-  risk, and first playable proof.
+  risk, and first playable build.
 
 ## Stage Authority
 

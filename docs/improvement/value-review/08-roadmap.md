@@ -102,14 +102,14 @@ Review:
 - The installed target repo has project-local state, skills, snippets, and first
   route guidance without global dependencies.
 
-## Wave 7: Public Surface And Archive Cleanup
+## Wave 7: Public Docs And Archive Cleanup
 
 Purpose: keep the public repo focused on the product, not internal planning
 history.
 
 Work:
 
-- Keep README and diagram aligned with public surface style.
+- Keep README and diagram aligned with public docs and release copy.
 - Sanitize or archive internal plan docs that include personal paths or
   tool-specific instructions.
 - Keep contributor checks in contributor docs.
@@ -124,4 +124,4 @@ Review:
 
 Rounds 4-5 added a larger research-backed implementation map. Keep this page as
 the stabilization roadmap for waves 1-7, then continue with
-[Implementation Map From Rounds 4-5](20-implementation-map-round4-5.md).
+[Implementation Map From Rounds 4-5](15-research-findings-to-changes.md#implementation-map-from-rounds-4-5).

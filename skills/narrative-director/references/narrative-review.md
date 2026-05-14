@@ -2,6 +2,10 @@
 
 Narrative review checks whether story works as playable design.
 
+Use `.game-studio/core/references/operational/storylets.md` when the work
+contains branching beats, repeatable narrative units, AI-authored text, or
+state-dependent story delivery.
+
 ## Flow
 
 1. State the story promise in one sentence.

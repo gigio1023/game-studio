@@ -76,7 +76,7 @@ real.
 - Add new example directories.
 - Add `examples/README.md` as an index if it does not already explain the
   example set clearly enough.
-- Link examples from `docs/entry-model.md`, `docs/beginner-taste-to-game.md`,
+- Link examples from `docs/entry-model.md`, `docs/entry-model.md#taste-to-game-workflow`,
   and `docs/operating-model.md`.
 - Keep the README concise; do not turn examples into the first-screen story.
 

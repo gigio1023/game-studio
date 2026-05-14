@@ -16,34 +16,34 @@ synthesis or the value-review plan pages.
 The strongest product position is now:
 
 ```text
-Game Studio is a proof-gated craft coach for AI-assisted game development,
-with production-system rails.
+Game Studio is an AI-assisted game production framework for AI-assisted game development,
+with milestone contracts and stage rules.
 ```
 
 This is narrower than "game generator," sharper than "production operating
 system," more active than "curriculum," and more value-bearing than "agent skill
 registry." Skills, curriculum, gates, schemas, examples, and docs are supporting
-surfaces for the same promise: help humans make better game decisions under AI
+parts of the same promise: help humans make better game decisions under AI
 abundance.
 
 Source: [Positioning And Market Gap](round5-positioning/01-positioning-and-market-gap.md).
 
 ## What Changed
 
-### 1. Craft Coaching Is The Front Door
+### 1. Playable Validation Is The Front Door
 
 AI-assisted game tools increasingly optimize prompt-to-artifact speed, engine
 execution, asset volume, and repo automation. The unowned gap is craft judgment:
 protecting human taste, translating references into playable questions, proving
 claims through small artifacts, and deciding what to cut.
 
-Repo implication: public language should foreground "proof-gated craft coach"
-and "human creative authority." Production rails should remain visible, but
+Repo implication: public language should foreground "AI-assisted game production framework"
+and "human creative authority." Milestone contracts should remain visible, but
 they should answer what proof is being sought and what decision follows.
 
 ### 2. Beginner Pedagogy Needs Exercises, Not More Canon
 
-The repo already has a strong source map. The gap is operational teaching:
+The repo already has a strong craft reference index. The gap is operational teaching:
 reference decomposition, formal element labs, experience chains, primary verb
 feel sheets, level-as-lesson exercises, playtest interpretation, and critique
 that preserves voice.
@@ -58,7 +58,7 @@ Source: [Teaching And Curriculum](round4-design-pedagogy/01-teaching-and-curricu
 
 Steam Playtest, demos, Early Access, beta branches, release builds, patch notes,
 community spaces, telemetry, accessibility claims, and localization promises are
-different operating surfaces. Treating them as one "release" bucket creates
+different operating areas. Treating them as one "release" bucket creates
 promise debt.
 
 Repo implication: public proof should require a player operations plan. Post
@@ -116,11 +116,11 @@ Source: [Round 4 Claim Check](round5-verification/01-round4-claim-check.md).
 
 ## Implementation Priorities
 
-1. Update public positioning and product boundary around proof-gated craft
+1. Update public positioning and product boundary around milestone-gated playable validation craft
    coaching.
 2. Add beginner direction templates that convert taste into playable questions.
 3. Add anti-slop and provenance fields to concept, proof, review, and evidence
-   surfaces.
+   areas.
 4. Add player operations templates before public exposure gates.
 5. Add release and live-feedback gates only where public promises exist.
 6. Update skills to close with observed facts, design inferences, taste

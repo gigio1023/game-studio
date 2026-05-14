@@ -17,7 +17,7 @@
 - Steamworks, "Localization and Languages": https://partner.steamgames.com/doc/store/localization
   - Checked for the distinction between store-page localization and in-game localization, localized product names, language search behavior, and player-facing language promises.
 - Steamworks, "Languages Supported on Steam": https://partner.steamgames.com/doc/store/localization/languages
-  - Checked for Steam's supported-language surface and the way language metadata becomes store-page searchable.
+  - Checked for Steam's supported-language area and the way language metadata becomes store-page searchable.
 - Discord Developer Docs, "Community Servers": https://docs.discord.com/developers/platform/community-servers
   - Checked for official game community setup, announcement channels, AutoMod, Server Insights, and linking a game to a verified community.
 - Discord Developer Docs, "How Do I Create a Community For My Game?": https://docs.discord.com/developers/game-development/how-to-create-a-community-for-your-game
@@ -93,11 +93,11 @@ The strongest pattern across Steam, Larian, Hades, Factorio, and transparent-dev
 
 8. Community management is production work.
 
-Steam and Discord both treat community surfaces as systems with permissions, reports, moderation tools, roles, events, and operational habits. Discord's game-community guide recommends moderator roles, AMAs, patch preview discussions, playtest windows, and public feedback closure. Steam moderation guidance recommends resolving reports, using warnings before bans in most cases, keeping bans temporary where possible, and giving clear reasons. This is not marketing garnish; unmanaged community surfaces become support debt and trust debt.
+Steam and Discord both treat community channels as systems with permissions, reports, moderation tools, roles, events, and operational habits. Discord's game-community guide recommends moderator roles, AMAs, patch preview discussions, playtest windows, and public feedback closure. Steam moderation guidance recommends resolving reports, using warnings before bans in most cases, keeping bans temporary where possible, and giving clear reasons. This is not marketing garnish; unmanaged community channels become support debt and trust debt.
 
 9. Accessibility and localization are release realities, not polish-only extras.
 
-Steam language metadata changes store discoverability and player expectations. Store-page localization and in-game localization are separate promises, and mismatching them can mislead players. Accessibility similarly affects purchasing confidence: Xbox Accessibility Guidelines and Accessible Games Initiative tags emphasize clear pre-purchase communication about available accommodations. The Promise Mascot Agency example shows a small team using demo feedback to surface font and control options before full release. The practical lesson is that accessibility/localization claims must match the shipped build, the store page, and the support plan.
+Steam language metadata changes store discoverability and player expectations. Store-page localization and in-game localization are separate promises, and mismatching them can mislead players. Accessibility similarly affects purchasing confidence: Xbox Accessibility Guidelines and Accessible Games Initiative tags emphasize clear pre-purchase communication about available accommodations. The Promise Mascot Agency example shows a small team using demo feedback to font and control options before full release. The practical lesson is that accessibility/localization claims must match the shipped build, the store page, and the support plan.
 
 10. Early public learning creates support load.
 
@@ -128,7 +128,7 @@ Larian's first BG3 Early Access week broke support capacity, produced hotfix urg
 - Silent dashboard bias: the team collects data from whoever plays most, crashes most, speaks English, uses Discord, or opts in, then treats it as the whole audience.
 - Patch-note opacity: updates ship without explaining what changed, why it changed, known issues, or whether saves/settings/localization are affected.
 - Branch confusion: experimental builds hit default players, save-breaking changes lack warnings, or Playtest/demo users expect paid-owner support.
-- Community surface sprawl: Steam discussions, Discord, Reddit, email, forms, and social replies all become separate support queues with no shared triage.
+- Community area sprawl: Steam discussions, Discord, Reddit, email, forms, and social replies all become separate support queues with no shared triage.
 - Unmoderated launch: community rules, moderator roles, report handling, and escalation paths are added only after abuse, spam, harassment, or misinformation has already set the tone.
 - Accessibility promise mismatch: store tags, marketing copy, or patch notes claim support that is incomplete, hidden, untested, or regressed.
 - Localization promise mismatch: the Steam page is localized into languages the game does not support, or the game ships translated text without LQA, font coverage, UI expansion, or support readiness.
@@ -152,7 +152,7 @@ Larian's first BG3 Early Access week broke support capacity, produced hotfix urg
 ## Concrete Changes To Propose
 
 1. Add a `Player Operations Plan` template.
-   - Fields: release lane, player promise, current-state disclosure, known risks, feedback channels, telemetry questions, community surfaces, moderation owner, support owner, accessibility claims, localization claims, patch-note cadence, and next-review date.
+   - Fields: release lane, player promise, current-state disclosure, known risks, feedback channels, telemetry questions, community channels, moderation owner, support owner, accessibility claims, localization claims, patch-note cadence, and next-review date.
 
 2. Add an `Early Access Readiness Gate`.
    - Pass criteria: playable current build, durable core loop, no future-promise dependency, explicit scope disclosure, save-break warning if applicable, update cadence, support capacity, community rules, and a refreshed Steam Early Access Q&A plan.

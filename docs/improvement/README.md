@@ -20,6 +20,6 @@ Each improvement plan should name:
 
 - the value it should create
 - the current weakness
-- the files or surfaces it should change
+- the files or files it should change
 - the proof that the improvement worked
 - the decision owner or reviewer

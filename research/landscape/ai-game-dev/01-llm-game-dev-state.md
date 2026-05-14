@@ -126,17 +126,17 @@ Honest comparison: Both systems operate in real-time during gameplay, not in pre
 
 Findings 1, 2, 4, 14 together show there is no published method for translating taste references into game-design constraints. StoryVerse shows abstract-to-concrete splits are possible in narrative. DSPy shows typed signatures can constrain LLM output to declared contracts. Game Studio could formalize the taste-to-constraint translation as a declared signature: input (reference moments, desired emotions, disliked friction) → output (design constraint candidates, player experience targets, ruled-out directions). This is gap (a) and no prior art fills it.
 
-**Gap (b): Production "dark rituals"**
+**Gap (b): Production "production failure protocols"**
 
-Findings 9, 10, 11 show that AI systems have documented failure modes for concept death, scope crisis, and deadline mode but no framework addresses these as first-class production events requiring scripted responses. The closest is BMAD's epic sharding (scope crisis mitigation) and AI Dungeon's failure postmortem (constraint envelope collapse). Game Studio should document dark rituals as named gate conditions with required role review escalation — this is entirely absent from prior art.
+Findings 9, 10, 11 show that AI systems have documented failure modes for concept death, scope crisis, and deadline mode but no framework addresses these as first-class production events requiring scripted responses. The closest is BMAD's epic sharding (scope crisis mitigation) and AI Dungeon's failure postmortem (constraint envelope collapse). Game Studio should document production failure protocols as named gate conditions with required role review escalation — this is entirely absent from prior art.
 
-**Gap (c): LLM-native generative leverage**
+**Gap (c): AI-assisted design workflows**
 
 Findings 5, 15, 16 show that DSPy's typed signature modules and Park et al.'s memory/reflection/planning triad are directly applicable. A Game Studio skill file that adopts the reflection mechanism — explicitly synthesizing previous direction decisions before issuing a new verdict — would be a concrete LLM-native improvement. The BMAD Agent-as-Code pattern confirms that Markdown-defined role personas with explicit output contracts are a workable pattern; Game Studio's existing skill files are already in this form.
 
 **Gap (d): Source-map citations to operational worked guides**
 
-Findings 2, 6, 13 show the LLMs-and-Games survey and ChatRPG papers contain architectural patterns (role separation, state tracking, function-calling boundaries) that are not surfaced as operational how-to guides. Game Studio's research foundations documents are the right container for this translation. Each finding above that contains an architectural pattern (Narrator/Archivist split, pairwise selection, typed signatures, reflection before planning) should have a corresponding operational guide in the framework.
+Findings 2, 6, 13 show the LLMs-and-Games survey and ChatRPG papers contain architectural patterns (role separation, state tracking, function-calling boundaries) that are not identified as operational how-to guides. Game Studio's research foundations documents are the right container for this translation. Each finding above that contains an architectural pattern (Narrator/Archivist split, pairwise selection, typed signatures, reflection before planning) should have a corresponding operational guide in the framework.
 
 ---
 
@@ -146,7 +146,7 @@ Findings 2, 6, 13 show the LLMs-and-Games survey and ChatRPG papers contain arch
 2. Inworld AI's GDC 2025 content on "beyond prototypes to production AI" was not accessible. A direct fetch of specific articles from their blog may reveal whether they have addressed the prototype-to-production gap with documented solutions.
 3. What happened to AIIDE 2024-2025 proceedings specifically regarding AI game masters and procedural design? The arXiv papers reference these conferences but direct proceedings access was not attempted.
 4. Does the BMAD Method's full documentation reveal more specific human-only decision enforcement mechanisms? The docs landing page was not detailed enough to confirm.
-5. Are there EA Ghost AI Lab publications beyond press coverage? Searches returned no substantive published research from EA's dedicated AI research unit.
+5. Are there EA Ghost AI Lab publications beyond press coverage? Searches returned no meaningful published research from EA's dedicated AI research unit.
 6. Is there published work on "AI as scope guardian" — AI that monitors creative drift and raises scope alarms? Nothing in this round matches the concept.
 7. The PMC 2025 study documents that 60%+ of designers fear creative dependency on AI tools. What structural safeguards (beyond policy statements) have been proposed to prevent this? No source in this round gives an operational answer.
 8. Does Ludo.ai's concept recommendation engine implement any formal authority boundary? Their marketing describes AI-assisted game concept scoring but their technical documentation was not fetched in this round.
@@ -155,7 +155,7 @@ Findings 2, 6, 13 show the LLMs-and-Games survey and ChatRPG papers contain arch
 
 ## Industry Adoption Context
 
-As of mid-2025, Google Cloud research reports 90% of games developers using AI in workflows, with most adoption concentrated in asset generation, localization, and code assistance rather than direction or production management. The Steam platform documented over 7,000 AI-disclosed game titles in 2025, the majority of which are what press has labeled "gameslop" — minimal human curation applied to AI-generated content. This adoption pattern confirms the central concern motivating Game Studio: high-volume AI generation without direction authority produces low-quality outputs. The framework's proof-gated model is a direct counter-pattern to this failure mode.
+As of mid-2025, Google Cloud research reports 90% of games developers using AI in workflows, with most adoption concentrated in asset generation, localization, and code assistance rather than direction or production management. The Steam platform documented over 7,000 AI-disclosed game titles in 2025, the majority of which are what press has labeled "gameslop" — minimal human curation applied to AI-generated content. This adoption pattern confirms the central concern motivating Game Studio: high-volume AI generation without direction authority produces low-quality outputs. The framework's playable-validation model is a direct counter-pattern to this failure mode.
 
 The strongest published counter-evidence to the gameslop trend is Ghostwriter's pairwise selection model: forcing comparison-based human decisions rather than single-option accept/reject increases both decision quality and the perceived ownership writers feel over the output. This is a concrete, empirically-grounded design principle applicable to Game Studio's concept slate workflow.
 

@@ -5,9 +5,76 @@ default_roles:
   - tools-programmer
 required_checks:
   - "Run the project import check."
+  - "Confirm the pinned Godot version before using version-sensitive APIs."
+  - "Confirm the main scene and input actions before first-playable claims."
+  - "Identify the reference pattern used, or state why no reference pattern was needed."
   - "Run scene smoke checks."
   - "Capture at least one playable visual artifact before claiming game feel."
 notes:
   - "Use scenes and resources as authoring units."
+  - "Prefer typed GDScript for gameplay and UI unless C# or GDExtension is justified."
+  - "Use custom Resource files for reusable game data and tuning values."
+  - "List exported tuning values that affect feel, balance, camera, or feedback."
+  - "Treat camera, input, collision, animation, audio, and UI feedback as one player-facing chain."
+  - "Use signals across ownership boundaries; avoid global autoloads for ordinary scene state."
   - "Do not claim deterministic physics outcomes; bound and observe them."
   - "Keep gameplay authority separate from presentation when the design requires it."
+adoption_checks:
+  - "Infer systems from scenes, scripts, autoloads, input actions, resources, tests, and export presets."
+  - "Separate existing runnable behavior from missing production records."
+  - "For builder or save/load work, require a resource or file round-trip check."
+  - "For input-heavy work, record keyboard, mouse, and gamepad support actually checked."
+  - "For public demo work, check accessibility and localization risks when UI or text is central."
+runtime_check_ladder:
+  - "import check"
+  - "script check"
+  - "scene load check"
+  - "smoke run"
+  - "gameplay capture"
+  - "playtest note"
+  - "export check"
+reference_patterns:
+  movement_2d:
+    - name: "godotengine/godot-demo-projects/2d/kinematic_character"
+      url: "https://github.com/godotengine/godot-demo-projects/tree/master/2d/kinematic_character"
+    - name: "godotengine/godot-demo-projects/2d/dodge_the_creeps"
+      url: "https://github.com/godotengine/godot-demo-projects/tree/master/2d/dodge_the_creeps"
+  movement_3d:
+    - name: "godotengine/godot-demo-projects/3d/kinematic_character"
+      url: "https://github.com/godotengine/godot-demo-projects/tree/master/3d/kinematic_character"
+    - name: "KenneyNL/Starter-Kit-3D-Platformer"
+      url: "https://github.com/KenneyNL/Starter-Kit-3D-Platformer"
+  fps:
+    - name: "KenneyNL/Starter-Kit-FPS"
+      url: "https://github.com/KenneyNL/Starter-Kit-FPS"
+  builder:
+    - name: "KenneyNL/Starter-Kit-City-Builder"
+      url: "https://github.com/KenneyNL/Starter-Kit-City-Builder"
+  input:
+    - name: "godotengine/godot-demo-projects/gui/input_mapping"
+      url: "https://github.com/godotengine/godot-demo-projects/tree/master/gui/input_mapping"
+  save_load:
+    - name: "godotengine/godot-demo-projects/loading/runtime_save_load"
+      url: "https://github.com/godotengine/godot-demo-projects/tree/master/loading/runtime_save_load"
+  accessibility:
+    - name: "godotengine/godot-demo-projects/gui/accessibility"
+      url: "https://github.com/godotengine/godot-demo-projects/tree/master/gui/accessibility"
+  localization:
+    - name: "godotengine/godot-demo-projects/gui/translation"
+      url: "https://github.com/godotengine/godot-demo-projects/tree/master/gui/translation"
+reviewed_sources:
+  godot:
+    url: "https://github.com/godotengine/godot"
+    commit: "9a33066a27d70c6d4f74cae44c1ce023d8082a59"
+  godot_demo_projects:
+    url: "https://github.com/godotengine/godot-demo-projects"
+    commit: "c9f5852130ffab4b9d57488c18cd310708c6acf0"
+  kenney_3d_platformer:
+    url: "https://github.com/KenneyNL/Starter-Kit-3D-Platformer"
+    commit: "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0"
+  kenney_fps:
+    url: "https://github.com/KenneyNL/Starter-Kit-FPS"
+    commit: "185fd2326d74a5cf858cffc616f87cf9696f9cc0"
+  kenney_city_builder:
+    url: "https://github.com/KenneyNL/Starter-Kit-City-Builder"
+    commit: "4535092b740b378b700efd9df9e27a631815b84a"

@@ -34,7 +34,7 @@ blocked route, and exit.
 | Constraint | Budget | Notes |
 | --- | --- | --- |
 | Calendar time | one week | No production expansion. |
-| Build surface | local browser | No public demo. |
+| Build target | local browser | No public demo. |
 | Mechanics | move and shift | No inventory. |
 | Content | three rooms | No hub. |
 | Review | lean | Concept review plus first playable review. |

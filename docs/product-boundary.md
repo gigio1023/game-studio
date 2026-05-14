@@ -1,11 +1,11 @@
 # Product Boundary
 
-Game Studio is a discovery-driven AI game production system for playable
+Game Studio is an AI-assisted game production framework for playable
 validation.
 
 It helps Codex, Claude Code, and human creators turn either an existing game
-direction or a player's taste profile into a sequence of playable prototypes,
-reviews, gates, and production decisions.
+direction or a player's taste profile into playable builds, role-led game
+reviews, milestone decisions, and release checks.
 
 ## What It Owns
 
@@ -36,6 +36,7 @@ reviews, gates, and production decisions.
 Use public product language that names the user-facing work:
 
 - `playable prototype`
+- `playable build`
 - `first playable`
 - `vertical slice`
 - `playable validation`
@@ -96,7 +97,7 @@ AI agents must not:
 The product readiness story is not repository hygiene. It is:
 
 ```text
-taste or direction -> concept -> playable prototype -> role review -> gate verdict -> next prototype
+taste or direction -> concept brief -> first playable -> role-led game review -> milestone decision -> next build or retest
 ```
 
 Repository scripts are maintainer checks. They help catch broken schemas,

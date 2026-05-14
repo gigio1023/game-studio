@@ -338,7 +338,7 @@ probe — the failure mode that corrupts reflection-synthesis memory does not ap
 
 ### Move 5 Direct Mapping
 
-`12-llm-native-leverage.md` Move 5 is exactly the cross-session ledger probing design above.
+`12-ai-assisted-design-workflows.md` Move 5 is exactly the cross-session ledger probing design above.
 No new infrastructure is required — the ledger already exists. The addition is one retrieval
 call and one comparison prompt per session start.
 

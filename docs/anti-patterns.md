@@ -65,7 +65,7 @@ Correction:
 - Require a milestone contract and claim-to-proof contract before
   implementation.
 
-## Role theater
+## Role-name review
 
 Symptoms:
 

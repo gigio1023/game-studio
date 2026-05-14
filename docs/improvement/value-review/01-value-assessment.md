@@ -7,7 +7,7 @@ more likely to finish small, coherent, playable work.
 
 | Area | Current Score | Target Score | Reason |
 | --- | ---: | ---: | --- |
-| Product thesis | 8 | 9 | The proof-gated, discovery-driven positioning is clear. |
+| Product thesis | 8 | 9 | The milestone-gated playable validation, discovery-driven positioning is clear. |
 | Beginner usefulness | 8 | 10 | Taste-to-game is strong, but needs more end-to-end proof. |
 | Existing-project usefulness | 6 | 9 | Direction carry-in and brownfield paths need examples. |
 | Agent skill design | 8 | 9 | Skills are short and reference-driven, but routing overlaps. |
@@ -38,7 +38,7 @@ speed.
 | --- | --- | --- |
 | Plausible process without live adoption | Users cannot tell whether the system changes agent behavior. | Add installed examples and eval prompts. |
 | Skill overlap | Agents may choose the wrong entry point or run reviews too early. | Add a navigator and routing matrix. |
-| Role theater | Role names can replace real critique. | Add role blocker patterns and proof standards. |
+| Role-name review | Role names can replace real critique. | Add role blocker patterns and proof standards. |
 | Evidence-heavy public language | The product can sound like audit software instead of game production help. | Keep proof language public and evidence language internal. |
 | Single-path sample | Taste-to-game is demonstrated, but other entry modes are not. | Add direction carry-in and brownfield examples. |
 | Loose schemas | Operating contracts become advice instead of enforceable state. | Align schema required fields with templates. |

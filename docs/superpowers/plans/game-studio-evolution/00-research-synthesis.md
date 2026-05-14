@@ -7,8 +7,8 @@ Read these first:
 - [README](/Users/naem1023/git/game-studio/README.md)
 - [Philosophy](/Users/naem1023/git/game-studio/docs/philosophy.md)
 - [Operating Model](/Users/naem1023/git/game-studio/docs/operating-model.md)
-- [Evidence Gates](/Users/naem1023/git/game-studio/docs/evidence-gates.md)
-- [Substantive Review](/Users/naem1023/git/game-studio/docs/substantive-review.md)
+- [Validation Gates](/Users/naem1023/git/game-studio/docs/validation-gates.md)
+- [Role-Led Game Review](/Users/naem1023/git/game-studio/docs/role-led-game-review.md)
 - [Game Design Foundations](/Users/naem1023/git/game-studio/research/foundations/game-design-foundations.md)
 - [Game Feel, UX, Art, Audio](/Users/naem1023/git/game-studio/research/foundations/game-feel-ux-art-audio.md)
 - [Game Production and Direction](/Users/naem1023/git/game-studio/research/foundations/game-production-and-direction.md)
@@ -19,7 +19,7 @@ Current strengths:
 
 - Direction-first doctrine is coherent.
 - Milestone order is sharper than standard "just build a vertical slice" advice.
-- Evidence gates correctly reject optimism and artifact theater.
+- Evidence gates correctly reject optimism and artifact-only review.
 - Roles are leaner than large simulated-studio repos.
 - Skills are short entry points with reference files.
 - The repo already separates script hygiene from game judgment in principle.
@@ -28,7 +28,7 @@ Current gaps:
 
 - The workflow starts too close to Direction Lock for creators who have taste,
   references, or desire but no game-development vocabulary.
-- "Blank idea" exists as a starter path, but it is not yet a first-class
+- "Blank idea" exists as a starter path, but it is not yet a explicit
   creative discovery route.
 - Direction templates evaluate and preserve a direction better than they help a
   novice discover one.
@@ -37,7 +37,7 @@ Current gaps:
 - Evidence schemas allow weak artifacts.
 - Review findings lack a common severity, confidence, and next-proof protocol.
 - Brownfield adoption is still a bootstrap path, not an audit workflow.
-- README and public surface are functional but not visually competitive with major OSS repos.
+- README and public docs are functional but not visually competitive with major OSS repos.
 - Repository checks are too easy to mistake for product validation.
 - Public product language leans on "evidence" too much. Use proof language for
   the product story, and keep evidence as an internal artifact-classification
@@ -62,7 +62,7 @@ Transferable ideas:
 - Session continuity is production infrastructure, not convenience.
 - Skill outputs should close with status, next step, and missing evidence.
 - Forcing questions should be structured and decision-oriented.
-- Review logs and local ledgers should be first-class.
+- Review logs and local ledgers should be explicit.
 
 Avoid:
 
@@ -154,7 +154,7 @@ Web sources:
 - [MDA paper](https://www.cs.northwestern.edu/~hunicke/MDA.pdf)
 - [Design Council Double Diamond](https://www.designcouncil.org.uk/fileadmin/uploads/dc/Documents/Press_Releases/The_Double_Diamond_turns_20_-_9_May_2023_Final.pdf)
 - [Riot R&D: Opportunity, Thesis, and Audience](https://www.riotgames.com/en/news/r-d-foundations-opportunity-thesis-and-audience)
-- [Riot R&D: Prototype, Building a Game's Substance](https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-substance)
+- [Riot R&D: Prototype, Building a Game's Substance](https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-game quality)
 - [Self-Determination Theory basic psychological needs](https://selfdeterminationtheory.org/topics/application-basic-psychological-needs/)
 - [Self-Determination Theory and video games](https://selfdeterminationtheory.org/SDT/documents/2006_RyanRigbyPrzybylski_MandE.pdf)
 - [Quantic Foundry Gamer Motivation Model](https://quanticfoundry.com/audience-profiles/)
@@ -180,7 +180,7 @@ Deepened source reading adds three planning consequences:
   but no formed game thesis.
 - Add concept slates, taste profiles, constraint ladders, and first playable
   proof contracts as production artifacts, not optional brainstorming notes.
-- Rename the public product stance to discovery-driven and proof-gated. Keep
+- Rename the public product stance to AI-assisted and playable-validation. Keep
   evidence terminology inside schemas, ledgers, and review output only.
 - Evidence templates should ask for mechanics -> dynamics -> player experience
   links, not only artifact links.
@@ -197,4 +197,4 @@ The next version of Game Studio should make this chain explicit:
 Taste / Direction source -> Concept slate -> Creative brief -> First playable proof -> Stage -> Milestone proof -> Evidence contract -> Role review -> Gate verdict -> Next proof
 ```
 
-The repo's public story should show the proof-gated chain visually. The implementation should make that chain executable through project-local artifacts, not through a giant command surface.
+The repo's public story should show the playable-validation chain visually. The implementation should make that chain executable through project-local artifacts, not through a giant command set.

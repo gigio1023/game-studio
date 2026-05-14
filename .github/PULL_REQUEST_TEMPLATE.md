@@ -8,7 +8,7 @@ Explain the problem or gap this pull request addresses.
 
 ## Changed
 
-List the main files or surfaces changed.
+List the main files or areas changed.
 
 ## Proof And Checks
 

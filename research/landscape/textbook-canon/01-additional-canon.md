@@ -2,10 +2,10 @@
 
 ## Research Questions
 
-1. What major canonical game design texts is the current source map missing?
+1. What major canonical game design texts is the current craft reference index missing?
 2. What academic books on game studies (Bogost, Juul, Galloway, etc.) would add depth?
 3. What canonical creative-process books (not specific to games but applicable) fill gaps?
-4. What papers from FDG, DiGRA, AIIDE, CHI Play on design methodology / agent-assisted design should be in the source map?
+4. What papers from FDG, DiGRA, AIIDE, CHI Play on design methodology / agent-assisted design should be in the craft reference index?
 5. What recent (2022-2026) production texts have been published?
 6. What virtual world / persistent world / live ops design texts belong?
 7. What narrative-as-system texts beyond Emily Short and current sources belong?
@@ -40,10 +40,10 @@
 **A Theory of Fun for Game Design**
 - Author: Raph Koster
 - Year: 2005 (revised 2013)
-- Gap filled: The current source map has no text addressing why fun works at a cognitive level — what the brain is doing when it experiences play. Koster's thesis (fun is the act of pattern recognition and mastery) gives designers a first-principles answer to "why does this feel good?" that goes deeper than MDA aesthetics categories.
+- Gap filled: The current craft reference index has no text addressing why fun works at a cognitive level — what the brain is doing when it experiences play. Koster's thesis (fun is the act of pattern recognition and mastery) gives designers a first-principles answer to "why does this feel good?" that goes deeper than MDA aesthetics categories.
 - Source-map slot: Design Foundations, adjacent to MDA.
 - Operational moves enabled: Agents reviewing a mechanic can ask "what skill/pattern does this teach?" as a gate condition. The Koster frame also flags when a mechanic has exhausted its learning curve (boredom onset), which is actionable earlier than playtesting catches it.
-- Note: The 2013 10th-anniversary edition adds full-color illustrations and minor framing updates but the core argument is unchanged. The text is short, accessible, and has broad acceptance across academia (ACM) and industry (GDC). Its absence from the source map is the single most glaring gap.
+- Note: The 2013 10th-anniversary edition adds full-color illustrations and minor framing updates but the core argument is unchanged. The text is short, accessible, and has broad acceptance across academia (ACM) and industry (GDC). Its absence from the craft reference index is the single most glaring gap.
 
 **Man, Play, and Games**
 - Author: Roger Caillois
@@ -55,7 +55,7 @@
 **Half-Real: Video Games between Real Rules and Fictional Worlds**
 - Author: Jesper Juul
 - Year: 2005
-- Gap filled: The current source map has no text addressing the rules/fiction duality — the fact that games are simultaneously formal rule systems and fictional worlds. Juul's framework is the standard reference for this distinction. It directly supports design decisions about when to break fictional consistency for rule clarity (or vice versa), a judgment call that comes up in every proof review.
+- Gap filled: The current craft reference index has no text addressing the rules/fiction duality — the fact that games are simultaneously formal rule systems and fictional worlds. Juul's framework is the standard reference for this distinction. It directly supports design decisions about when to break fictional consistency for rule clarity (or vice versa), a judgment call that comes up in every proof review.
 - Source-map slot: Design Foundations, adjacent to Rules of Play.
 - Operational moves enabled: Gate reviews can check whether a design's fiction/rules tension is resolved intentionally or by omission. Agents can invoke Juul when a playtest note says "this doesn't make sense in the world" versus "the rule is unclear."
 
@@ -75,20 +75,20 @@
 **Where Good Ideas Come From: The Natural History of Innovation**
 - Author: Steven Johnson
 - Year: 2010
-- Gap filled: Johnson's "adjacent possible" and "slow hunch" concepts address the mechanism by which creative constraints produce novel combinations rather than blocking them. This is directly applicable to the framework's proof-gated structure: bounded scope should, per Johnson, increase the density of adjacent possible moves, not reduce them. The current source map has no language for this claim.
+- Gap filled: Johnson's "adjacent possible" and "slow hunch" concepts address the mechanism by which creative constraints produce novel combinations rather than blocking them. This is directly applicable to the framework's playable-validation structure: bounded scope should, per Johnson, increase the density of adjacent possible moves, not reduce them. The current craft reference index has no language for this claim.
 - Source-map slot: New section, "Creative Process," or Design Foundations preamble.
 - Operational moves enabled: Agents can use "adjacent possible" as a justification for tight scoping in early proofs — the argument becomes epistemic (more combinations per unit time) rather than just risk management.
 
 **A Technique for Producing Ideas**
 - Author: James Webb Young
 - Year: 1940 (still in print)
-- Gap filled: Young's five-step process (gather raw material, digest it, let it incubate unconsciously, recognize the idea, develop it for use) is the shortest complete account of the idea-generation process ever written. It is applicable to all creative disciplines and fills the gap between "have a taste" and "have a design." Young predates every game design text in the current source map and is the upstream source of much subsequent creativity literature.
+- Gap filled: Young's five-step process (gather raw material, digest it, let it incubate unconsciously, recognize the idea, develop it for use) is the shortest complete account of the idea-generation process ever written. It is applicable to all creative disciplines and fills the gap between "have a taste" and "have a design." Young predates every game design text in the current craft reference index and is the upstream source of much subsequent creativity literature.
 - Source-map slot: New section, "Creative Process."
 - Operational moves enabled: The incubation step is explicitly not in the current framework. Agents could identify when a concept is stuck and prescribe a deliberate pause rather than more generation attempts.
 
 ---
 
-### Gap (b): Production "Dark Rituals" — Concept Death, Scope Crisis, Parallel Risk
+### Gap (b): Production Failure Protocols — Concept Death, Scope Crisis, Parallel Risk
 
 **Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made**
 - Author: Jason Schreier
@@ -100,14 +100,14 @@
 **"What Went Wrong? A Survey of Problems in Game Development"**
 - Author: Petrillo, Pimenta, et al.
 - Year: 2008 (published in proceedings; widely cited)
-- Gap filled: This empirical study of 155 postmortems is the closest thing to a systematic dataset on game production failure. It quantifies that scope/feature creep accounts for ~23% of documented problems, making it the single largest failure category. The current source map has no empirical grounding for its production risk assumptions.
+- Gap filled: This empirical study of 155 postmortems is the closest thing to a systematic dataset on game production failure. It quantifies that scope/feature creep accounts for ~23% of documented problems, making it the single largest failure category. The current craft reference index has no empirical grounding for its production risk assumptions.
 - Source-map slot: Production, as a reference document.
 - Operational moves enabled: Scope gates can cite an evidence base rather than common wisdom. The risk register can prioritize scope-related risks by empirical frequency, not by what feels most alarming.
 
 **"Why We Should Stop Saying 'Vertical Slices'"**
 - Author: Geoff Ellenor (via Game Developer)
 - Year: 2022
-- Gap filled: The framework uses "proof" as a deliberately distinct term from vertical slice, but does not document why the distinction matters. This article surfaces the structural argument: vertical slices optimize for demonstrating polish to publishers rather than validating core design risk. That is the exact critique the framework's proof-gate system is implicitly responding to.
+- Gap filled: The framework uses "proof" as a deliberately distinct term from vertical slice, but does not document why the distinction matters. This article areas the structural argument: vertical slices optimize for demonstrating polish to publishers rather than validating core design risk. That is the exact critique the framework's proof-gate system is implicitly responding to.
 - Source-map slot: Production, as a critique/contrast reference.
 - Operational moves enabled: Gate templates can explicitly state "this is not a vertical slice" and reference Ellenor's argument, preventing stakeholders from confusing the two. Playbook entries on proof scope can point here.
 
@@ -129,7 +129,7 @@
 **"Procedural Content Generation in Games: A Survey with Insights on Emerging LLM Integration"**
 - Authors: Multiple (arXiv 2410.15644)
 - Year: 2024
-- Gap filled: The current source map has no academic reference for procedural content generation or LLM-assisted design. This survey covers the 2023 wave in which LLM usage in PCG research increased by an order of magnitude, documents specific applications (MarioGPT, SCENECRAFT, 1001 Nights), and identifies the shift from open to closed model deployment. This is the empirical foundation for any claim the framework makes about AI-assisted design being a new category.
+- Gap filled: The current craft reference index has no academic reference for procedural content generation or LLM-assisted design. This survey covers the 2023 wave in which LLM usage in PCG research increased by an order of magnitude, documents specific applications (MarioGPT, SCENECRAFT, 1001 Nights), and identifies the shift from open to closed model deployment. This is the empirical foundation for any claim the framework makes about AI-assisted design being a new category.
 - Source-map slot: New section, "AI-Assisted Design," or expand the Design Foundations section with an "Emerging Tools" note.
 - Operational moves enabled: Codex and Claude prompts for level generation, NPC scripting, or content variation can reference specific PCG patterns documented in this survey rather than improvising. The survey also identifies what LLMs are systematically poor at in PCG (structural consistency, playability validation), which directly informs where human gates are required.
 
@@ -148,7 +148,7 @@
 **Procedural Storytelling in Game Design**
 - Editors: Tanya X. Short, Tarn Adams
 - Year: 2019 (Routledge)
-- Gap filled: Emily Short's storylets post is already in the source map but covers only one narrative pattern. This edited volume collects 30+ practitioners (Dwarf Fortress, Moon Hunters, The Sims narrative systems) covering character generation, procedural dialogue, world-building grammars, and emergence-from-rules approaches. It is the practitioner-facing companion to Short's theoretical essays.
+- Gap filled: Emily Short's storylets post is already in the craft reference index but covers only one narrative pattern. This edited volume collects 30+ practitioners (Dwarf Fortress, Moon Hunters, The Sims narrative systems) covering character generation, procedural dialogue, world-building grammars, and emergence-from-rules approaches. It is the practitioner-facing companion to Short's theoretical essays.
 - Source-map slot: Narrative, directly adjacent to Emily Short on storylets.
 - Operational moves enabled: Narrative agents can draw on specific documented techniques (e.g., grammar-based world description, procedural quest assembly) rather than improvising narrative architecture. Gate reviews for narrative proofs can check against the checklist of failure modes documented in contributors' essays.
 
@@ -171,10 +171,10 @@
 **DDE Framework (Design, Dynamics, Experience)**
 - Source: Braxton Boren, "Design, Dynamics, Experience: An Advancement of the MDA Framework" (Springer, 2017)
 - Critiques MDA for: omitting graphical/audio design, treating aesthetics as outputs (they are also inputs to player framing), and failing to handle non-digital games.
-- Applicable to: Any gate review that uses MDA as a checklist. The DDE reframe suggests the current source map should acknowledge MDA as one model, not the model.
+- Applicable to: Any gate review that uses MDA as a checklist. The DDE reframe suggests the current craft reference index should acknowledge MDA as one model, not the model.
 
 **"Agile Game Development is Hard" and related empirical critique**
-- Already listed in Gap (b) above. Reproduced here for completeness: the contrarian position is that Scrum as prescribed by Keith (already in source map) has a documented failure rate in game contexts. The framework should cite the critique alongside the prescription.
+- Already listed in Gap (b) above. Reproduced here for completeness: the contrarian position is that Scrum as prescribed by Keith (already in craft reference index) has a documented failure rate in game contexts. The framework should cite the critique alongside the prescription.
 
 **Ellenor on vertical slices**
 - Already listed in Gap (b). The contrarian: "vertical slice" as a concept optimizes for publisher demonstration rather than design validation, which is the opposite of what a proof-gate framework needs.
@@ -185,13 +185,13 @@
 
 **MIT OpenCourseWare CMS.608 (Game Design, 2008 and 2010)**
 - Primary texts: Rules of Play (Salen/Zimmerman), Game Design Workshop (Fullerton), Man Play and Games (Caillois), The Game Design Reader (Salen/Zimmerman anthology), 21st Century Game Design (Bateman/Boon).
-- Notable gap the course exposes: The current source map includes Rules of Play and Game Design Workshop but not Caillois or the Game Design Reader anthology, both of which MIT treats as co-equal primary texts.
+- Notable gap the course exposes: The current craft reference index includes Rules of Play and Game Design Workshop but not Caillois or the Game Design Reader anthology, both of which MIT treats as co-equal primary texts.
 
 **Carnegie Mellon ETC Press**
-- ETC Press publishes Game Design Research (eds. Lankoski/Bjork), which collects research methods for game design as an academic discipline. Not a reading list per se but signals that CMU treats design research methodology as a distinct competency from design practice — a gap the current source map does not address.
+- ETC Press publishes Game Design Research (eds. Lankoski/Bjork), which collects research methods for game design as an academic discipline. Not a reading list per se but signals that CMU treats design research methodology as a distinct competency from design practice — a gap the current craft reference index does not address.
 
 **NYU Game Center MFA**
-- Core required courses: Game Design 1 (meaningful choice, non-digital focus), Games 101 (history from ancient to contemporary), Game Studio 1. The curriculum's emphasis on non-digital games as primary design study aligns with the argument for adding Caillois to the source map.
+- Core required courses: Game Design 1 (meaningful choice, non-digital focus), Games 101 (history from ancient to contemporary), Game Studio 1. The curriculum's emphasis on non-digital games as primary design study aligns with the argument for adding Caillois to the craft reference index.
 
 ---
 
@@ -205,9 +205,9 @@
 | Tharp, The Creative Habit | (d) creative process | Add new section; intake: require a "spine" (one-sentence purpose) before concept work |
 | Johnson, Where Good Ideas Come From | (d) creative process | Add new section; scope rationale: adjacent possible argument for tight proofs |
 | Young, A Technique for Producing Ideas | (d) creative process | Add new section; gate: is the concept stuck? prescribe incubation before more generation |
-| Schreier, Blood Sweat and Pixels | (b) dark rituals | Add to Production; risk register: reference named failure archetypes |
-| Petrillo et al., What Went Wrong | (b) dark rituals | Add to Production; scope gate: empirical justification for scope as #1 risk |
-| Ellenor, Why We Should Stop Saying Vertical Slices | (b) dark rituals | Add to Production; proof-gate template: "this is not a vertical slice, here is why" |
+| Schreier, Blood Sweat and Pixels | (b) production failure protocols | Add to Production; risk register: reference named failure archetypes |
+| Petrillo et al., What Went Wrong | (b) production failure protocols | Add to Production; scope gate: empirical justification for scope as #1 risk |
+| Ellenor, Why We Should Stop Saying Vertical Slices | (b) production failure protocols | Add to Production; proof-gate template: "this is not a vertical slice, here is why" |
 | Short/Adams, Procedural Storytelling | (a)+(d) narrative | Add to Narrative; replace improvised narrative architecture with documented patterns |
 | Bartle, Designing Virtual Worlds | (b)+(d) live ops | Add specialized reference; multiplayer intake: require Bartle player-type analysis |
 | PCG/LLM survey (arXiv 2024) | (c) AI collaboration | Add new section; Codex/Claude prompts: reference documented PCG patterns and failure modes |
@@ -218,9 +218,9 @@
 
 ## Open Questions
 
-1. The 2026 second edition of Designing Virtual Worlds is newly published. It is not yet reviewed in academic literature. It is unclear whether the revisions substantively update the 2003 argument or merely extend it with live-service case studies. The framework should wait for a review before treating it as the canonical reference over the 2003 edition.
+1. The 2026 second edition of Designing Virtual Worlds is newly published. It is not yet reviewed in academic literature. It is unclear whether the revisions meaningfully update the 2003 argument or merely extend it with live-service case studies. The framework should wait for a review before treating it as the canonical reference over the 2003 edition.
 
-2. The CHI Play 2024 proceedings contain a growing body of work on LLM-assisted game design specifically (not just LLM in PCG). A targeted survey of CHI Play 2023 and 2024 proceedings was not completed in this research round and should be done before finalizing the AI-Assisted Design section of the source map.
+2. The CHI Play 2024 proceedings contain a growing body of work on LLM-assisted game design specifically (not just LLM in PCG). A targeted survey of CHI Play 2023 and 2024 proceedings was not completed in this research round and should be done before finalizing the AI-Assisted Design section of the craft reference index.
 
 3. Caillois (1958) is over 60 years old and his taxonomy has been critiqued for being overly categorical (Sutton-Smith's "rhetorics of play" work challenges it directly). The framework should decide whether to cite Caillois as a foundational vocabulary or as a starting point that requires the Sutton-Smith critique alongside it.
 

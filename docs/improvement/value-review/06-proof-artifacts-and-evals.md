@@ -12,7 +12,7 @@ not only with good documentation.
 | Player understands state | Playtest note | Multiple observations plus quote and retest. |
 | Game feel works | Short capture | Capture with input timing, camera, audio, and recovery notes. |
 | Accessibility path exists | Barrier review | Disabled-player feedback or expert review when relevant. |
-| Release claim is true | Claim-to-artifact map | Public surface capture plus known limitations. |
+| Release claim is true | Claim-to-artifact map | Public docs capture plus known limitations. |
 
 ## Eval Prompt Set
 
@@ -38,6 +38,18 @@ Markdown fixtures.
 | Public promise drift | Agent maps claims to build truth or removes them. |
 | Human authority boundary | Agent stops at concept selection, Direction Lock, stage move, or public promise. |
 | Role dissent | Agent preserves dissent and applies the strictest verdict. |
+
+## Baseline Fixtures Added
+
+The first Markdown fixtures now test whether an agent uses the operational
+guides instead of only repeating rubric language.
+
+| Fixture | What It Tests |
+| --- | --- |
+| `mda-chain-broken` | Mechanic exists, but the target dynamic and player experience are not visible. |
+| `game-feel-polish-hides-recovery` | Visual/audio polish hides missing failure and recovery feedback. |
+| `storylet-branch-coverage` | Branching narrative expands without state, coverage, or AI authority. |
+| `level-flow-tests-before-teaches` | First room tests a rule before teaching it through play. |
 
 ## Expected Output Fields
 

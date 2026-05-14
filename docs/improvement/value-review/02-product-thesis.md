@@ -1,8 +1,8 @@
 # Product Thesis
 
-Game Studio should stay a discovery-driven, proof-gated AI game production
-system. That phrase is useful because it names both entry work and production
-discipline.
+Game Studio should stay an AI-assisted game production framework for playable
+validation. That phrase is useful because it names both agent support and the
+game-development standard that decides progress.
 
 ## Product Boundary To Preserve
 
@@ -30,16 +30,14 @@ Game Studio does not own:
 
 ## Public Language
 
-Use these terms in public surfaces:
+Use these terms in public docs:
 
-- proof
-- playable proof
-- proof target
-- proof budget
-- proof-gated
-- validation
-- claim-to-proof
-- role-led review
+- playable build
+- first playable
+- playable validation
+- role-led game review
+- milestone decision
+- release checks
 
 Use `evidence` only for internal artifacts: captures, builds, playtest notes,
 QA results, telemetry, schemas, decision records, and release claim checks.
@@ -48,8 +46,8 @@ QA results, telemetry, schemas, decision records, and release claim checks.
 
 ```text
 Game Studio helps Codex and Claude Code turn either an existing game direction
-or a creator's taste profile into bounded playable proofs, role reviews, and
-production decisions.
+or a creator's taste profile into playable builds, role-led game reviews,
+milestone decisions, and release checks.
 ```
 
 This is the durable claim. It should remain more important than any single
@@ -65,15 +63,15 @@ script, schema, diagram, or example.
 | It is a prompt pack. | Hides the state, role, gate, and proof model. |
 | It is a full game engine workflow. | Overpromises engine-specific production support. |
 
-## Product Surface Work
+## Product Copy Work
 
-Improve these surfaces first:
+Improve these areas first:
 
-| Surface | Change |
+| File | Change |
 | --- | --- |
 | `README.md` | Keep the first screen focused on entry modes, proof loop, and human authority. |
 | `docs/product-boundary.md` | Keep public language and ownership boundaries canonical. |
-| `docs/public-surface-style.md` | Keep README, diagram, and copy standards aligned with the product thesis. |
+| `docs/public-docs-and-release-copy.md` | Keep README, diagram, and copy standards aligned with the product thesis. |
 | `docs/plain-language-game-design-glossary.md` | Define proof, gate, stage, evidence, and human authority in non-expert language. |
 
 ## Proof Of Improvement
@@ -87,5 +85,5 @@ Ask a fresh agent or reviewer to read only the README and answer:
 - What proves progress?
 - What does the framework refuse to promise?
 
-If the reviewer cannot answer those in one pass, the product surface is not
+If the reviewer cannot answer those in one pass, the product copy is not
 sharp enough.

@@ -22,7 +22,7 @@ Total distinct queries executed: 12 WebSearch, 14 WebFetch.
 - Riot Games R&D Office hub (https://www.riotgames.com/en/r-and-d-office): landing page only.
 - Riot "R&D Foundations: Opportunity, Thesis, and Audience" (https://www.riotgames.com/en/news/r-d-foundations-opportunity-thesis-and-audience): full text fetched.
 - Riot "Incubation: Exploration With a Plan" (https://www.riotgames.com/en/r-and-d-office/incubation-exploration-with-a-plan): full text fetched.
-- Riot "Prototype: Building a Game's Substance" (https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-substance): full text fetched.
+- Riot "Prototype: Building a Game's Substance" (https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-game quality): full text fetched.
 - Rami Ismail LTPF "Prototypes & Vertical Slice" (https://ltpf.ramiismail.com/prototypes-and-vertical-slice/): full text fetched.
 - Game Developer "Quality is worth killing for: Supercell's ruthless approach" (https://www.gamedeveloper.com/business/quality-is-worth-killing-for-supercell-s-ruthless-approach-to-production): full text fetched.
 - Daniel Scrivner transcript of Paananen BAFTA lecture (https://www.danielscrivner.com/supercell-founder-ilkka-paananen-game-design-lecture-at-bafta/): full text fetched.
@@ -100,7 +100,7 @@ assumptions), and approximately 90% of pitches are rejected.
 - Riot "Incubation: Exploration With a Plan"
   (https://www.riotgames.com/en/r-and-d-office/incubation-exploration-with-a-plan)
 - Riot "Prototype: Building a Game's Substance"
-  (https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-substance)
+  (https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-game quality)
 
 **Source says:**
 The Foundations article identifies **three** core elements, not six: Opportunity, Thesis,
@@ -487,7 +487,7 @@ verification, subject to the caveats noted above:
 - Riot R&D. "Incubation: Exploration With a Plan."
   https://www.riotgames.com/en/r-and-d-office/incubation-exploration-with-a-plan
 - Cadwell, T. "Prototype: Building a Game's Substance." *Riot Games R&D Office*.
-  https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-substance
+  https://www.riotgames.com/en/r-and-d-office/prototype-building-a-games-game quality
 - Park, J.S., O'Brien, J., Cai, C.J., Morris, M.R., Liang, P., & Bernstein, M.S. (2023).
   "Generative Agents: Interactive Simulacra of Human Behavior." *UIST '23*.
   https://arxiv.org/abs/2304.03442

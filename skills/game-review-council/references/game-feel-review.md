@@ -3,6 +3,9 @@
 Use this when input, camera, animation, physics, UI timing, feedback, or audio
 response affects moment-to-moment play.
 
+Before writing the verdict, use
+`.game-studio/core/references/operational/game-feel.md` when available.
+
 ## Questions
 
 - What is the primary verb?

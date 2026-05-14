@@ -240,7 +240,7 @@ Add these small release templates:
 - `Known risks`
 - `Feedback channels`
 - `Telemetry questions`
-- `Community surfaces`
+- `Community areas`
 - `Moderation owner`
 - `Support owner`
 - `Accessibility claims`
@@ -729,12 +729,12 @@ Add `docs/player-operations.md`.
 
 Keep it short. Link to release templates and explain Playtest, demo, Early
 Access, beta branch, default release, support, moderation, telemetry,
-accessibility, localization, and patch notes as distinct operating surfaces.
+accessibility, localization, and patch notes as distinct operating areas.
 
 Add `docs/beginner-craft-exercises.md`.
 
 Keep it as an index over the exercise templates. Do not reproduce the canon.
-Link to `docs/beginner-taste-to-game.md` and the new direction/evidence
+Link to `docs/entry-model.md#taste-to-game-workflow` and the new direction/evidence
 templates.
 
 Add `docs/ai-provenance-and-anti-slop.md`.
@@ -749,7 +749,7 @@ Keep it operational:
 - Play before explaining.
 - Subtraction evidence.
 
-Update `docs/beginner-taste-to-game.md`.
+Update `docs/entry-model.md#taste-to-game-workflow`.
 
 Add:
 
@@ -766,7 +766,7 @@ Add:
 - `auteur-systems-first` as a fourth entry route.
 - Stop conditions for human-owned concept, Direction Lock, and taste veto.
 
-Update `docs/evidence-gates.md`.
+Update `docs/validation-gates.md`.
 
 Add:
 
@@ -775,7 +775,7 @@ Add:
 - Telemetry bias and qualitative follow-up.
 - Artifact provenance.
 
-Update `docs/production-layer.md`.
+Update `docs/operating-model.md#production-layer-detail`.
 
 Add:
 
@@ -786,7 +786,7 @@ Add:
 - temporary cabal contract
 - sustainability blocker
 
-Update `docs/director-layer.md`.
+Update `docs/operating-model.md#director-layer-detail`.
 
 Add:
 
@@ -799,7 +799,7 @@ Update `docs/product-boundary.md`.
 Add public positioning:
 
 ```text
-Not a game generator: a craft-coaching layer that turns AI output into playable
+Not a game generator: a taste-to-prototype guidance layer that turns AI output into playable
 proofs, reviews, gates, and human decisions.
 ```
 
