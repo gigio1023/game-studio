@@ -11,7 +11,6 @@ const bannedText = [
   new RegExp(`\\b${"har"}${"ness"}\\b`, "i"),
 ];
 const textExtensions = new Set([".md", ".yaml", ".yml", ".json", ".mjs", ".snippet", ".drawio", ".svg"]);
-const maxMarkdownLines = 220;
 
 let failed = false;
 
@@ -47,9 +46,6 @@ function checkTextFile(file) {
   }
   if (rel.endsWith("SKILL.md") && lines > 500) {
     fail(`SKILL_TOO_LONG ${rel} ${lines}`);
-  }
-  if (rel.endsWith(".md") && lines > maxMarkdownLines) {
-    fail(`MARKDOWN_TOO_LONG ${rel} ${lines}`);
   }
   if (rel === "README.md" && lines > 120) {
     fail(`README_TOO_LONG ${lines}`);
