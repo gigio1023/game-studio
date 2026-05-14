@@ -23,6 +23,9 @@ This repository maps those forms to project files:
 ## Page Rules
 
 - Keep one topic per page.
+- Keep a coherent argument or research context together.
+- Do not split pages mechanically by line count alone.
+- Split Markdown when it grows beyond 1,500 lines or mixes separable topics.
 - Start each section with at most one context sentence.
 - Put long detail in a linked page, not a closing notes section.
 - Use tables only when rows share the same shape.
