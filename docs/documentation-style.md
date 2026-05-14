@@ -23,6 +23,8 @@ This repository maps those forms to project files:
 ## Page Rules
 
 - Keep one topic per page.
+- Keep Markdown files at 220 lines or fewer.
+- Split longer pages into a short index plus linked part files.
 - Start each section with at most one context sentence.
 - Put long detail in a linked page, not a closing notes section.
 - Use tables only when rows share the same shape.
