@@ -33,8 +33,7 @@ Terminology:
 ## Files
 
 - Create: `docs/entry-model.md`
-- Create: `docs/beginner-taste-to-game.md`
-- Create: `docs/concept-development-method.md`
+- Create taste-to-game and concept-development sections in `docs/entry-model.md`
 - Create: `docs/plain-language-game-design-glossary.md`
 - Create: `skills/game-onboarding/SKILL.md`
 - Create: `skills/game-onboarding/references/entry-routing.md`
@@ -141,7 +140,7 @@ Routing rules:
 
 ## Taste-To-Game Discovery
 
-- [ ] Create `docs/beginner-taste-to-game.md`.
+- [ ] Create the taste-to-game section in `docs/entry-model.md`.
 
 Purpose:
 

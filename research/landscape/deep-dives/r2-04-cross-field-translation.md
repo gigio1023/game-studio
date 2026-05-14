@@ -200,7 +200,7 @@ A 6-step procedure for "reference moment to design constraint" translation, synt
 
 ## Relevance To Game Studio
 
-**docs/beginner-taste-to-game.md.** The current document stops at "Reference Moments" as a list. It should add a constraint-extraction section after taste profile, specifying the 6-step move set above. The "Concept Slate" step currently begins with no explicit bridge from reference to concept — the fragmentation pass (Step 3) fills that gap.
+**docs/entry-model.md#taste-to-game-workflow.** The current document stops at "Reference Moments" as a list. It should add a constraint-extraction section after taste profile, specifying the 6-step move set above. The "Concept Slate" step currently begins with no explicit bridge from reference to concept — the fragmentation pass (Step 3) fills that gap.
 
 **core/templates/intake/beginner-taste-interview.md.** The Reference Moments table currently has four columns: Reference / Moment / What felt good / What not to copy. Add a fifth column: "Named Constraint" — filled after the why-extraction conversation (Steps 2-5). This converts the interview artifact into an actionable design input without adding interview length.
 

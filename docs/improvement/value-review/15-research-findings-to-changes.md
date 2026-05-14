@@ -167,7 +167,7 @@ scale to the full game?"
 The Round 3 critique found pillars are often post-hoc rationalization
 and are solved-by-other-means at solo scale.
 
-Action: update [Director Layer](../../director-layer.md) to mark
+Action: update [Director Layer](../../operating-model.md#director-layer-detail) to mark
 "Creative Pillars" as recommended for team work and optional for solo
 work. Add a "When pillars do not help" section explaining the post-hoc
 trap and the formalist alternative.
@@ -211,7 +211,7 @@ canonical. The formalist counter-position (Blow, Anthropy, systems-first
 design) is documented as the path some of the most original games took.
 
 Action: add a "Formalist Variant" section to
-[beginner-taste-to-game.md](../../beginner-taste-to-game.md) noting
+[entry-model.md#taste-to-game-workflow](../../entry-model.md#taste-to-game-workflow) noting
 that some creators prefer systems-first to taste-first and the framework
 supports both.
 
@@ -286,8 +286,8 @@ When this plan is executed, expect changes in:
   critique annotation)
 - `core/gates/production.md` (vertical slice invisible-deliverables,
   velocity baseline)
-- `docs/director-layer.md` (pillars optional for solo)
-- `docs/beginner-taste-to-game.md` (6-step move set, formalist variant)
+- `docs/operating-model.md#director-layer-detail` (pillars optional for solo)
+- `docs/entry-model.md#taste-to-game-workflow` (6-step move set, formalist variant)
 - `docs/improvement/value-review/02-product-thesis.md` (game-design-review
   positioning)
 - `docs/improvement/value-review/11-production-failure-protocols.md`
@@ -308,3 +308,497 @@ When this plan is executed, expect changes in:
 4. Park-style memory implementation is non-trivial — is the maintainer
    ready to take it on, or should it be split into a separate proof of
    concept?
+
+## Playable Validation Positioning
+
+This section updates the product thesis after Rounds 4 and 5 of research. Read
+it with [Product Thesis](02-product-thesis.md).
+
+### Decision
+
+Game Studio should be positioned as:
+
+```text
+An AI-assisted game production framework for playable validation.
+```
+
+The public category is production framework. The game-development promise is
+playable validation. The agent packaging is a delivery mechanism, not the
+identity of the product.
+
+Source:
+[Positioning And Market Gap](../../../research/landscape/round5-positioning/01-positioning-and-market-gap.md).
+
+### Why This Is Higher Value
+
+The market already has many artifact accelerators:
+
+- coding agents and background agents
+- engine assistants
+- game idea generators
+- asset pipelines
+- NPC and runtime AI platforms
+- courses and communities
+- market or trend tools
+
+They optimize for speed, output volume, execution context, or learning content.
+They do not reliably own craft judgment under too much generated material.
+
+Game Studio's defensible value is the chain:
+
+```text
+human taste -> playable question -> smallest proof -> role-led game review ->
+milestone decision -> next build, retest, or stop condition
+```
+
+### Public Language
+
+Use:
+
+- AI-assisted game production framework
+- playable validation
+- AI-assisted game development
+- human creative authority
+- playable proof
+- claim-to-proof
+- proof budget
+- role-led game review
+- generated material is not proof
+- make less, prove more
+
+Avoid:
+
+- AI game designer
+- autonomous studio
+- complete game generator
+- AI co-author
+- agent workforce for games
+- market score for fun
+- curriculum platform
+- skill marketplace
+
+### Product Boundary Update
+
+The system may:
+
+- structure the creator's taste into questions and constraints
+- propose options and tradeoffs
+- inspect artifacts and role-review them
+- request player, implementation, accessibility, release, or production proof
+- block stage movement when proof or human authority is missing
+
+The system must not:
+
+- choose taste, selected concept, Direction Lock, kill/pivot, stage movement,
+  public promises, or release claims for the human
+- treat generated concepts, assets, barks, scenes, NPC output, or code as proof
+  without a claim-to-proof mapping
+- sell a polished plan as settled design before playable proof exists
+
+### Files To Change
+
+- `README.md`: add the short public positioning phrase.
+- `docs/product-boundary.md`: keep production framework as the product category.
+- `docs/philosophy.md`: add the anti-volume principle: make less, prove more.
+- `docs/source-adoption-policy.md`: explain that external tools are subordinate
+  to proof targets.
+- `docs/improvement/value-review/02-product-thesis.md`: align language with
+  this page.
+
+### Proof Of Improvement
+
+A new reader should be able to answer:
+
+- This is not a game generator.
+- This is not only a PM framework.
+- This is not only a course.
+- This is not only a skill bundle.
+- This helps humans make better game decisions with AI by requiring playable
+  proof and preserving human authority.
+
+## Player Operations And Public Proof
+
+This page translates live ops, player feedback, release operations, community
+management, accessibility, and localization research into Game Studio planning.
+
+Source:
+[Player Operations](../../../research/landscape/round4-liveops-community/01-player-operations.md).
+
+### Decision
+
+Post-launch learning should not become a default full production stage yet.
+Instead, add a player-operations layer that activates when the project creates
+public exposure or release promises.
+
+Public exposure includes:
+
+- Steam Playtest or equivalent cohort test
+- public demo
+- Early Access
+- beta branch with public participants
+- default release
+- post-launch update
+- public roadmap or store promise
+
+### Operating Principle
+
+Every public docs is a promise area.
+
+Steam language metadata, accessibility tags, patch notes, Discord statements,
+roadmaps, store pages, demo descriptions, and Early Access Q&A text must match
+the build, support capacity, and update cadence.
+
+### New Templates
+
+Add:
+
+- `core/templates/release/player-operations-plan.md`
+- `core/templates/release/playtest-cohort-brief.md`
+- `core/templates/release/early-access-readiness.md`
+- `core/templates/release/patch-note-contract.md`
+- `core/templates/release/feedback-digest.md`
+- `core/templates/release/community-promise-register.md`
+- `core/templates/release/telemetry-question-plan.md`
+- `core/templates/release/accessibility-release-reality-checklist.md`
+- `core/templates/release/localization-release-reality-checklist.md`
+- `core/templates/release/launch-week-triage-rule.md`
+- `core/templates/release/what-players-taught-us.md`
+
+### New Gates
+
+Add:
+
+- `GS-PLAYTEST-COHORT`
+- `GS-EARLY-ACCESS-READINESS`
+- `GS-PLAYER-OPERATIONS`
+
+Update:
+
+- `GS-RELEASE-PROMISE`
+- `GS-PRESENTATION-VALUE`
+- `GS-VERTICAL-SLICE`
+
+### Release Distinctions
+
+Agents must not blur these:
+
+- Playtest: learning from a cohort without selling an unfinished promise.
+- Demo: a sampling and marketing artifact.
+- Early Access: paid public development with honest current-state disclosure.
+- Beta branch: update-risk isolation for existing players.
+- Default release: the supported player build.
+- Post-launch update: a new promise plus a learning loop.
+
+### Small-Team Translation
+
+A small project should start with:
+
+- one feedback channel of record
+- one public source of truth
+- one patch-note owner
+- one support owner
+- one moderation path
+- minimal telemetry tied to named questions
+- release-lane separation where possible
+- accessibility and localization claims checked against the build
+
+### Proof Of Improvement
+
+Before public exposure, the agent should be able to answer:
+
+- What build is public?
+- What can players affect?
+- What is uncertain?
+- What support load is expected?
+- What feedback is being requested?
+- What will not be promised?
+- What accessibility and localization claims are being made?
+- What is the next player-facing update cadence?
+
+## Anti-Slop Quality And Provenance
+
+This page turns contrarian quality research into operating rules. It supports
+[AI-Assisted Design Workflows](12-ai-assisted-design-workflows.md) and
+[Proof Artifacts And Evals](06-proof-artifacts-and-evals.md).
+
+Source:
+[Contrarian Quality](../../../research/landscape/round4-critique/01-contrarian-quality.md).
+
+### Quality Bar
+
+A high-quality AI-assisted game artifact is not the one that looks most
+complete. It is the one that preserves a human-owned point of view and reduces
+uncertainty through playable, inspectable, or player-facing proof.
+
+Fast rejection test:
+
+```text
+If this artifact could be reproduced from genre tags without losing its
+identity, the human-authored choice is missing.
+```
+
+### Operating Rules
+
+#### Generated Material Is Not Proof
+
+Generated concepts, sprites, barks, scenes, NPC output, market scores, or code
+are input material. They become proof only when tied to:
+
+- player action
+- system behavior
+- visible consequence
+- build capture
+- QA result
+- playtest observation
+- accessibility check
+- localization check
+- release promise check
+
+#### False Precision Is Banned
+
+Do not use numeric scores for taste, fun, novelty, or quality unless the number
+is tied to:
+
+- an observed metric
+- a precommitted threshold
+- a playtest count
+- a production cost measurement
+
+#### Reviews Must Split Claim Types
+
+Each role-led game review should separate:
+
+- observed facts
+- design inferences
+- taste judgments
+
+This keeps AI from presenting interpretation as fact.
+
+#### Review Economy Matters
+
+More output is not more value. Concept slates, role reviews, and generated
+assets should be pruned before presentation. The system should optimize for
+fewer, sharper artifacts.
+
+#### Human Taste Has Veto Power
+
+If the creator says a direction is wrong for their taste, the system should
+record why and revise. It should not argue from rubric consensus.
+
+### Template Changes
+
+Add or update fields:
+
+- human-authored choice
+- could this be generic?
+- generated material used
+- what was subtracted
+- AI provenance
+- human selection made
+- what this does not prove
+- deletion or collapse rule
+- fragile novelty risk
+- empty novelty risk
+- process harm check
+
+### Schema Changes
+
+`core/schemas/gate-verdict.schema.json` should add a `reviewBasis` object with:
+
+- `observedFacts`
+- `designInferences`
+- `tasteJudgments`
+- `publicClaimsChecked`
+- `generatedMaterialChecked`
+
+`core/schemas/evidence-contract.schema.json` should add provenance and
+disclosure fields when that schema is introduced or updated.
+
+### Proof Of Improvement
+
+In eval prompts, an agent should fail when it:
+
+- treats a generated pitch as proof
+- assigns a numeric fun score without observed basis
+- overwrites human taste because a rubric says another option is cleaner
+- produces many concepts without a pruning rationale
+- advances a public promise without provenance or release evidence
+
+## Implementation Map From Rounds 4-5
+
+This page sequences the Round 4-5 research into maintainable repository work.
+It is an index over work areas, not a single giant backlog.
+
+Detailed translation:
+[Template And Schema Translation](../../../research/landscape/round5-implementation/01-template-and-schema-translation.md).
+
+Claim safety:
+[Round 4 Claim Check](../../../research/landscape/round5-verification/01-round4-claim-check.md).
+
+### Wave 8: Public Positioning
+
+Purpose: make the repo category precise.
+
+Files:
+
+- `README.md`
+- `docs/product-boundary.md`
+- `docs/philosophy.md`
+- `docs/source-adoption-policy.md`
+
+Work:
+
+- add milestone-gated playable validation game design review workflow language
+- demote production OS, curriculum, and skill registry to supporting areas
+- state generated material is not proof
+- state make less, prove more
+
+Proof:
+
+- a first-time reader does not infer automatic game generation
+- the public promise names human authority and playable build
+
+### Wave 9: Beginner Craft Path
+
+Purpose: turn beginner taste into practiced judgment.
+
+Files:
+
+- `core/templates/intake/reference-constraint-sheet.md`
+- `core/templates/intake/auteur-systems-first-intake.md`
+- `core/templates/direction/experience-chain.md`
+- `core/templates/direction/primary-verb-feel-sheet.md`
+- `core/templates/evidence/beginner-playtest-report.md`
+- `docs/entry-model.md#taste-to-game-workflow`
+
+Work:
+
+- add reference-to-constraint decomposition
+- add auteur/systems-first route
+- add beginner playtest interpretation
+- add worked examples for reference translation
+
+Proof:
+
+- vague taste can route to a proof question without becoming a generic genre
+  pitch
+
+### Wave 10: Anti-Slop And Provenance
+
+Purpose: prevent too much generated material from becoming review burden.
+
+Files:
+
+- `core/templates/direction/concept-card.md`
+- `core/templates/direction/concept-portfolio.md`
+- `core/templates/evidence/evidence-contract.md`
+- `core/templates/evidence/artifact-ledger-entry.md`
+- `core/schemas/gate-verdict.schema.json`
+
+Work:
+
+- add generated-material-is-not-proof rule
+- add observed/inferred/taste split
+- add AI provenance fields
+- add subtraction evidence
+- add false precision ban
+
+Proof:
+
+- generated concepts or assets do not pass gates without claim-to-proof mapping
+
+### Wave 11: Production Failure Protocols
+
+Purpose: make cut, pivot, reboot, scope crisis, and parallel risk operational.
+
+Files:
+
+- `core/templates/production/concept-death-record.md`
+- `core/templates/production/scope-crisis-record.md`
+- `core/templates/production/parallel-risk-plan.md`
+- `core/templates/production/temporary-cabal-contract.md`
+- `core/templates/production/milestone-contract.md`
+
+Work:
+
+- add kill/pivot/reboot record
+- add precommitted gate metrics
+- add tepid response rule
+- add pride bar
+- add sustainability blocker
+- add vertical slice production test
+
+Proof:
+
+- a failed concept produces salvage, decision clarity, and next route rather
+  than silent abandonment
+
+### Wave 12: Player Operations
+
+Purpose: prevent public proof from creating unmanaged promise debt.
+
+Files:
+
+- `core/templates/release/player-operations-plan.md`
+- `core/templates/release/playtest-cohort-brief.md`
+- `core/templates/release/early-access-readiness.md`
+- `core/templates/release/feedback-digest.md`
+- `core/templates/release/community-promise-register.md`
+- `core/templates/release/telemetry-question-plan.md`
+- `core/gates/release.md`
+
+Work:
+
+- separate Playtest, demo, Early Access, beta, release, and post-launch update
+- add release-promise consistency checks
+- add accessibility and localization reality checks
+- add what-players-taught-us note
+
+Proof:
+
+- public exposure cannot pass without feedback, support, moderation, and
+  promise ownership
+
+### Wave 13: Skill Contracts
+
+Purpose: make skills behave like review protocols.
+
+Files:
+
+- `skills/game-onboarding/SKILL.md`
+- `skills/game-director/SKILL.md`
+- `skills/game-studio/SKILL.md`
+- `skills/game-review-council/SKILL.md`
+- `skills/game-evidence-gate/SKILL.md`
+- `skills/game-execution/SKILL.md`
+
+Work:
+
+- require active stage, authority source, inspected artifacts, proof target,
+  observed facts, design inferences, taste judgments, missing proof, human-only
+  decision, next smallest proof, stop condition, and terminal outcome
+- route auteur/systems-first
+- stop for human authority when required
+
+Proof:
+
+- eval prompts show agents preserving taste, refusing unearned stage movement,
+  and asking for smaller proof instead of more output
+
+### Wave 14: Example Coverage
+
+Purpose: prove the method in repo-native artifacts.
+
+Examples:
+
+- `examples/sample-auteur-systems-first/`
+- `examples/sample-beginner-reference-translation/`
+- `examples/sample-player-operations/`
+- `examples/sample-direction-carry-in/`
+- `examples/sample-brownfield-unknown/`
+- `examples/sample-playable-proof/`
+
+Proof:
+
+- each example ends at a gate, next proof, cut, or human decision
+- no example claims a complete game from prose alone

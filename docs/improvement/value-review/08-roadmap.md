@@ -124,4 +124,4 @@ Review:
 
 Rounds 4-5 added a larger research-backed implementation map. Keep this page as
 the stabilization roadmap for waves 1-7, then continue with
-[Implementation Map From Rounds 4-5](20-implementation-map-round4-5.md).
+[Implementation Map From Rounds 4-5](15-research-findings-to-changes.md#implementation-map-from-rounds-4-5).

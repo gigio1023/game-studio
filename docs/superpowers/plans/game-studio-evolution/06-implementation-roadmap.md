@@ -28,8 +28,7 @@ git commit -m "docs: deepen game studio evolution plan"
 ## Phase 1: Entry And Creative Discovery
 
 - [ ] Add `docs/entry-model.md`.
-- [ ] Add `docs/beginner-taste-to-game.md`.
-- [ ] Add `docs/concept-development-method.md`.
+- [ ] Add taste-to-game and concept-development sections to `docs/entry-model.md`.
 - [ ] Add `docs/plain-language-game-design-glossary.md`.
 - [ ] Add `skills/game-onboarding`.
 - [ ] Add `skills/game-taste-interviewer`.
@@ -48,7 +47,7 @@ git commit -m "docs: deepen game studio evolution plan"
 Commit:
 
 ```bash
-git add docs/entry-model.md docs/beginner-taste-to-game.md docs/concept-development-method.md docs/plain-language-game-design-glossary.md skills/game-onboarding skills/game-taste-interviewer skills/game-concept-guide skills/game-concept-portfolio skills/game-direction-crystallizer skills/game-scope-shaper skills/game-prototype-planner core/templates/intake core/templates/direction core/templates/production core/gates/direction.md adapters/claude/bootstrap.md adapters/codex/bootstrap.md
+git add docs/entry-model.md docs/plain-language-game-design-glossary.md skills/game-onboarding skills/game-taste-interviewer skills/game-concept-guide skills/game-concept-portfolio skills/game-direction-crystallizer skills/game-scope-shaper skills/game-prototype-planner core/templates/intake core/templates/direction core/templates/production core/gates/direction.md adapters/claude/bootstrap.md adapters/codex/bootstrap.md
 git commit -m "feat: add creative discovery entry flow"
 ```
 

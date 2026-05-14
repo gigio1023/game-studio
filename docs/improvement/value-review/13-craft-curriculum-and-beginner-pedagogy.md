@@ -177,7 +177,7 @@ Add:
 Update:
 
 - `core/templates/intake/beginner-taste-interview.md`
-- `docs/beginner-taste-to-game.md`
+- `docs/entry-model.md#taste-to-game-workflow`
 - `docs/anti-patterns.md`
 - `core/references/game-craft-reference-index.md`
 

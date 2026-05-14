@@ -33,11 +33,7 @@ reviews, and learns from playable builds.
 | [AI-Assisted Design Workflows](12-ai-assisted-design-workflows.md) | Use AI for what AI is uniquely good at, not only as a disciplined producer. |
 | [Craft Curriculum And Beginner Pedagogy](13-craft-curriculum-and-beginner-pedagogy.md) | Convert the canon and beginner teaching path into operational guides with worked examples. |
 | [Anti-Additions](14-anti-additions.md) | Refuse plausible additions that lower value-per-effort. |
-| [Research Findings To Changes](15-research-findings-to-changes.md) | Apply external research findings: verified adoptions, hedged adoptions, dropped misattributions, strategic positioning. |
-| [Playable Validation Positioning](16-playable-validation-positioning.md) | Position Game Studio as an AI-assisted game production framework for playable validation. |
-| [Player Operations And Public Proof](18-player-operations-public-proof.md) | Add public exposure, feedback, support, accessibility, localization, and release-promise planning. |
-| [Anti-Slop Quality And Provenance](19-anti-slop-quality-provenance.md) | Define quality, provenance, false precision, and generated-material proof rules. |
-| [Implementation Map From Rounds 4-5](20-implementation-map-round4-5.md) | Sequence the new research into small repo implementation waves. |
+| [Research Findings To Changes](15-research-findings-to-changes.md) | Apply research findings, positioning, player operations, quality rules, and implementation waves. |
 | [Roadmap](08-roadmap.md) | Sequence the work into reviewable implementation waves. |
 
 ## Non-Goals

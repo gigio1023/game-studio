@@ -11,15 +11,15 @@ This index points to the main Game Studio documentation pages.
 | [Philosophy](philosophy.md) | Read the principles behind playable validation in AI game production. |
 | [Operating Model](operating-model.md) | See the direction, production, and execution layers. |
 | [Entry Model](entry-model.md) | Choose direction carry-in, taste-to-game, or brownfield unknown. |
-| [Beginner Taste-To-Game](beginner-taste-to-game.md) | Turn creator taste into comparable concepts and a first playable prototype. |
+| [Beginner Taste-To-Game](entry-model.md#taste-to-game-workflow) | Turn creator taste into comparable concepts and a first playable prototype. |
 
 ## Production And Review
 
 | Page | Use |
 | --- | --- |
-| [Director Layer](director-layer.md) | Review game identity before implementation outruns direction. |
-| [Production Layer](production-layer.md) | Plan milestones as playable validation budgets. |
-| [Execution Layer](execution-layer.md) | Bound agent implementation work and handoffs. |
+| [Director Layer](operating-model.md#director-layer-detail) | Review game identity before implementation outruns direction. |
+| [Production Layer](operating-model.md#production-layer-detail) | Plan milestones as playable validation budgets. |
+| [Execution Layer](operating-model.md#execution-layer-detail) | Bound agent implementation work and handoffs. |
 | [Role-Led Game Review](role-led-game-review.md) | Separate game-quality judgment from repository checks. |
 | [Validation Gates](validation-gates.md) | Read internal artifact and gate guidance. |
 | [Eval Fixtures](../evals/README.md) | Check whether agents apply the method instead of repeating rubrics. |

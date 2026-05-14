@@ -1,6 +1,6 @@
 # Production Failure Protocols
 
-The current operating model in [Production Layer](../../production-layer.md)
+The current operating model in [Production Layer](../../operating-model.md#production-layer-detail)
 describes clean stage progression. Real production includes harder moments
 that the framework does not yet name. Add three rituals plus a deadline mode.
 

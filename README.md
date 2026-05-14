@@ -39,7 +39,7 @@ review, and reaching a milestone decision with a clear next build or retest.
 | Brownfield unknown | A repo or notes exist but authority is unclear | Adoption audit and stop condition |
 
 See [docs/entry-model.md](docs/entry-model.md) and
-[docs/beginner-taste-to-game.md](docs/beginner-taste-to-game.md).
+[docs/entry-model.md#taste-to-game-workflow](docs/entry-model.md#taste-to-game-workflow).
 
 ## What You Get
 
@@ -108,7 +108,7 @@ slice" unless the core loop is already proven.
 | --- | --- |
 | Understand the product boundary | [docs/product-boundary.md](docs/product-boundary.md) |
 | Use the right terms | [docs/terminology.md](docs/terminology.md) |
-| Start from taste | [docs/beginner-taste-to-game.md](docs/beginner-taste-to-game.md) |
+| Start from taste | [docs/entry-model.md#taste-to-game-workflow](docs/entry-model.md#taste-to-game-workflow) |
 | Run the production loop | [docs/operating-model.md](docs/operating-model.md) |
 | Review a playable prototype | [docs/role-led-game-review.md](docs/role-led-game-review.md) |
 | Contribute | [CONTRIBUTING.md](CONTRIBUTING.md) |

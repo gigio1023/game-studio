@@ -109,7 +109,7 @@ teach the designer to see?"
 ### Repo Sources Inspected
 
 - `core/references/game-craft-reference-index.md`
-- `docs/beginner-taste-to-game.md`
+- `docs/entry-model.md#taste-to-game-workflow`
 - `core/templates/intake/beginner-taste-interview.md`
 - `research/foundations/game-design-foundations.md`
 - `research/foundations/qa-playtesting-and-accessibility.md`
@@ -511,7 +511,7 @@ Artifact: `beginner-design-portfolio.md`
 ### What The Repo Already Has
 
 - A strong craft reference index in `core/references/game-craft-reference-index.md`.
-- A beginner entry route in `docs/beginner-taste-to-game.md`.
+- A beginner entry route in `docs/entry-model.md#taste-to-game-workflow`.
 - Taste intake fields in `core/templates/intake/beginner-taste-interview.md`.
 - Good recognition that playtest evidence matters in
   `research/foundations/qa-playtesting-and-accessibility.md`.
@@ -607,7 +607,7 @@ changes:
     Center course pages, Anthropy/Clark, Sicart, Lantz, Totten, and playtesting
     sources. Keep the existing design foundation section intact.
 
-11. Add a beginner critique protocol to `docs/beginner-taste-to-game.md`.
+11. Add a beginner critique protocol to `docs/entry-model.md#taste-to-game-workflow`.
     Suggested shape: preserve, clarify, compare, prototype, test, decide. The
     user owns selection; the agent owns making tradeoffs legible.
 

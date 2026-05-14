@@ -80,7 +80,7 @@ documents.
 
 Research findings applied to repo changes are written up in the value-review plan:
 [Research Findings To Changes](../../docs/improvement/value-review/15-research-findings-to-changes.md)
-and [Playable Validation Positioning](../../docs/improvement/value-review/16-playable-validation-positioning.md).
+and [Playable Validation Positioning](../../docs/improvement/value-review/15-research-findings-to-changes.md#playable-validation-positioning).
 
 ## Method Notes
 

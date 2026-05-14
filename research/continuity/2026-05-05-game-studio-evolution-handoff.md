@@ -54,7 +54,7 @@ records, schemas, and release claim checks.
 - `README.md`
 - `docs/product-boundary.md`
 - `docs/entry-model.md`
-- `docs/beginner-taste-to-game.md`
+- `docs/entry-model.md#taste-to-game-workflow`
 - `docs/operating-model.md`
 - `core/workflows/stage-model.md`
 - `core/workflows/workflow-catalog.yaml`

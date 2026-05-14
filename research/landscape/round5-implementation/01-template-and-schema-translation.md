@@ -734,7 +734,7 @@ accessibility, localization, and patch notes as distinct operating areas.
 Add `docs/beginner-craft-exercises.md`.
 
 Keep it as an index over the exercise templates. Do not reproduce the canon.
-Link to `docs/beginner-taste-to-game.md` and the new direction/evidence
+Link to `docs/entry-model.md#taste-to-game-workflow` and the new direction/evidence
 templates.
 
 Add `docs/ai-provenance-and-anti-slop.md`.
@@ -749,7 +749,7 @@ Keep it operational:
 - Play before explaining.
 - Subtraction evidence.
 
-Update `docs/beginner-taste-to-game.md`.
+Update `docs/entry-model.md#taste-to-game-workflow`.
 
 Add:
 
@@ -775,7 +775,7 @@ Add:
 - Telemetry bias and qualitative follow-up.
 - Artifact provenance.
 
-Update `docs/production-layer.md`.
+Update `docs/operating-model.md#production-layer-detail`.
 
 Add:
 
@@ -786,7 +786,7 @@ Add:
 - temporary cabal contract
 - sustainability blocker
 
-Update `docs/director-layer.md`.
+Update `docs/operating-model.md#director-layer-detail`.
 
 Add:
 
