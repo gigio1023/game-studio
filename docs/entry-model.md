@@ -178,6 +178,11 @@ Useful inputs are plain language:
 The creator does not need to provide genre, engine, monetization, systems, or a
 complete loop before discovery begins.
 
+When the creator needs a deeper conversation about philosophy, player role,
+whole-game frame, or first playable proof, use
+[Creator Interview Model](creator-interview-model.md) and the
+`game-creator-interview` skill before generating or revising the concept slate.
+
 ### Outputs
 
 Taste-to-game should produce:
