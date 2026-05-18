@@ -37,6 +37,9 @@ are clear enough for implementation.
 Added:
 
 - `docs/long-running-agent-control.md`
+- `skills/game-long-run-control/SKILL.md`
+- `skills/game-long-run-control/references/game-first-loop-control.md`
+- `core/templates/execution/long-run-loop-state.md`
 
 Adopted idea:
 
@@ -44,6 +47,10 @@ Long-running sessions should count material progress only when a playable game
 claim changes, a player-visible consequence changes, or a real play path is
 unblocked. Tests, reports, and helper tooling are support work, not the default
 definition of progress.
+
+This is now a first-class route, not a subtopic of creator interview. Creator
+interview resolves weak game definition. Long-run control governs execution
+after the game frame is buildable but the work may run for many slices.
 
 ### Routing Updates
 
@@ -73,6 +80,8 @@ current failure.
    improvement, run a play check, or report an external blocker.
 7. Separate setup proof, runtime proof, gameplay proof, and player proof.
 8. Commit and push coherent verified slices before switching work streams.
+9. Archive stale cross-project summaries and re-check original source files when
+   updating operating rules.
 
 ## Rejected Transfers
 
@@ -88,8 +97,5 @@ current failure.
 
 - Add a navigator skill only if routing confusion recurs after this split.
 - Add an eval fixture for test/document drift in long-running game work.
-- Add a compact target-project loop-state template if two installed projects
-  need the same fields.
 - Add an example creator-interview artifact once a real project completes one
   interview-to-playable-proof cycle.
-

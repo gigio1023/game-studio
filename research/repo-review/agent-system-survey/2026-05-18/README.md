@@ -6,6 +6,10 @@ their tools. The goal is to extract production patterns that make Game Studio
 better at creator interviews, long-running agent work, and game-first progress
 control.
 
+Root-level stale analysis notes in the local source bundle were archived before
+this survey was extended. Current conclusions should come from original project
+files and source-owned docs, not from older cross-project summaries.
+
 ## Source Repos
 
 | Repo | Use in this survey |

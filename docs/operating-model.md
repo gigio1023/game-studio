@@ -104,6 +104,10 @@ Use [Long-Running Agent Control](long-running-agent-control.md) when a session
 is likely to run for multiple slices or when work starts drifting into support
 artifacts instead of game implementation.
 
+For installed skill routing, use `game-long-run-control` before `game-execution`
+when the main risk is not "what task should be implemented?" but "how do we keep
+many autonomous slices pointed at playable progress?"
+
 ## Review Modes
 
 - `full`: Run all relevant directors and leads.

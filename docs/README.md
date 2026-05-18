@@ -14,6 +14,7 @@ This index points to the main Game Studio documentation pages.
 | [Beginner Taste-To-Game](entry-model.md#taste-to-game-workflow) | Turn creator taste into comparable concepts and a first playable prototype. |
 | [Creator Interview Model](creator-interview-model.md) | Interview a creator for philosophy, whole-game frame, non-goals, and first playable proof. |
 | [Long-Running Agent Control](long-running-agent-control.md) | Keep autonomous agent sessions focused on playable game progress. |
+| `game-long-run-control` skill | Route multi-slice autonomous work through product-progress checks, support-work limits, and resume labels. |
 
 ## Production And Review
 
