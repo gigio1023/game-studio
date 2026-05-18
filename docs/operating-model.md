@@ -92,6 +92,22 @@ Primary roles:
 - `agentic`: Make reasonable assumptions and record them for review.
 - `audit`: Read and review only.
 
+## Long-Running Agent Work
+
+Autonomous agent sessions must preserve the same production priorities as a
+small game team. The default loop is one playable improvement, one narrow proof,
+one state update, one commit, and one push. Tests, reports, and helper tooling
+are valid only when they protect a playable consequence, deterministic
+authority, provider boundary, release claim, or real play session path.
+
+Use [Long-Running Agent Control](long-running-agent-control.md) when a session
+is likely to run for multiple slices or when work starts drifting into support
+artifacts instead of game implementation.
+
+For installed skill routing, use `game-long-run-control` before `game-execution`
+when the main risk is not "what task should be implemented?" but "how do we keep
+many autonomous slices pointed at playable progress?"
+
 ## Review Modes
 
 - `full`: Run all relevant directors and leads.
