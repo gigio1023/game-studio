@@ -2,7 +2,7 @@
 
 ## Required Behavior
 
-- Use `core/references/operational/mda.md`.
+- Use `skills/game-review/references/mda.md`.
 - Identify the mechanic: rotating a room once.
 - Identify the claimed dynamic: cautious prediction, discovery, or observation
   before acting.

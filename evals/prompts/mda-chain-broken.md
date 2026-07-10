@@ -1,6 +1,6 @@
 # Eval Prompt: MDA Chain Broken
 
-You are reviewing a first playable contract for a solo puzzle game.
+You are reviewing a first playable plan for a solo puzzle game.
 
 Project snippet:
 

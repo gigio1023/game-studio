@@ -22,32 +22,34 @@ are valid, but they need different first artifacts.
 ### Playable validation over optimism
 
 Progress is not persuasive prose. Progress is a playable build, a captured
-moment, a passing validation gate, a playtest observation, or a signed decision
+moment, a passing review, a playtest observation, or a signed decision
 record.
 
 ### Play is the final test
 
-Repository health, schemas, and commands can prove that artifacts are present.
-They cannot prove that the game is readable, tense, expressive, accessible, or
-worth continuing. Role reviews must judge playable prototypes and playtest
+Repository checks and commands can prove that artifacts are present. They
+cannot prove that the game is readable, tense, expressive, accessible, or
+worth continuing. Reviews must judge playable prototypes and playtest
 observations.
 
 ### Milestones are validation budgets
 
-A milestone is not a folder of tasks. It is a product hypothesis with acceptance
-criteria, a validation budget, and a gate that can pass, block, defer, or cut.
+A milestone is not a folder of tasks. It is a product hypothesis with
+acceptance criteria, a validation budget, and a review that can pass, block,
+defer, or cut.
 
-### Agents propose and execute; gates decide
+### Agents propose and execute; reviews decide
 
-Agents can make assumptions in agentic mode. Decision records make those
-assumptions reviewable. Gates decide whether the work can advance.
+Agents can make assumptions while working. Recording those assumptions makes
+them reviewable. Review verdicts decide whether the work can advance; humans
+decide direction, stages, and public promises.
 
 ### Small teams need fewer meetings, not fewer standards
 
-Solo and small-team projects run lean gates, not no gates. Ceremony scales down.
-Direction and playable validation stay.
+Solo and small-team projects run lean reviews, not no reviews. Ceremony scales
+down. Direction and playable validation stay.
 
 ## Default Bias
 
-The framework defaults to making a smaller, more finished game rather than a
+Game Studio defaults to making a smaller, more finished game rather than a
 larger unfinished prototype.

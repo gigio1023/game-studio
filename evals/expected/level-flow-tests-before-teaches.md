@@ -2,7 +2,7 @@
 
 ## Required Behavior
 
-- Use `core/references/operational/level-flow.md`.
+- Use `skills/game-review/references/level-flow.md`.
 - Identify that the level tests the shadow rule before a low-pressure teaching
   beat.
 - Identify attention conflict: guard, gate, collectible, shadow patch, noise

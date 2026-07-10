@@ -48,17 +48,6 @@ execution produces a playable artifact that can be reviewed by the right roles.
 | Public demo | A public or semi-public build with clear promise boundaries. | Can outside players understand and judge the game? |
 | Release candidate | A build and public docs ready for final release review. | Can the team ship this honestly? |
 
-## Agent Operating Model Changes
-
-- **Require a stage before work starts**: The agent should identify the current stage and refuse to label work as vertical slice unless earlier proof exists.
-- **Record the hypothesis first**: Every plan should state what the next artifact must prove before listing implementation tasks.
-- **Separate discovery from production**: Discovery tasks can be rough and disposable. Production tasks need scope control, quality targets, verification, and rollback plans.
-- **Attach evidence to every milestone**: The agent should ask for build evidence, playtest notes, screenshots or video, verification output, and known missing scope.
-- **Activate roles by risk**: Direction changes need director review. Release material changes need release review. Systems, UX, art, audio, localization, accessibility, and QA activate when their area is touched.
-- **Track public promise drift**: Any change to screenshots, store text, trailer claims, demo copy, platform support, or release scope should trigger a promise check.
-- **Treat playtests as scheduled work**: The agent should plan who plays, what question is being tested, what data is captured, and what decision follows.
-- **Close the loop after release**: The agent should preserve source, assets, build notes, known issues, credits, support expectations, and post-release measurement.
-
 ## Role Responsibilities
 
 | Role | Primary responsibility | Approval authority |
@@ -87,27 +76,3 @@ execution produces a playable artifact that can be reviewed by the right roles.
 | Public Demo Candidate | Demo build, onboarding, bug triage, store or page copy, screenshots, trailer, feedback plan, and known limitations. | Outside players can receive an honest promise. |
 | Release Candidate | Approved store presence, reviewed build, credits, localization, accessibility claims, support plan, archive plan, and release checklist. | The team can release and support the game honestly. |
 | Post-release Learning | Metrics, player feedback, patch notes, support issues, archive status, and retrospective. | The team can decide whether to patch, expand, pause, or start the next project. |
-
-## Current Repo Gaps
-
-- **No production-direction foundation**: The repository lacked a research scope that maps its stage model to external production references for production, milestones, and release.
-- **Missing formal glossary**: Prototype, proof of concept, first playable, demo, vertical slice, alpha, beta, and release candidate need stable definitions.
-- **Pre-production exit is implicit**: The stage model jumps from early proof toward presentation and vertical slice without a named pre-production exit gate.
-- **Milestone contracts are thin**: Current templates do not require due date, deliverable-level acceptance, dependency inputs, QA walkthroughs, expected media, or quality criteria.
-- **Release gates are too narrow**: The release gate does not yet encode store review, build review, demo eligibility, coming-soon timing, platform permissions, support, or archive requirements.
-- **Marketing and community ownership is absent**: Role files have release management but no explicit owner for press kit, audience messaging, wishlist strategy, community checks, or demo feedback.
-- **Credits are not modeled**: Release planning should include credit policy, contributor records, review timing, and in-game credit access.
-- **Playtest cadence is not connected to stages**: Playtest requirements exist conceptually, but stage gates should require playtest questions, target players, results, and decision records.
-- **Schemas allow weak milestones**: The milestone schema does not enforce hypothesis, non-goals, owner roles, review roles, acceptance criteria, verification, dates, or exit decision.
-- **Post-release is under-specified**: The framework names post-release learning but lacks concrete archive, support, patch, telemetry, community, and retrospective artifacts.
-
-## Recommended Next Changes
-
-1. Add a production glossary under `core/reference/` or `docs/`.
-2. Add a `GS-PREPRODUCTION-EXIT` gate.
-3. Expand the milestone schema and template with quality criteria, due date, deliverables, QA walkthrough, dependencies, review roles, and exit decision.
-4. Add release-manager references for Steam, itch.io, demo, credits, support, and archive checks.
-5. Add a community or marketing role profile for public demo and release-stage work.
-6. Make playtest evidence a required field for core loop, vertical slice, and demo gates.
-7. Add a credits template based on IGDA timing and attribution guidance.
-8. Add post-release templates for archive checklist, support plan, patch ledger, and retrospective.

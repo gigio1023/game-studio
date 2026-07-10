@@ -16,6 +16,6 @@ Name the checks, review methods, examples, or source material used.
 
 ## Review Notes
 
-- Roles or rubrics used:
+- Eval fixtures run (no-skill vs current vs candidate, per harness):
 - Source material added or changed:
 - Out of scope:
