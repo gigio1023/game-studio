@@ -10,11 +10,11 @@ Link the source.
 
 ## Why It Matters
 
-Explain what this source teaches that the framework does not yet capture.
+Explain what this source teaches that the skills do not yet capture.
 
 ## Where It Should Apply
 
-Name the docs, roles, rubrics, templates, skills, or profiles it should affect.
+Name the skill or reference file it should affect.
 
 ## Notes
 

@@ -52,10 +52,6 @@ The point where the game identity is stable enough for production decisions.
 The design can still change, but the team should not silently change what game
 is being made.
 
-### Protocol Proof
-
-The smallest proof that the central rule or interaction can work.
-
 ### Core Loop Prototype
 
 A prototype where the player can repeat the main loop with feedback, failure,
@@ -66,10 +62,10 @@ and a reason to continue.
 A short section at intended shipped quality. It should not be used as a label
 for an early prototype.
 
-### Gate Verdict
+### Verdict
 
-A decision that says whether the project is `READY`, has `CONCERNS`, or is
-`NOT_READY` for the requested move.
+A review decision: `READY`, `CONCERNS`, `NOT_READY`, or `USER_DECISION_NEEDED`
+when the next step belongs to the human.
 
 ## Terms To Avoid Misusing
 

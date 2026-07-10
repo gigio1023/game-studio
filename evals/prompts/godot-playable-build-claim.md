@@ -10,6 +10,6 @@ Context:
 
 - No gameplay capture is present.
 - No import, script, or scene-load check is recorded.
-- The milestone contract says the proof target is "player dashes through a
+- The milestone plan says the proof target is "player dashes through a
   hazard, takes damage on mistime, recovers within five seconds, and can retry."
 - The handoff does not list input actions or collision layers.

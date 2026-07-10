@@ -2,7 +2,7 @@
 
 ## Required Behavior
 
-- Use `core/references/operational/game-feel.md`.
+- Use `skills/game-review/references/game-feel.md`.
 - Name the primary verb response chain: input, movement, confirmation,
   consequence, failure, recovery.
 - Treat particles, screen shake, and loud audio as polish, not proof by

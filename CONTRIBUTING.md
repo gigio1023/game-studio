@@ -2,51 +2,40 @@
 
 Thanks for improving Game Studio.
 
-This project is documentation, templates, role playbooks, and agent skills for
-AI-assisted game development. Contributions should make agents produce better
-game-development judgment, not only more process.
+This repository is a set of portable agent skills for AI-assisted game
+development. Contributions should make agents produce better game-development
+judgment, not more process.
 
 ## Good Contributions
 
-- Clearer role playbooks.
-- Better rubrics for game direction, production, QA, accessibility, narrative, or craft.
-- Small templates that create durable project artifacts.
-- Source-backed research summaries.
-- Examples that show how a team would use the framework.
-- Fixes for broken links, unclear wording, or outdated guidance.
+- A gotcha added to a skill from an observed agent failure.
+- Sharper trigger descriptions, backed by the trigger fixtures.
+- Better craft references, linked to primary sources.
+- New eval fixtures that expose a real failure mode.
+- Fixes for broken paths, unclear wording, or outdated guidance.
 
 ## Before You Open A Pull Request
 
-1. Read `docs/role-led-game-review.md`.
-2. Read `docs/documentation-style.md`.
-3. Keep each page focused on one job.
-4. Keep `SKILL.md` files short and move detail into `references/`.
-5. Avoid private project names, personal paths, unreleased game details, and unrelated branding.
-6. Run the repository health check:
+1. Keep each `SKILL.md` short; put detail in that skill's `references/`.
+   References stay one level deep and must live inside the skill folder so the
+   skill stays self-contained when installed alone.
+2. Keep frontmatter to `name` and `description` — the portable Agent Skills
+   format.
+3. Do not add process the target models already handle: no step-by-step
+   transcripts of obvious work, no emphasis spam, no hidden-reasoning requests.
+4. Avoid private project names, personal paths, and unrelated branding.
+5. Run the repository check:
 
 ```bash
 node tools/check-repository.mjs
 ```
 
-## Writing Rules
-
-- Write in natural English.
-- Prefer short pages over large documents.
-- Link to source material when adding research-based rules.
-- Explain how a rule changes agent behavior.
-- Do not add a script when a role playbook or rubric is the right place.
+6. For behavioral changes, run the eval protocol in `evals/README.md`
+   (no-skill vs current vs candidate, per target harness) and report the
+   result in the pull request.
 
 ## Pull Request Shape
 
-A good pull request explains:
-
-- What problem it solves.
-- Which users or agent workflows it helps.
-- Which files should be read first.
-- What proof, checks, or source material supports the change.
-- What remains intentionally out of scope.
-
-## Review Standard
-
-Maintainers review for clarity, public usefulness, source quality, and whether
-the change helps agents make better game-development decisions.
+Explain what problem the change solves, which agent behavior it improves,
+what evidence supports it (fixture runs, traces, sources), and what stays out
+of scope.

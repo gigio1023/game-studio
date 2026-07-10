@@ -8,7 +8,7 @@ The user says:
 Context:
 
 - No current Godot project has been inspected.
-- No milestone contract exists.
+- No milestone plan exists.
 - No Godot version, renderer, target platform, or control scheme is pinned.
 - No license or asset attribution decision has been recorded.
 - No runtime check or capture exists.

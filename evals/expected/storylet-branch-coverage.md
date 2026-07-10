@@ -2,7 +2,7 @@
 
 ## Required Behavior
 
-- Use `core/references/operational/storylets.md`.
+- Use `skills/game-review/references/storylets.md`.
 - Reject dialogue volume as proof of narrative readiness.
 - Ask for storylet preconditions, player action, effects, future consequence,
   repeat/skip behavior, and coverage rule.
