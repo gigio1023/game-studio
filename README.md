@@ -15,7 +15,7 @@ Claude Code, Codex, Cursor, and any harness that reads `SKILL.md`.
   <a href="docs/assets/readme-playable-validation.drawio.svg">
     <img
       src="docs/assets/readme-playable-validation.drawio.png"
-      alt="Game Studio routes creator interview, existing direction, or brownfield audit into playable proofs, play checks, review lenses, verdicts, human decisions, and long-run control."
+      alt="Game Studio routes creator taste, an existing direction, or an existing game repo through game-direction, game-production, and game-review to playable evidence and human-owned decisions."
       width="100%"
     />
   </a>
