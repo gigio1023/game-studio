@@ -15,7 +15,7 @@ Tag every important field with one source class.
 | User fact | The creator directly said it. | Treat as stable until corrected. |
 | Repo fact | The current project already proves or records it. | Cite the file or playable artifact. |
 | Safe assumption | The agent chose a small, reversible default. | Record it and make it easy to revise. |
-| Blocker | The field needs taste, authority, budget, a public promise, or secrets. | Stop and ask the creator. |
+| Blocker | The field needs taste, authority, budget, a public promise, or credentials. | Ask for the decision, or ask the creator to configure credentials through a secure path supported by their environment. Never request a secret value in chat or store it in a direction artifact. |
 
 Do not call the interview closed while a blocker remains, and do not treat a
 safe assumption as user taste.

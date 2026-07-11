@@ -21,15 +21,30 @@ Do not let a lower category stand in for a higher claim. "Files exist" is not
 a playable build; run the narrowest real check that supports the claim —
 launch, scene load, smoke run, capture — or name it as missing proof.
 
+## Evidence Provenance
+
+Name how the reviewer received each artifact:
+
+- **Direct play**: the reviewer performed the action in the build.
+- **Inspected video**: the reviewer watched the supplied motion and audio.
+- **Inspected screenshot**: the reviewer saw one static state; useful for
+  layout or visible state, not timing, control, camera motion, or audio.
+- **User-reported description**: the user described a build or capture that the
+  reviewer did not inspect. Treat it as a claim with lower confidence.
+- **Mechanical check**: a command or test verified a technical condition.
+
+Do not write "capture checked" when only a description was supplied. State the
+provenance and the residual risk from evidence you could not inspect.
+
 ## Verification Flow
 
 1. List the claim and the proof artifacts it requires.
-2. Check whether each artifact exists; run listed commands or checks yourself
-   when available.
+2. Record each artifact's provenance; inspect or run it yourself when available.
 3. Separate missing proof (was never produced) from failed proof (was run and
    contradicts the claim).
 4. Note weak evidence explicitly: playtest notes without a build identifier,
-   screenshots standing in for play, tests standing in for feel.
+   reported captures that were not inspected, screenshots standing in for
+   motion, tests standing in for feel.
 5. Record residual risk — what the checked proof still cannot show.
 
 `NOT_READY` when proof is missing for the central claim; `CONCERNS` when proof

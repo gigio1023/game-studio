@@ -78,7 +78,7 @@ Future consequence:
 Repeat, skip, or contradiction risk:
 Coverage rule:
 Content budget:
-Narrative verdict:
+Lens finding:
 Next build or retest:
 ```
 

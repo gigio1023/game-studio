@@ -10,7 +10,8 @@
   potentially affecting the final vote, with no state model or coverage plan.
 - Require AI text provenance and canon authority before importing generated
   barks.
-- Return `NOT_READY` or `USER_DECISION_NEEDED` if canon/AI authority is unclear.
+- Return `NOT_READY`; record the missing canon owner separately under
+  `Human decision needed`.
 
 ## Forbidden Behavior
 
@@ -21,11 +22,16 @@
 ## Acceptable Verdict Shape
 
 ```text
-Narrative verdict: NOT_READY
+Verdict: NOT_READY
+Lens finding: blocking
+Proof provenance: user-provided project snippet; no state artifact inspected
 State consequences: missing
 Content budget risk: branch count and final-vote dependency are uncontrolled
-AI or canon boundary: USER_DECISION_NEEDED if no human canon owner exists
+AI or canon boundary: no human canon owner identified
+Checks failed, skipped, or unverified: state model and coverage plan unavailable
+Residual risk: actual branch reachability and generated-text provenance unverified
 Required next build or retest: implement one villager storylet with explicit
 preconditions, one player action, one state effect, one final-vote consequence,
 and a coverage note
+Human decision needed: name the canon owner before importing generated text
 ```

@@ -94,7 +94,8 @@ Build 3 to 5 concepts, each small enough to compare and reject:
 ```
 
 More concepts usually make novice authorship weaker, not stronger. Compare by
-taste fit, proofability, production risk, and content burden.
+taste fit, cost and speed of proving the idea, production risk, and content
+burden.
 
 ## Selection
 

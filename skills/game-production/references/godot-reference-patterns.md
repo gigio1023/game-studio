@@ -11,6 +11,7 @@ it to the user's current project.
 
 - Reference Repos
 - Pinned Review URLs
+- Version Compatibility
 - Reference Selector
 - Pattern Cards
 - Adoption Note Shape
@@ -32,24 +33,37 @@ it to the user's current project.
 These are the exact commits reviewed while writing this guide:
 
 - Godot Engine: https://github.com/godotengine/godot/tree/9a33066a27d70c6d4f74cae44c1ce023d8082a59
-- Godot Demo Projects: https://github.com/godotengine/godot-demo-projects/tree/c9f5852130ffab4b9d57488c18cd310708c6acf0
+- Godot Demo Projects: https://github.com/godotengine/godot-demo-projects/tree/2a6010eacaac1d18febce3f1d71261b48bbe8170
 - Kenney 3D Platformer: https://github.com/KenneyNL/Starter-Kit-3D-Platformer/tree/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0
 - Kenney FPS: https://github.com/KenneyNL/Starter-Kit-FPS/tree/185fd2326d74a5cf858cffc616f87cf9696f9cc0
 - Kenney City Builder: https://github.com/KenneyNL/Starter-Kit-City-Builder/tree/4535092b740b378b700efd9df9e27a631815b84a
+
+## Version Compatibility
+
+The reviewed demo-projects pin declares Godot 4.7. The three reviewed Kenney
+kits declare Godot 4.6. Prefer the current project's version and established
+patterns; do not upgrade a project merely to match a reference. Treat an engine
+upgrade as a separate user decision with its own compatibility and runtime
+checks.
+
+Godot 4.7 adds a built-in `VirtualJoystick` node. Before upgrading a project or
+addon that defines the same global class name, resolve that collision explicitly.
+This warning is conditional; none of the three pinned Kenney kits defines that
+class.
 
 ## Reference Selector
 
 | User goal | Inspect first | Required adaptation note |
 | --- | --- | --- |
-| 2D arcade loop | [`2d/dodge_the_creeps`](https://github.com/godotengine/godot-demo-projects/tree/master/2d/dodge_the_creeps) or [`2d/pong`](https://github.com/godotengine/godot-demo-projects/tree/master/2d/pong) | Name the main loop, fail state, and score or retry condition. |
-| 2D character controller | [`2d/kinematic_character`](https://github.com/godotengine/godot-demo-projects/tree/master/2d/kinematic_character) | Check input actions, collision layers, and reset/recovery. |
-| 3D movement | [`3d/kinematic_character`](https://github.com/godotengine/godot-demo-projects/tree/master/3d/kinematic_character) and [Kenney 3D Platformer](https://github.com/KenneyNL/Starter-Kit-3D-Platformer) | Validate camera-relative movement and landing feedback together. |
-| FPS | [Kenney FPS](https://github.com/KenneyNL/Starter-Kit-FPS) | Keep weapon tuning data visible through resources. |
-| Builder or tile placement | [Kenney City Builder](https://github.com/KenneyNL/Starter-Kit-City-Builder) | Validate preview, place, rotate, remove, save, and load. |
-| Input remapping | [`gui/input_mapping`](https://github.com/godotengine/godot-demo-projects/tree/master/gui/input_mapping) | Record saved input path and actions affected. |
-| Runtime file handling | [`loading/runtime_save_load`](https://github.com/godotengine/godot-demo-projects/tree/master/loading/runtime_save_load) | Record allowed file types, error behavior, and export limits. |
-| Accessibility | [`gui/accessibility`](https://github.com/godotengine/godot-demo-projects/tree/master/gui/accessibility) | Check focus order, labels, custom controls, and keyboard access. |
-| Localization | [`gui/translation`](https://github.com/godotengine/godot-demo-projects/tree/master/gui/translation) and [`gui/pseudolocalization`](https://github.com/godotengine/godot-demo-projects/tree/master/gui/pseudolocalization) | Check translation resources, remaps, text expansion, and fonts. |
+| 2D arcade loop | [`2d/dodge_the_creeps`](https://github.com/godotengine/godot-demo-projects/tree/2a6010eacaac1d18febce3f1d71261b48bbe8170/2d/dodge_the_creeps) or [`2d/pong`](https://github.com/godotengine/godot-demo-projects/tree/2a6010eacaac1d18febce3f1d71261b48bbe8170/2d/pong) | Name the main loop, fail state, and score or retry condition. |
+| 2D character controller | [`2d/kinematic_character`](https://github.com/godotengine/godot-demo-projects/tree/2a6010eacaac1d18febce3f1d71261b48bbe8170/2d/kinematic_character) | Check input actions, collision layers, and reset/recovery. |
+| 3D movement | [`3d/kinematic_character`](https://github.com/godotengine/godot-demo-projects/tree/2a6010eacaac1d18febce3f1d71261b48bbe8170/3d/kinematic_character) and [Kenney 3D Platformer](https://github.com/KenneyNL/Starter-Kit-3D-Platformer/tree/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0) | Validate camera-relative movement and landing feedback together. |
+| FPS | [Kenney FPS](https://github.com/KenneyNL/Starter-Kit-FPS/tree/185fd2326d74a5cf858cffc616f87cf9696f9cc0) | Keep weapon tuning data visible through resources. |
+| Builder or tile placement | [Kenney City Builder](https://github.com/KenneyNL/Starter-Kit-City-Builder/tree/4535092b740b378b700efd9df9e27a631815b84a) | Validate preview, place, rotate, remove, save, and load. |
+| Input remapping | [`gui/input_mapping`](https://github.com/godotengine/godot-demo-projects/tree/2a6010eacaac1d18febce3f1d71261b48bbe8170/gui/input_mapping) | Record saved input path and actions affected. |
+| Runtime file handling | [`loading/runtime_save_load`](https://github.com/godotengine/godot-demo-projects/tree/2a6010eacaac1d18febce3f1d71261b48bbe8170/loading/runtime_save_load) | Record allowed file types, error behavior, and export limits. |
+| Accessibility | [`gui/accessibility`](https://github.com/godotengine/godot-demo-projects/tree/2a6010eacaac1d18febce3f1d71261b48bbe8170/gui/accessibility) | Check focus order, labels, custom controls, and keyboard access. |
+| Localization | [`gui/translation`](https://github.com/godotengine/godot-demo-projects/tree/2a6010eacaac1d18febce3f1d71261b48bbe8170/gui/translation) and [`gui/pseudolocalization`](https://github.com/godotengine/godot-demo-projects/tree/2a6010eacaac1d18febce3f1d71261b48bbe8170/gui/pseudolocalization) | Check translation resources, remaps, text expansion, and fonts. |
 
 ## Pattern Cards
 
@@ -73,8 +87,11 @@ Do not mark a Godot milestone done from file presence alone.
 The minimum chain is:
 
 ```text
-input -> movement or action -> feedback -> failure or recovery -> next choice
+input -> movement or action -> feedback -> visible consequence -> next choice
 ```
+
+When failure is part of the active proof, extend the chain through readable
+failure and recovery. Do not add failure scope merely to satisfy a template.
 
 Examples:
 
@@ -187,7 +204,7 @@ Exit: ADOPT_PATTERN | NEEDS_ADAPTATION | REJECT_REFERENCE | USER_DECISION_NEEDED
 
 ## Stop Conditions
 
-Return `NOT_READY` when:
+Report the proof as `failed` or `blocked`, without claiming completion, when:
 
 - no main scene is identified
 - input actions are missing
@@ -197,7 +214,7 @@ Return `NOT_READY` when:
 - an FPS feature has no hit/miss/cooldown/recovery smoke check
 - a builder feature has no preview/place/rotate/remove check
 
-Return `USER_DECISION_NEEDED` when adapting the reference would change:
+Report `USER_DECISION_NEEDED` when adapting the reference would change:
 
 - engine version
 - renderer
@@ -211,6 +228,6 @@ Return `USER_DECISION_NEEDED` when adapting the reference would change:
 - Starter kits are learning material, not production architecture.
 - Official demos answer feature questions, not product direction.
 - Some starter scripts are intentionally direct and may need splitting after the
-  first playable.
+  first playable proof.
 - Do not copy editor-only paths or temporary scene files.
 - Preserve license notices when using any external code or assets.

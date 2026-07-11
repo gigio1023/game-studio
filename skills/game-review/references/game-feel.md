@@ -3,6 +3,14 @@
 Use this guide when a claim depends on input, timing, camera, animation,
 physics, UI feedback, sound, or recovery after mistakes.
 
+## Contents
+
+- Source Claim
+- Operating Moves
+- Decision Template
+- Failure Modes This Guide Catches
+- Anti-Pattern
+
 ## Source Claim
 
 Game feel is the real-time relationship between player input and the game's
@@ -80,10 +88,13 @@ Confirmation:
 Gameplay consequence:
 Failure and recovery:
 Capture checked:
-Feel verdict: ready | readable but weak | blocked
+Lens finding: supported | weak | blocking
 Required change:
 Next build or retest:
 ```
+
+The core skill owns the single canonical `Verdict`. This lens reports a finding,
+not a second verdict.
 
 ## Failure Modes This Guide Catches
 

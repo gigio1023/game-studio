@@ -7,19 +7,13 @@ This is not a general Godot tutorial. It is the minimum operating guide for
 agents that must help a creator get from design intent to a checked playable
 build.
 
-For concrete implementation examples, also read
-`godot-reference-patterns.md` in this directory.
-
-When a milestone borrows from an external Godot demo or starter kit, record an
-adoption note using the shape in `godot-reference-patterns.md`.
-
 ## Contents
 
 - Start By Classifying The Godot Work
 - Godot Project Checks
 - Reference Pattern Selection
 - Scene And Script Defaults
-- First Playable Definition
+- First Playable Proof
 - Genre-Specific Smoke Checks
 - Runtime Check Ladder
 - Godot Handoff Additions
@@ -31,9 +25,9 @@ adoption note using the shape in `godot-reference-patterns.md`.
 
 | Work type | Main question | Minimum output |
 | --- | --- | --- |
-| First playable | Does one player action produce the intended response, failure, and next choice? | Runnable scene, short capture or walkthrough note, report. |
+| First playable proof | Does one player action produce the intended visible consequence? If failure is part of the proof, is recovery legible? | Runnable scene, motion capture or walkthrough note, report. |
 | Mechanic prototype | Does this one mechanic carry the target feeling or decision? | Isolated prototype scene and tuning notes. |
-| Vertical slice | Can one full loop be built at representative quality and pace? | 3-5 minute loop, velocity log, playtest note. |
+| Vertical slice | Can one full loop be built at representative quality and pace? | 3-5 minute loop, representative-quality criteria, playtest note. |
 | Brownfield adoption | What systems already exist, and what is missing for Game Studio to use them? | Systems index, adoption audit, next build or retest. |
 
 Do not call a Godot prototype a vertical slice unless it shows one complete loop
@@ -57,23 +51,12 @@ decisions for the user.
 
 ## Reference Pattern Selection
 
-Before implementing from scratch, choose the smallest reference pattern that
-matches the milestone:
-
-| Work | Good reference |
-| --- | --- |
-| 2D arcade loop | [`godotengine/godot-demo-projects/2d/dodge_the_creeps`](https://github.com/godotengine/godot-demo-projects/tree/master/2d/dodge_the_creeps) or [`2d/pong`](https://github.com/godotengine/godot-demo-projects/tree/master/2d/pong) |
-| 3D character movement | [`godotengine/godot-demo-projects/3d/kinematic_character`](https://github.com/godotengine/godot-demo-projects/tree/master/3d/kinematic_character) and [`KenneyNL/Starter-Kit-3D-Platformer`](https://github.com/KenneyNL/Starter-Kit-3D-Platformer) |
-| FPS or ranged action | [`KenneyNL/Starter-Kit-FPS`](https://github.com/KenneyNL/Starter-Kit-FPS) |
-| Builder, grid, placement, persistence | [`KenneyNL/Starter-Kit-City-Builder`](https://github.com/KenneyNL/Starter-Kit-City-Builder) |
-| Input remapping | [`godotengine/godot-demo-projects/gui/input_mapping`](https://github.com/godotengine/godot-demo-projects/tree/master/gui/input_mapping) |
-| Runtime file handling | [`godotengine/godot-demo-projects/loading/runtime_save_load`](https://github.com/godotengine/godot-demo-projects/tree/master/loading/runtime_save_load) |
-| Accessibility | [`godotengine/godot-demo-projects/gui/accessibility`](https://github.com/godotengine/godot-demo-projects/tree/master/gui/accessibility) |
-| Localization | [`godotengine/godot-demo-projects/gui/translation`](https://github.com/godotengine/godot-demo-projects/tree/master/gui/translation) and [`gui/pseudolocalization`](https://github.com/godotengine/godot-demo-projects/tree/master/gui/pseudolocalization) |
-
-Record what was borrowed as a pattern and what was not copied. Do not vendor
-external repos into the project unless the user explicitly asks for a third-party
-starter kit and accepts the license and maintenance cost.
+Prefer the current project's established pattern. When an external demo or
+starter kit is needed, use the separately routed reference catalog to choose
+the smallest matching pattern. Record its source and version, the pattern
+borrowed, what was not copied, license handling, and the runtime check. Do not
+vendor an external repo unless the user explicitly accepts the third-party
+code, license, and maintenance cost.
 
 ## Scene And Script Defaults
 
@@ -96,13 +79,13 @@ Avoid:
 - connecting signals every frame
 - hardcoded gameplay values when tuning is expected
 
-## First Playable Definition
+## First Playable Proof
 
-A Godot first playable must define:
+A Godot first playable proof must define:
 
 - player action under test
 - expected visual, audio, UI, and gameplay response
-- failure state or recovery path
+- success state, plus failure and recovery when the active proof includes them
 - minimum scene list
 - input method
 - tuning values that matter to feel
@@ -132,10 +115,12 @@ Use the narrowest check that can support the claim.
 2. **Script check**: changed scripts parse under the pinned Godot version.
 3. **Scene load check**: the target scene loads without missing resources.
 4. **Smoke run**: the player can perform the target action once.
-5. **Capture**: screenshot or short video shows the target action and response.
-6. **Playtest note**: someone plays the loop and records confusion, failure, and
+5. **Static capture**: a screenshot supports layout or visible state, not
+   motion, timing, control feel, or audio.
+6. **Motion capture**: a short video shows the target action and response.
+7. **Playtest note**: someone plays the loop and records confusion, failure, and
    next-choice observations.
-7. **Export check**: demo or release candidate exports for the target platform.
+8. **Export check**: demo or release candidate exports for the target platform.
 
 Do not skip from script check to release claim.
 
@@ -218,7 +203,7 @@ index or decision record that lets later skills work.
 
 ## Stop Conditions
 
-Return `NOT_READY` when:
+Report the proof as `failed` or `blocked`, without claiming completion, when:
 
 - no Godot version is known
 - the main scene cannot be identified
@@ -226,7 +211,7 @@ Return `NOT_READY` when:
 - the runtime check has not been run
 - the claim depends on a capture or playtest note that does not exist
 
-Return `USER_DECISION_NEEDED` when:
+Report `USER_DECISION_NEEDED` when:
 
 - engine version or renderer choice must change
 - a direction, genre, or scope decision is required

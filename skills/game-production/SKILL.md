@@ -3,11 +3,11 @@ name: game-production
 description: >
   Use when planning game milestones, prototypes, vertical slices, demo or
   release scope; when implementing an approved piece of game work; when running
-  long or autonomous game-development sessions; or when doing Godot build work.
-  Trigger on "milestone", "production plan", "roadmap", "implement this",
-  "vertical slice", "keep working on the game", and "long run". NOT for
-  discovering or defining direction (use game-direction) and NOT for judging
-  finished work or readiness claims (use game-review).
+  long or autonomous game-development sessions; or when taking Godot work from
+  an approved milestone to a checked playable build. NOT for discovering or
+  defining direction (use game-direction), judging finished work or readiness
+  claims (use game-review), or engine-only debugging, upgrades, and maintenance
+  detached from a playable production proof.
 ---
 
 # Game Production
@@ -17,20 +17,31 @@ milestone is a product hypothesis with a playable proof, not a task list: plan
 the smallest build that retires the biggest uncertainty, implement it without
 drifting from the brief, and verify it in play before claiming it.
 
-If direction is missing, weak, or disputed, route through the game-direction
-skill (or say the direction assumption you are making and why it is safe)
-before planning milestones.
+If direction is missing, weak, or disputed, route through game-direction when
+available or return `USER_DECISION_NEEDED` with the smallest decision required.
+Do not use a production assumption to choose the concept, player promise,
+stage, or public scope. Safe assumptions are limited to reversible production
+details inside already accepted intent.
 
-## Stage Ladder
+## Route By Request
+
+| Mode | Authority | Done state |
+| --- | --- | --- |
+| `plan` | Inspect the project and return the milestone, roadmap, or work packages. Do not implement unless the request also asks for changes. | The plan names its proof, cuts, fallback, and next decision. |
+| `implement` | Make requested reversible local changes inside the accepted brief and milestone, then run relevant non-destructive checks. | The active proof is checked or a real blocker is named. |
+| `long-run` | Use the implementation authority plus the checkpoint contract in `references/long-run-control.md`. | The proof or fallback is checked, or work stops on an evidence-backed blocker. |
+
+## Game Studio Proof Ladder
 
 Projects earn stages through played proof, in roughly this order: first
-prototype (answers one named question) → first playable (one action, one
+prototype (answers one named question) → first playable proof (one action, one
 visible consequence) → core loop (repeatable with readable success, failure,
-and recovery) → presentation value (the chosen format earns its cost) →
+and recovery) → presentation proof (the chosen format earns its cost) →
 vertical slice (short section at representative shipped quality) → demo →
 release. Skipping is fine only when the skipped proof already exists. Never
 call a prototype a vertical slice, and never let a stage advance on prose
-alone.
+alone. This proof ladder complements rather than replaces lifecycle labels such
+as alpha, beta, and release candidate.
 
 ## Planning
 
@@ -57,9 +68,10 @@ output shape. The non-negotiables:
 ## Long Runs
 
 For long autonomous sessions, read `references/long-run-control.md`.
-The core guard: activity is not progress. Classify each step as playable,
-proof, support, or blocked; after two support-only steps, the next step must
-be playable work, a real play check, or a blocker report.
+The core guard: activity is not progress. Classify material checkpoints as
+playable, proof, support, or blocked. Two consecutive support-only checkpoints
+trigger a re-anchor before more support work; prefer the next playable change,
+real play check, or blocker report.
 
 ## Grounded Claims
 
@@ -70,11 +82,36 @@ File changes and passing scripts are not playable proof by themselves.
 
 ## Authority
 
-Within an accepted brief and milestone, implement, refactor, cut placeholder
-scope, and run non-destructive checks freely, recording assumptions with their
-reversal cost. The human owns direction changes, stage advancement, public
-promises, and release scope: when the next step would change any of those, stop and
-return `USER_DECISION_NEEDED` with the exact decision required.
+Within an accepted brief and milestone, an implementation request authorizes
+reversible local edits, refactors, placeholder cuts, and non-destructive checks;
+record assumptions with their reversal cost. The human owns direction changes,
+stage advancement, public promises, and release scope: when the next step would
+change any of those, stop and return `USER_DECISION_NEEDED` with the exact
+decision required. Destructive or irreversible actions, external writes or
+uploads, spend-bearing actions, secret handling, and material scope expansion
+need explicit approval. Create commits, branches, tags, or pushes only when the
+user requests them.
+
+## Output
+
+End a production pass with:
+
+```text
+Mode: plan | implement | long-run
+Active milestone or proof:
+Player-visible change or planned change:
+Artifacts changed:
+Evidence checked and result:
+Proof state: planned | checked | failed | blocked
+Checks failed, skipped, or unverified:
+Safe assumptions and cuts:
+Blocker:
+Human decision needed:
+Next proof:
+```
+
+Completion means the active proof is supported by current evidence. It does
+not advance the project stage or expand a public promise.
 
 ## Gotchas
 

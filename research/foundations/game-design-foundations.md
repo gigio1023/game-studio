@@ -20,7 +20,7 @@ This report maps durable game-design foundations into repo docs, roles, skills, 
 - **Experience first**: A game design starts with what the player should do, notice, feel, learn, and decide.
 - **Rules create meaning**: Choices matter when the player can read the outcome and the outcome changes future play.
 - **Mechanics are causes**: A proposed mechanic must name the dynamic behavior it should produce and the player experience it should support.
-- **Fun is not one thing**: Use explicit aesthetic goals such as challenge, discovery, expression, fellowship, fantasy, narrative, sensation, and relaxation.
+- **Fun is not one thing**: Use explicit aesthetic goals such as challenge, discovery, expression, fellowship, fantasy, narrative, sensation, and submission (play as pastime or relaxation).
 - **Iteration is the method**: Direction is a hypothesis until a prototype and playtest expose player behavior.
 - **Balance is contextual**: Difficulty, luck, skill, pacing, reward, and friction are tuned against a target audience and session shape.
 - **Learning is design**: Onboarding, feedback, affordances, failure recovery, and escalating complexity are core game design work.

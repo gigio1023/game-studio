@@ -41,6 +41,7 @@ execution produces a playable artifact that can be reviewed by the right roles.
 | Concept | A game idea with audience, promise, and constraints. | Is this worth exploring? |
 | Prototype | A disposable or partial proof for one design, technical, or production question. | Did it answer the question? |
 | Proof of concept | A feasibility proof for a risky mechanic, pipeline, platform, or production assumption. | Can this work at all? |
+| First playable proof | Game Studio's smallest running evidence gate: one player action creates one visible consequence. | Does the action visibly change play? |
 | First playable | The earliest integrated build that demonstrates the basic play path. | Can someone play the intended loop? |
 | Core loop prototype | A repeatable loop with feedback, success, failure, and motivation. | Is the game activity compelling enough to repeat? |
 | Presentation proof | Evidence that the chosen format earns its cost. | Does the look, camera, input, audio, or UI add player value? |
@@ -54,9 +55,9 @@ execution produces a playable artifact that can be reviewed by the right roles.
 | --- | --- | --- |
 | Game Director | Game identity, audience promise, player role, pillars, and final creative tradeoffs. | Direction Lock, identity changes, vertical-slice readiness. |
 | Producer | Scope, schedule, milestone contracts, dependencies, communication, and release workback. | Milestone readiness, production start, release readiness. |
-| Technical Director | Architecture, engine constraints, build pipeline, technical feasibility, and risk retirement. | Protocol proof, production technical gates, release build risk. |
+| Technical Director | Architecture, engine constraints, build pipeline, technical feasibility, and risk retirement. | First prototype, production technical gates, release build risk. |
 | Systems Designer | Rules, progression, economy, combat, simulation, and feedback loops. | Core loop prototype and balancing evidence. |
-| UX Designer | Onboarding, input, UI clarity, accessibility areas, and player comprehension. | First playable, demo candidate, public release materials. |
+| UX Designer | Onboarding, input, UI clarity, accessibility areas, and player comprehension. | First playable proof, demo candidate, public release materials. |
 | Art Director | Visual target, asset pipeline, style guide, and production value. | Presentation proof and vertical slice. |
 | Audio Director | Music, sound effects, ambience, mix, and implementation standards. | Presentation proof and vertical slice. |
 | QA Lead | Test plan, defect triage, acceptance checks, playtest protocol, and evidence quality. | All evidence gates and release candidate. |
@@ -68,9 +69,10 @@ execution produces a playable artifact that can be reviewed by the right roles.
 | Gate | Required evidence | Exit decision |
 | --- | --- | --- |
 | Direction Lock | Thesis, pillars, anti-pillars, target player, experience targets, release strategy, and risk list. | The team can start proof work without redefining the game each sprint. |
-| Protocol Proof | Minimal rule loop, observable success and failure, technical feasibility notes, and captured evidence. | The central rule is real enough to prototype the repeatable loop. |
+| First Prototype | One named question, the smallest artifact that can answer it, and a stop condition. | Did the prototype answer the question? |
+| First Playable Proof | One player action, one visible consequence, and captured runtime evidence. | Is the central interaction real in a running build? |
 | Core Loop Prototype | Repeatable play session, feedback cycle, player motivation, failure state, and playtest notes. | The core activity is worth broader production planning. |
-| Presentation Value Gate | Camera, input, UI, audio, visual target, performance risk, asset cost, and player value rationale. | The chosen presentation format earns its production cost. |
+| Presentation Proof | Camera, input, UI, audio, visual target, performance risk, asset cost, and player value rationale. | The chosen presentation format earns its production cost. |
 | Pre-production Exit | Production scope, schedule assumptions, team roles, budget or timebox, pipeline, content plan, and risk retirement. | The project can enter production without open-ended discovery. |
 | Vertical Slice | Target-quality short section, final-quality criteria, content boundary, external playtest, stability evidence, and missing-scope list. | The quality bar is credible and repeatable. |
 | Public Demo Candidate | Demo build, onboarding, bug triage, store or page copy, screenshots, trailer, feedback plan, and known limitations. | Outside players can receive an honest promise. |

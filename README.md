@@ -8,8 +8,8 @@ Portable agent skills for AI-assisted game development.
 Game Studio is three skills that keep agent-built games honest: direction the
 creator recognizes as theirs, production that advances one playable proof at a
 time, and review that trusts play over prose. They follow the open
-[Agent Skills format](https://agentskills.io), so the same files work in
-Claude Code, Codex, Cursor, and any harness that reads `SKILL.md`.
+[Agent Skills format](https://agentskills.io) and are designed for Claude Code,
+Codex, Cursor, and other harnesses that read `SKILL.md`.
 
 <p align="center">
   <a href="docs/assets/readme-playable-validation.drawio.svg">
@@ -29,19 +29,25 @@ Claude Code, Codex, Cursor, and any harness that reads `SKILL.md`.
 | [`game-production`](skills/game-production/SKILL.md) | Plan milestones as playable proofs, implement without design drift, keep long autonomous runs pointed at the game, and apply Godot build discipline. |
 | [`game-review`](skills/game-review/SKILL.md) | Review design, builds, narrative, accessibility, and release claims — evidence before opinion, strictest supported finding wins. |
 
-## Install
+## Install And Update
 
-From the target game repository, using the [skills CLI](https://github.com/vercel-labs/skills):
+Install globally with the [skills CLI](https://github.com/vercel-labs/skills) so
+the selected skills are available across game repositories:
 
 ```bash
-npx skills add gigio1023/game-studio                       # choose skills interactively
-npx skills add gigio1023/game-studio --skill game-review   # or install one
+npx skills add gigio1023/game-studio --global --skill '*' --agent claude-code codex --yes
+npx skills add gigio1023/game-studio --global --skill game-review --agent claude-code codex --yes
 ```
 
-The CLI installs into Claude Code (`.claude/skills/`), Codex
-(`.agents/skills/`), and other supported agents. Manual install works too:
-copy `skills/<name>/` into your agent's skill directory. Each skill is
-self-contained.
+Refresh the globally installed Game Studio skills with the same CLI:
+
+```bash
+npx skills update game-direction game-production game-review --global --yes
+```
+
+The CLI detects the current agent or asks which agent to target. Use explicit
+`-a` flags when both Claude Code and Codex should share the global install.
+Each skill remains self-contained, and distribution uses only `npx skills`.
 
 ## How The Skills Think
 
@@ -53,8 +59,9 @@ self-contained.
 - **Mechanical evidence is not playable proof.** Files existing, projects
   loading, and tests passing never stand in for a player performing the action
   and seeing the consequence.
-- **Activity is not progress.** Long runs classify every step as playable,
-  proof, support, or blocked — and support work gets a circuit breaker.
+- **Activity is not progress.** Long runs classify material checkpoints as
+  playable, proof, support, or blocked — and support work gets a circuit
+  breaker.
 
 See [Philosophy](docs/philosophy.md) for the full principles.
 

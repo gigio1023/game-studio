@@ -75,7 +75,7 @@ Variation or combination:
 Failure and recovery:
 Attention conflict:
 Capture or walkthrough checked:
-Level-flow verdict:
+Lens finding:
 Next build or retest:
 ```
 
