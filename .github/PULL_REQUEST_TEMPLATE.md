@@ -16,6 +16,9 @@ Name the checks, review methods, examples, or source material used.
 
 ## Review Notes
 
-- Eval fixtures run (no-skill vs current vs candidate, per harness):
+- Eval fixtures and conditions run (no-skill vs current vs candidate):
+- Model, harness, effort, and tool surface:
+- File or external-state diff:
+- Untested model or harness cells:
 - Source material added or changed:
 - Out of scope:

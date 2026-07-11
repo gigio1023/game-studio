@@ -8,6 +8,8 @@
   before acting.
 - Identify the observed dynamic: immediate rotation and exit with no prediction,
   failure, or recovery.
+- Record the evidence as a user-reported description of a browser capture; the
+  capture artifact itself was not inspected.
 - Return `CONCERNS` or `NOT_READY`.
 - Explain that the mechanic exists but does not yet prove the intended player
   experience.
@@ -23,10 +25,15 @@
 ## Acceptable Verdict Shape
 
 ```text
-Director verdict: CONCERNS
-Mechanic-dynamic-experience chain: weak
-Proof checked: browser capture
+Claim under review: room rotation proves cautious curiosity
+Verdict: CONCERNS
+Mechanic-dynamic-experience chain state: weak
+Proof checked: project snippet only
+Proof provenance: user-reported browser-capture description; artifact not inspected
 Missing validation: observed prediction, blocked path, recovery choice
+Checks failed, skipped, or unverified: capture not inspected; player comprehension unverified
+Residual risk: actual play may reveal a different dynamic than the report
 Required next build or retest: one room where rotating can close a path, open
 another, and let the player recover after noticing the consequence
+Human decision needed: none for the evidence verdict
 ```

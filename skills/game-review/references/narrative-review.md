@@ -1,8 +1,8 @@
 # Narrative Review
 
 Narrative review checks whether story works as playable design, not as prose.
-Use `storylets.md` in this directory when the work contains branching beats,
-repeatable narrative units, AI-authored text, or state-dependent delivery.
+For branching or state-dependent work, the core skill routes the dedicated
+storylet guide alongside this one.
 
 ## Flow
 

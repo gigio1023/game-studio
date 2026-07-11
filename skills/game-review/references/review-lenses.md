@@ -17,8 +17,9 @@ was checked, what blocks, and what the next proof is.
 
 ## Game Feel
 
-For input, camera, animation, physics, UI timing, feedback, or audio response
-in moment-to-moment play. For the full method, read `game-feel.md`.
+For a quick multi-lens pass over input, camera, animation, physics, UI timing,
+feedback, or audio response in moment-to-moment play. The core skill routes the
+full operational guide when feel is the primary claim.
 
 Ask: What is the primary verb? What input starts it, and how quickly does the
 game respond? What confirms success, failure, danger, and partial progress?
@@ -32,8 +33,9 @@ direct play is required.
 
 ## Level Design
 
-For rooms, routes, encounters, puzzle spaces, hubs, or tutorial sequences. For
-the full method, read `level-flow.md`.
+For a quick multi-lens pass over rooms, routes, encounters, puzzle spaces, hubs,
+or tutorial sequences. The core skill routes the full operational guide when
+level flow is the primary claim.
 
 Ask: What should the player see first, and what landmark draws attention?
 Where is the low-pressure introduction, where does the player practice the
@@ -126,3 +128,8 @@ recovery, difficulty support), speech (voice alternatives).
 Ask: Which core-path barrier could block a player, and is it solved, bounded,
 disclosed, or out of scope? Which public claim depends on this support? What
 retest is required after a fix?
+
+Feature presence and mechanical checks can support narrow implementation claims.
+They cannot prove that the whole game is accessible. Keep that broader claim
+unverified until representative players, including players affected by the
+barrier under review, have tested the relevant path.

@@ -88,7 +88,7 @@ Expected dynamic:
 Observable player behavior:
 Intended player experience:
 Build, capture, or playtest note checked:
-Chain verdict: intact | weak | broken
+Chain state: intact | weak | broken
 Required change:
 Next build or retest:
 ```

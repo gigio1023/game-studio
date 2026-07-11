@@ -4,6 +4,8 @@ Use these checklists when judging whether direction artifacts are solid enough
 to build on. Return `READY`, `CONCERNS` (can advance with accepted risk), or
 `NOT_READY` (advancing would create false confidence). Return
 `USER_DECISION_NEEDED` instead of approving when the call belongs to the human.
+`READY` means the checked evidence supports the creator considering Direction
+Lock; it does not lock direction for them.
 
 Check the chain, not the nouns in the pitch: a story premise, a feature list,
 or the word "fun" without observable player behavior is not direction.
@@ -43,8 +45,8 @@ or the word "fun" without observable player behavior is not direction.
 
 - 3 to 5 concepts, each with player fantasy, core verb, intended emotion,
   distinctive bet, main risk, first playable proof, and a reason to reject.
-- Concepts are compared by taste fit, proofability, production risk, and
-  content burden.
+- Concepts are compared by taste fit, cost and speed of proof, production risk,
+  and content burden.
 - Parked and rejected concepts have reasons; the slate does not become active
   scope without a user decision.
 

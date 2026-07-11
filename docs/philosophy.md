@@ -53,3 +53,16 @@ down. Direction and playable validation stay.
 
 Game Studio defaults to making a smaller, more finished game rather than a
 larger unfinished prototype.
+
+## Scope Boundaries
+
+Game Studio owns creative direction, proof-based production, and evidence-based
+review. It can frame a playtest question inside a milestone and review supplied
+observations, but it does not recruit, contact, or facilitate sessions with real
+participants. Those human-facing actions need an explicit owner and authority.
+
+The package can review narrative, art, audio, accessibility, store claims, and
+release evidence. It does not replace full narrative or content authoring, asset
+creation, marketing, community management, live operations, or platform release
+operations. Compose those capabilities separately instead of expanding the
+three core skills by default.

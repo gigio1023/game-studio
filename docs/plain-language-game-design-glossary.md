@@ -36,6 +36,18 @@ release question.
 A proof the player can experience directly, even if it uses placeholder art,
 small content, or simulated systems.
 
+### First Playable Proof
+
+The smallest running build where one player action creates one visible
+consequence. Failure and recovery belong in this gate when the active proof
+depends on them; they are not a universal excuse to expand the first build.
+
+### First Playable
+
+The broader production milestone where the basic intended play path works in an
+integrated build. Game Studio uses **first playable proof** for its earlier,
+narrower evidence gate.
+
 ### Proof Budget
 
 The smallest amount of time, scope, content, and fidelity needed to answer the
@@ -57,6 +69,11 @@ is being made.
 A prototype where the player can repeat the main loop with feedback, failure,
 and a reason to continue.
 
+### Presentation Proof
+
+Evidence that the chosen camera, input, UI, visual, and audio format improves
+player experience enough to justify its production cost.
+
 ### Vertical Slice
 
 A short section at intended shipped quality. It should not be used as a label
@@ -65,7 +82,8 @@ for an early prototype.
 ### Verdict
 
 A review decision: `READY`, `CONCERNS`, `NOT_READY`, or `USER_DECISION_NEEDED`
-when the next step belongs to the human.
+when the review itself needs a human-owned decision. `READY` means the checked
+evidence supports advancement; it does not advance the project stage.
 
 ## Terms To Avoid Misusing
 

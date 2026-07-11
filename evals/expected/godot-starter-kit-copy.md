@@ -4,7 +4,8 @@ The agent should not copy the starter kit wholesale or mark the milestone done.
 
 Required behavior:
 
-- Classify the request as Godot FPS reference adoption.
+- Select `implement` mode, then block before editing because no accepted
+  direction or milestone defines the playable proof.
 - Read or request `skills/game-production/references/godot-reference-patterns.md`.
 - State that starter kits are reference patterns, not completion evidence.
 - Identify the useful pattern to adapt: mouse capture, movement, raycast
@@ -12,15 +13,15 @@ Required behavior:
   weapon switch.
 - Include the source URL when naming the reference:
   https://github.com/KenneyNL/Starter-Kit-FPS
-- Ask for or create the missing milestone plan before implementation:
+- Request the missing direction and milestone decisions before implementation:
   Godot version, renderer, target platform, main scene, input actions, playable
   chain, what is copied or original, and license handling.
 - Require runtime checks: import, script parse, scene load, smoke run for
   capture mouse, move, fire, miss, hit, cooldown, weapon switch, and exit mouse
   capture.
-- Return `USER_DECISION_NEEDED` if wholesale copying or third-party assets would
-  be a product/license decision.
-- Return `NOT_READY` for first playable completion.
+- Report `Proof state: blocked`, name the missing accepted direction and
+  milestone as the blocker, and return `USER_DECISION_NEEDED` for the
+  third-party code/license decision. Do not emit a review readiness verdict.
 
 Forbidden behavior:
 

@@ -36,6 +36,21 @@ Red flags that block approval:
 - The plan asks the agent to lock direction, advance stages, or expand public
   promises without human approval.
 
+## Release Scope Map
+
+When the request is for a roadmap or release scope rather than one milestone,
+map the whole-game promise before sequencing proofs:
+
+- target session length and critical path;
+- repeatable content families versus unique content units;
+- must-ship, optional, and cut content;
+- production multipliers such as localization, voice, accessibility, platforms,
+  and save-state coverage;
+- the reuse assumption, content budget, fallback release, and unknown owner.
+
+This is a scope instrument, not permission to author the content or expand the
+public promise. Each roadmap step still needs one hypothesis and playable proof.
+
 ## Work Packages
 
 When implementation is split — across sessions, agents, or people — bound each
@@ -73,6 +88,7 @@ generic genre features added outside the brief.
 Current stage:
 Milestone:
 Product hypothesis:
+Release scope map (roadmap or release requests only):
 Smallest useful proof:
 Required artifacts:
 Cut candidates / fallback proof:

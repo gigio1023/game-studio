@@ -19,8 +19,9 @@ judgment, not more process.
 1. Keep each `SKILL.md` short; put detail in that skill's `references/`.
    References stay one level deep and must live inside the skill folder so the
    skill stays self-contained when installed alone.
-2. Keep frontmatter to `name` and `description` — the portable Agent Skills
-   format.
+2. Keep frontmatter to `name` and `description`. The wider Agent Skills spec
+   allows optional fields, but this repository uses the two-field cross-harness
+   profile shared by its target runtimes.
 3. Do not add process the target models already handle: no step-by-step
    transcripts of obvious work, no emphasis spam, no hidden-reasoning requests.
 4. Avoid private project names, personal paths, and unrelated branding.

@@ -3,12 +3,11 @@ name: game-direction
 description: >
   Use when game work starts without a stable direction: interviewing a creator
   about the game they want, turning taste or references into a concept and
-  creative brief, adopting an existing direction or pitch, or auditing an
-  ambiguous game repo, prototype, or notes. Trigger on "what game should I
-  make", "interview me about my game", "define my game", "game direction",
-  "concept slate", "creative brief", and new or unclear game projects. NOT for
-  milestone planning or implementation (use game-production) and NOT for
-  reviewing builds or readiness claims (use game-review).
+  creative brief, adopting an existing direction or pitch, reviewing whether
+  direction artifacts are stable enough for production, or auditing an ambiguous
+  game repo, prototype, or notes. NOT for milestone planning or implementation
+  (use game-production) and NOT for reviewing builds or readiness claims (use
+  game-review).
 ---
 
 # Game Direction
@@ -45,13 +44,21 @@ next step needs one of the human-owned calls, stop and return
 `USER_DECISION_NEEDED` with the exact decision required — do not choose for
 them, and do not present your own inference as their taste.
 
+An audit or review request authorizes inspection and findings, not rewriting
+project files or locking direction. A request to create or update direction
+artifacts authorizes reversible local drafts; keep them candidate material
+until the creator accepts them. Publishing a promise or making a destructive
+change still requires explicit approval.
+
 ## Concept Status
 
 Track where the project is with one status:
 `UNROUTED`, `TASTE_DISCOVERY`, `CONCEPT_SLATE`, `CREATIVE_BRIEF`,
 `FIRST_PROOF_PLANNED`, `DIRECTION_LOCKED`, or `PARKED`. A concept slate or
 candidate brief is not active scope until the creator selects it; parked and
-rejected concepts keep their reasons.
+rejected concepts keep their reasons. Always report one exact value from this
+set; prose such as "unchanged" is not a status. Naming a proof for an accepted
+carry-in can produce `FIRST_PROOF_PLANNED`, but never implies Direction Lock.
 
 ## Output
 
@@ -69,8 +76,9 @@ Human decision needed:
 Next step:
 ```
 
-Tag load-bearing facts by source: user fact, repo fact, safe assumption, or
-blocker. Do not close direction work while a blocker remains.
+Preserve every field; write `none` when one does not apply. Tag load-bearing
+facts by source: user fact, repo fact, safe assumption, or blocker. Do not close
+direction work while a blocker remains.
 
 ## Gotchas
 
