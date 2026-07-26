@@ -166,7 +166,7 @@ partner.steamgames.com/doc/store/earlyaccess, fetched 2026-07-26)
 Valve is explicit: Early Access is **not** crowdfunding and **not**
 pre-purchase — it must deliver playable content immediately.
 
-**Inactivity:** past 12 months without an update/news post, Steam adds a
+**Inactivity:** the notice fires on either 12 months since a default-branch build or 12 months since an update-type event (Major/Regular Update, Patch Notes) — a general news post does not reset it [corrected 2026-07-26 against https://partner.steamgames.com/doc/store/earlyaccess]. Steam adds a
 "has not updated in a while" notice. If a dev can't finish: (a) permanently
 drop the EA tag (irreversible) and keep the listing, or (b) retire the game,
 possibly with refunds.

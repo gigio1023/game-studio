@@ -2,7 +2,7 @@
 
 - One sourced priority order exists: **Simplified Chinese → Japanese → Korean → FIGS** (French, Italian, German, Spanish), per Chris Zukowski, GDC 2024.
 - That ordering rests on a **summary-based recap of one talk**, not a primary transcript or a dataset. There is no per-language ROI data in this corpus.
-- Zukowski's stated rationale — that Simplified Chinese has overtaken English as the most-spoken language on Steam and that translation cost there is "worth every penny" — is **his claim, unverified** against platform data here.
+- Zukowski's stated rationale — that Simplified Chinese has overtaken English as the most-spoken language on Steam — is **contradicted by the current platform data**: Valve's June 2026 Hardware & Software Survey reports English at **38.18%** and Simplified Chinese at **24.19%** (checked 2026-07-26). The ordering may still be right on revenue or willingness-to-buy grounds, but the stated reason for it is not.
 - Language and price are **separate levers**. Steam sets prices in **37 currencies across 4 region groups**; shipping a language does not adjust price, and adjusting regional price does not require a translation.
 - Steam's regional price recommendations "haven't been updated since 2022" — emerging-market prices are the cheaper, better-documented lever than a speculative translation.
 - **New & Trending** uses an undisclosed earnings threshold that "varies by country/language" (community reverse-engineering, not Valve-published).
@@ -22,9 +22,12 @@ unsourced until checked.
 Steam Secrets Nobody Tells You... Until Now" — summary-based on third-party
 recaps, **not a primary transcript**):
 
-1. **Simplified Chinese** — first, and by a distance. His stated reason: it
-   has overtaken English as the most-spoken language on Steam, and translation
-   cost there is "worth every penny."
+1. **Simplified Chinese** — first, and by a distance. His stated reason was
+   that it has overtaken English as the most-spoken language on Steam, and that
+   translation cost there is "worth every penny." The first half of that reason
+   does not hold against Valve's June 2026 survey (English 38.18%, Simplified
+   Chinese 24.19%); treat the recommendation as resting on market size and
+   conversion, not on language share.
 2. **Japanese**
 3. **Korean**
 4. **FIGS** — French, Italian, German, Spanish, treated as a bundle.

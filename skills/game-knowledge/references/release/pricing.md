@@ -4,7 +4,7 @@
 - Only **Seasonal Sales** are exempt from the *discount* cooldown, and that exemption does **not** waive the release or price-increase cooldowns.
 - Discount limits: standard **10–95%**; launch discount **10–40%**, Valve's own suggested range **"10% to 15%"**, must be configured **before** release, runs 7–14 days.
 - Minimum transaction price (~$0.49) caps depth on cheap games: $0.99 tier → max 50% off; $1.99 → 75%; $4.99 → 90%.
-- Any discount **≥20%** auto-triggers a wishlist email.
+- A discount **at or above 20%** sends a wishlist email only if it also hits the **lowest-priced package**, runs **over 8 hours**, and the customer is not inside the **2-week per-app notification cooldown**. The percentage alone does not trigger it.
 - Price distribution: **77%** of Steam games are priced under $10; only **5%** above $20 (2023 Gamalytic dataset).
 - Median revenue for recent releases **$700**; **$4,000** excluding sub-$5 titles; **$17,000** excluding sub-$10 titles — price tier alone predicts revenue outcome.
 - Steam cut is tiered per title on lifetime gross: **30%** to $10M, **25%** $10–50M, **20%** above $50M. Steam Direct fee **$100**, recoupable once the title clears $1,000 gross.
@@ -121,8 +121,14 @@ low-priced titles (Source: Steamworks "Pricing," fetched 2026-07-26):
 
 The 95% ceiling is only reachable at higher base prices.
 
-**Wishlist notifications:** any discount **≥20%** auto-triggers a wishlist
-email (same source). This makes 20% a meaningful floor for a discount intended
+**Wishlist notifications:** a discount **at or above 20%** is necessary but not
+sufficient. Valve sends the email only when the discount also affects the
+**lowest-priced package** for the game — discounting a Deluxe edition while
+leaving the base package at full price sends nothing — and only when the
+discount runs **more than 8 hours**. Customers notified about the same appID
+within the **last 2 weeks** are on cooldown and get nothing, and Valve extends
+that cooldown during seasonal sales. This makes 20% a meaningful floor for a
+discount intended
 to reach an audience rather than just lower the price.
 
 ## Advanced
@@ -295,8 +301,9 @@ Practitioner scope-and-outcome cases: [../cases/README.md](../cases/README.md).
       the 1.0 transition, or the launch discount is knowingly forfeited.
 - [ ] Discount plan stairsteps (Valve's example: 33% → 50% → 66% → 75%+ over a
       year+) rather than jumping deep early.
-- [ ] Discounts intended to reach an audience are **≥20%** so the wishlist
-      email fires.
+- [ ] Discounts intended to reach an audience are **at or above 20%**, hit the
+      lowest-priced package, and run longer than 8 hours — all three are
+      required before the wishlist email fires.
 - [ ] For low-priced titles, maximum discount depth is checked against the
       minimum-price threshold table before a sale is promised.
 - [ ] Regional prices reviewed rather than accepted blind — Steam's defaults
