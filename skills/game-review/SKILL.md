@@ -2,11 +2,12 @@
 name: game-review
 description: >
   Use when reviewing a stable game-design claim, playable build, prototype,
-  milestone or release readiness, narrative content, accessibility, or whether a
-  claim like "playable", "vertical slice", or "done" is backed by real play.
-  NOT for choosing, repairing, or auditing unresolved direction artifacts (use
-  game-direction) and NOT for planning or implementing work (use
-  game-production).
+  milestone or release readiness, narrative content, accessibility, or
+  playtest results, or judging whether a claim like "is this fun",
+  "ready to ship", "playable", "vertical slice", or "done" is backed by real
+  play and ready for a verdict. NOT for choosing, repairing, or auditing
+  unresolved direction artifacts (use game-direction) and NOT for planning
+  or implementing work (use game-production).
 ---
 
 # Game Review

@@ -1,13 +1,14 @@
 ---
 name: game-direction
 description: >
-  Use when game work starts without a stable direction: interviewing a creator
-  about the game they want, turning taste or references into a concept and
-  creative brief, adopting an existing direction or pitch, reviewing whether
-  direction artifacts are stable enough for production, or auditing an ambiguous
-  game repo, prototype, or notes. NOT for milestone planning or implementation
-  (use game-production) and NOT for reviewing builds or readiness claims (use
-  game-review).
+  Use when game work starts without a stable direction: a creator asking
+  "what game should I make", turning taste or references into a concept and
+  creative brief, adopting an existing direction or pitch, judging
+  "is this idea worth building" or whether to continue or pivot or kill an
+  existing project, reviewing whether direction artifacts are stable enough
+  for production, or auditing an ambiguous game repo, prototype, or notes.
+  NOT for milestone planning or implementation (use game-production) and NOT
+  for reviewing builds or readiness claims (use game-review).
 ---
 
 # Game Direction

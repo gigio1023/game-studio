@@ -1,13 +1,15 @@
 ---
 name: game-production
 description: >
-  Use when planning game milestones, prototypes, vertical slices, demo or
-  release scope; when implementing an approved piece of game work; when running
-  long or autonomous game-development sessions; or when taking Godot work from
-  an approved milestone to a checked playable build. NOT for discovering or
-  defining direction (use game-direction), judging finished work or readiness
-  claims (use game-review), or engine-only debugging, upgrades, and maintenance
-  detached from a playable production proof.
+  Use when writing a "milestone plan" or scoping prototypes, a "vertical
+  slice", demo, or release; when estimating "how much before the demo"; when
+  someone wants to "set up this game project" or implement an approved piece
+  of game work; when running long or autonomous game-development sessions;
+  or when taking Godot work from an approved milestone to a checked playable
+  build. NOT for discovering or defining direction (use game-direction),
+  judging "is this done" or other readiness claims (use game-review), or
+  engine-only debugging, upgrades, and maintenance detached from a playable
+  production proof.
 ---
 
 # Game Production

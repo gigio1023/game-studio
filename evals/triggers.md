@@ -17,6 +17,8 @@ Positive:
 - "Two briefs disagree about the player role. Identify the direction decision
   before anyone implements another mechanic."
 - "Review this creative brief and pillars for unresolved direction decisions."
+- "Development on this project stalled six months ago. Should I continue or
+  pivot or kill it before I sink more time in?"
 
 Near-miss:
 
@@ -65,3 +67,36 @@ Near-miss:
 - "Review this pull request's code style." (no Game Studio skill)
 - "Is this backend build ready to deploy?" (no Game Studio skill)
 - "Review the release roadmap for our mobile banking app." (no Game Studio skill)
+
+## game-knowledge
+
+Positive:
+
+- "My hits still feel flat even with screen shake and hit-stop added — how do
+  I get real juice into the feedback?" (screen shake, hit-stop, juice)
+- "How should I price my indie game on Steam — what's a normal range?"
+  (pricing)
+- "When should my Steam wishlist page go live before launch?" (wishlist)
+- "Should I apply for Next Fest, and how long should the demo be?" (Next
+  Fest)
+- "I have no playtesters lined up and I'm about to ship — what do I do?"
+  (playtesters)
+- "I've been grinding on this solo project for eight months and I'm burning
+  out — is that normal for game dev?" (burnout)
+- "My contractor composer starts next week — do I need an IP assignment
+  before they touch anything?" (IP assignment)
+- "This repo has a project.godot file — what should I know before I touch
+  it?" (fingerprint: project.godot)
+- "There's an Assets/ folder and a ProjectVersion.txt in this repo — what am
+  I looking at?" (fingerprint: Assets/)
+- "This is a *.uproject file — what conventions apply here?" (fingerprint:
+  *.uproject)
+
+Near-miss:
+
+- "Should I continue or pivot or kill this project?" (game-direction — a
+  direction decision, not a reference lookup; must not fall to a generic
+  judgment/decision-synthesis skill either)
+- "Plan the milestone that gets us to a vertical slice." (game-production)
+- "Is this build ready to ship?" (game-review)
+- "What game should I even make?" (game-direction)
