@@ -13,10 +13,10 @@ symptoms to source-backed rules. They follow the open
 Codex, Cursor, and other harnesses that read `SKILL.md`.
 
 <p align="center">
-  <a href="docs/assets/readme-playable-validation.drawio.svg">
+  <a href="docs/assets/readme-skill-map.drawio.svg">
     <img
-      src="docs/assets/readme-playable-validation.drawio.png"
-      alt="Game Studio routes creator taste, an existing direction, or an existing game repo through game-direction, game-production, and game-review to playable evidence and human-owned decisions."
+      src="docs/assets/readme-skill-map.drawio.png"
+      alt="Game Studio routes creator taste, an existing direction, or an existing game repo through game-direction, game-production, and game-review to playable evidence, while game-knowledge injects moment-routed, source-backed rules into all three and humans own taste, Direction Lock, and public promises."
       width="100%"
     />
   </a>
@@ -64,6 +64,10 @@ Each skill remains self-contained, and distribution uses only `npx skills`.
 - **Activity is not progress.** Long runs classify material checkpoints as
   playable, proof, support, or blocked — and support work gets a circuit
   breaker.
+- **Knowledge arrives at the moment, with sources.** Field questions —
+  pricing, juice, wishlists, contracts — route through an 18-signal index to
+  distilled rules whose numbers carry dated citations; unverified folklore
+  stays labeled unverified instead of hardening into advice.
 
 See [Philosophy](docs/philosophy.md) for the full principles.
 
