@@ -15,7 +15,11 @@ right skill — without ever loading any skill body.
 - **Round A (with listing):** a fresh `general-purpose` subagent per prompt,
   given ONLY the four skills' verbatim `name` + `description` frontmatter
   (no bodies, no other files) plus one prompt, instructed not to use any
-  tools, and asked which one skill (or none) it would invoke.
+  tools, and asked which one skill (or none) it would invoke. Scope note:
+  the listing contained only the four game-studio skills, so a routing loss
+  to an out-of-pack competitor (e.g. a general judgment skill — the exact
+  failure the redesign's audit diagnosed) is structurally outside this
+  measurement; Round A measures intra-pack disambiguation only.
 - **Round B (no-guidance control):** the same 20 prompts, fresh subagents,
   no skill listing at all — recording what an ungrounded agent does instead
   (asks a clarifying question vs. answers directly vs. starts implementing).
@@ -74,7 +78,7 @@ plus false-fire check on prompts that should route elsewhere):**
   won 2 near-misses from other sections (P4, R4) and the K4 critical case.
   No false fires. No description-loses-its-own-positives failure observed.
 - **game-production** — 3/3 own positives selected correctly; correctly won
-  2 near-misses (D4, R5, K5). No false fires.
+  3 near-misses (D4, R5, K5). No false fires.
 - **game-review** — 3/3 own positives selected correctly; correctly won 2
   near-misses (D5, P5). No false fires.
 - **game-knowledge** — 3/3 own positives selected correctly; correctly
@@ -114,7 +118,7 @@ fire in this run. 20/20 (100%) correct routing.
 
 **Observation:** absent any skill listing, the dominant default behavior
 (15/20) is to ask a clarifying question before acting — consistent with
-generic agent caution, not with any Game Studio method. Three prompts
+generic agent caution, not with any Game Studio method. Four prompts
 (R2, K1, K2, K3 — direct-answer/action without first checking the
 plan's evidence-before-opinion or field-knowledge routing rules) show the
 concrete cost of missing the skill layer: R2 jumps straight into "playing"

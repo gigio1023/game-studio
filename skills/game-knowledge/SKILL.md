@@ -24,12 +24,16 @@ carry the source with the number.
 
 Rules that hold across projects, whatever the game is.
 
-- Steam page live 6–12 months before launch; calendar time is unrecoverable.
-- Wishlist-to-week-1 conversion runs ~18% median — size targets from that.
-- Next Fest: register ~4 months ahead, demo 15–25 minutes, earn the player in
-  the first 60–120 seconds.
-- File existence is not play evidence; state the evidence level actually
-  reached.
+- Put the Steam page up early: wishlist accrual takes calendar time, the New
+  Releases Queue fires once, and calendar lead time is unrecoverable. No
+  verified month-count exists — the mechanic is the law, not a number.
+- Wishlist→week-1 sales: median ~10.5% (2024); ~17% for launches above 10k
+  wishlists. Real spread is "10–20x, not 10–20%" — no single ratio plans a
+  launch.
+- Next Fest: registration deadlines run ~7–8 weeks before the event, and a
+  demo live ~4 weeks early earns ~2.5x the wishlists of a fest-start demo.
+- File existence is not play evidence; only a run that shows the action and
+  its consequence is.
 - The first game ships smaller than the real ambition.
 - Written IP assignment before any contractor starts — artist, composer, anyone.
 - Hobby-vs-business tax status changes at first revenue, not at launch.
@@ -47,17 +51,17 @@ are short by design.
 | # | Signal | Read | Load-bearing rule |
 | --- | --- | --- | --- |
 | 1 | New game project / "I have a game idea" / no direction artifacts | `references/cases/undertale.md` | First game smaller than your real ambition |
-| 2 | Choosing concepts / writing pillars | `references/corpus/design-theory/mda-and-successors.md` | Pillars are testable promises |
+| 2 | Choosing concepts / writing pillars | `references/corpus/design-theory/mda-and-successors.md` (interim; stage-2 target: a distilled direction doc) | Design mechanics from the target aesthetic backward — the player meets aesthetics first |
 | 3 | "continue / pivot / kill this?" | game-direction skill | Direction changes need a finished or killed milestone |
-| 4 | "flat / floaty / punchy / juice / screen shake / hit-stop" | `references/corpus/feel-ux-audio-art/screenshake-hitstop-parameterization.md` | Fix input response before adding particles |
+| 4 | "flat / floaty / punchy / juice / screen shake / hit-stop" | `references/corpus/feel-ux-audio-art/screenshake-hitstop-parameterization.md` (interim; stage-2 target: a distilled feel doc) | Drive shake from one trauma value in [0,1]; shake amount = trauma² — never linear |
 | 5 | Camera complaints / motion sickness | `references/corpus/gdc-postmortems/feel-talks.md` | — |
-| 6 | Milestone planning / "what next" | `references/corpus/production-business-live/milestones-and-slices.md` | Milestone = hypothesis + playable proof + cut line |
+| 6 | Milestone planning / "what next" | `references/corpus/production-business-live/milestones-and-slices.md` (interim; stage-2 target: a distilled production doc) | No industry-standard milestone definitions exist — define alpha/beta/done in writing per project |
 | 7 | Long or overnight autonomous run starting | game-production skill, its long-run reference | Proof or fallback checked before the run ends |
 | 8 | "is this done / playable / vertical slice" | game-review skill | Mechanical checks never stand in for played proof |
 | 9 | Playtest planning / "no one to test it" | `references/cases/balatro.md` | Unprompted play-hours beat solicited praise |
-| 10 | Demo / Steam page / Next Fest first mention | `references/release/store-page-and-demo.md` | Register ~4 months ahead; demo 15–25 min; first 60–120 s |
-| 11 | Project 6+ months old, no marketing artifacts | `references/release/marketing-and-wishlists.md` | Page live 6–12 months pre-launch; calendar time is unrecoverable |
-| 12 | "how much should it cost / price" | `references/release/pricing.md` | $15–20 modal polished-indie band; 50% off only after year one |
+| 10 | Demo / Steam page / Next Fest first mention | `references/release/store-page-and-demo.md` | Registration deadline ~7–8 weeks out; a demo live ~4 weeks early earns ~2.5x |
+| 11 | Project 6+ months old, no marketing artifacts | `references/release/marketing-and-wishlists.md` | Calendar lead time is unrecoverable; wishlist velocity, not raw count, feeds Discovery |
+| 12 | "how much should it cost / price" | `references/release/pricing.md` | Only ~5% of Steam prices exceed $20; Valve's own launch-discount suggestion is 10–15% |
 | 13 | First revenue / selling / tax mention | `references/business/legal-basics.md` | Hobby-vs-business triggers at first revenue, not launch |
 | 14 | Contractor (artist / composer) about to start | `references/business/legal-basics.md` | No written IP assignment = you may not own your game |
 | 15 | Burnout signals / months of grind | `references/cases/studio-practices.md` | Burnout is a project risk; budget it like technical risk |

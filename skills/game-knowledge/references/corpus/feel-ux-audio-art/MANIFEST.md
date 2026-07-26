@@ -57,4 +57,4 @@ Scope: game feel, animation/polish, UX/cognition, audio, visual/art direction �
 - **Practitioner-convention level (useful but not authoritative)**: specific numeric parameter ranges throughout (friction ratios, gravity multipliers, palette sizes, ducking timing) — these are gathered from tutorials/practitioner blogs/forum consensus rather than peer-reviewed or first-party specification, and different shipped games diverge from them. Presented in the files as starting points for iteration, explicitly flagged as such.
 - Every file ends with its own "Gaps / confidence notes" section for file-specific caveats not repeated here.
 
-Do not edit `~/git/agent-skills-orch/game-studio/` — this corpus is standalone research output, not yet integrated into the shipped skill.
+This lane ships inside the game-knowledge skill as its deep-dive layer: the distilled reference docs are the routed entry points, and this MANIFEST is the lane's confidence index.

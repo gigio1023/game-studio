@@ -32,6 +32,7 @@ skill or its references.
 | `review-runtime-check-failure.md` | game-review — failed proof and review-only authority |
 | `accessibility-feature-claim.md` | game-review — feature evidence versus a broad accessibility claim |
 | `godot-starter-kit-copy.md` | game-production — `skills/game-production/references/godot-reference-patterns.md` |
+| `knowledge-routing-injection.md` | game-knowledge — moment routing, sourced numbers, and unverified-figure discipline |
 
 ## Run Protocol
 

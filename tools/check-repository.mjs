@@ -325,11 +325,15 @@ for (const dir of skillDirs) {
     if (directReferences.size) fail(relSkill, "references directory is missing");
     continue;
   }
+  const nestedRefDirs = [];
   for (const ref of directoryEntries(refDir, `skills/${dir}/references/`)) {
     const refPath = join(refDir, ref);
     const relRef = `skills/${dir}/references/${ref}`;
     const info = lstatSync(refPath);
-    if (!info.isSymbolicLink() && info.isDirectory()) continue;
+    if (!info.isSymbolicLink() && info.isDirectory()) {
+      nestedRefDirs.push(refPath);
+      continue;
+    }
     if (info.isSymbolicLink() || !info.isFile() || !ref.endsWith(".md")) {
       fail(relRef, "reference entries must be .md files or subdirectories");
       continue;
@@ -342,6 +346,25 @@ for (const dir of skillDirs) {
     const refLines = refText.split("\n");
     if (refLines.length > 100 && !refLines.slice(0, 40).some((line) => line === "## Contents"))
       fail(relRef, `${refLines.length} lines but no '## Contents' map near the top`);
+  }
+
+  // Nested reference docs must be reachable from the skill's own pages.
+  // references/corpus/** is exempt: each lane's MANIFEST indexes it by design.
+  if (nestedRefDirs.length) {
+    const pages = [{ path: relSkill, text }].concat(
+      [...walk(refDir)]
+        .filter((file) => file.endsWith(".md"))
+        .map((file) => ({ path: file, text: readFileSync(file, "utf8") })),
+    );
+    for (const dirPath of nestedRefDirs)
+      for (const nested of walk(dirPath)) {
+        if (!nested.endsWith(".md")) continue;
+        const relNested = nested.slice(ROOT.length + 1);
+        if (relNested.includes("references/corpus/")) continue;
+        const base = nested.split("/").pop();
+        if (!pages.some((page) => page.path !== nested && page.text.includes(base)))
+          fail(relNested, "orphan reference; route it from SKILL.md or another reference page");
+      }
   }
 }
 
