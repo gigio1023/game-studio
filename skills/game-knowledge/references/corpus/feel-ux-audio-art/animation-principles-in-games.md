@@ -1,0 +1,52 @@
+# The 12 Animation Principles Applied to Games
+
+Origin: Frank Thomas and Ollie Johnston, *The Illusion of Life: Disney Animation* (1981), distilling internal Disney studio practice from the 1930s onward. The principles were written for hand-drawn linear film, where the animator has full authorial control over every frame. Games break that assumption — the player controls timing and outcome — so every principle below needs a games-specific reframing, and several are in direct, named tension with responsiveness. That tension is the most important thing to carry into practice, not the list itself.
+
+## The list, with the games-specific reframing
+
+1. **Squash and Stretch** — gives weight and flexibility by deforming shape under motion/impact (a ball flattens on landing, stretches mid-air). In games: enemies squash on hit, a landing character's silhouette compresses, UI buttons squash slightly on press to feel tactile. Caveat: many game engines/rigs don't support bone scaling cheaply, so squash/stretch is often faked via sprite scale, shader vertex offset, or mesh blendshapes rather than true skeletal deformation.
+2. **Anticipation** — a small counter-motion before the main action, telegraphing what's about to happen (a crouch before a jump, a wind-up before a punch). This is the principle in **direct, named tension with responsiveness**: any anticipation frames added to a player-triggered action are perceived as input lag, because the player's action-to-feedback correction cycle (see [[game-feel-model]]) starts counting from the button press, not from the start of the anticipation pose. Practitioner consensus: designers push for minimal-to-zero anticipation on player-controlled actions and reserve full anticipation for enemy/NPC telegraphs, where the delay is a *feature* (it's a readable warning, not lag).
+3. **Staging** — presenting an idea so clearly that there's no ambiguity about what to look at. In games this becomes a *readability* problem shared with UI/UX: silhouette clarity, camera framing, and lighting need to make the important action legible against a busy background (see [[onboarding-and-readability]]).
+4. **Straight-Ahead Action vs. Pose-to-Pose** — two animator workflows (draw frame-by-frame forward vs. key extreme poses then fill between). In games this maps to a technical choice: procedural/physics-driven motion (straight-ahead, emergent) vs. keyframed animation-state-driven motion (pose-to-pose, authored). Many modern character controllers blend both — physics for reactive limbs, keyframes for authored moves.
+5. **Follow-Through and Overlapping Action** — parts of a body/object continue moving after the main mass stops (hair, cloth, a cape lagging behind a turn), and different parts of a body start/stop at slightly different times rather than all at once. In games this is a major "aliveness" cue for both characters and UI (a menu panel's contents settling a beat after the panel itself stops sliding).
+6. **Slow In and Slow Out** — motion accelerates out of and decelerates into extreme poses rather than moving at constant velocity; almost nothing in nature moves at truly linear speed. This is the animation-principles name for exactly what [[game-feel-model]] calls the ADSR attack/release shape and what [[onboarding-and-readability]]'s UI-motion section calls easing — three different vocabularies for the same underlying idea, worth reconciling when writing skill guidance so they don't read as separate techniques.
+7. **Arcs** — natural motion follows curved paths, not straight lines; a swung limb, a thrown object, or a head turn reads as organic when animated along an arc rather than a straight interpolation. Directly actionable for both character animation and camera-follow movement.
+8. **Secondary Action** — a supporting motion that reinforces the main action without competing with it (arm-swing and facial reaction while walking; a UI icon's subtle bob while a progress bar is the primary read). The discipline is that secondary action must stay *subordinate* — if it draws the eye away from the primary action, it has become a staging failure, not a secondary action.
+9. **Timing** — the number of frames allotted to an action, which communicates weight, mood, and physicality independent of the pose itself (a slow wind-up reads as heavy or tired, a fast one reads as light or urgent). This is where an animator's frame-count choices and a designer's frame-data/hitstop choices are the same lever wearing two hats — see [[screenshake-hitstop-parameterization]] for the combat-specific version.
+10. **Exaggeration** — pushing a motion or pose further than strict realism to increase clarity and appeal; described in the source material as something that "should always be implemented to some degree" rather than an optional flourish. In games this is one of the load-bearing ingredients of "juice" (see [[screenshake-hitstop-parameterization]]).
+11. **Solid Drawing** — ensuring a character/object reads as having real volume, weight, and consistent form as it moves through 3D space, avoiding "twinning" (symmetric, lifeless poses) and volume loss during deformation. In games this extends to silhouette consistency across a rig's full range of motion and animation blends, not just individual keyframes.
+12. **Appeal** — charisma/readability in design that makes a character pleasant or interesting to look at and control, independent of whether it's a hero or villain — a matter of clarity and design quality, not just "likability."
+
+Source: [Chris Totten — 12 Principles for Game Animation (Medium)](https://totter87.medium.com/12-principles-for-game-animation-a9137ef44345); [Game Anim / Jonathan Cooper — The 12 Principles of Animation in Video Games](https://www.gameanim.com/2019/05/15/the-12-principles-of-animation-in-video-games/); [Game Developer — The 12 principles of animation in video games](https://www.gamedeveloper.com/production/the-12-principles-of-animation-in-video-games); [GameJuice — Disney's 12 Animation Principles Applied to Games](https://gamejuice.co.uk/articles/disney-12-animation-principles-games).
+
+## The central tension: anticipation and follow-through vs. responsiveness
+
+This deserves separating out because it's the single most common mistake when animators and gameplay programmers collaborate without a shared vocabulary. Two of the twelve principles actively fight against low input latency:
+
+- **Anticipation** adds frames *before* player-visible response to an input — every frame of wind-up is perceived latency.
+- **Follow-through/overlap**, if applied to the primary controlled element (not secondary elements), can make the character feel like it's fighting the player's next input rather than being ready for it — e.g., if a landing animation has to fully resolve before the next jump can start.
+
+**Practitioner resolution pattern**: keep anticipation and follow-through on *secondary* visual elements (cloth, hair, camera, particles, UI chrome) where they add life without gating input, and keep the *primary* controlled motion (the actual hitbox/velocity the player is steering) on a tight, near-zero-anticipation response curve. This is the animation-principles version of the same lesson [[game-feel-model]] draws from Swink's real-time-control leg: the simulation's authoritative state must respond within the ~100ms correction cycle even if the *visual* presentation layers slower, secondary motion on top.
+
+## Easing curves as the games-code implementation of "slow in, slow out"
+
+Practical curve selection, since this is where "slow in/slow out" gets implemented in engine code (Tween/AnimationCurve/DOTween-style systems):
+
+- **Ease-out (deceleration)** is the default for anything *arriving* on screen or settling into a resting state — it mirrors how real objects decelerate into a stop and is described in the UI-motion literature as "almost always correct" for entrances.
+- **Ease-in (acceleration)** fits things *leaving* the screen or starting from rest, but is generally avoided for entrances specifically because it reads as sluggish before it gets going.
+- **Ease-in-out** balances both and suits transitions where nothing should feel like it's snapping to a hard start or stop (camera pans, menu transitions).
+- **Curve strength**: quadratic curves are the gentlest and are the default recommendation for most UI motion because the acceleration is subtle enough to read as "just smooth" rather than as a deliberate effect; cubic and exponential curves are progressively more dramatic and suit physical, weighty motion (projectiles, jump arcs) rather than interface chrome.
+- **Rule of thumb**: start from quadratic ease-in-out and adjust by feel, thinking in terms of the emotional target (soft entry, snappy exit, playful overshoot/bounce) rather than picking a curve by its mathematical name.
+
+Source: [Febucci — Easing Functions for Game Animations](https://blog.febucci.com/2018/08/easing-functions/); [animations.dev — The Easing Blueprint](https://animations.dev/learn/animation-theory/the-easing-blueprint).
+
+## Named examples
+
+- **Cuphead** (StudioMDHR, 2017) is the most explicit modern application of the full 1930s-rubber-hose principle set — squash/stretch, exaggeration, and follow-through are core to its art direction, not just polish.
+- **Overwatch** and **Hollow Knight** are commonly cited for disciplined secondary action: hair/cape/cloth sim and idle micro-animations that add life without ever gating input readiness.
+- **Celeste** demonstrates the anticipation-vs-responsiveness resolution directly: the dash has essentially zero anticipation (fires on the input frame) while landing dust particles and camera settle handle the "weight" read as secondary, non-gating elements.
+
+## Gaps / confidence notes
+
+- The 12-principle list itself is well-attested and stable across sources; the games-specific reframing text for each principle is synthesized from multiple secondary game-design sources (Totten, Game Anim/Cooper, Game Developer) rather than a single canonical "games version" of the list — different authors emphasize different principles as most/least game-relevant, and this file's framing reflects the consensus view, not a single citation.
+- The easing-curve section reflects general UI/motion-design practitioner consensus rather than games-specific peer-reviewed research; treat numeric curve-power recommendations (quadratic default, etc.) as convention, not a hard rule.
