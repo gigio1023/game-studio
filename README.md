@@ -5,9 +5,10 @@ Portable agent skills for AI-assisted game development.
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/agent%20skills-Claude%20Code%20%7C%20Codex%20%7C%20open%20format-111827)](skills/)
 
-Game Studio is three skills that keep agent-built games honest: direction the
+Game Studio is four skills that keep agent-built games honest: direction the
 creator recognizes as theirs, production that advances one playable proof at a
-time, and review that trusts play over prose. They follow the open
+time, review that trusts play over prose, and knowledge that routes game-craft
+symptoms to source-backed rules. They follow the open
 [Agent Skills format](https://agentskills.io) and are designed for Claude Code,
 Codex, Cursor, and other harnesses that read `SKILL.md`.
 
@@ -28,6 +29,7 @@ Codex, Cursor, and other harnesses that read `SKILL.md`.
 | [`game-direction`](skills/game-direction/SKILL.md) | Interview a creator, turn taste into a concept slate and creative brief, or adopt and audit an existing direction — ending in one first playable proof. |
 | [`game-production`](skills/game-production/SKILL.md) | Plan milestones as playable proofs, implement without design drift, keep long autonomous runs pointed at the game, and apply Godot build discipline. |
 | [`game-review`](skills/game-review/SKILL.md) | Review design, builds, narrative, accessibility, and release claims — evidence before opinion, strictest supported finding wins. |
+| [`game-knowledge`](skills/game-knowledge/SKILL.md) | Route game-craft symptoms — pricing, screen shake, IP assignment, burnout — to distilled, source-backed rules. |
 
 ## Install And Update
 
@@ -42,7 +44,7 @@ npx skills add gigio1023/game-studio --global --skill game-review --agent claude
 Refresh the globally installed Game Studio skills with the same CLI:
 
 ```bash
-npx skills update game-direction game-production game-review --global --yes
+npx skills update game-direction game-production game-review game-knowledge --global --yes
 ```
 
 The CLI detects the current agent or asks which agent to target. Use explicit
@@ -69,7 +71,7 @@ See [Philosophy](docs/philosophy.md) for the full principles.
 
 | Path | Purpose |
 | --- | --- |
-| `skills/` | The three installable skills; each carries its own references. |
+| `skills/` | The four installable skills; each carries its own references, including `game-knowledge`'s 68-file source corpus as a deep-dive layer beneath its distilled docs. |
 | `evals/` | Manual fixtures: behavior cases, trigger cases, and the three-way run protocol. |
 | `research/foundations/` | Source-backed game-craft syntheses behind the skill references. |
 | `docs/` | Philosophy, plain-language glossary, and README assets. |

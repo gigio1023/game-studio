@@ -11,7 +11,7 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const errors = [];
 const fail = (file, message) => errors.push(`${file}: ${message}`);
 
-const SKIP_DIRS = new Set([".git", "node_modules"]);
+const SKIP_DIRS = new Set([".git", "node_modules", ".plans"]); // .plans/ is git-excluded working state, not skill payload
 const TEXT_EXT = /\.(md|mjs|json|ya?ml)$/;
 
 function* walk(dir) {
@@ -201,7 +201,7 @@ function markdownDestinations(text) {
 function directReference(rawTarget) {
   const value = normalizedLocalValue(rawTarget);
   if (typeof value !== "string") return null;
-  return /^references\/[A-Za-z0-9._-]+\.md$/.test(value) ? value : null;
+  return /^references\/[A-Za-z0-9._-]+(?:\/[A-Za-z0-9._-]+)*\.md$/.test(value) ? value : null;
 }
 
 function markdownFiles(dir, label) {
@@ -220,7 +220,10 @@ function markdownFiles(dir, label) {
 }
 
 function sameMembers(left, right) {
-  return left.length === right.length && left.every((value, index) => value === right[index]);
+  if (left.length !== right.length) return false;
+  const sortedLeft = [...left].sort();
+  const sortedRight = [...right].sort();
+  return sortedLeft.every((value, index) => value === sortedRight[index]);
 }
 
 // --- Text hygiene across the repo -------------------------------------------
@@ -241,7 +244,8 @@ for (const file of walk(ROOT)) {
   const lines = text.split("\n").length;
   if (rel === "README.md" && lines > 120) fail(rel, `README has ${lines} lines (max 120)`);
   if (rel.endsWith("SKILL.md") && lines > 500) fail(rel, `SKILL.md has ${lines} lines (max 500)`);
-  if (rel.endsWith(".md") && lines > 800) fail(rel, `${lines} lines (max 800); split the page`);
+  if (rel.endsWith(".md") && !rel.includes("/references/corpus/") && lines > 800)
+    fail(rel, `${lines} lines (max 800); split the page`);
   if (rel.endsWith(".json")) {
     try {
       JSON.parse(rawText);
@@ -253,7 +257,7 @@ for (const file of walk(ROOT)) {
 
 // --- Skill packaging --------------------------------------------------------
 const NAME_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
-const EXPECTED_SKILLS = ["game-direction", "game-production", "game-review"];
+const EXPECTED_SKILLS = ["game-direction", "game-production", "game-review", "game-knowledge"];
 const skillsDir = join(ROOT, "skills");
 const skillDirs = [];
 for (const entry of directoryEntries(skillsDir, "skills/")) {
@@ -290,10 +294,14 @@ for (const dir of skillDirs) {
   const directReferences = new Set();
   const routingText = stripFencedCode(text);
   for (const match of routingText.matchAll(/`(references\/[^`]+)`/g)) {
-    const reference = directReference(match[1]);
-    if (!reference)
-      fail(relSkill, `reference must be one level deep: ${match[1]}`);
-    else directReferences.add(reference);
+    const value = normalizedLocalValue(match[1]);
+    if (typeof value !== "string") continue;
+    if (!existsSync(join(skillsDir, dir, value))) {
+      fail(relSkill, `referenced path does not exist: ${match[1]}`);
+    } else {
+      const reference = directReference(value);
+      if (reference) directReferences.add(reference);
+    }
   }
   for (const destination of markdownDestinations(routingText)) {
     const reference = directReference(destination);
@@ -321,8 +329,9 @@ for (const dir of skillDirs) {
     const refPath = join(refDir, ref);
     const relRef = `skills/${dir}/references/${ref}`;
     const info = lstatSync(refPath);
+    if (!info.isSymbolicLink() && info.isDirectory()) continue;
     if (info.isSymbolicLink() || !info.isFile() || !ref.endsWith(".md")) {
-      fail(relRef, "reference entries must be one-level .md files");
+      fail(relRef, "reference entries must be .md files or subdirectories");
       continue;
     }
     if (!directReferences.has(`references/${ref}`))
