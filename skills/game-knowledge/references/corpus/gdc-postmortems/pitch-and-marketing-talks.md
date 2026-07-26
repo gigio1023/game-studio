@@ -229,12 +229,12 @@ but developers routinely leave that value unclaimed by never asking.
   catalog grows.
 
 **Localization priority order (stated explicitly):** Simplified Chinese
-first — his claim is that Simplified Chinese has overtaken English as the
+first — his claim is that Simplified Chinese has overtaken English as the [REFUTED 2026-07-26: Valve's June 2026 Hardware & Software Survey reports English 38.18%, Simplified Chinese 24.19% — https://store.steampowered.com/hwsurvey/ ; the language-share reason does not hold, though the priority order may still stand on market-size grounds]
 most-spoken language on Steam, and that translation cost there is "worth
 every penny" — then Japanese, then Korean, then the FIGS bundle (French,
 Italian, German, Spanish).
 
-**Tactical framing throughout:** because Valve takes a 30% cut regardless,
+**Tactical framing throughout:** because Valve takes a 30% cut on the first $10M of a title's lifetime gross (25% from $10M–$50M, 20% above — "regardless" was wrong; corrected 2026-07-26),
 his repeated advice is to actively extract value from that relationship
 (featuring requests, bundle placement, festival inclusion) rather than
 passively accepting whatever the algorithm surfaces — "make them earn

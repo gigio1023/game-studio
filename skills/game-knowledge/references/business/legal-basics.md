@@ -105,8 +105,11 @@ studio's name, your logo. Unlike copyright it requires active registration and
 active enforcement to have teeth.
 
 Reported US registration mechanics: the process commonly takes **about
-12 months**; you can file up to **three years before release** as an
-intent-to-use filing; applications reportedly face examiner rejection on first
+12 months**; an intent-to-use filing lets you claim the mark before launch, but
+the clock runs from the **Notice of Allowance**, not from your release date —
+you must use the mark in commerce and file the Statement of Use within **three
+years of the NOA issuance date**, via six-month extensions all anchored to that
+same date; applications reportedly face examiner rejection on first
 pass **over 80% of the time**, requiring a response (Mekiplaw guide, accessed
 2026-07-26 — single-source, and the same guide's claim that using an attorney
 raises success odds "over 50%" is **unverified** marketing-adjacent copy).
@@ -212,7 +215,9 @@ justify in lean years.
   roughly **39 states** offer their own programs recovering up to **12%** in
   some states (IGDA, 2022).
 - Startup provision under the PATH Act: offset **payroll** taxes up to
-  **$250,000/year** with unused credits if gross receipts are under $5 million
+  **$500,000/year** — raised from $250,000 by the Inflation Reduction Act of
+  2022 for tax years beginning after December 31, 2022 — with unused credits if
+  gross receipts are under $5 million
   in the credit year and the company has five or fewer years of gross receipts —
   directly relevant to an early-revenue studio that owes little income tax but
   has payroll (IGDA, 2022).
@@ -304,7 +309,8 @@ Before or at first revenue:
       if you sell direct, VAT/sales-tax obligations mapped before the first
       direct sale.
 - [ ] Contractor reporting obligations checked if you paid anyone (US: Form 1099
-      for contractors paid $600+, due January 31).
+      for contractors paid **$2,000+** for tax years beginning after 2025 — the
+      old $600 threshold still governs earlier years — due January 31).
 
 Once the project is real:
 

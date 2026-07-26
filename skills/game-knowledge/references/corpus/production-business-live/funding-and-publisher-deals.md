@@ -123,7 +123,7 @@ exact original publish date not independently confirmed — approximate).
 
 **Unreal Engine royalty** (separate from the storefront cut, applies
 regardless of where the UE game is sold): baseline **5% of gross revenue
-above $1M/product/year** (long-standing). Epic announced a cut to **3.5%**,
+above the first **$1M in lifetime worldwide gross revenue per product** (not per year — corrected 2026-07-26 against https://www.unrealengine.com/release; the per-year figure belongs to the Epic Games Store revenue-share waiver, a separate rule). Epic announced a cut to **3.5%**,
 effective **January 1, 2025**, contingent on day-one launch on the Epic
 Games Store (Source: CG Channel, reporting Epic's **October 2024**
 announcement). Separately, **March 2024**: a **0% total** option (no UE

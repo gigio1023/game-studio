@@ -5,7 +5,7 @@
 - Each round runs up to **30 days** or **1 million homepage impressions**, whichever comes first, and typically will **not** show during major seasonal sales.
 - Wishlist notifications fire: at launch; on EA→1.0 exit; for discounts **≥20%** held on the lowest-priced package **8+ hours**; and once for a demo release within two weeks of the demo going live. **2-week cooldown** per customer per app.
 - Valve states plainly: "there's no formula to accurately predict sales from wishlists."
-- Early Access: no update or news post for **12 months** adds a "has not updated in a while" notice to the page.
+- Early Access: the "has not updated in a while" page notice fires on **either** 12 months since a build was assigned to the **default branch** or 12 months since an **update-type event** (Major Update, Regular Update, Patch Notes). An ordinary news post is not an update event.
 - **1.0 does not rescue a slow EA launch** — only 20% of 45 studied games earned more post-1.0 than in their first EA month; median release-month revenue was **40%** of first-month EA revenue.
 - DLC thresholds: base game **$10K+** → consider a lightweight supporter pack; **$150K+** → plan proper DLC.
 
@@ -167,8 +167,11 @@ finished game.
 Valve is explicit that Early Access is **not** crowdfunding and **not**
 pre-purchase — it must deliver playable content immediately.
 
-**Inactivity:** past **12 months** without an update or news post, Steam adds a
-"has not updated in a while" notice. A developer who cannot finish may either
+**Inactivity:** Steam adds a "has not updated in a while" notice above the
+Developer Questionnaire when **either** more than 12 months have passed since a
+build was assigned to the default branch **or** more than 12 months have passed
+since an update-type event (Major Update, Regular Update, or Patch Notes). A
+general news post does not reset it. A developer who cannot finish may either
 permanently drop the EA tag (irreversible) and keep the listing, or retire the
 game, possibly with refunds.
 

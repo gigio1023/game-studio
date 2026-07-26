@@ -2,7 +2,7 @@
 
 - Median 2025 Steam release earned **$249**; **66%** earned under $1,000 and **40%** never cleared the $100 Steam Direct fee (Gamalytic via 80.lv, 2025-10-22). Plan funding against that distribution, not against the outliers you have heard of.
 - Steam cut, tracked per title on lifetime gross: **30%** to $10M, **25%** from $10M–$50M, **20%** above. Valve reported an average **76%** payout across non-Valve games in 2025 (~24% blended).
-- Epic Games Store: **0%** on the first $1M net revenue per product per year, then **12%**. Unreal Engine royalty **5%** above $1M/product/year, **3.5%** with a day-one EGS launch.
+- Epic Games Store: **0%** on the first $1M net revenue per product per year, then **12%**. Unreal Engine royalty is a **separate and differently-measured** rule — **5%** after the first **$1M in lifetime worldwide gross revenue for that product**, not per year, reduced to **3.5%** for a qualifying Epic Games Store launch. Conflating the two thresholds overstates the royalty-free runway on a game that sells steadily for years.
 - The advance is recouped out of your revenue share first; the royalty split applies only after that.
 - No "typical" royalty split can be stated as fact. The two publicly disclosed deals diverge in opposite directions — Outersloth 50% pre-recoup / 15% post-recoup and no IP transfer, at a **1.4%** acceptance rate; Indie Fund 25% until 2x the investment or 2 years, then nothing, no clawback.
 - Publishers want quantified playtest validation — playtest count, completion rate, specific findings — plus a link to a playable build, not a video. Promises and projections read as risk.

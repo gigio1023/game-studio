@@ -22,7 +22,7 @@ Game, "What is the difference between a Steam Wishlist and a Follower?",
 
 - **Wishlist** = "they want to buy it." Triggers a launch-day email to
   every wishlister regardless of discount, plus discount emails only when
-  the price cut exceeds 20% (throttled, roughly 1-2 week cooldown between
+  the price cut is at or above 20% AND affects the lowest-priced package AND runs over 8 hours [corrected 2026-07-26 against https://partner.steamgames.com/doc/marketing/wishlist — the previous wording said "exceeds 20%" and omitted the package and duration conditions] (throttled, roughly 1-2 week cooldown between
   emails to the same user in busy periods). Wishlisted games surface in the
   user's News Hub, Community Activity Feed, and Library "What's New."
 - **Follow (game)** = "they want to hear more." No launch email, only light
