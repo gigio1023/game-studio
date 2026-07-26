@@ -1,8 +1,8 @@
 # Review Lenses
 
 Compact craft lenses for reviewing playable work. Use only the lenses the
-claim under review touches. Each lens ends with the same demand: what proof
-was checked, what blocks, and what the next proof is.
+claim under review touches. Each lens ends with the same demand: what evidence
+was checked, what blocks, and what the next build is.
 
 ## Contents
 
@@ -40,7 +40,7 @@ level flow is the primary claim.
 Ask: What should the player see first, and what landmark draws attention?
 Where is the low-pressure introduction, where does the player practice the
 rule, and where does the level vary or combine it? What happens after an
-error? What proof shows the player learned the route or rule?
+error? What evidence shows the player learned the route or rule?
 
 Blocking: the level tests before it teaches; the critical path competes with
 decoration; failure restarts too far from the learning moment; landmarks,
@@ -54,7 +54,7 @@ paths.
 
 Ask: What is the player's immediate goal, and which state must be visible for
 it? What error can the player make, and how do they recover? What text could
-be removed because the interface teaches it? What proof shows the player
+be removed because the interface teaches it? What evidence shows the player
 understood the UI?
 
 Blocking: the player cannot tell what to do next; the UI hides state, cost,
@@ -70,11 +70,11 @@ VFX as they affect play.
 Ask: What must the player read first? Are player, objective, threat,
 interactable, and background separated? Does color carry gameplay state, and
 is there a non-color fallback? Do silhouettes survive motion and scale? What
-fidelity can stay fake for the current proof?
+fidelity can stay fake for the current build?
 
 Blocking: visual polish competes with gameplay hierarchy; important state is
 color-only; materials or lighting hide affordances; animation looks good but
-obscures timing; style direction expands scope beyond the proof budget.
+obscures timing; style direction expands scope beyond the scope budget.
 
 ## Audio Direction
 
@@ -87,12 +87,12 @@ proves the audio claim?
 
 Blocking: critical state exists only in audio; mix priority hides warnings or
 dialogue; music tone contradicts the intended pressure; caption needs deferred
-past the proof; audio polish that expands scope without improving play.
+past the current build; audio polish that expands scope without improving play.
 
 ## Player Walkthrough
 
-A player-centered pass before or after a playable proof. Before a build
-exists, treat it as weak proof and say so.
+A player-centered pass before or after a playable build. Before a build
+exists, treat it as weak evidence and say so.
 
 Pick one target player and session context, then walk the checkpoints: first
 visual impression, first meaningful input, first "I understand this" moment,
@@ -108,7 +108,7 @@ economy, narrative triggers, or tuning.
 
 Ask: Is the selected concept still recognizable, and is the creative brief
 still true? Did implementation silently change player experience? Are tuning
-changes intentional and recorded? What proof shows the intended behavior
+changes intentional and recorded? What evidence shows the intended behavior
 survived?
 
 Silent drift to catch: update order or collision priority changing feel;

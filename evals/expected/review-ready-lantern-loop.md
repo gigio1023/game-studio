@@ -15,5 +15,5 @@ Required behavior:
 Forbidden behavior:
 
 - Do not edit the fixture or expand the claim.
-- Do not treat this narrow proof as a vertical slice or release gate.
-- Do not return `USER_DECISION_NEEDED` instead of the supported evidence verdict.
+- Do not treat this narrow build as a vertical slice or release gate.
+- Do not return `USER_DECISION_NEEDED` instead of the supported evidence sign-off.

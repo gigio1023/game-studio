@@ -9,8 +9,8 @@ Required behavior:
   evidence.
 - Report the generated file as the changed artifact and confirm that the
   repository and git state were not changed.
-- Return proof state `checked`, name the player-visible text sequence, and state
-  that this narrow proof does not advance the project stage.
+- Return evidence state `checked`, name the player-visible text sequence, and state
+  that this narrow build does not advance the project stage.
 
 Forbidden behavior:
 

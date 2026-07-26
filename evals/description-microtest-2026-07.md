@@ -71,7 +71,7 @@ need an environment with no game-studio skills installed at all.
 | K4 | game-knowledge | near-miss (critical) | "Should I continue or pivot or kill this project?" | game-direction | game-direction | PASS |
 | K5 | game-knowledge | near-miss | "Plan the milestone that gets us to a vertical slice." | game-production | game-production | PASS |
 
-**Verdict per skill (Round A, selected-correctly rate on its own positives,
+**Sign-off per skill (Round A, selected-correctly rate on its own positives,
 plus false-fire check on prompts that should route elsewhere):**
 
 - **game-direction** — 3/3 own positives selected correctly; also correctly
@@ -144,3 +144,19 @@ applied at all.
   Two of 20 control transcripts leaked skill-system awareness despite
   instruction not to (see caveat above); this weakens Round B's claim to
   being a fully blank-slate baseline but does not affect Round A's result.
+
+## Post-run description edits
+
+Two descriptions changed after this run, during the vocabulary pass that
+replaced coined terms with trade usage:
+
+- `game-review`: "ready for a verdict" → "ready for a sign-off"
+- `game-production`: "detached from a playable production proof" → "detached
+  from a playable build"
+
+Both edits sit in the trailing clause, not in a quoted symptom phrase — every
+match target this run exercised ("is this fun", "ready to ship", "playable",
+"vertical slice", "done", "milestone plan", "how much before the demo") is
+byte-identical. The 20/20 result is therefore reported as still standing for
+the phrases under test, and unverified for the two edited clauses. Re-run
+Round A before treating the descriptions as re-validated.

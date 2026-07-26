@@ -16,5 +16,5 @@ Run this playable check from the repository root:
 node evals/fixtures/ready-lantern-loop.mjs --script cross,light,cross
 ```
 
-Limit the verdict to this one text-mode loop. Do not infer art, audio, broader
+Limit the sign-off to this one text-mode loop. Do not infer art, audio, broader
 level design, external-player comprehension, or release readiness.

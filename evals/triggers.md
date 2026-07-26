@@ -33,7 +33,7 @@ Positive:
 - "Direction is locked. Plan the smallest milestone that proves the core loop."
 - "Implement the dash mechanic from the brief in my Godot project."
 - "The dash fix passed review. Implement the accepted change and run the target
-  scene proof."
+  scene build."
 - "Keep working on the game for the next few hours; don't drift into writing
   docs."
 - "Map the whole-game release scope and cut line before we plan milestones."

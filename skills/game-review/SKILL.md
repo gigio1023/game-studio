@@ -5,7 +5,7 @@ description: >
   milestone or release readiness, narrative content, accessibility, or
   playtest results, or judging whether a claim like "is this fun",
   "ready to ship", "playable", "vertical slice", or "done" is backed by real
-  play and ready for a verdict. NOT for choosing, repairing, or auditing
+  play and ready for a sign-off. NOT for choosing, repairing, or auditing
   unresolved direction artifacts (use game-direction) and NOT for planning
   or implementing work (use game-production).
 ---
@@ -13,24 +13,24 @@ description: >
 # Game Review
 
 Judge game work against what actually plays, not what the prose claims. A
-review names the claim under review, checks the proof behind it first, then
-applies the craft lenses the claim touches, and returns one verdict with the
+review names the claim under review, checks the evidence behind it first, then
+applies the craft lenses the claim touches, and returns one sign-off with the
 artifacts it checked.
 
 ## Evidence Before Opinion
 
-Start every review by locating the claim and its proof:
+Start every review by locating the claim and its evidence:
 
 1. State the claim under review in one sentence (readable feel, taught level,
    covered branches, playable build, release-ready).
 2. Check what exists: build, capture, playtest note, or a check you can run
-   yourself. Read `references/evidence-and-release.md` for proof categories
+   yourself. Read `references/evidence-and-release.md` for evidence categories
    and the verification flow.
-3. Separate missing proof from failed proof — they demand different verdicts
-   and different next steps.
+3. Separate missing evidence from a failed check — they demand different
+   sign-offs and different next steps.
 
 Mechanical evidence (files exist, project loads, tests pass) never stands in
-for playable proof (a player performs the action and sees the consequence).
+for playable build (a player performs the action and sees the consequence).
 For engine build claims, require a real run — launch, scene load, smoke check,
 capture — not file presence; the game-production skill carries engine-specific
 check ladders if installed.
@@ -61,30 +61,30 @@ lens's findings distinct. Give each worker the same claim, evidence provenance,
 no-edit boundary, required checked artifact, finding and confidence fields, and
 stop condition; synthesize their findings instead of concatenating reports.
 
-## Verdict
+## Sign-off
 
 Return exactly one of:
 
-- `READY` — the checked proof supports advancement; the review does not advance
-  the project stage.
+- `READY` — the checked evidence supports advancement; the review does not
+  advance the project stage.
 - `CONCERNS` — it can advance only if the listed risks are accepted or fixed.
 - `NOT_READY` — advancing would create false confidence, hide a missing core
   loop, or expand a public promise past the build.
 - `USER_DECISION_NEEDED` — the review itself cannot finish without a
   human-owned taste, concept, direction, or public-promise decision. A separate
-  human stage decision after a supported `READY` verdict stays in the output
-  field below; it does not replace the evidence verdict.
+  human stage decision after a supported `READY` sign-off stays in the output
+  field below; it does not replace the evidence sign-off.
 
 Do not average lenses or simulate consensus: preserve dissent, and let the
-strictest finding that is supported by checked proof set the verdict. Separate
-observation, quote, inference, severity, and confidence in qualitative
+strictest finding that is supported by checked evidence set the sign-off.
+Separate observation, quote, inference, severity, and confidence in qualitative
 findings; style notes must not bury blockers.
 
 ## Authority
 
 A review or diagnosis authorizes inspection and non-destructive checks only.
 Do not edit the game, advance its stage, or change a public claim. If the user
-also asks for fixes, return the verdict first and hand the accepted findings to
+also asks for fixes, return the sign-off first and hand the accepted findings to
 game-production when it is available. Otherwise stop with a bounded fix handoff;
 review alone never becomes implementation authority.
 
@@ -92,14 +92,14 @@ review alone never becomes implementation authority.
 
 ```text
 Claim under review:
-Verdict: READY | CONCERNS | NOT_READY | USER_DECISION_NEEDED
-Proof checked:
-Proof provenance:
-Missing proof / failed proof:
+Sign-off: READY | CONCERNS | NOT_READY | USER_DECISION_NEEDED
+Evidence checked:
+Evidence provenance:
+Missing evidence / failed check:
 Findings (per lens, strictest first):
 Checks failed, skipped, or unverified:
 Residual risk:
-Required next proof:
+Required next build:
 Human decision needed:
 ```
 

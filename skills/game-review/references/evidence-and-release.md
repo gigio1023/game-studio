@@ -3,7 +3,7 @@
 How to verify that a claim is backed by real play, and how to compare public
 promises with build truth.
 
-## Proof Categories
+## Evidence Categories
 
 Classify what the available evidence actually proves, from weakest to
 strongest for a player-facing claim:
@@ -19,7 +19,7 @@ strongest for a player-facing claim:
 
 Do not let a lower category stand in for a higher claim. "Files exist" is not
 a playable build; run the narrowest real check that supports the claim —
-launch, scene load, smoke run, capture — or name it as missing proof.
+launch, scene load, smoke run, capture — or name it as missing evidence.
 
 ## Evidence Provenance
 
@@ -38,17 +38,17 @@ provenance and the residual risk from evidence you could not inspect.
 
 ## Verification Flow
 
-1. List the claim and the proof artifacts it requires.
+1. List the claim and the evidence artifacts it requires.
 2. Record each artifact's provenance; inspect or run it yourself when available.
-3. Separate missing proof (was never produced) from failed proof (was run and
+3. Separate missing evidence (was never produced) from failed check (was run and
    contradicts the claim).
 4. Note weak evidence explicitly: playtest notes without a build identifier,
    reported captures that were not inspected, screenshots standing in for
    motion, tests standing in for feel.
-5. Record residual risk — what the checked proof still cannot show.
+5. Record residual risk — what the checked evidence still cannot show.
 
-`NOT_READY` when proof is missing for the central claim; `CONCERNS` when proof
-exists but leaves a bounded, nameable risk.
+`NOT_READY` when evidence is missing for the central claim; `CONCERNS` when
+evidence exists but leaves a bounded, nameable risk.
 
 ## Release Claims Versus Build Truth
 
@@ -73,9 +73,9 @@ expectations.
 
 ```text
 Claim:
-Proof checked:
-Missing proof:
-Failed proof:
+Evidence checked:
+Missing evidence:
+Failed check:
 Weak evidence noted:
 Residual risk:
 Claim change required (release reviews):

@@ -13,7 +13,7 @@ build.
 - Godot Project Checks
 - Reference Pattern Selection
 - Scene And Script Defaults
-- First Playable Proof
+- First Playable Build
 - Genre-Specific Smoke Checks
 - Runtime Check Ladder
 - Godot Handoff Additions
@@ -25,7 +25,7 @@ build.
 
 | Work type | Main question | Minimum output |
 | --- | --- | --- |
-| First playable proof | Does one player action produce the intended visible consequence? If failure is part of the proof, is recovery legible? | Runnable scene, motion capture or walkthrough note, report. |
+| First playable build | Does one player action produce the intended visible consequence? If failure is part of the build, is recovery legible? | Runnable scene, motion capture or walkthrough note, report. |
 | Mechanic prototype | Does this one mechanic carry the target feeling or decision? | Isolated prototype scene and tuning notes. |
 | Vertical slice | Can one full loop be built at representative quality and pace? | 3-5 minute loop, representative-quality criteria, playtest note. |
 | Brownfield adoption | What systems already exist, and what is missing for Game Studio to use them? | Systems index, adoption audit, next build or retest. |
@@ -79,13 +79,13 @@ Avoid:
 - connecting signals every frame
 - hardcoded gameplay values when tuning is expected
 
-## First Playable Proof
+## First Playable Build
 
-A Godot first playable proof must define:
+A Godot first playable build must define:
 
 - player action under test
 - expected visual, audio, UI, and gameplay response
-- success state, plus failure and recovery when the active proof includes them
+- success state, plus failure and recovery when the active claim includes them
 - minimum scene list
 - input method
 - tuning values that matter to feel
@@ -94,7 +94,7 @@ A Godot first playable proof must define:
 - capture or walkthrough record
 
 The build does not need menus, save data, final art, or full architecture unless
-those are part of the proof target.
+those are part of the build target.
 
 ## Genre-Specific Smoke Checks
 
@@ -203,7 +203,7 @@ index or decision record that lets later skills work.
 
 ## Stop Conditions
 
-Report the proof as `failed` or `blocked`, without claiming completion, when:
+Report the build as `failed` or `blocked`, without claiming completion, when:
 
 - no Godot version is known
 - the main scene cannot be identified

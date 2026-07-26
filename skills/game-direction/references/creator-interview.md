@@ -3,7 +3,7 @@
 Use this when the creator cannot yet judge whether the current design is
 coherent, or when the agent is about to keep implementing from a weak game
 frame. The interview is not a thesis exam: it turns taste, philosophy,
-references, and constraints into a game frame and a first playable proof
+references, and constraints into a game frame and a first playable build
 without forcing production vocabulary on the creator.
 
 ## Source Classes
@@ -34,7 +34,7 @@ Maintain a small ledger while interviewing:
 | World response | What notices, remembers, rewards, or punishes the player? |
 | First verb | What can the player actually do first? |
 | First consequence | What changes because of that action? |
-| Proof target | What playable moment will prove the idea? |
+| Build target | What playable moment will prove the idea? |
 | Non-goal | What must not be built yet? |
 | Acceptance criteria | What would a player visibly understand or do? |
 
@@ -52,9 +52,9 @@ field. Stop asking broad questions once one specific blocker remains.
 3. **Define the frame.** Who the player is, what they can change directly,
    what watches or judges or remembers them, and the smallest place where that
    can happen.
-4. **First proof.** One player action playable first, one consequence made
-   visible, what would prove the player understood it, and what gets cut until
-   after that proof.
+4. **First playable build.** One player action playable first, one consequence
+   made visible, what would prove the player understood it, and what gets cut
+   until after that build.
 
 Question rules:
 
@@ -62,7 +62,7 @@ Question rules:
   systems, and what must not happen before proposing scope.
 - Ask for one contradiction at a time when references conflict.
 - Do not ask about engine, monetization, release plans, or content volume
-  unless that decision blocks the next proof.
+  unless that decision blocks the next build.
 
 ## When The Interview Can Close
 
@@ -70,7 +70,7 @@ The interview can hand off to production only when all of these hold:
 
 - the creator can say the game identity in one sentence;
 - the player role is clear enough to reject at least one wrong mechanic;
-- the first playable proof names one player action and one consequence;
+- the first playable build names one player action and one consequence;
 - non-goals are explicit enough to stop generic genre additions;
 - acceptance criteria can be observed in play;
 - human-owned decisions are recorded, not assumed.
@@ -85,7 +85,7 @@ Player role:
 Whole-game frame:
 Reference moments:
 Anti-references:
-First playable proof:
+First playable build:
 Acceptance criteria:
 Non-goals:
 Safe assumptions:

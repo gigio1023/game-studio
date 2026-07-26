@@ -14,9 +14,9 @@ description: >
 # Game Direction
 
 Turn creator intent into a direction the creator recognizes as theirs: a short
-creative brief plus one named first playable proof. Direction becomes stable
+creative brief plus one named first playable build. Direction becomes stable
 through play, not through longer prose, so every route here ends with a
-playable proof target, never with documentation alone.
+playable build target, never with documentation alone.
 
 ## Route First
 
@@ -31,7 +31,7 @@ Classify the entry before doing direction work:
 Two deeper tools:
 
 - When the creator needs a real conversation — philosophy, player role,
-  whole-game frame, first proof — run the interview in
+  whole-game frame, first playable build — run the interview in
   `references/creator-interview.md`.
 - When judging whether a thesis, pillars, player-experience target, or concept
   slate is solid, use the checklists in `references/direction-review.md`.
@@ -40,8 +40,8 @@ Two deeper tools:
 
 The human owns taste, concept selection, Direction Lock (the explicit decision
 that fixes direction), and public promises. You may ask, propose, compare,
-recommend rejection, draft candidate briefs, and plan the first proof. When the
-next step needs one of the human-owned calls, stop and return
+recommend rejection, draft candidate briefs, and plan the first playable build.
+When the next step needs one of the human-owned calls, stop and return
 `USER_DECISION_NEEDED` with the exact decision required — do not choose for
 them, and do not present your own inference as their taste.
 
@@ -55,11 +55,11 @@ change still requires explicit approval.
 
 Track where the project is with one status:
 `UNROUTED`, `TASTE_DISCOVERY`, `CONCEPT_SLATE`, `CREATIVE_BRIEF`,
-`FIRST_PROOF_PLANNED`, `DIRECTION_LOCKED`, or `PARKED`. A concept slate or
+`FIRST_BUILD_PLANNED`, `DIRECTION_LOCKED`, or `PARKED`. A concept slate or
 candidate brief is not active scope until the creator selects it; parked and
 rejected concepts keep their reasons. Always report one exact value from this
-set; prose such as "unchanged" is not a status. Naming a proof for an accepted
-carry-in can produce `FIRST_PROOF_PLANNED`, but never implies Direction Lock.
+set; prose such as "unchanged" is not a status. Naming a build for an accepted
+carry-in can produce `FIRST_BUILD_PLANNED`, but never implies Direction Lock.
 
 ## Output
 
@@ -71,7 +71,7 @@ Direction source:
 Authority owner:
 Concept status:
 Creative brief or candidate brief:
-First playable proof:
+First playable build:
 Safe assumptions made:
 Human decision needed:
 Next step:
@@ -91,7 +91,7 @@ direction work while a blocker remains.
 - Do not smooth away contradictions in the creator's taste too early; surface
   one contradiction at a time.
 - Do not turn discovery into documentation work: if the session produces prose
-  but no named playable proof, the route is not done.
-- If the first playable proof cannot be named in one sentence (one player
+  but no named playable build, the route is not done.
+- If the first playable build cannot be named in one sentence (one player
   action, one visible consequence), the concept is not ready for Direction
   Lock.

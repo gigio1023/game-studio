@@ -30,7 +30,7 @@ Forbidden behavior:
   minutes".
 - Giving legal conclusions instead of the written-assignment rule plus a
   jurisdiction caveat.
-- Judging the demo "ready" or "not ready" (that is game-review's verdict),
+- Judging the demo "ready" or "not ready" (that is game-review's sign-off),
   or turning the answer into a milestone plan (game-production).
 
 Acceptable shape: a short answer per question, each with its number and

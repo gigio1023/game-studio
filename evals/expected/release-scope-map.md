@@ -11,6 +11,6 @@ Required behavior:
   assumptions.
 - Name a credible cut line and a smaller fallback release without expanding the
   public promise.
-- Sequence one first milestone hypothesis and playable proof rather than
+- Sequence one first milestone hypothesis and playable build rather than
   turning the result into a generic backlog.
 - Keep stage advancement and any change to the public scope as human decisions.

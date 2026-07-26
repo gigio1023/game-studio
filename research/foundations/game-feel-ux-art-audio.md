@@ -88,7 +88,7 @@ This research page turns durable game craft references into review criteria for 
 | Art Director | Silhouette, value, color, material role, animation readability, visual hierarchy. | Gameplay capture with still frames marked for player, threat, objective, and background priority. |
 | Audio Director | Feedback taxonomy, mix priority, ambience, adaptive music, spatial cues. | Audio capture or implementation notes for critical states and mix priority. |
 | Technical Director | Performance, input latency, camera stability, tooling, asset budget, deterministic boundaries. | Build metrics, validation commands, and capture from target hardware or representative settings. |
-| QA Lead | Reproducibility, playtest quality, bug severity, evidence completeness. | Build identifier, scenario, observed issues, successful moments, and gate verdict. |
+| QA Lead | Reproducibility, playtest quality, bug severity, evidence completeness. | Build identifier, scenario, observed issues, successful moments, and gate sign-off. |
 | Producer | Scope, milestone fit, dependency risk, cost of polish, release promise. | Milestone contract showing what quality is required now and what is deferred. |
 
 ## Review Method for Visual and Playable Quality
@@ -99,7 +99,7 @@ This research page turns durable game craft references into review criteria for 
 4. Check the same moment through gameplay, UX, art, and audio lenses.
 5. Mark each issue as `BLOCKER`, `RISK`, or `POLISH`.
 6. Require a new capture when a fix changes timing, camera, UI, animation, VFX, or sound.
-7. Apply the strictest role verdict when evidence conflicts.
+7. Apply the strictest role sign-off when evidence conflicts.
 
 Use this review shape for each critical moment:
 

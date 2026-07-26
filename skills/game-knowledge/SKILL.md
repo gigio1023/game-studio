@@ -56,8 +56,8 @@ are short by design.
 | 4 | "flat / floaty / punchy / juice / screen shake / hit-stop" | `references/corpus/feel-ux-audio-art/screenshake-hitstop-parameterization.md` (interim; stage-2 target: a distilled feel doc) | Drive shake from one trauma value in [0,1]; shake amount = trauma² — never linear |
 | 5 | Camera complaints / motion sickness | `references/corpus/gdc-postmortems/feel-talks.md` | — |
 | 6 | Milestone planning / "what next" | `references/corpus/production-business-live/milestones-and-slices.md` (interim; stage-2 target: a distilled production doc) | No industry-standard milestone definitions exist — define alpha/beta/done in writing per project |
-| 7 | Long or overnight autonomous run starting | game-production skill, its long-run reference | Proof or fallback checked before the run ends |
-| 8 | "is this done / playable / vertical slice" | game-review skill | Mechanical checks never stand in for played proof |
+| 7 | Long or overnight autonomous run starting | game-production skill, its long-run reference | Build or fallback checked before the run ends |
+| 8 | "is this done / playable / vertical slice" | game-review skill | Mechanical checks never stand in for played evidence |
 | 9 | Playtest planning / "no one to test it" | `references/cases/balatro.md` | Unprompted play-hours beat solicited praise |
 | 10 | Demo / Steam page / Next Fest first mention | `references/release/store-page-and-demo.md` | Registration deadline ~7–8 weeks out; a demo live ~4 weeks early earns ~2.5x |
 | 11 | Project 6+ months old, no marketing artifacts | `references/release/marketing-and-wishlists.md` | Calendar lead time is unrecoverable; wishlist velocity, not raw count, feeds Discovery |
@@ -82,10 +82,11 @@ are short by design.
 - Give every number its source and date. When the corpus has no sourced number,
   say the evidence is missing instead of supplying a plausible one.
 - Knowledge does not authorize action. Report the rule and what it implies;
-  leave direction, scope, and verdict calls to the skills that own them.
+  leave direction, scope, and sign-off calls to the skills that own them.
 
 ## Companion Skills
 
 game-direction owns direction and concept, game-production owns milestones and
-implementation, game-review owns verdicts on finished work — this skill answers
+implementation, game-review owns sign-offs on finished work — this skill
+answers
 their factual questions and never replaces their routes.

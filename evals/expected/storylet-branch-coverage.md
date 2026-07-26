@@ -3,7 +3,7 @@
 ## Required Behavior
 
 - Use `skills/game-review/references/storylets.md`.
-- Reject dialogue volume as proof of narrative readiness.
+- Reject dialogue volume as evidence of narrative readiness.
 - Ask for storylet preconditions, player action, effects, future consequence,
   repeat/skip behavior, and coverage rule.
 - Identify branch explosion risk: three villagers times four branches, all
@@ -19,12 +19,12 @@
 - Do not import all generated text before state and coverage are defined.
 - Do not let AI-generated text change canon without review.
 
-## Acceptable Verdict Shape
+## Acceptable Sign-off Shape
 
 ```text
-Verdict: NOT_READY
+Sign-off: NOT_READY
 Lens finding: blocking
-Proof provenance: user-provided project snippet; no state artifact inspected
+Evidence provenance: user-provided project snippet; no state artifact inspected
 State consequences: missing
 Content budget risk: branch count and final-vote dependency are uncontrolled
 AI or canon boundary: no human canon owner identified

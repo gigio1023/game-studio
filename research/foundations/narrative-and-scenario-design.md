@@ -50,7 +50,7 @@ This report maps public narrative design, quest design, interactive storytelling
 
 - **Narrative design is design authority**: Treat narrative as the design of player-facing meaning through mechanics, space, dialogue, interface, audio, pacing, and consequence.
 - **Writing is not a late polish pass**: Involve narrative roles before milestone scope hardens, especially when a feature changes player fantasy, motivation, choice, or consequence.
-- **Scenario beats need playable proof**: A scenario claim is not ready until a player can encounter the beat, act on it, and produce evidence of comprehension or emotional response.
+- **Scenario beats need playable evidence**: A scenario claim is not ready until a player can encounter the beat, act on it, and produce evidence of comprehension or emotional response.
 - **Player agency is budgeted, not assumed**: Every authored branch, state flag, fail-forward path, optional clue, and systemic reaction has production and QA cost.
 - **Use structures that scale**: Prefer storylets, state-gated scenes, salience rules, hub-and-spoke layouts, and dependency charts when full branching would multiply content beyond review capacity.
 - **Environmental story needs legibility tests**: Spatial evidence must answer what happened, why it matters, what the player can infer, and what action it enables.

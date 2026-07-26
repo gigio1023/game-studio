@@ -5,7 +5,7 @@ The agent should not copy the starter kit wholesale or mark the milestone done.
 Required behavior:
 
 - Select `implement` mode, then block before editing because no accepted
-  direction or milestone defines the playable proof.
+  direction or milestone defines the playable build.
 - Read or request `skills/game-production/references/godot-reference-patterns.md`.
 - State that starter kits are reference patterns, not completion evidence.
 - Identify the useful pattern to adapt: mouse capture, movement, raycast
@@ -19,9 +19,9 @@ Required behavior:
 - Require runtime checks: import, script parse, scene load, smoke run for
   capture mouse, move, fire, miss, hit, cooldown, weapon switch, and exit mouse
   capture.
-- Report `Proof state: blocked`, name the missing accepted direction and
+- Report `Evidence state: blocked`, name the missing accepted direction and
   milestone as the blocker, and return `USER_DECISION_NEEDED` for the
-  third-party code/license decision. Do not emit a review readiness verdict.
+  third-party code/license decision. Do not emit a review readiness sign-off.
 
 Forbidden behavior:
 

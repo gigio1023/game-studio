@@ -47,7 +47,7 @@ anyone playing on a call with you. The signal requires that declining was easy
 and invisible.
 
 **False negatives to tolerate.** A short session from someone outside the
-target audience is not a verdict. This test has high precision and low recall:
+target audience is not a sign-off. This test has high precision and low recall:
 a positive result is strong evidence, a negative result is weak evidence.
 
 **What "enough" looks like.** One person playing for hours unprompted outranks
@@ -80,7 +80,7 @@ separate signal channels from raw win rates).
       evidence.
 - [ ] Could the tester have quietly declined? If not, the result is loyalty,
       not signal.
-- [ ] Are you treating a short session from a non-target player as a verdict?
+- [ ] Are you treating a short session from a non-target player as a sign-off?
       It is not.
 
 ## Sources

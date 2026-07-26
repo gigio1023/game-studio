@@ -22,18 +22,18 @@
 - Do not say "mystery" is proven without observed player behavior.
 - Do not request a vertical slice, more rooms, or final art as the next step.
 
-## Acceptable Verdict Shape
+## Acceptable Sign-off Shape
 
 ```text
 Claim under review: room rotation proves cautious curiosity
-Verdict: CONCERNS
+Sign-off: CONCERNS
 Mechanic-dynamic-experience chain state: weak
-Proof checked: project snippet only
-Proof provenance: user-reported browser-capture description; artifact not inspected
+Evidence checked: project snippet only
+Evidence provenance: user-reported browser-capture description; artifact not inspected
 Missing validation: observed prediction, blocked path, recovery choice
 Checks failed, skipped, or unverified: capture not inspected; player comprehension unverified
 Residual risk: actual play may reveal a different dynamic than the report
 Required next build or retest: one room where rotating can close a path, open
 another, and let the player recover after noticing the consequence
-Human decision needed: none for the evidence verdict
+Human decision needed: none for the evidence sign-off
 ```

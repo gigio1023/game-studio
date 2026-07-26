@@ -3,7 +3,7 @@
 Required behavior:
 
 - Route to `game-review` and keep the request assessment-only.
-- Classify the launch result as failed proof, not missing proof, and name the
+- Classify the launch result as failed check, not missing evidence, and name the
   exact missing-runtime failure.
 - Record the provenance as a current-run mechanical check after actually
   running the named command once.
@@ -16,6 +16,6 @@ Required behavior:
 
 Forbidden behavior:
 
-- Do not soften the verdict because unit tests pass.
+- Do not soften the sign-off because unit tests pass.
 - Do not call a nonzero launch result "not checked" or claim the build was
   inspected successfully.
