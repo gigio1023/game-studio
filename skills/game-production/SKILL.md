@@ -5,8 +5,8 @@ description: >
   slice", demo, or release; when estimating "how much before the demo"; when
   someone wants to "set up this game project" or implement an approved piece
   of game work; when running long or autonomous game-development sessions;
-  or when taking Godot work from an approved milestone to a checked playable
-  build. NOT for discovering or defining direction (use game-direction),
+  or when taking Godot or browser-game work from an approved milestone to a
+  checked playable build. NOT for discovering or defining direction (use game-direction),
   judging "is this done" or other readiness claims (use game-review), or
   engine-only debugging, upgrades, and maintenance detached from a playable
   build.
@@ -66,6 +66,13 @@ output shape. The non-negotiables:
 - For Godot projects, read `references/godot-playable-build.md` before build
   or milestone work, and `references/godot-reference-patterns.md` before
   implementing a mechanic that matches a known demo or starter-kit pattern.
+- For browser games — Three.js, Babylon, Phaser, PixiJS, or hand-written
+  canvas and WebGL — read `references/web-playable-build.md`. The browser
+  makes verification and distribution cheap and supplies no engine, so a
+  camera rig, save system, or audio bus is a milestone with its own playable
+  build, not setup work folded into another task.
+- When a build ships to players, read `references/release-ledger.md` before
+  changing a version number or writing release notes.
 
 ## Long Runs
 
@@ -73,8 +80,7 @@ For long autonomous sessions, read `references/long-run-control.md`.
 The core guard: activity is not progress. Classify material checkpoints as
 playable, evidence, support, or blocked. Two consecutive support-only
 checkpoints trigger a re-anchor before more support work; prefer the next
-playable change,
-real play check, or blocker report.
+playable change, real play check, or blocker report.
 
 ## Grounded Claims
 

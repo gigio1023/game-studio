@@ -6,7 +6,8 @@ description: >
   pricing, wishlist numbers, Next Fest, store page and demo scope, finding
   playtesters, burnout, IP assignment and contractor agreements, localization,
   publishers, or the design theory behind a mechanic. Also use on first contact
-  with a game project — project.godot, Assets/, *.uproject — and when a project
+  with a game project — project.godot, Assets/, *.uproject, or a package.json
+  with three/phaser/babylon — and when a project
   is months old with no marketing, no playtesters, or no backups. NOT for
   defining direction (use game-direction), planning or implementing milestones
   (use game-production), or judging a build or a readiness claim (use
@@ -68,6 +69,8 @@ are short by design.
 | 16 | Localization / "which languages first" | `references/release/localization-decisions.md` | — |
 | 17 | Publisher interest / pitching | `references/business/publishers-and-funding.md` | Publishers want quantified playtest validation, not promises |
 | 18 | Fingerprint: project.godot / Assets/ + ProjectVersion.txt / *.uproject | game-production skill, its engine references | Name the exact check verbs before claiming "checked" |
+| 19 | Fingerprint: package.json with three / phaser / babylon / pixi, or index.html + canvas | game-production skill, its web build guide | The browser makes verification cheap and supplies no engine — a camera rig or save system is a milestone, not setup |
+| 20 | Shipping an update / writing patch notes / "which version are players on" | game-production skill, its release-ledger guide | A version names a release players received, never a commit; prove the live build reports it |
 
 ## Consultation Protocol
 

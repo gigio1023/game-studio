@@ -16,7 +16,7 @@ Codex, Cursor, and other harnesses that read `SKILL.md`.
   <a href="docs/assets/readme-skill-map.drawio.svg">
     <img
       src="docs/assets/readme-skill-map.drawio.png"
-      alt="Four agent skills for building a game with AI coding. game-direction turns taste into a creative brief and the first prototype to build; game-production builds the smallest thing that answers the riskiest open question and returns a build that runs, played and captured; game-review gives a milestone sign-off — READY, CONCERNS, or NOT READY — and whatever is not ready sets the next milestone. Beneath them, game-knowledge answers questions mid-work with 18 routing signals, 16 distilled docs whose numbers carry dated citations, and a 68-file research corpus. The creator keeps the calls that stay theirs: which concept to chase, when the direction locks, when a stage is really done, and what ships, at what price, and what is promised publicly."
+      alt="Four agent skills for building a game with AI coding. game-direction turns taste into a creative brief and the first prototype to build; game-production builds the smallest thing that answers the riskiest open question and returns a build that runs, played and captured; game-review gives a milestone sign-off — READY, CONCERNS, or NOT READY — and whatever is not ready sets the next milestone. Beneath them, game-knowledge answers questions mid-work with 20 routing signals, 16 distilled docs whose numbers carry dated citations, and a 68-file research corpus. The creator keeps the calls that stay theirs: which concept to chase, when the direction locks, when a stage is really done, and what ships, at what price, and what is promised publicly."
       width="100%"
     />
   </a>
@@ -27,7 +27,7 @@ Codex, Cursor, and other harnesses that read `SKILL.md`.
 | Skill | Use it for |
 | --- | --- |
 | [`game-direction`](skills/game-direction/SKILL.md) | Interview a creator, turn taste into a concept slate and creative brief, or adopt and audit an existing direction — ending in one first playable build. |
-| [`game-production`](skills/game-production/SKILL.md) | Plan milestones as playable builds, implement without design drift, keep long autonomous runs pointed at the game, and apply Godot build discipline. |
+| [`game-production`](skills/game-production/SKILL.md) | Plan milestones as playable builds, implement without design drift, keep long autonomous runs pointed at the game, and apply Godot or browser build discipline. |
 | [`game-review`](skills/game-review/SKILL.md) | Review design, builds, narrative, accessibility, and release claims — evidence before opinion, strictest supported finding wins. |
 | [`game-knowledge`](skills/game-knowledge/SKILL.md) | Route game-craft symptoms — pricing, screen shake, IP assignment, burnout — to distilled, source-backed rules. |
 
@@ -65,7 +65,7 @@ Each skill remains self-contained, and distribution uses only `npx skills`.
   playable, evidence, support, or blocked — and support work gets a circuit
   breaker.
 - **Knowledge arrives at the moment, with sources.** Field questions —
-  pricing, juice, wishlists, contracts — route through an 18-signal index to
+  pricing, juice, wishlists, contracts — route through a 20-signal index to
   distilled rules whose numbers carry dated citations; unverified folklore
   stays labeled unverified instead of hardening into advice.
 

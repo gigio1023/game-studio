@@ -152,7 +152,10 @@ replaced coined terms with trade usage:
 
 - `game-review`: "ready for a verdict" → "ready for a sign-off"
 - `game-production`: "detached from a playable production proof" → "detached
-  from a playable build"
+  from a playable build", and "taking Godot work" → "taking Godot or
+  browser-game work"
+- `game-knowledge`: the first-contact fingerprint list gained "a package.json
+  with three/phaser/babylon"
 
 Both edits sit in the trailing clause, not in a quoted symptom phrase — every
 match target this run exercised ("is this fun", "ready to ship", "playable",
