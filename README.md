@@ -16,7 +16,7 @@ Codex, Cursor, and other harnesses that read `SKILL.md`.
   <a href="docs/assets/readme-skill-map.drawio.svg">
     <img
       src="docs/assets/readme-skill-map.drawio.png"
-      alt="Four agent skills for building a game with AI coding. game-direction turns taste into a creative brief and a first proof; game-production builds the smallest thing that settles the biggest unknown and returns a build that runs, played and captured; game-review returns one verdict — READY, CONCERNS, or NOT READY — whose result sets the next proof. Beneath them, game-knowledge answers questions mid-work with 18 routing signals, 16 distilled docs whose numbers carry dated citations, and a 68-file research corpus. The creator keeps the calls that stay theirs: which concept to chase, when the direction locks, when a stage is really done, and what ships, at what price, and what is promised publicly."
+      alt="Four agent skills for building a game with AI coding. game-direction turns taste into a creative brief and the first prototype to build; game-production builds the smallest thing that answers the riskiest open question and returns a build that runs, played and captured; game-review gives a milestone sign-off — READY, CONCERNS, or NOT READY — and whatever is not ready sets the next milestone. Beneath them, game-knowledge answers questions mid-work with 18 routing signals, 16 distilled docs whose numbers carry dated citations, and a 68-file research corpus. The creator keeps the calls that stay theirs: which concept to chase, when the direction locks, when a stage is really done, and what ships, at what price, and what is promised publicly."
       width="100%"
     />
   </a>
