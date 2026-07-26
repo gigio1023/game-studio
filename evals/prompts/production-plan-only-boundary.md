@@ -7,8 +7,8 @@ The creator says:
 
 Project facts:
 
-- Target proof: dash through one hazard, take damage on a mistime, recover, and
+- Target build: dash through one hazard, take damage on a mistime, recover, and
   retry within five seconds.
 - The repository has unrelated uncommitted art changes.
 - No runtime check or capture exists yet.
-- The milestone has a two-day proof budget.
+- The milestone has a two-day scope budget.

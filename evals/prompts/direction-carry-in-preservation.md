@@ -6,7 +6,7 @@ The creator says:
 > player rotates the room once and notices that one route closes while another
 > opens. Audit it only. Do not rewrite files, add a different concept, or lock a
 > production stage for me. Tell me what is still unproven and name the first
-> playable proof.
+> playable build.
 
 The creator's repository summary (the files and build are not attached):
 

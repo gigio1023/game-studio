@@ -7,12 +7,12 @@ The creator says:
 > spaces, physical objects, and discoveries caused by touching the world. I do
 > not want combat, lore dumps, procedural quest text, or a game longer than two
 > hours. Give me a small concept slate, recommend one direction, and name the
-> first playable proof. Do not select or lock the concept for me, and do not
+> first playable build. Do not select or lock the concept for me, and do not
 > create files.
 
 Budget:
 
 - Solo creator
-- Two weeks for the first proof
+- Two weeks for the first playable build
 - Placeholder art and text are acceptable
 - Keyboard and mouse are available

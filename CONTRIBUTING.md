@@ -28,8 +28,11 @@ judgment, not more process.
 5. Run the repository check:
 
 ```bash
-node tools/check-repository.mjs
+bun tools/check-repository.mjs
 ```
+
+The script is dependency-free ESM; `node tools/check-repository.mjs` runs it
+identically if you do not use Bun.
 
 6. For behavioral changes, run the eval protocol in `evals/README.md`
    (no-skill vs current vs candidate, per target harness) and report the

@@ -12,7 +12,7 @@ storylet guide alongside this one.
 4. Check localization, accessibility, and content QA risk where content volume
    or text is central.
 5. Check AI and canon authority when generated text is involved.
-6. Return a verdict.
+6. Return a sign-off.
 
 ## Checks
 
@@ -40,12 +40,12 @@ not change canon without authority and provenance.
 ## Output
 
 ```text
-Verdict: READY | CONCERNS | NOT_READY | USER_DECISION_NEEDED
+Sign-off: READY | CONCERNS | NOT_READY | USER_DECISION_NEEDED
 Story promise:
 Playable beats:
 State consequences:
 Content budget:
 Localization or accessibility risk:
 AI or canon boundary:
-Required next proof:
+Required next build:
 ```

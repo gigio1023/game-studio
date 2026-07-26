@@ -26,36 +26,32 @@ A rule for what the game must keep true when scope changes.
 
 A rule for what the game must avoid becoming.
 
-### Proof
+### Playable Build
 
-A concrete playable or inspectable result that answers a design, production, or
-release question.
+A running build the player can experience directly, even if it uses placeholder
+art, small content, or simulated systems. It exists to answer one design,
+production, or release question, and it is checked by playing it.
 
-### Playable Proof
-
-A proof the player can experience directly, even if it uses placeholder art,
-small content, or simulated systems.
-
-### First Playable Proof
+### First Playable Build
 
 The smallest running build where one player action creates one visible
-consequence. Failure and recovery belong in this gate when the active proof
+consequence. Failure and recovery belong in this gate when the active claim
 depends on them; they are not a universal excuse to expand the first build.
 
 ### First Playable
 
 The broader production milestone where the basic intended play path works in an
-integrated build. Game Studio uses **first playable proof** for its earlier,
+integrated build. Game Studio uses **first playable build** for its earlier,
 narrower evidence gate.
 
-### Proof Budget
+### Scope Budget
 
 The smallest amount of time, scope, content, and fidelity needed to answer the
 current question.
 
 ### Internal Evidence
 
-Records that support a proof, such as builds, captures, playtest notes, QA
+Records that support a build's claim: captures, playtest notes, QA
 results, decision records, and release audits.
 
 ### Direction Lock
@@ -69,7 +65,7 @@ is being made.
 A prototype where the player can repeat the main loop with feedback, failure,
 and a reason to continue.
 
-### Presentation Proof
+### Presentation Build
 
 Evidence that the chosen camera, input, UI, visual, and audio format improves
 player experience enough to justify its production cost.
@@ -79,7 +75,7 @@ player experience enough to justify its production cost.
 A short section at intended shipped quality. It should not be used as a label
 for an early prototype.
 
-### Verdict
+### Sign-off
 
 A review decision: `READY`, `CONCERNS`, `NOT_READY`, or `USER_DECISION_NEEDED`
 when the review itself needs a human-owned decision. `READY` means the checked
@@ -89,7 +85,7 @@ evidence supports advancement; it does not advance the project stage.
 
 ### Fun
 
-Do not use as proof by itself. Name what players did, understood, repeated,
+Do not use as evidence by itself. Name what players did, understood, repeated,
 avoided, or asked to do next.
 
 ### Polished
@@ -104,4 +100,4 @@ Do not use unless required content is listed and tied to release promises.
 ### AI-Generated
 
 Do not treat generation as authority. Generated material still needs direction,
-review, and proof.
+review, and evidence.

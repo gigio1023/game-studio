@@ -41,7 +41,7 @@ defer, or cut.
 ### Agents propose and execute; reviews decide
 
 Agents can make assumptions while working. Recording those assumptions makes
-them reviewable. Review verdicts decide whether the work can advance; humans
+them reviewable. Review sign-offs decide whether the work can advance; humans
 decide direction, stages, and public promises.
 
 ### Small teams need fewer meetings, not fewer standards
@@ -56,9 +56,9 @@ larger unfinished prototype.
 
 ## Scope Boundaries
 
-Game Studio owns creative direction, proof-based production, and evidence-based
-review. It can frame a playtest question inside a milestone and review supplied
-observations, but it does not recruit, contact, or facilitate sessions with real
+Game Studio owns creative direction, production against playable builds, and
+evidence-based review. It can frame a playtest question inside a milestone and
+review supplied observations, but it does not recruit, contact, or facilitate sessions with real
 participants. Those human-facing actions need an explicit owner and authority.
 
 The package can review narrative, art, audio, accessibility, store claims, and

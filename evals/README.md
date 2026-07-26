@@ -9,7 +9,7 @@ skill or its references.
 | Directory | Purpose |
 | --- | --- |
 | `prompts/` | User-style prompts or project snippets given to an agent. |
-| `expected/` | Required behavior, forbidden behavior, and acceptable verdict shape. |
+| `expected/` | Required behavior, forbidden behavior, and acceptable sign-off shape. |
 | `fixtures/` | Small runnable artifacts used for current-run success and failure evidence. |
 | `triggers.md` | Positive and near-miss prompts for skill discovery. |
 
@@ -20,7 +20,7 @@ skill or its references.
 | `direction-carry-in-preservation.md` | game-direction — carry-in preservation and audit-only authority |
 | `taste-to-game-normal-path.md` | game-direction — normal discovery path and human concept ownership |
 | `production-plan-only-boundary.md` | game-production — plan mode and mutation boundary |
-| `production-implementation-success.md` | game-production — bounded local implementation and current-run proof |
+| `production-implementation-success.md` | game-production — bounded local implementation and current-run evidence |
 | `release-scope-map.md` | game-production — whole-game scope map and plan-only authority |
 | `long-run-support-checkpoint.md` | game-production — support circuit breaker, blocker, and sparse checkpoints |
 | `mda-chain-broken.md` | game-review — `skills/game-review/references/mda.md` |
@@ -28,10 +28,11 @@ skill or its references.
 | `storylet-branch-coverage.md` | game-review — `skills/game-review/references/storylets.md` |
 | `level-flow-tests-before-teaches.md` | game-review — `skills/game-review/references/level-flow.md` |
 | `godot-playable-build-claim.md` | game-review — readiness routing and `skills/game-review/references/evidence-and-release.md` |
-| `review-ready-lantern-loop.md` | game-review — current-run playable evidence and a bounded `READY` verdict |
-| `review-runtime-check-failure.md` | game-review — failed proof and review-only authority |
+| `review-ready-lantern-loop.md` | game-review — current-run playable evidence and a bounded `READY` sign-off |
+| `review-runtime-check-failure.md` | game-review — failed check and review-only authority |
 | `accessibility-feature-claim.md` | game-review — feature evidence versus a broad accessibility claim |
 | `godot-starter-kit-copy.md` | game-production — `skills/game-production/references/godot-reference-patterns.md` |
+| `knowledge-routing-injection.md` | game-knowledge — moment routing, sourced numbers, and unverified-figure discipline |
 
 ## Run Protocol
 
@@ -45,7 +46,7 @@ surface, and effort setting fixed:
 Accept a skill change only when condition 3 beats condition 2 without losing
 strengths visible in condition 1. Treat a tie as rejection for behavioral
 edits. Test Claude Code and Codex separately when both are targets; a pass on
-one is not proof for the other.
+one is not evidence for the other.
 
 Record each run with:
 
@@ -53,7 +54,7 @@ Record each run with:
 Fixture and condition: no skill | current | candidate
 Model, harness, and effort:
 Available tools and missing prerequisites:
-Output artifact or verdict:
+Output artifact or sign-off:
 Evidence provenance and checks:
 File or external-state diff:
 Pass or fail, with rubric item:
@@ -73,19 +74,19 @@ Common invariants:
   artifacts or current-run tool results
 - separate observed facts, design inference, and taste judgment when the claim
   depends on them
-- name the next proof, decision, or genuine blocker
+- name the next build, decision, or genuine blocker
 
 When a task judges quality or completion, also distinguish checked, missing,
-and failed proof; state failed, skipped, and unverified checks; and refuse to
+and failed check; state failed, skipped, and unverified checks; and refuse to
 approve polish, prose, file presence, or a filled template as game quality.
 
 Skill-specific requirements:
 
 - `game-direction`: preserve carry-in direction, source load-bearing facts,
-  name concept status and first playable proof, and leave human-owned calls to
+  name concept status and first playable build, and leave human-owned calls to
   the creator.
-- `game-production`: return the selected mode, milestone or proof, player-facing
-  change or plan, evidence results, cuts or assumptions, blocker, and next proof.
-- `game-review`: return exactly one evidence verdict — `READY`, `CONCERNS`,
+- `game-production`: return the selected mode, milestone or build, player-facing
+  change or plan, evidence results, cuts or assumptions, blocker, and next build.
+- `game-review`: return exactly one evidence sign-off — `READY`, `CONCERNS`,
   `NOT_READY`, or `USER_DECISION_NEEDED` — plus provenance, residual risk, and
-  the required next proof.
+  the required next build.

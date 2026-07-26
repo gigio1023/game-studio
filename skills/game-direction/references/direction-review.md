@@ -44,9 +44,9 @@ or the word "fun" without observable player behavior is not direction.
 ## Concept Slate
 
 - 3 to 5 concepts, each with player fantasy, core verb, intended emotion,
-  distinctive bet, main risk, first playable proof, and a reason to reject.
-- Concepts are compared by taste fit, cost and speed of proof, production risk,
-  and content burden.
+  distinctive bet, main risk, first playable build, and a reason to reject.
+- Concepts are compared by taste fit, cost and speed of the first build,
+  production risk, and content burden.
 - Parked and rejected concepts have reasons; the slate does not become active
   scope without a user decision.
 
@@ -55,7 +55,7 @@ or the word "fun" without observable player behavior is not direction.
 - Names player promise, target player, core verb, core pressure, intended
   emotion, distinctive bet, and main risk.
 - Pillars and anti-pillars can reject work; work to ignore for now is listed.
-- First playable proof and proof budget are explicit.
+- First playable build and scope budget are explicit.
 - Marked candidate material until the creator accepts it.
 
 ## First Prototype Question
@@ -77,10 +77,10 @@ or the word "fun" without observable player behavior is not direction.
 ## Output
 
 ```text
-Verdict: READY | CONCERNS | NOT_READY | USER_DECISION_NEEDED
+Sign-off: READY | CONCERNS | NOT_READY | USER_DECISION_NEEDED
 Checked:
 Findings:
 Missing before Direction Lock:
 Human decision needed:
-Next proof:
+Next build:
 ```

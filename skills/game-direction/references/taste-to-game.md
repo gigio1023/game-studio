@@ -3,7 +3,7 @@
 Use this route when the creator can describe what they like, dislike, want to
 feel, or want to avoid, but cannot yet name a stable game direction. The goal
 is not to brainstorm forever: turn taste into a small set of comparable
-concepts, help the creator select one, and define a first playable proof.
+concepts, help the creator select one, and define a first playable build.
 
 ## Contents
 
@@ -14,7 +14,7 @@ concepts, help the creator select one, and define a first playable proof.
 - Concept slate
 - Selection
 - Creative brief
-- First playable proof
+- First playable build
 
 ## Useful Inputs
 
@@ -58,7 +58,7 @@ Stronger:
 
 ## Constraint Ladder
 
-Bound ambition into a finishable proof path before comparing concepts:
+Bound ambition into a finishable build path before comparing concepts:
 
 ```markdown
 # Constraint Ladder
@@ -68,7 +68,7 @@ Bound ambition into a finishable proof path before comparing concepts:
 ## Can Cut
 ## Must Not Promise
 
-## Proof Budget
+## Scope Budget
 - Time:
 - Content:
 - Systems:
@@ -89,7 +89,7 @@ Build 3 to 5 concepts, each small enough to compare and reject:
 ## Repeatable Loop
 ## Why This Fits
 ## Why This Might Fail
-## First Playable Proof
+## First Playable Build
 ## Rejection Signal
 ```
 
@@ -99,14 +99,14 @@ burden.
 
 ## Selection
 
-The agent can recommend at most one concept and one next proof; the creator
+The agent can recommend at most one concept and one next build; the creator
 selects, combines, parks, or rejects.
 
 - `SELECT`: move one concept into a creative brief.
-- `COMBINE`: merge specific parts of two concepts and rewrite the proof
-  question.
+- `COMBINE`: merge specific parts of two concepts and rewrite the question the
+  build answers.
 - `PARK`: keep the concept visible but out of scope, with a reason.
-- `REJECT`: record why it does not fit taste, constraints, or proof budget.
+- `REJECT`: record why it does not fit taste, constraints, or scope budget.
 
 ## Creative Brief
 
@@ -117,18 +117,18 @@ Short enough for an agent to preserve during implementation. Name:
 - core tension and main verb
 - feedback requirement
 - failure or recovery state
-- proof budget
+- scope budget
 - non-goals
 
 If the creator has not accepted the concept, mark the brief as candidate
 material; Direction Lock waits for an explicit decision.
 
-## First Playable Proof
+## First Playable Build
 
-The first proof answers one question, such as: Is the central interaction
-legible? Does the player understand what changed after acting? Does the main
-tension appear within the first minute? Does failure create a useful next
+The first playable build answers one question, such as: Is the central
+interaction legible? Does the player understand what changed after acting? Does
+the main tension appear within the first minute? Does failure create a useful next
 attempt?
 
-If the first proof cannot be named, the concept is not ready for Direction
-Lock.
+If the first playable build cannot be named, the concept is not ready for
+Direction Lock.

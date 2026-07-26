@@ -33,7 +33,7 @@ This report turns external QA, playtesting, usability, accessibility, and releas
 
 **Severity is multidimensional**: Triage should record player impact, frequency, persistence, workarounds, affected platforms, affected player groups, and release risk. Priority is the decision about when to fix it.
 
-**Qualitative review needs method**: Playtest notes should separate observation, participant quote, facilitator inference, design recommendation, and confidence level. One dramatic session is a signal, not a verdict.
+**Qualitative review needs method**: Playtest notes should separate observation, participant quote, facilitator inference, design recommendation, and confidence level. One dramatic session is a signal, not a sign-off.
 
 **Representative players matter**: Accessibility and usability cannot be fully reviewed by only the team that made the game. External players and players with relevant disabilities should be included before public release.
 

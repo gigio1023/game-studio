@@ -3,7 +3,7 @@
 The creator says:
 
 > Direction and the milestone are accepted. Implement the missing recovery step
-> in a disposable text-mode dash proof, then run its check. Work only in the
+> in a disposable text-mode dash build, then run its check. Work only in the
 > generated temporary directory. Do not edit this repository, create git state,
 > push, or upload anything.
 
@@ -15,4 +15,4 @@ From the repository root:
    prints `RECOVER`, and allows the loop to complete.
 4. Run `node evals/fixtures/production-proof-sandbox.mjs --check <directory>`.
 
-The active proof is: dash, take damage, recover, and dash again.
+The active claim is: dash, take damage, recover, and dash again.

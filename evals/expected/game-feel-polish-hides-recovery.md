@@ -5,7 +5,7 @@
 - Use `skills/game-review/references/game-feel.md`.
 - Name the primary verb response chain: input, movement, confirmation,
   consequence, failure, recovery.
-- Treat particles, screen shake, and loud audio as polish, not proof by
+- Treat particles, screen shake, and loud audio as polish, not evidence by
   themselves.
 - Record the evidence as a user-reported description of a gameplay capture;
   the capture artifact itself was not inspected.
@@ -20,20 +20,20 @@
 - Do not ask for more VFX as the main fix.
 - Do not judge feel from a screenshot.
 
-## Acceptable Verdict Shape
+## Acceptable Sign-off Shape
 
 ```text
 Claim under review: dash feel is ready for the vertical slice
-Verdict: NOT_READY
+Sign-off: NOT_READY
 Lens finding: blocking
 Primary verb: dash
-Proof checked: project snippet only
-Proof provenance: user-reported capture description; artifact not inspected
-Missing proof / failed proof: inspected motion evidence and readable recovery proof missing
+Evidence checked: project snippet only
+Evidence provenance: user-reported capture description; artifact not inspected
+Missing evidence / failed check: inspected motion evidence and readable recovery evidence missing
 Blocking concern: failure and recovery are unreadable after wall collision
 Checks failed, skipped, or unverified: capture not inspected; return-of-control timing unverified
 Residual risk: direct input, camera, and audio behavior may differ from the report
 Required next build or retest: capture a dash into open space and a dash into a
 wall with clear collision feedback, cooldown feedback, and return-of-control cue
-Human decision needed: none for the evidence verdict
+Human decision needed: none for the evidence sign-off
 ```

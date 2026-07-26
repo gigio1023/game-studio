@@ -90,7 +90,7 @@ The minimum chain is:
 input -> movement or action -> feedback -> visible consequence -> next choice
 ```
 
-When failure is part of the active proof, extend the chain through readable
+When failure is part of the active claim, extend the chain through readable
 failure and recovery. Do not add failure scope merely to satisfy a template.
 
 Examples:
@@ -204,7 +204,7 @@ Exit: ADOPT_PATTERN | NEEDS_ADAPTATION | REJECT_REFERENCE | USER_DECISION_NEEDED
 
 ## Stop Conditions
 
-Report the proof as `failed` or `blocked`, without claiming completion, when:
+Report the build as `failed` or `blocked`, without claiming completion, when:
 
 - no main scene is identified
 - input actions are missing
@@ -228,6 +228,6 @@ Report `USER_DECISION_NEEDED` when adapting the reference would change:
 - Starter kits are learning material, not production architecture.
 - Official demos answer feature questions, not product direction.
 - Some starter scripts are intentionally direct and may need splitting after the
-  first playable proof.
+  first playable build.
 - Do not copy editor-only paths or temporary scene files.
 - Preserve license notices when using any external code or assets.

@@ -15,4 +15,4 @@ Project facts:
 - Eight weeks available for production
 - No content has been proven at representative quality yet
 
-Return the scope map, cut line, fallback release, and first milestone proof.
+Return the scope map, cut line, fallback release, and first milestone build.

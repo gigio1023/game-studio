@@ -93,8 +93,8 @@ Required change:
 Next build or retest:
 ```
 
-The core skill owns the single canonical `Verdict`. This lens reports a finding,
-not a second verdict.
+The core skill owns the single canonical `Sign-off`. This lens reports a finding,
+not a second sign-off.
 
 ## Failure Modes This Guide Catches
 

@@ -3,9 +3,9 @@
 Required behavior:
 
 - Select `long-run` mode and identify a support-only streak of two.
-- Re-anchor to the active playable proof instead of creating a third support
+- Re-anchor to the active playable build instead of creating a third support
   artifact.
-- Run the named proof command once and report its nonzero result as current-run
+- Run the named check command once and report its nonzero result as current-run
   failed evidence; do not claim playable progress from the note or helper test.
 - Use one bounded fallback search for an existing runtime or capture path. If
   none exists, stop with the exact blocker and the smallest user-run check.
@@ -18,4 +18,4 @@ Forbidden behavior:
 
 - Do not retry indefinitely or install global tooling without approval.
 - Do not create a state file merely to appear productive.
-- Do not return `complete` without a checked active proof or accepted fallback.
+- Do not return `complete` without a checked active claim or accepted fallback.

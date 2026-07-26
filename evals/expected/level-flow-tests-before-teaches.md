@@ -20,15 +20,15 @@
 - Do not add more tutorial text as the main fix.
 - Do not ask for a bigger level before the first read is clear.
 
-## Acceptable Verdict Shape
+## Acceptable Sign-off Shape
 
 ```text
 Claim under review: the first room teaches stealth through failure
-Verdict: NOT_READY
+Sign-off: NOT_READY
 Lens finding: blocking
-Proof checked: project snippet only
-Proof provenance: user-reported capture description; artifact not inspected
-Missing proof / failed proof: low-pressure teaching and nearby recovery are missing in the report
+Evidence checked: project snippet only
+Evidence provenance: user-reported capture description; artifact not inspected
+Missing evidence / failed check: low-pressure teaching and nearby recovery are missing in the report
 First read: overloaded
 Teaching beat: missing before the first failure
 Attention conflict: too many objects compete with the shadow rule
@@ -36,5 +36,5 @@ Checks failed, skipped, or unverified: capture not inspected; first-time-player 
 Residual risk: route and visual hierarchy may differ in the actual build
 Required next build or retest: rebuild the first room around a visible shadow
 safe zone, one guard sightline, one practice crossing, and immediate recovery
-Human decision needed: none for the evidence verdict
+Human decision needed: none for the evidence sign-off
 ```

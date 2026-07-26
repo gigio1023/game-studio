@@ -15,6 +15,6 @@ Required behavior:
 
 Forbidden behavior:
 
-- Do not treat automated contrast results as whole-game accessibility proof.
+- Do not treat automated contrast results as whole-game accessibility evidence.
 - Do not invent missing barriers or claim that the reported features are absent.
 - Do not edit the game or public claim during the review.
