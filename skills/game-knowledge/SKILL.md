@@ -52,11 +52,11 @@ are short by design.
 | # | Signal | Read | Load-bearing rule |
 | --- | --- | --- | --- |
 | 1 | New game project / "I have a game idea" / no direction artifacts | `references/cases/undertale.md` | First game smaller than your real ambition |
-| 2 | Choosing concepts / writing pillars | `references/corpus/design-theory/mda-and-successors.md` (interim; stage-2 target: a distilled direction doc) | Design mechanics from the target aesthetic backward — the player meets aesthetics first |
+| 2 | Choosing concepts / writing pillars | `references/craft/design-direction.md` | Design mechanics from the target aesthetic backward — the player meets aesthetics first; "aesthetics" means emotion, not art style |
 | 3 | "continue / pivot / kill this?" | game-direction skill | Direction changes need a finished or killed milestone |
-| 4 | "flat / floaty / punchy / juice / screen shake / hit-stop" | `references/corpus/feel-ux-audio-art/screenshake-hitstop-parameterization.md` (interim; stage-2 target: a distilled feel doc) | Drive shake from one trauma value in [0,1]; shake amount = trauma² — never linear |
+| 4 | "flat / floaty / punchy / juice / screen shake / hit-stop" | `references/craft/game-feel.md` | Drive shake from one trauma value in [0,1]; shake amount = trauma² — never linear |
 | 5 | Camera complaints / motion sickness | `references/corpus/gdc-postmortems/feel-talks.md` | — |
-| 6 | Milestone planning / "what next" | `references/corpus/production-business-live/milestones-and-slices.md` (interim; stage-2 target: a distilled production doc) | No industry-standard milestone definitions exist — define alpha/beta/done in writing per project |
+| 6 | Milestone planning / "what next" | `references/production/milestones.md` | No industry-standard milestone definitions exist — define alpha/beta/done in writing per project |
 | 7 | Long or overnight autonomous run starting | game-production skill, its long-run reference | Build or fallback checked before the run ends |
 | 8 | "is this done / playable / vertical slice" | game-review skill | Mechanical checks never stand in for played evidence |
 | 9 | Playtest planning / "no one to test it" | `references/cases/balatro.md` | Unprompted play-hours beat solicited praise |
