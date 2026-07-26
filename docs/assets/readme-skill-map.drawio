@@ -4,93 +4,76 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" value="Four portable skills keep game work grounded in play and sourced in fact" style="text;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=27;fontStyle=1;fontColor=#111827;spacing=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="22" width="960" height="42" as="geometry" />
+        <mxCell id="title" value="Four agent skills for building a game with Claude Code or Codex" style="text;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=27;fontStyle=1;fontColor=#111827;spacing=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="26" width="1160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" value="Define direction &#8594; build the smallest playable proof &#8594; review what actually plays &#8212; with field knowledge injected at the moment it matters" style="text;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#4B5563;spacing=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="66" width="880" height="24" as="geometry" />
+        <mxCell id="subtitle" value="Start from taste, a pitch, or a repo already in progress &#8212; then one playable proof at a time, judged by what actually plays" style="text;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#4B5563;spacing=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="72" width="1080" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="entry-panel" value="Starting point" style="swimlane;startSize=36;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;fontSize=16;fontStyle=1;fontColor=#111827;fillColor=#F5F5F5;swimlaneFillColor=#F8FAFC;strokeColor=#CBD5E1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="130" width="210" height="300" as="geometry" />
+        <mxCell id="direction-panel" value="1 &#183; game-direction" style="swimlane;startSize=44;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=SF Mono,Menlo,Consolas,monospace;fontSize=16;fontStyle=1;fontColor=#312E81;fillColor=#EEF2FF;swimlaneFillColor=#F8FAFC;strokeColor=#A5B4FC;spacing=10;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="152" width="360" height="256" as="geometry" />
         </mxCell>
-        <mxCell id="entry-taste" value="Creator taste&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;feelings &#183; references &#183; hard noes&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="entry-panel">
-          <mxGeometry x="20" y="60" width="170" height="58" as="geometry" />
+        <mxCell id="direction-does" value="Turn taste into a direction the creator recognizes as theirs &#8212; or audit the one that already exists." style="text;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;fontSize=14;fontColor=#374151;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;html=1;" vertex="1" parent="direction-panel">
+          <mxGeometry x="24" y="68" width="312" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="entry-direction" value="Existing direction&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;thesis &#183; pitch &#183; prototype&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="entry-panel">
-          <mxGeometry x="20" y="136" width="170" height="58" as="geometry" />
+        <mxCell id="direction-out" value="&lt;font style=&quot;font-size:10px;color:#6366F1;&quot;&gt;WHAT YOU GET&lt;/font&gt;&lt;br&gt;&lt;b&gt;A creative brief and the first proof to build&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;concept slate &#183; player role &#183; hard noes&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#111827;fontSize=14;align=left;verticalAlign=middle;html=1;" vertex="1" parent="direction-panel">
+          <mxGeometry x="24" y="136" width="312" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="entry-repo" value="Existing game repo&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;build &#183; notes &#183; unknowns&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="entry-panel">
-          <mxGeometry x="20" y="212" width="170" height="58" as="geometry" />
+        <mxCell id="production-panel" value="2 &#183; game-production" style="swimlane;startSize=44;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=SF Mono,Menlo,Consolas,monospace;fontSize=16;fontStyle=1;fontColor=#312E81;fillColor=#EEF2FF;swimlaneFillColor=#F8FAFC;strokeColor=#A5B4FC;spacing=10;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="152" width="360" height="256" as="geometry" />
         </mxCell>
-        <mxCell id="direction-panel" value="1 &#183; game-direction" style="swimlane;startSize=42;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=SF Mono,Menlo,Consolas,monospace;fontSize=16;fontStyle=1;fontColor=#312E81;fillColor=#EEF2FF;swimlaneFillColor=#F8FAFC;strokeColor=#A5B4FC;spacing=10;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="130" width="230" height="300" as="geometry" />
+        <mxCell id="production-does" value="Build the smallest thing that settles the biggest unknown, and implement it without design drift." style="text;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;fontSize=14;fontColor=#374151;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;html=1;" vertex="1" parent="production-panel">
+          <mxGeometry x="24" y="68" width="312" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="direction-brief" value="Creative brief&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;player role &#183; constraints&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="direction-panel">
-          <mxGeometry x="24" y="70" width="182" height="72" as="geometry" />
+        <mxCell id="production-out" value="&lt;font style=&quot;font-size:10px;color:#6366F1;&quot;&gt;WHAT YOU GET&lt;/font&gt;&lt;br&gt;&lt;b&gt;A build that runs, played and captured&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;every milestone is a proof, never a task list&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#111827;fontSize=14;align=left;verticalAlign=middle;html=1;" vertex="1" parent="production-panel">
+          <mxGeometry x="24" y="136" width="312" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="direction-target" value="First proof target&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;one action &#183; one consequence&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="direction-panel">
-          <mxGeometry x="24" y="176" width="182" height="72" as="geometry" />
+        <mxCell id="review-panel" value="3 &#183; game-review" style="swimlane;startSize=44;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=SF Mono,Menlo,Consolas,monospace;fontSize=16;fontStyle=1;fontColor=#312E81;fillColor=#EEF2FF;swimlaneFillColor=#F8FAFC;strokeColor=#A5B4FC;spacing=10;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="152" width="360" height="256" as="geometry" />
         </mxCell>
-        <mxCell id="production-panel" value="2 &#183; game-production" style="swimlane;startSize=42;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=SF Mono,Menlo,Consolas,monospace;fontSize=16;fontStyle=1;fontColor=#312E81;fillColor=#EEF2FF;swimlaneFillColor=#F8FAFC;strokeColor=#A5B4FC;spacing=10;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="130" width="230" height="300" as="geometry" />
+        <mxCell id="review-does" value="Judge the game, not the report &#8212; design, build, narrative, accessibility, and release claims." style="text;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;fontSize=14;fontColor=#374151;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;html=1;" vertex="1" parent="review-panel">
+          <mxGeometry x="24" y="68" width="312" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="production-build" value="Playable milestone&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;smallest build &#183; biggest risk&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="production-panel">
-          <mxGeometry x="24" y="70" width="182" height="72" as="geometry" />
+        <mxCell id="review-out" value="&lt;font style=&quot;font-size:10px;color:#6366F1;&quot;&gt;WHAT YOU GET&lt;/font&gt;&lt;br&gt;&lt;b&gt;One verdict: READY / CONCERNS / NOT READY&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;evidence before opinion &#183; strictest finding wins&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#E2E8F0;fontColor=#111827;fontSize=14;align=left;verticalAlign=middle;html=1;" vertex="1" parent="review-panel">
+          <mxGeometry x="24" y="136" width="312" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="production-check" value="Grounded check&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;launch &#183; play &#183; capture&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="production-panel">
-          <mxGeometry x="24" y="176" width="182" height="72" as="geometry" />
+        <mxCell id="knowledge-panel" value="4 &#183; game-knowledge &#8212; the field manual the three skills consult mid-work" style="swimlane;startSize=44;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=SF Mono,Menlo,Consolas,monospace;fontSize=16;fontStyle=1;fontColor=#92400E;fillColor=#FEF3C7;swimlaneFillColor=#FFFBEB;strokeColor=#FCD34D;spacing=10;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="488" width="1160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="review-panel" value="3 &#183; game-review" style="swimlane;startSize=42;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=SF Mono,Menlo,Consolas,monospace;fontSize=16;fontStyle=1;fontColor=#312E81;fillColor=#EEF2FF;swimlaneFillColor=#F8FAFC;strokeColor=#A5B4FC;spacing=10;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="130" width="230" height="300" as="geometry" />
+        <mxCell id="knowledge-ask" value="&lt;b&gt;Ask it mid-work&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;18 routing signals: &quot;make it punchier&quot;, pricing, Next Fest, a first contractor, burnout&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#FDE68A;fontColor=#111827;fontSize=14;align=left;verticalAlign=middle;html=1;" vertex="1" parent="knowledge-panel">
+          <mxGeometry x="24" y="68" width="352" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="review-proof" value="Proof before opinion&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;build &#183; capture &#183; playtest&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="review-panel">
-          <mxGeometry x="24" y="70" width="182" height="72" as="geometry" />
+        <mxCell id="knowledge-rule" value="&lt;b&gt;Get a rule with its receipt&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;16 distilled docs; every number carries a dated citation, and folklore stays labeled unverified&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#FDE68A;fontColor=#111827;fontSize=14;align=left;verticalAlign=middle;html=1;" vertex="1" parent="knowledge-panel">
+          <mxGeometry x="404" y="68" width="352" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="review-verdict" value="One verdict&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;READY &#183; CONCERNS &#183; NOT READY&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="review-panel">
-          <mxGeometry x="24" y="176" width="182" height="72" as="geometry" />
+        <mxCell id="knowledge-deep" value="&lt;b&gt;Read the primary work&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;68-file research corpus in 6 lanes, each lane shipping its own confidence manifest&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#FDE68A;fontColor=#111827;fontSize=14;align=left;verticalAlign=middle;html=1;" vertex="1" parent="knowledge-panel">
+          <mxGeometry x="784" y="68" width="352" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="knowledge-panel" value="4 &#183; game-knowledge &#8212; field knowledge for every moment above" style="swimlane;startSize=42;rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=SF Mono,Menlo,Consolas,monospace;fontSize=16;fontStyle=1;fontColor=#312E81;fillColor=#EEF2FF;swimlaneFillColor=#F8FAFC;strokeColor=#A5B4FC;spacing=10;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="500" width="870" height="172" as="geometry" />
+        <mxCell id="human-authority" value="&lt;b&gt;The calls that stay yours&lt;/b&gt;&#160;&#160;&#183;&#160;&#160;&lt;font style=&quot;color:#4B5563;&quot;&gt;which concept to chase &#183; when the direction locks &#183; when a stage is really done &#183; what ships, at what price, and what you promise publicly&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#94A3B8;strokeWidth=1.4;fontColor=#111827;fontSize=13;align=center;verticalAlign=middle;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="698" width="1160" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="knowledge-routing" value="Moment routing &#183; 18 signals&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;&quot;make it punchy&quot; &#183; pricing &#183; Next Fest &#183; contractor starting &#183; burnout&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="knowledge-panel">
-          <mxGeometry x="24" y="66" width="262" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="knowledge-rules" value="Distilled rules &#183; 16 docs&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;sourced numbers &#183; dated citations &#183; unverified stays labeled&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="knowledge-panel">
-          <mxGeometry x="304" y="66" width="262" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="knowledge-corpus" value="Deep corpus &#183; 68 files&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;6 research lanes &#183; per-lane confidence MANIFEST&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#111827;fontSize=14;fontStyle=1;align=left;html=1;" vertex="1" parent="knowledge-panel">
-          <mxGeometry x="584" y="66" width="262" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="human-authority" value="&lt;b&gt;Human decision boundary&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px;color:#4B5563;&quot;&gt;taste &#183; concept selection &#183; Direction Lock &#183; stage movement &#183; ship, price, and public promises&lt;/font&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;spacing=12;fillColor=#EEF2FF;strokeColor=#6366F1;strokeWidth=1.6;fontColor=#111827;fontSize=14;align=center;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="700" width="870" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="entry-to-direction" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6366F1;strokeWidth=2.2;endArrow=block;endFill=1;endSize=8;html=1;" edge="1" parent="1" source="entry-panel" target="direction-panel">
+        <mxCell id="direction-to-production" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6366F1;strokeWidth=2.4;endArrow=block;endFill=1;endSize=8;html=1;" edge="1" parent="1" source="direction-panel" target="production-panel">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="direction-to-production" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6366F1;strokeWidth=2.2;endArrow=block;endFill=1;endSize=8;html=1;" edge="1" parent="1" source="direction-panel" target="production-panel">
+        <mxCell id="production-to-review" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6366F1;strokeWidth=2.4;endArrow=block;endFill=1;endSize=8;html=1;" edge="1" parent="1" source="production-panel" target="review-panel">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="production-to-review" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6366F1;strokeWidth=2.2;endArrow=block;endFill=1;endSize=8;html=1;" edge="1" parent="1" source="production-panel" target="review-panel">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="review-to-production" value="next proof" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#94A3B8;strokeWidth=1.5;dashed=1;dashPattern=6 4;endArrow=block;endFill=1;endSize=7;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;fontSize=12;fontColor=#4B5563;labelBackgroundColor=#FFFFFF;html=1;" edge="1" parent="1" source="review-panel" target="production-panel">
-          <mxGeometry x="0" y="10" relative="1" as="geometry">
+        <mxCell id="review-to-production" value="the verdict sets the next proof" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6366F1;strokeWidth=1.6;dashed=1;dashPattern=6 4;endArrow=block;endFill=1;endSize=7;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;fontSize=12;fontColor=#312E81;labelBackgroundColor=#FFFFFF;html=1;" edge="1" parent="1" source="review-panel" target="production-panel">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1075" y="108" />
-              <mxPoint x="755" y="108" />
+              <mxPoint x="1020" y="120" />
+              <mxPoint x="620" y="120" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="knowledge-to-direction" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.132;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#6366F1;strokeWidth=1.6;dashed=1;dashPattern=6 4;endArrow=block;endFill=1;endSize=7;html=1;" edge="1" parent="1" source="knowledge-panel" target="direction-panel">
+        <mxCell id="knowledge-to-direction" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.155;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#D97706;strokeWidth=1.6;dashed=1;dashPattern=6 4;endArrow=block;endFill=1;endSize=7;html=1;" edge="1" parent="1" source="knowledge-panel" target="direction-panel">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="knowledge-to-production" value="injects rules + sourced numbers" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#6366F1;strokeWidth=1.6;dashed=1;dashPattern=6 4;endArrow=block;endFill=1;endSize=7;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;fontSize=12;fontColor=#312E81;labelBackgroundColor=#FFFFFF;html=1;" edge="1" parent="1" source="knowledge-panel" target="production-panel">
-          <mxGeometry x="0" y="0" relative="1" as="geometry">
-            <mxPoint x="-104" y="0" as="offset" />
-          </mxGeometry>
+        <mxCell id="knowledge-to-production" value="rules and sourced numbers, on demand" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#D97706;strokeWidth=1.6;dashed=1;dashPattern=6 4;endArrow=block;endFill=1;endSize=7;fontFamily=Inter,SF Pro Display,-apple-system,system-ui,Segoe UI,Roboto;fontSize=12;fontColor=#92400E;labelBackgroundColor=#FFFFFF;html=1;" edge="1" parent="1" source="knowledge-panel" target="production-panel">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="knowledge-to-review" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.868;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#6366F1;strokeWidth=1.6;dashed=1;dashPattern=6 4;endArrow=block;endFill=1;endSize=7;html=1;" edge="1" parent="1" source="knowledge-panel" target="review-panel">
+        <mxCell id="knowledge-to-review" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.845;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#D97706;strokeWidth=1.6;dashed=1;dashPattern=6 4;endArrow=block;endFill=1;endSize=7;html=1;" edge="1" parent="1" source="knowledge-panel" target="review-panel">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
