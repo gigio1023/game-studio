@@ -11,7 +11,7 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const errors = [];
 const fail = (file, message) => errors.push(`${file}: ${message}`);
 
-const SKIP_DIRS = new Set([".git", "node_modules", ".plans", ".agent-runs"]); // git-excluded working state, not skill payload
+const SKIP_DIRS = new Set([".git", "node_modules"]);
 const TEXT_EXT = /\.(md|mjs|json|ya?ml)$/;
 
 function* walk(dir) {
