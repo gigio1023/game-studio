@@ -42,7 +42,7 @@ This report maps public narrative design, quest design, interactive storytelling
 
 - **Storylets and modular structure**: [Storylets: You Want Them](https://emshort.blog/2019/11/29/storylets-you-want-them/) and [Beyond Branching](https://emshort.blog/2016/04/12/beyond-branching-quality-based-and-salience-based-narrative-structures/) explain structures that avoid branch explosion.
 - **Plot and level dependency**: [Plot-shaped Level Design](https://emshort.blog/2016/05/18/plot-shaped-level-design/) connects story beats to playable sequence and dependency charts.
-- **Quality-based narrative**: [Storychoices](https://wiki.failbettergames.com/) and [Design Tips](https://wiki.failbettergames.com/wiki%3Adesign-tips) are useful public references for story platforms, state, choices, and content design.
+- **Quality-based narrative**: [Storychoices](https://storychoices.wikidot.com/) and [Design Tips](https://storychoices.wikidot.com/wiki:design-tips) are useful public references for story platforms, state, choices, and content design.
 - **Production-ready branching tool**: [ink](https://www.inklestudios.com/ink/) is a mature public example of narrative scripting that supports branching, state, testing, and engine integration.
 - **AI-assisted narrative research**: [Story Designer](https://arxiv.org/abs/2210.09294), [Player-Driven Emergence in LLM-Driven Game Narrative](https://arxiv.org/abs/2404.17027), [PANGeA](https://arxiv.org/abs/2404.19721), and [Evaluating Quality of Gaming Narratives Co-created with AI](https://arxiv.org/abs/2509.04239) are useful for mixed-initiative narrative tools, LLM constraints, evaluation, and human review.
 
